@@ -1,0 +1,112 @@
+{
+  "chapterId": 3,
+  "title": "Hành Động Dừng Của Xu Hướng Giảm",
+  "summary": "Vì sao downtrend có thể kéo dài (Weak Hands vs Strong Hands), đặc điểm phiên Selling Climax (SCLX), và 4 điểm của 'Hành Động Dừng Lại' — Preliminary Support (PS), Climax (CLX), Automatic Rally (AR), Secondary Test (ST) — minh họa qua 5 cổ phiếu thật giai đoạn 2008-09.",
+  "questions": [
+    {
+      "id": "ch3-q1",
+      "type": "multiple_choice",
+      "prompt": "Theo Phần 3, điều gì thực sự quyết định việc một downtrend có tiếp tục kéo dài hay không?",
+      "options": [
+        "Chất lượng sở hữu của lượng cổ phiếu lưu hành — nằm trong tay nhà đầu tư tay yếu (Weak Hands) hay tay mạnh (Strong Hands)",
+        "Số lượng công ty môi giới đang chào bán cổ phiếu đó",
+        "Việc chỉ số P/E của cổ phiếu có dưới mức trung bình ngành hay không",
+        "Số lượng bài báo tiêu cực viết về cổ phiếu đó trên truyền thông"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: giá cổ phiếu giảm phản ánh chất lượng sở hữu kém — cổ phiếu đang nằm trong tay Weak Hands (WHs). Câu hỏi xuyên suốt là 'Ai kiểm soát lượng cổ phiếu lưu hành? Nó nằm trong tay nhà đầu tư tay mạnh (Strong Hands) hay tay yếu (Weak Hands)?' — chất lượng sở hữu thấp thì downtrend có thể kéo dài.",
+      "chartImage": null
+    },
+    {
+      "id": "ch3-q2",
+      "type": "multiple_choice",
+      "prompt": "Một phiên 'Selling Climax' (SCLX/CLX) điển hình có đặc điểm gì?",
+      "options": [
+        "Biên độ giao dịch cực rộng, khối lượng đột biến cực cao, phần lớn giao dịch diễn ra ở nửa dưới biên độ nhưng giá đóng cửa trên 1/2 biên độ trong ngày",
+        "Biên độ giao dịch rất hẹp, khối lượng thấp hơn bình thường, đóng cửa ngay tại mức thấp nhất ngày",
+        "Giá đi ngang suốt phiên, khối lượng trung bình, không có gì bất thường",
+        "Giá tăng trần với khối lượng thấp, thể hiện sự hưng phấn của nhà đầu tư"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách mô tả: 'biên độ biến động rộng trong phần lớn thời gian, giá thường giao dịch quanh mức thấp nhất trong ngày với khối lượng cực cao, sau đó đóng cửa trên 1/2 của biên độ trong ngày.' Đây là phiên quan trọng đánh dấu khả năng cao Composite Man đã bắt đầu mua vào.",
+      "chartImage": null
+    },
+    {
+      "id": "ch3-q3",
+      "type": "multiple_choice",
+      "prompt": "'Hành Động Dừng Lại' (Stopping Action) của một downtrend bao gồm 4 điểm theo đúng thứ tự nào?",
+      "options": [
+        "Hỗ Trợ Sơ Bộ (PS) → Cao Trào Bán (CLX) → Nhịp Phục Hồi Tự Động (AR) → Điểm Kiểm Tra Thứ Cấp (ST)",
+        "Cao Trào Bán (CLX) → Hỗ Trợ Sơ Bộ (PS) → Điểm Kiểm Tra Thứ Cấp (ST) → Nhịp Phục Hồi Tự Động (AR)",
+        "Nhịp Phục Hồi Tự Động (AR) → Điểm Kiểm Tra Thứ Cấp (ST) → Hỗ Trợ Sơ Bộ (PS) → Cao Trào Bán (CLX)",
+        "Điểm Kiểm Tra Thứ Cấp (ST) → Cao Trào Bán (CLX) → Hỗ Trợ Sơ Bộ (PS) → Nhịp Phục Hồi Tự Động (AR)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đúng thứ tự thời gian: Hỗ Trợ Sơ Bộ - Preliminary Support (PS) → Cao Trào Bán - Selling Climax (CLX) → Nhịp Phục Hồi Tự Động - Automatic Rally (AR) → Điểm Kiểm Tra Thứ Cấp - Secondary Test (ST). Khi 4 điểm này được xác định, có thể kết luận downtrend đã bị dừng lại (nhưng chưa chắc đã chuyển sang Tích Lũy).",
+      "chartImage": null
+    },
+    {
+      "id": "ch3-q4",
+      "type": "chart_identify",
+      "prompt": "Trên biểu đồ FISV (2008-09) dưới đây, các nhãn PS, CLX, AR, ST đã được đánh dấu. Theo đúng thứ tự xuất hiện trên biểu đồ (trái sang phải theo thời gian), thứ tự đó là gì?",
+      "chartImage": "/charts/part_03/p009_chart-055.jpg",
+      "options": [
+        "PS → CLX → AR → ST",
+        "CLX → PS → AR → ST",
+        "PS → AR → CLX → ST",
+        "AR → PS → ST → CLX"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trên biểu đồ FISV: PS xuất hiện đầu tiên (đợt phục hồi nhẹ giữa xu hướng giảm), sau đó CLX (đáy có khối lượng cực cao, được khoanh tròn), tiếp theo AR (nhịp phục hồi mạnh tạo biên trên), và cuối cùng ST (kiểm tra lại gần đáy CLX với khối lượng thấp hơn) tạo biên dưới của phạm vi giao dịch."
+    },
+    {
+      "id": "ch3-q5",
+      "type": "multiple_choice",
+      "prompt": "Vì sao Nhịp Phục Hồi Tự Động (AR) được xem là có phần 'đánh lừa' — không nên vội kết luận xu hướng đã đảo chiều ngay khi AR xuất hiện?",
+      "options": [
+        "AR chỉ phản ánh sự cạn kiệt nguồn cung ngắn hạn sau climax, chỉ là tạm thời; giá dự kiến có thể giảm trở lại về gần hoặc dưới mức CLX sau đó (qua bước ST)",
+        "AR luôn là tín hiệu giả 100%, không bao giờ đáng tin cậy trong phân tích Wyckoff",
+        "AR chỉ xảy ra vào các ngày thị trường đóng cửa sớm nên khối lượng không phản ánh đúng thực tế",
+        "AR là hành động thao túng giá bất hợp pháp của Composite Man"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'AR là dấu hiệu và cũng là kết quả của sự cạn kiệt cung trong thời gian ngắn... rất ấn tượng nhưng chỉ là tạm thời. Sau AR, dự kiến giá sẽ giảm trở lại hoặc dưới mức CLX' — đây là lý do việc giao dịch trong downtrend/CLX không được khuyến khích vì biến động còn rất phức tạp.",
+      "chartImage": null
+    },
+    {
+      "id": "ch3-q6",
+      "type": "multiple_choice",
+      "prompt": "Hỗ Trợ Sơ Bộ (Preliminary Support - PS) được phân biệt với Cao Trào Bán (CLX) bằng cách nào?",
+      "options": [
+        "Bằng cách xem hành động giá TIẾP THEO sẽ làm gì — một AR mạnh xuất hiện sau đó xác nhận điểm thấp trước đó chính là CLX, còn PS chỉ là một đợt dừng ngắn với phục hồi nhẹ",
+        "PS luôn có khối lượng cao hơn CLX nên dễ nhận ra ngay tại thời điểm xảy ra",
+        "PS chỉ xuất hiện trên khung thời gian tuần (weekly), còn CLX chỉ xuất hiện trên khung ngày (daily)",
+        "Không thể phân biệt được PS và CLX trong mọi trường hợp"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'PS có được phân biệt với CLX bằng cách xem hành động giá tiếp theo sẽ làm gì. Một AR chỉ ra rằng mức thấp trước đó là một CLX.' Nói cách khác, PS chỉ được xác nhận là PS (chứ không phải CLX) sau khi nhìn lại, khi biết CLX thật sự nằm ở đâu.",
+      "chartImage": null
+    },
+    {
+      "id": "ch3-q7",
+      "type": "multiple_choice",
+      "prompt": "Vì sao Phần 3 khuyên các nhà giao dịch mới theo phương pháp Wyckoff không nên vội giao dịch ngay trong giai đoạn Downtrend/CLX?",
+      "options": [
+        "Vì biến động giá trong giai đoạn này cực mạnh và khó lường (biên độ ngày có thể lớn hơn gấp 3 lần bình thường), rủi ro rất cao ngay cả với người có kinh nghiệm",
+        "Vì luật chứng khoán cấm giao dịch trong giai đoạn Selling Climax",
+        "Vì khối lượng giao dịch trong giai đoạn này luôn bằng 0 nên không thể khớp lệnh",
+        "Vì Composite Man đã ngừng hoàn toàn hoạt động trong giai đoạn này"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Việc giao dịch trong giai đoạn Downtrend và CLX không được khuyến khích cho các Wyckoffian mới vì sự biến động cực mạnh (ngay cả những người có kinh nghiệm lâu năm cũng có xu hướng tránh chúng).' Biên độ giá hàng ngày có thể lớn hơn gấp 3 lần bình thường và khối lượng tăng đột biến (climatic).",
+      "chartImage": null
+    },
+    {
+      "id": "ch3-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sau khi xác định đủ 4 điểm PS, CLX, AR, ST trên biểu đồ, vì sao sách nói vẫn 'còn quá sớm' để kết luận cổ phiếu đã chuyển hẳn sang Giai Đoạn Tích Lũy?",
+      "sampleAnswer": "Vì 4 điểm đó chỉ xác nhận rằng downtrend đã bị DỪNG LẠI (Stopping Action) — tức cung đã tạm thời cân bằng với cầu — chứ chưa chứng minh được rằng Composite Man thực sự đang hấp thụ (absorption) đủ lượng cổ phiếu trôi nổi. Cần thêm nhiều hành động giá/khối lượng trong phạm vi giao dịch (TR) sau đó để xác nhận cổ phiếu đã sẵn sàng được các nhà phân tích Wyckoffian mua vào.",
+      "chartImage": null
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "chapterId": 22,
+  "title": "Wyckoff Re-distribution",
+  "summary": "'Người anh em phiên bản ác' của Tái Tích Lũy — Giai Đoạn Tái Phân Phối tạm dừng một Downtrend đang diễn ra. Nghiên cứu trường hợp CSCO với 4 Giai Đoạn Tái Phân Phối liên tiếp, và nghịch lý: vì sao giai đoạn ngắn nhất lại dẫn đến xu hướng giảm mạnh nhất.",
+  "questions": [
+    {
+      "id": "ch22-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách mô tả Giai Đoạn Tái Phân Phối (Redistribution) giống như 'một người anh em của Giai Đoạn Tái Tích Lũy nhưng ở một phiên bản ác khác'. Điểm khác biệt cốt lõi là gì?",
+      "options": [
+        "Tái Tích Lũy là khoảng tạm dừng (pause) trong một xu hướng TĂNG; còn Tái Phân Phối là khoảng tạm dừng trong một xu hướng GIẢM đang diễn ra, và vẫn duy trì sự biến động mạnh trong suốt quá trình",
+        "Tái Phân Phối chỉ xảy ra duy nhất một lần trong toàn bộ vòng đời một cổ phiếu",
+        "Tái Phân Phối luôn kết thúc bằng một xu hướng tăng giá mạnh mẽ",
+        "Không có sự khác biệt nào giữa hai khái niệm này"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Giai đoạn tái phân phối giống như một người anh em của giai đoạn Tái tích lũy nhưng lại ở một \"phiên bản ác\" khác. Được sinh ra từ sự biến động giảm mạnh, giai đoạn tái phân phối vẫn duy trì sự biến động trong suốt quá trình vận động giá và hoàn thành bằng sự xuất hiện bắt đầu của một xu hướng giảm giá mới.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch22-q2",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ ARMH dưới đây có ghi chú 'Hypodermic leaves little time for proper Distribution. The first Redistribution is where this additional selling takes place.' Điều này cho thấy mối liên hệ nào giữa mẫu hình Hypodermic (đã học ở Phần 17) và Tái Phân Phối?",
+      "chartImage": "/charts/part_22/p097_chart-341.jpg",
+      "options": [
+        "Vì đỉnh Hypodermic hình thành quá nhanh nên CO không có đủ thời gian phân phối hết cổ phiếu ngay tại đỉnh — phần còn lại phải được bán tiếp trong (các) Giai Đoạn Tái Phân Phối sau đó",
+        "Hypodermic và Tái Phân Phối là hai khái niệm hoàn toàn tách biệt, không liên quan gì đến nhau",
+        "Tái Phân Phối chỉ xảy ra khi KHÔNG có mẫu hình Hypodermic trước đó",
+        "Hypodermic luôn xảy ra sau Tái Phân Phối, không bao giờ xảy ra trước"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đỉnh dạng Hypodermic (tăng tốc thẳng đứng rồi sụp đổ) diễn ra quá nhanh khiến CO chưa kịp phân phối (bán) hết số lượng cổ phiếu nắm giữ ngay tại đỉnh — do đó cần thêm các Giai Đoạn Tái Phân Phối trong suốt quá trình giảm giá sau đó để hoàn tất việc bán ra."
+    },
+    {
+      "id": "ch22-q3",
+      "type": "multiple_choice",
+      "prompt": "Trong ví dụ CSCO, sách đặt câu hỏi: 'Tại sao một Giai Đoạn Tái Phân Phối NGẮN NHẤT lại dẫn đến xu hướng giảm giá TỐT NHẤT (mạnh nhất)?' Lời giải thích được đưa ra là gì?",
+      "options": [
+        "Mỗi Giai Đoạn Tái Phân Phối đều chuyển giao thêm cổ phiếu vào tay Weak Hands (WHs); hiệu ứng cộng dồn qua nhiều lần khiến chất lượng sở hữu suy giảm hoàn toàn — đến giai đoạn ngắn cuối cùng, cổ phiếu gần như đã nằm hết trong tay WHs và CO đã rời thị trường",
+        "Vì giai đoạn ngắn luôn có khối lượng giao dịch cao nhất trong lịch sử cổ phiếu",
+        "Vì các nhà đầu tư tổ chức thích các giai đoạn ngắn hơn về mặt tâm lý",
+        "Không có mối liên hệ nào giữa độ dài Tái Phân Phối và sức mạnh Downtrend sau đó"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Mỗi giai đoạn Tái phân phối sẽ chuyển giao được thêm cổ phiếu vào tay Weak Hands (WHs). Hiệu ứng cộng dồn này dẫn đến sự suy giảm kéo dài vì sự sở hữu cổ phiếu không còn chất lượng (Weak Hands nắm giữ hoàn toàn cổ phiếu trong giai đoạn Downtrend và CO đã rời khỏi thị trường khi đã phân phối hết hàng).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch22-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ CSCO Redistribution 2 dưới đây ghi chú 'Lower highs are evidence of large institutional selling'. So với Redistribution 1, đặc điểm mới nào của Redistribution 2 được nhấn mạnh?",
+      "chartImage": "/charts/part_22/p105_chart-365.jpg",
+      "options": [
+        "Giai đoạn này diễn biến ngắn hơn với cấu trúc giá giảm — tạo các đỉnh thấp hơn (LH) và đáy thấp hơn (LL); CO tích cực bán xung quanh nửa trên của phạm vi TR",
+        "Giai đoạn này kéo dài hơn gấp đôi so với Redistribution 1",
+        "Giai đoạn này không có bất kỳ đỉnh LPSY nào",
+        "Giai đoạn này chỉ xảy ra trên cổ phiếu công nghệ, không xảy ra ở ngành khác"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Giai đoạn Tái phân phối 2 quá trình vận động giá ngắn hơn và có cấu trúc giá giảm với việc tạo ra các đỉnh thấp hơn (LH) và các đáy thấp hơn (LL). CO tích cực bán xung quanh nửa trên của phạm vi giao dịch TR.'"
+    },
+    {
+      "id": "ch22-q5",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ CSCO Redistribution 3 dưới đây ghi chú 'Redistribution will typically start with a stopping action of the prior downtrend. Here it is a gap down on very high volume.' Điều này minh họa nguyên tắc chung nào áp dụng cho MỌI Giai Đoạn Tái Phân Phối?",
+      "chartImage": "/charts/part_22/p106_chart-368.jpg",
+      "options": [
+        "Mọi Giai Đoạn Tái Phân Phối đều bắt đầu bằng một hành động dừng lại (stopping action) của xu hướng giảm trước đó — tương tự cách mọi TR Tích Lũy/Phân Phối/Tái Tích Lũy đều bắt đầu bằng hành động dừng lại",
+        "Redistribution 3 không cần bất kỳ hành động dừng lại nào để bắt đầu",
+        "Chỉ Redistribution 3 mới cần hành động dừng lại, các Redistribution khác thì không",
+        "Khối lượng giao dịch không có vai trò gì trong việc xác nhận hành động dừng lại"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ khẳng định nguyên tắc phổ quát: mọi Phạm Vi Giao Dịch (TR) — dù là Tích Lũy, Phân Phối, Tái Tích Lũy hay Tái Phân Phối — đều bắt đầu bằng một hành động dừng lại của xu hướng trước đó (ở đây là một khoảng gap giảm giá mạnh với khối lượng rất cao)."
+    },
+    {
+      "id": "ch22-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ CSCO Redistribution 4 dưới đây cho thấy đợt tăng giá từ đáy SCLX lên đỉnh BCLX đạt khoảng 100%. Điều này gây ra hậu quả gì cho các nhà đầu tư?",
+      "chartImage": "/charts/part_22/p107_chart-371.jpg",
+      "options": [
+        "Nhiều tổ chức và cá nhân bị 'mắc kẹt' trong bẫy tăng giá này vì tham gia mua vào nhiều ở gần mức giá cao nhất mọi thời đại, ngay trước khi CO bắt đầu bán tháo mạnh trở lại",
+        "Không có nhà đầu tư nào bị ảnh hưởng bởi đợt tăng giá 100% này",
+        "Đợt tăng 100% này đảm bảo Downtrend sẽ chấm dứt vĩnh viễn",
+        "Đợt tăng này chỉ ảnh hưởng đến các nhà giao dịch quyền chọn (options)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Đợt tăng giá từ đáy SCLX lên mức đỉnh BCLX là khoảng 100%. Nhiều tổ chức và cá nhân đang mắc kẹt trong bẫy tăng giá này với việc tham gia mua vào nhiều ở gần mức giá cao nhất mọi thời đại.'"
+    },
+    {
+      "id": "ch22-q7",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ Point and Figure (PnF) của CSCO dưới đây đếm số ô nằm ngang của BA Giai Đoạn Tái Phân Phối đầu tiên, với ghi chú 'Nesting of Three Price Objectives'. Ý nghĩa của việc 3 mục tiêu giá này 'lồng vào nhau - nesting' và cho ra kết quả 'tương đương' nhau là gì?",
+      "chartImage": "/charts/part_22/p108_chart-374.jpg",
+      "options": [
+        "Dù xuất phát từ 3 nền giá (TR) khác nhau về thời gian và vị trí, cả 3 phương pháp đếm đều hội tụ về cùng một vùng mục tiêu giá tương tự nhau — tăng độ tin cậy của dự đoán mục tiêu giá cuối cùng",
+        "3 mục tiêu giá này hoàn toàn trái ngược nhau, không có điểm chung nào",
+        "Việc lồng ghép 3 mục tiêu chỉ có ý nghĩa trang trí trên biểu đồ, không phải công cụ phân tích",
+        "Chỉ cần dùng 1 trong 3 Redistribution để đếm, việc dùng cả 3 là dư thừa không cần thiết"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Lưu ý rằng tất cả chúng đều có chung một Target giá gần \"tương đương\" khi xác định vào cùng một mức giá. Hành động Cisco khi đạt điểm cao trào và vận động trong khu vực sau khi đạt được các target giá này. Cuối cùng, Cisco đã vượt quá các target giá này.' Sự hội tụ của nhiều phép đếm PnF độc lập về cùng một vùng giá là một tín hiệu xác nhận mạnh."
+    },
+    {
+      "id": "ch22-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách kết luận: 'chúng có thể giúp bạn đi đúng hướng và tránh được những rủi ro không mong muốn' khi nói về việc nghiên cứu các trường hợp kinh điển như CSCO. Vì sao việc hiểu rõ khái niệm Tái Phân Phối lại đặc biệt quan trọng để TRÁNH RỦI RO, hơn là chỉ để tìm cơ hội bán khống?",
+      "sampleAnswer": "Vì nếu không hiểu về Tái Phân Phối, một nhà đầu tư có thể nhầm lẫn một đợt hồi phục mạnh trong Tái Phân Phối (như đợt tăng ~100% ở CSCO Redistribution 4) là dấu hiệu Downtrend đã kết thúc và một Uptrend mới bắt đầu — dẫn đến việc mua vào sai thời điểm ngay trước khi CO tiếp tục bán tháo mạnh trở lại. Hiểu đúng bản chất Tái Phân Phối giúp nhà đầu tư tránh được cái bẫy tâm lý này, không bị cuốn theo các đợt hồi phục giả tạo trong một Downtrend đang tiếp diễn.",
+      "chartImage": null
+    }
+  ]
+}

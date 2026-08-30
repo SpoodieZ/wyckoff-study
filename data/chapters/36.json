@@ -1,0 +1,112 @@
+{
+  "chapterId": 36,
+  "title": "Đánh Giá Sức Mạnh Qua Sóng",
+  "summary": "Kỹ thuật 'Phân Tích Sóng' — so sánh từng cặp sóng tăng/giảm liên tiếp của một cổ phiếu với chỉ số chuẩn ($SPX) để tìm 'Thay Đổi Tính Cách - CHOCH'. Áp dụng cho cả bối cảnh Tích Lũy (CMG, AAPL, GDX) và Phân Phối (IWM, XLE) với khái niệm 'Điểm Dễ Bị Tổn Thương' khi The ICE bị phá vỡ.",
+  "questions": [
+    {
+      "id": "ch36-q1",
+      "type": "multiple_choice",
+      "prompt": "Mục tiêu cốt lõi của 'Phân Tích Sóng' (so sánh các sóng mua/bán liên tiếp của một cổ phiếu với chỉ số chuẩn) là gì?",
+      "options": [
+        "Tìm bằng chứng về một 'Thay Đổi Tính Cách - Change of Character (CHOCH)' — thường biểu hiện khi một cổ phiếu vận động ôn hòa trong TR rồi sau đó chuyển đổi trạng thái mạnh vào một xu hướng mới",
+        "Chỉ để tính thuế thu nhập từ giao dịch chứng khoán",
+        "Không có mục tiêu phân tích cụ thể nào, chỉ là bài tập vẽ biểu đồ",
+        "Chỉ áp dụng được cho Giai Đoạn Downtrend, không áp dụng cho Uptrend hay Tích Lũy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Mục tiêu của phân tích này là tìm bằng chứng về một Thay Đổi Tính Cách - Change of Character (CHOCH). Điều này thường có thể biểu hiện khi một cổ phiếu vận động ôn hòa trong một phạm vi giao dịch và sau đó chuyển đổi trạng thái mạnh vào một xu hướng mới. Chúng ta sẽ so sánh các sóng mua và sóng bán để tìm kiếm những gợi ý tinh tế nhất về CHOCH.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch36-q2",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ so sánh CMG với $SPX dưới đây (các sóng A-H). Tại sóng D, điều gì cho thấy CMG 'mạnh hơn rõ rệt' so với $SPX?",
+      "chartImage": "/charts/part_36/p228_chart-808.jpg",
+      "options": [
+        "CMG vượt qua hẳn phạm vi TR Tích Lũy tại sóng D, trong khi $SPX chỉ tăng đến giữa phạm vi TR của nó",
+        "CMG giảm mạnh hơn $SPX tại sóng D",
+        "Không có sự khác biệt nào giữa CMG và $SPX tại sóng D",
+        "CMG ngừng giao dịch hoàn toàn tại sóng D"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'CMG mạnh hơn rõ rệt tại sóng D bằng cách vượt qua phạm vi TR Tích lũy, trong khi $SPX chỉ tăng đến giữa phạm vi TR.' Đây là bằng chứng sớm về sự dẫn đầu (leadership) đang hình thành ở CMG, được xác nhận và tiếp tục trong suốt thị trường tăng giá sau đó."
+    },
+    {
+      "id": "ch36-q3",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ so sánh AAPL với $SPX dưới đây cho thấy tại kết thúc sóng C, một phiên Spring hình thành ở AAPL. Điều gì xảy ra ĐỒNG THỜI trên biểu đồ $SPX tại cùng thời điểm đó?",
+      "chartImage": "/charts/part_36/p229_chart-811.jpg",
+      "options": [
+        "$SPX tạo ra một đáy CAO HƠN (HL) tại cùng thời điểm — cho thấy lực giảm vẫn còn mạnh ở thị trường chung trong khi AAPL đã có dấu hiệu Spring tích cực hơn",
+        "$SPX cũng hình thành một phiên Spring giống hệt AAPL",
+        "$SPX tăng vọt lên mức cao nhất mọi thời đại",
+        "$SPX ngừng giao dịch hoàn toàn tại thời điểm đó"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Lưu ý tại kết thúc của sóng C, một phiên Spring hình thành trong khi $SPX tạo đáy cao hơn (HL - đường nối D). AAPL tạo ra các đỉnh thấp hơn (LH) và đáy thấp hơn (LL) tại các đường C và D, cho thấy lực giảm vẫn còn mạnh.' Sự khác biệt tinh tế này là manh mối ban đầu trước khi CHOCH rõ ràng hơn xuất hiện ở sóng E."
+    },
+    {
+      "id": "ch36-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ so sánh GDX (cổ phiếu khai thác vàng) với $SPX dưới đây cho thấy vào tháng 8, khi $SPX giảm mạnh và biến động lộn xộn, GDX phản ứng như thế nào?",
+      "chartImage": "/charts/part_36/p230_chart-814.jpg",
+      "options": [
+        "GDX đã có sự di chuyển giảm giá mạnh TRƯỚC ĐÓ và KHÔNG tham gia vào đợt giảm chung của thị trường lúc này — một manh mối sớm và tinh tế về khả năng có sự chuyển đổi từ yếu sang mạnh",
+        "GDX giảm mạnh hơn nhiều so với $SPX trong cùng giai đoạn này",
+        "GDX và $SPX luôn di chuyển giống hệt nhau trong suốt toàn bộ biểu đồ",
+        "GDX ngừng giao dịch trong suốt tháng 8 năm đó"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Vào tháng 8 khi $SPX trở nên giảm mạnh và biến động lỏng, GDX đã có sự di chuyển giảm giá mạnh trước đó và không tham gia vào đợt giảm chung này của thị trường.' Đây là gợi ý sớm về sự thay đổi từ yếu sang mạnh của cổ phiếu khai thác vàng, được xác nhận rõ ràng hơn qua CHOCH tại sóng F."
+    },
+    {
+      "id": "ch36-q5",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ so sánh IWM với $SPX dưới đây (bối cảnh Phân Phối) có ghi chú 'Point of vulnerability is when ICE is broken and price consolidates without being able to lift.' Đâu là 'Điểm Dễ Bị Tổn Thương' theo định nghĩa này?",
+      "chartImage": "/charts/part_36/p231_chart-817.jpg",
+      "options": [
+        "Thời điểm giá phá vỡ đường ICE và sau đó chỉ đi ngang (consolidate) mà KHÔNG THỂ phục hồi tăng trở lại lên trên đường ICE đó",
+        "Thời điểm giá vừa mới chạm đến mức cao nhất mọi thời đại (ATH)",
+        "Thời điểm khối lượng giao dịch đạt mức trung bình 50 ngày",
+        "Không có 'điểm dễ bị tổn thương' nào được xác định trên biểu đồ IWM"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Point of vulnerability is when ICE is broken and price consolidates without being able to lift. IWM breaks through the ICE 3 weeks prior to $SPX.' — IWM phá vỡ ICE và không thể phục hồi TRƯỚC $SPX tận 3 tuần, đóng vai trò là tín hiệu cảnh báo sớm cho toàn thị trường."
+    },
+    {
+      "id": "ch36-q6",
+      "type": "multiple_choice",
+      "prompt": "Việc IWM phá vỡ đường ICE và suy yếu SỚM HƠN $SPX tới 3 tuần có ý nghĩa gì đối với một nhà phân tích Wyckoff đang theo dõi toàn bộ thị trường?",
+      "options": [
+        "IWM đóng vai trò như một chỉ báo CẢNH BÁO SỚM (leading indicator) về sự suy yếu sắp lan rộng ra toàn thị trường — nhất quán với nguyên tắc 'nhóm dẫn dắt tạo đỉnh trước' đã học ở Phần 25/26",
+        "IWM hoàn toàn không liên quan gì đến diễn biến chung của thị trường",
+        "Việc IWM suy yếu trước có nghĩa là $SPX sẽ không bao giờ giảm giá",
+        "Đây chỉ là sự trùng hợp ngẫu nhiên không có giá trị phân tích"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây là ứng dụng thực tế của nguyên tắc đã học ở Phần 25 (Bước 2: 'Một trong những tín hiệu tạo đỉnh của thị trường chính là khi nhóm dẫn dắt có tín hiệu tạo đỉnh'). Việc theo dõi các chỉ số/nhóm ngành dẫn dắt suy yếu sớm giúp nhà phân tích Wyckoff cảnh giác trước khi toàn bộ thị trường xác nhận xu hướng giảm.",
+      "chartImage": null
+    },
+    {
+      "id": "ch36-q7",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ so sánh XLE (Năng Lượng) với $SPX dưới đây cho thấy tại 'sóng Test' cuối cùng, XLE tạo một đáy CAO HƠN (HL) trong khi $SPX phải tạo đáy THẤP HƠN MỘT CHÚT. Đây là bằng chứng cho điều gì?",
+      "chartImage": "/charts/part_36/p233_chart-822.jpg",
+      "options": [
+        "Một sự Thay Đổi Tính Cách (CHOCH) tích cực của XLE — dấu hiệu CO có thể đang bắt đầu tích lũy XLE ở mức giá tốt, dù thị trường chung ($SPX) vẫn còn yếu",
+        "XLE đang yếu hơn $SPX rất nhiều tại thời điểm này",
+        "Không có sự khác biệt đáng chú ý nào giữa XLE và $SPX ở đây",
+        "XLE sắp bị loại khỏi chỉ số năng lượng vĩnh viễn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Test makes a higher low while $SPX must make a slightly lower test. XLE appears to have a CoC.' Kết hợp với ghi chú khác: 'Final decline is less intense than $SPX. Evidence of the C.O. beginning to Accumulate at good prices.' — dấu hiệu XLE bắt đầu thể hiện sức mạnh tương đối tích cực dù bối cảnh thị trường chung còn yếu."
+    },
+    {
+      "id": "ch36-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "Trong ví dụ IWM (Phân Phối), sóng E phục hồi gần như toàn bộ đợt giảm của sóng D nhưng chỉ mất khoảng 1/4 thời gian so với đợt giảm đó. Vì sao đây lại được xem là dấu hiệu ĐÁNG NGỜ (Phân Phối) thay vì một tín hiệu tích cực (phục hồi nhanh = mạnh)?",
+      "sampleAnswer": "Vì theo nguyên tắc 'Nỗ Lực và Kết Quả' (Effort and Result), một sự phục hồi giá nhanh và mạnh về BIÊN ĐỘ nhưng diễn ra trong thời gian NGẮN BẤT THƯỜNG (chỉ 1/4 thời gian của đợt giảm trước đó) thường không phản ánh một lực cầu thực sự bền vững và có tổ chức — mà giống một phản ứng kỹ thuật ngắn hạn hoặc một đợt 'bẫy tăng giá' hơn. Một đợt phục hồi lành mạnh, được CO hỗ trợ thực sự, thường cần thời gian tương xứng để 'xây dựng' chứ không bật lên quá nhanh và thiếu nền tảng — sự mất cân đối giữa biên độ phục hồi và thời gian ngắn ngủi là một tín hiệu cảnh báo về chất lượng kém của lực cầu, phù hợp với bối cảnh một Giai Đoạn Phân Phối đang diễn ra.",
+      "chartImage": null
+    }
+  ]
+}

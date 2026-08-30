@@ -1,0 +1,84 @@
+{
+  "chapterId": 30,
+  "title": "Phá Vỡ Qua Tảng Băng - Break The Ice",
+  "summary": "Ẩn dụ 'cậu bé đi trên sông băng' của Robert Evans áp dụng cho Giai Đoạn Phân Phối — đối lập với 'Nhảy Qua Con Lạch' của Tích Lũy. Cơ chế mở vị thế bán khống khi giá phá vỡ 'Tảng Băng - The Ice' và một nhịp phục hồi yếu ớt (LPSY) thất bại quay lại.",
+  "questions": [
+    {
+      "id": "ch30-q1",
+      "type": "multiple_choice",
+      "prompt": "Robert Evans mô tả ẩn dụ: một cậu bé đi trên sông băng, nếu 'tảng băng' đủ mạnh thì sẽ đỡ được trọng lượng cậu. Trong bối cảnh Phân Phối, 'Tảng Băng - The Ice' đại diện cho điều gì?",
+      "options": [
+        "Một đường giá trị được xác định bởi các mức đáy thấp nối với nhau của các nhịp phản ứng tăng giá trong một TR — đại diện cho lực Cầu (Demand) còn sót lại trong Giai Đoạn Phân Phối",
+        "Đại diện cho lực Cung (Supply) giống hệt như 'The Creek' trong Tích Lũy",
+        "Đại diện cho khối lượng giao dịch trung bình của cổ phiếu",
+        "Không có ý nghĩa cụ thể nào, chỉ là hình ảnh trang trí"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Wyckoff định nghĩa \"Tảng băng - The Ice\" là một vùng giá trị được xác định bởi các mức đáy thấp nối với nhau của các nhịp phản ứng tăng giá vận động trong một phạm vi giao dịch TR.' Đây là hình ảnh đối lập với 'The Creek' (đại diện Cung) đã học ở Phần 7 — The Ice đại diện cho Cầu.",
+      "chartImage": null
+    },
+    {
+      "id": "ch30-q2",
+      "type": "multiple_choice",
+      "prompt": "Trong ẩn dụ, nếu cậu bé thất bại khi cố phá vỡ qua tảng băng (rơi xuống) hai lần liên tiếp trong 'lần thử thứ hai', điều gì xảy ra theo câu chuyện gốc của Robert Evans?",
+      "options": [
+        "Cậu bé 'chìm xuống và chết đuối' — tức một Giai Đoạn thị trường giá xuống/giảm giá (Downtrend) sẽ xảy ra",
+        "Cậu bé sẽ ngay lập tức bơi ngược trở lại bờ an toàn",
+        "Không có hậu quả gì đặc biệt xảy ra với cậu bé",
+        "Cậu bé sẽ được cứu bởi một đội cứu hộ ngay lập tức"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trích Hank Pruden: 'Nếu vậy, cậu sẽ chìm sâu hơn vào dòng sông để tập hợp sức mạnh và cố gắng phục hồi một lần nữa và phá vỡ lên lại tảng băng. Nếu trong lần thử thứ hai, cậu bé không thể xuyên phá lên được lại tảng băng, cậu rất có thể sẽ chìm xuống và chết đuối. (Điều đó có nghĩa là một giai đoạn thị trường giá xuống/giảm giá sẽ xảy ra.)'",
+      "chartImage": null
+    },
+    {
+      "id": "ch30-q3",
+      "type": "multiple_choice",
+      "prompt": "Để mở một vị thế bán khống dựa trên việc phá vỡ 'The Ice', sách hướng dẫn xác định vùng bán khống dựa trên điểm nào — kết hợp giữa mức đáy của đợt giảm giá VÀ điểm nào khác?",
+      "options": [
+        "Điểm 1/2 (mid-point) của đợt giảm giá phá qua mức Ice, kết hợp với đáy được tạo trong đợt giảm giá đó — vùng giá trị này (kết hợp với LPSY) xác định vị trí mở vị thế bán khống",
+        "Chỉ cần dùng đúng giá đóng cửa của phiên gần nhất, không cần tính toán gì thêm",
+        "Điểm cao nhất mọi thời đại của cổ phiếu",
+        "Ngày công ty công bố báo cáo tài chính tiếp theo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Chúng ta nên xác định điểm mức 1/2 của giai đoạn giá giảm mạnh này khi có sự điều chỉnh tăng nhẹ trở lại. Một mức quan trọng khác nữa đó là đáy được tạo trong đợt giảm giá mạnh qua mức \"Ice\". Khi mức đáy này được kết hợp với điểm 1/2 của sự giảm giá mạnh qua mức \"Ice\", kết quả sẽ tạo ra là một vùng giá trị để quyết định việc tham gia vị thế bán khống.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch30-q4",
+      "type": "multiple_choice",
+      "prompt": "Sách nhấn mạnh cần xem xét tính chất 'giá và khối lượng' của đợt phục hồi yếu ớt (LPSY) sau khi phá Ice. Đặc điểm LÝ TƯỞNG (xác nhận cạn cầu) của đợt phục hồi này là gì?",
+      "options": [
+        "Biên độ giá HẸP và khối lượng THẤP — nếu khối lượng mua lại lớn ở đỉnh của đợt phục hồi yếu này ('effort không mang lại kết quả'), đó là dấu hiệu cần thêm một hoặc nhiều phiên Test khác trước khi vào lệnh",
+        "Biên độ giá RỘNG và khối lượng CAO là dấu hiệu lý tưởng nhất để vào lệnh bán khống ngay",
+        "Khối lượng không có bất kỳ ý nghĩa nào trong việc đánh giá đợt phục hồi này",
+        "Biên độ giá luôn phải bằng 0 tuyệt đối mới được coi là hợp lệ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Nhà giao dịch Wyckoff muốn thấy một đợt nỗ lực phục hồi tăng giá trở lại yếu với biên độ hẹp và khối lượng cầu thấp để xác nhận sự suy yếu... Đôi khi, sẽ có một đợt tăng giá yếu với biên độ giá hẹp nhưng khối lượng mua ở đỉnh lại lớn (nỗ lực không mang lại kết quả). Điều này không nên làm nản lòng người bán khống khi xem xét vị thế, hành động này sẽ cần được test lại với khối lượng bán giảm dần (cạn kiệt).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch30-q5",
+      "type": "chart_identify",
+      "prompt": "Sơ Đồ Phân Phối #2 dưới đây minh họa rõ vị trí của 'The Ice' — một đường cong nối các đáy phản ứng trong Giai Đoạn |B|. Theo sơ đồ, LPSY hình thành ở giai đoạn nào SAU KHI Ice bị phá vỡ?",
+      "chartImage": "/charts/part_30/p154_chart-572.jpg",
+      "options": [
+        "Trong Giai Đoạn |C| và |D| — nhiều điểm LPSY liên tiếp xuất hiện khi giá cố phục hồi yếu ớt trở lại gần Ice (nay đã trở thành kháng cự) trước khi SOW cuối cùng xác nhận Downtrend",
+        "LPSY chỉ hình thành duy nhất ở Giai Đoạn |A|, trước khi Ice được thiết lập",
+        "LPSY không bao giờ liên quan đến Ice trong bất kỳ trường hợp nào",
+        "Ice chỉ xuất hiện sau khi toàn bộ Giai Đoạn Phân Phối đã kết thúc"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trên sơ đồ, 'The Ice' được vẽ nối các đáy phản ứng trong Phase B; sau khi giá phá xuống dưới Ice, các điểm LPSY xuất hiện liên tiếp trong Phase C và D — mỗi lần giá cố hồi phục yếu ớt trở lại gần đường Ice (nay là kháng cự) trước khi SOW cuối cùng xác nhận Downtrend ở Phase E."
+    },
+    {
+      "id": "ch30-q6",
+      "type": "short_answer_selfgrade",
+      "prompt": "So sánh 'The Creek' (Phần 7, đại diện Cung trong Tích Lũy) với 'The Ice' (đại diện Cầu trong Phân Phối) — cả hai đều là những đường cản 'mềm' được nối từ các điểm cực trị trong TR. Vì sao Wyckoff lại chọn dùng HAI ẩn dụ khác nhau (con lạch/dòng nước vs tảng băng) thay vì chỉ dùng một khái niệm đường cản chung cho cả hai trường hợp?",
+      "sampleAnswer": "Hai ẩn dụ khác nhau giúp truyền tải đúng BẢN CHẤT vận động khác nhau của mỗi loại đường cản: 'Con lạch' (dòng nước chảy, uốn lượn liên tục) gợi hình ảnh nguồn cung LUÔN HIỆN DIỆN và di chuyển linh hoạt, cần phải 'nhảy qua' bằng một cú bứt phá mạnh mẽ và dứt khoát. Trong khi 'Tảng băng' (một bề mặt rắn, có thể đỡ trọng lượng hoặc vỡ ra) gợi hình ảnh một mức hỗ trợ TĨNH có thể GIỮ VỮNG hoặc SỤP ĐỔ hoàn toàn một khi bị phá vỡ — phù hợp hơn với ý tưởng lực cầu 'rắn chắc' bảo vệ giá cho đến khi kiệt sức và vỡ vụn. Hai ẩn dụ giúp học viên ghi nhớ và phân biệt trực quan hơn hai cơ chế đối lập (cung chặn từ trên vs cầu đỡ từ dưới).",
+      "chartImage": null
+    }
+  ]
+}

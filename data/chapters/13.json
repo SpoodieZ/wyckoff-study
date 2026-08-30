@@ -1,0 +1,112 @@
+{
+  "chapterId": 13,
+  "title": "Khi Mối Xâm Nhập Vào Xu Hướng Tăng Giá",
+  "summary": "Ẩn dụ 'mối mọt' ăn mòn nền móng của một xu hướng tăng — vai trò của Tái Tích Lũy như một bộ lọc loại bỏ Weak Hands, ví dụ WDC (3 năm), EXPE, AZO, DIS, và phân tích Kênh Xu Hướng cho 4 cổ phiếu FANG.",
+  "questions": [
+    {
+      "id": "ch13-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách mở đầu bằng ẩn dụ: một xu hướng tăng giống như ngôi nhà xây trên nền móng bằng gỗ, bị 'mối' (termite) âm thầm xâm nhập theo thời gian. Trong ẩn dụ này, 'mối' đại diện cho điều gì?",
+      "options": [
+        "Các nhà giao dịch nhỏ lẻ (Weak Hands) dần dần làm suy yếu 'nền móng' sở hữu vững chắc ban đầu của xu hướng (vốn nằm trong tay CO/Strong Hands)",
+        "Các báo cáo tài chính giả mạo của công ty",
+        "Chính sách lãi suất của ngân hàng trung ương",
+        "Các đối thủ cạnh tranh trực tiếp của công ty"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một xu hướng cũng được bắt đầu với nền móng được xây dựng vững chắc (cổ phiếu nằm trong tay CO - SHs), nhưng theo thời gian, xu hướng trở nên bị xâm hại bởi các nhà giao dịch nhỏ lẻ khi họ sở hữu cổ phiếu (WHs) dẫn đến làm suy yếu nền móng của xu hướng.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch13-q2",
+      "type": "multiple_choice",
+      "prompt": "Theo sách, Giai Đoạn Tái Tích Lũy đóng vai trò như một 'bộ lọc'. Nó có tác dụng loại bỏ đối tượng nào ra khỏi xu hướng tăng?",
+      "options": [
+        "Loại bỏ và thanh lọc những Weak Hands (WHs) nắm giữ ngắn hạn ra khỏi xu hướng tăng",
+        "Loại bỏ Composite Man (CO) ra khỏi thị trường",
+        "Loại bỏ toàn bộ khối lượng giao dịch của cổ phiếu",
+        "Loại bỏ các quỹ ETF khỏi danh sách nắm giữ cổ phiếu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Các giai đoạn Tái tích lũy có tác dụng loại bỏ và thanh lọc những Weak Hands (WHs) nắm giữ ngắn hạn ra khỏi xu hướng tăng.' Điều này giúp CO tiếp tục nắm quyền kiểm soát phần lớn lượng cổ phiếu lưu hành trong suốt chu kỳ tăng giá kéo dài.",
+      "chartImage": null
+    },
+    {
+      "id": "ch13-q3",
+      "type": "multiple_choice",
+      "prompt": "Theo sách, mức đáy THẤP NHẤT trong một Phạm Vi Tái Tích Lũy thường được tạo ra ở giai đoạn nào của phạm vi đó?",
+      "options": [
+        "Thường xảy ra trong nửa đầu (khoảng 1/3 đầu tiên) của toàn bộ Giai Đoạn Tái Tích Lũy — thường chính là mức đáy của AR hoặc ST của AR",
+        "Luôn xảy ra ở đúng điểm giữa của phạm vi giao dịch",
+        "Luôn xảy ra ở giai đoạn cuối cùng, ngay trước khi giá bứt phá",
+        "Không có quy luật nào, hoàn toàn ngẫu nhiên"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Mức giá đáy thấp nhất được hấp thụ sẽ thường xảy ra trong nửa đầu của giai đoạn Tái tích lũy (thường trong khoảng 1/3 đầu tiên của toàn bộ giai đoạn Tái tích lũy). Thường thì một nhịp Automatic Reaction (AR) hoặc Secondary Test (ST) của AR sẽ là mức đáy thấp nhất được tạo (Hấp thụ cung chủ yếu trong pha |A|).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch13-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ WDC (Western Digital) dưới đây minh họa một Giai Đoạn Tái Tích Lũy kéo dài tới BA NĂM trước một đợt tăng giá chất lượng cao lần thứ hai. Điều này chứng minh điều gì về khái niệm Tái Tích Lũy?",
+      "chartImage": "/charts/part_13/p051_chart-197.jpg",
+      "options": [
+        "Ngay cả trên một quy mô thời gian rất lớn (nhiều năm), các đặc điểm và thuộc tính cần thiết của một Giai Đoạn Tái Tích Lũy (như Hấp Thụ) vẫn được áp dụng tương tự như trên khung thời gian ngắn hơn",
+        "Tái Tích Lũy chỉ có thể kéo dài tối đa vài tuần, ba năm là một trường hợp bất thường cần loại bỏ khỏi phân tích",
+        "Biểu đồ WDC này thực chất là một ví dụ về Phân Phối bị ghi nhãn sai",
+        "Khung thời gian không có ý nghĩa gì trong phân tích Wyckoff"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Cổ phiếu WDC có một giai đoạn Tái tích lũy kéo dài trong suốt ba năm. Ngay cả trên một quy mô với khoảng thời gian lớn như vậy, nó vẫn có các đặc điểm và thuộc tính cần thiết của một giai đoạn Tái tích lũy.' Nguyên nhân 3 năm này là do đỉnh giá cao nhất mọi thời đại (ATH) năm 1997 tạo ra nguồn cung dồn nén khổng lồ cần được hấp thụ hết."
+    },
+    {
+      "id": "ch13-q5",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ AZO (AutoZone) dưới đây có hai ví dụ về phiên Spring #3 đưa Tái Tích Lũy đến hồi kết. Dù xác nhận là Spring #3 (có thể mua ngay), sách đưa ra lời khuyên thận trọng hơn nào cho các Wyckoffian muốn 'chắc chắn hơn'?",
+      "chartImage": "/charts/part_13/p053_chart-205.jpg",
+      "options": [
+        "Nên chờ giá chui lại vào trong TR (đóng phiên) và kiểm tra lại (test) phiên Spring đó thành công, đó sẽ là điểm xác nhận an toàn hơn rằng giá đã thực sự ngừng giảm",
+        "Nên bán khống ngay lập tức bất kể phiên Spring xác nhận điều gì",
+        "Nên bỏ qua hoàn toàn tín hiệu Spring #3 vì nó luôn sai",
+        "Nên chờ đúng 6 tháng sau phiên Spring mới được phép giao dịch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Nếu muốn chắc chắn hơn, tôi có lời khuyên hữu ích cho các Wyckoffian là hãy chờ hành động giá chui được vào trong TR (đóng phiên) và test lại Spring đó thành công. Đó sẽ là điểm xác nhận an toàn rằng giá đã ngừng giảm (vì đó là một phiên Spring đúng nghĩa).'"
+    },
+    {
+      "id": "ch13-q6",
+      "type": "multiple_choice",
+      "prompt": "Khi phân tích Kênh Xu Hướng của 4 cổ phiếu FANG (FB, AMZN, GOOGL, NFLX), sách ghi nhận cổ phiếu nào là 'mạnh nhất trong 4 cổ phiếu' vì vẫn duy trì được ở trên Đường Cung (Supply Line) của kênh xu hướng?",
+      "options": [
+        "FB (Facebook)",
+        "AMZN (Amazon)",
+        "GOOGL (Google)",
+        "NFLX (Netflix) — vì có kênh xu hướng ngắn nhất nên dễ giữ vững nhất"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: '3 trong số 4 cổ phiếu FANG đã quay lại dưới Kênh Xu Hướng (trong khi NDX vẫn ở trên). Chỉ có FB vẫn ở trên, khiến nó mạnh nhất trong 4 cổ phiếu. NFLX đã điều chỉnh qua kênh giá của nó (kênh nhỏ hơn).' NFLX thực tế có kênh xu hướng ngắn nhất và đã đảo chiều hoàn toàn, đang trong một đợt điều chỉnh mạnh.",
+      "chartImage": null
+    },
+    {
+      "id": "ch13-q7",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ DIS (Disney, weekly) dưới đây cho thấy giá vừa phá xuống dưới đường kênh xu hướng sau một chuỗi dài các 'Late Stage Reaccumulations'. Theo sách, sự kiện phá vỡ này (CHOCH) báo hiệu điều gì về môi trường giá sắp tới?",
+      "chartImage": "/charts/part_13/p054_chart-208.jpg",
+      "options": [
+        "Một sự thay đổi tính cách (CHOCH) từ môi trường Uptrend sang môi trường Non-Trend (đi ngang) — có thể là khởi đầu của một giai đoạn Tái Tích Lũy mới hoặc một giai đoạn Phân Phối, cần quan sát thêm để xác định",
+        "Đây là tín hiệu chắc chắn 100% xu hướng tăng sẽ tiếp tục ngay lập tức không cần xác nhận gì thêm",
+        "Đây là dấu hiệu công ty Disney sắp bị phá sản",
+        "Không có ý nghĩa phân tích gì, chỉ là biến động ngẫu nhiên"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Lưu ý hành động giá vượt qua (phá lên kênh giá) và xuất hiện tình trạng quá mua (Over Bought). Với sự phá vỡ gần đây trở lại kênh xu hướng, hãy chờ đợi một giai đoạn Tái tích lũy tiềm năng hoặc cũng có thể là một kịch bản cho giai đoạn Phân phối. Trong cả hai trường hợp, đây là một sự thay đổi tính cách (CHOCH) từ môi trường Uptrend sang môi trường Non Trend.'"
+    },
+    {
+      "id": "ch13-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "Vì sao sách khuyên nên nghiên cứu Kênh Xu Hướng trên các khung thời gian LỚN HƠN (ví dụ biểu đồ tháng của WDC) song song với khung thời gian đang phân tích, thay vì chỉ nhìn vào khung thời gian hiện tại?",
+      "sampleAnswer": "Vì khung thời gian lớn hơn cung cấp NGỮ CẢNH (context) quan trọng mà khung thời gian nhỏ không thể hiện được — ví dụ như biết được rằng một Tái Tích Lũy kéo dài 3 năm của WDC thực chất bị gây ra bởi một mức kháng cự khổng lồ từ đỉnh giá cao nhất mọi thời đại (ATH) 1997. Nếu chỉ nhìn khung thời gian ngắn, nhà phân tích có thể hoảng sợ hoặc hiểu sai về lý do giá đi ngang kéo dài, trong khi nhìn khung lớn giúp hiểu đúng bối cảnh và giữ vững niềm tin/kiên nhẫn vào phân tích của mình.",
+      "chartImage": null
+    }
+  ]
+}

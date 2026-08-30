@@ -1,0 +1,112 @@
+{
+  "chapterId": 23,
+  "title": "Các Quy Luật Trong Phương Pháp Wyckoff",
+  "summary": "Ba Quy Luật nền tảng của toàn bộ Phương Pháp Wyckoff: Cung-Cầu (Supply and Demand), Nhân-Quả (Cause and Effect), và Nỗ Lực-Kết Quả (Effort and Result) — minh họa qua ví dụ AAPL 2008-09 và kỹ thuật đếm cột Point and Figure (PnF) để ước lượng mục tiêu giá.",
+  "questions": [
+    {
+      "id": "ch23-q1",
+      "type": "multiple_choice",
+      "prompt": "Theo Quy Luật Cung-Cầu (Law #1), khi Cầu (Demand) lớn hơn Cung (Supply), điều gì xảy ra với giá? Và khi Cung bằng Cầu?",
+      "options": [
+        "Khi Cầu > Cung, giá sẽ tăng; khi Cung = Cầu, thị trường sẽ duy trì trạng thái không có xu hướng (Nontrend) — một Phạm Vi Giao Dịch (TR) hình thành",
+        "Khi Cầu > Cung, giá sẽ giảm; khi Cung = Cầu, giá sẽ tăng vô hạn",
+        "Cung và Cầu không có bất kỳ ảnh hưởng nào đến giá cổ phiếu",
+        "Khi Cung = Cầu, thị trường sẽ ngừng giao dịch hoàn toàn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Bất kỳ nỗ lực tăng giá nhỏ nào của nguồn Cầu cũng sẽ làm giá cổ phiếu tăng. Trong một thị trường, khi Cầu lớn hơn Cung, giá sẽ tăng.' Và: 'Khi cung và cầu ở giai đoạn cân bằng (cung = cầu), kết quả sẽ là một phạm vi giao dịch TR nơi mà giá sẽ duy trì một trạng thái không có xu hướng (Nontrend).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch23-q2",
+      "type": "multiple_choice",
+      "prompt": "Quy Luật Nhân-Quả (Law #2 - Cause and Effect) phát biểu mối quan hệ nào giữa Nguyên Nhân và Kết Quả?",
+      "options": [
+        "Một Nguyên Nhân phải được hình thành trước khi có một Kết Quả xảy ra — một Nguyên Nhân lớn sẽ tạo ra Kết Quả lớn, một Nguyên Nhân nhỏ tạo ra Kết Quả nhỏ",
+        "Kết Quả luôn xảy ra trước khi Nguyên Nhân được hình thành",
+        "Nguyên Nhân và Kết Quả hoàn toàn không liên quan gì đến nhau trong phân tích Wyckoff",
+        "Một Nguyên Nhân nhỏ luôn tạo ra Kết Quả cực lớn không giới hạn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Quy luật này có liên quan mật thiết đến quy luật Cung và Cầu. Một Nguyên nhân phải được hình thành trước khi có một Kết quả xảy ra. Một Kết quả sẽ phản ánh đúng quy mô đã được xây dựng bởi một Nguyên nhân trước đó. Một Nguyên nhân lớn sẽ tạo ra Kết quả lớn, một Nguyên nhân nhỏ tạo ra Kết quả nhỏ.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch23-q3",
+      "type": "multiple_choice",
+      "prompt": "Công cụ chính nào được sách chỉ ra để đo lường 'Nguyên Nhân' đã được xây dựng trong một Giai Đoạn Tích Lũy/Phân Phối, từ đó ước lượng 'target giá' (Kết Quả) tiềm năng?",
+      "options": [
+        "Biểu đồ Point and Figure (PnF) — bằng kỹ thuật đếm số cột (ô nằm ngang) được tạo trong phạm vi giao dịch TR",
+        "Chỉ báo RSI (Relative Strength Index)",
+        "Đường trung bình động 200 ngày (MA200)",
+        "Báo cáo tài chính quý của công ty"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Công cụ chính để xác định một Kết quả tiềm năng đó là biểu đồ Point and Figure (PnF). Phương pháp Wyckoff sử dụng kỹ thuật đếm số ô nằm ngang được tạo bởi nền giá trên biểu đồ PnF... để xác định target giá chuyển động tiềm năng trong tương lai.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch23-q4",
+      "type": "multiple_choice",
+      "prompt": "Quy Luật Nỗ Lực-Kết Quả (Law #3 - Effort and Result) mô tả mối quan hệ nào? Yếu tố nào đại diện cho 'Nỗ Lực' và yếu tố nào đại diện cho 'Kết Quả'?",
+      "options": [
+        "Khối Lượng (Volume) đại diện cho Nỗ Lực (Effort); Giá (Price) đại diện cho Kết Quả (Result) — cần có sự hài hòa giữa hai yếu tố này để xu hướng được xác nhận",
+        "Giá đại diện cho Nỗ Lực; Khối Lượng đại diện cho Kết Quả",
+        "Không có yếu tố nào đại diện cho Nỗ Lực hay Kết Quả, đây chỉ là tên gọi trừu tượng",
+        "Thời gian giao dịch đại diện cho cả Nỗ Lực và Kết Quả"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Quy luật này cung cấp các đặc điểm quan trọng trong việc phân tích Giá và Khối lượng (tên gọi khác là VSA). Khối lượng (Volume) đại diện cho Nỗ lực (Effort) và Giá (Price) đại diện cho Kết quả (Result). Để quá trình đẩy giá lên được hoàn tất, cần phải có Nỗ lực được thể hiện dưới dạng khối lượng.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch23-q5",
+      "type": "multiple_choice",
+      "prompt": "Sách mô tả tình trạng 'không hài hòa' (disharmony) giữa Nỗ Lực và Kết Quả — ví dụ khối lượng (Nỗ Lực) tăng cao nhưng giá (Kết Quả) chỉ nhích nhẹ. Tình trạng này thường là dấu hiệu cảnh báo điều gì?",
+      "options": [
+        "Một dấu hiệu cảnh báo của một xu hướng đang yếu dần (nguồn cung/cầu đối lập cản trở) và dự kiến sẽ có một sự điều chỉnh giá sắp xảy ra",
+        "Một dấu hiệu chắc chắn xu hướng hiện tại sẽ tiếp tục mạnh mẽ không đổi",
+        "Không có bất kỳ ý nghĩa cảnh báo nào, chỉ là nhiễu thị trường",
+        "Một dấu hiệu công ty sắp công bố chia tách cổ phiếu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Đặc điểm của một Nỗ lực lớn nhưng Kết quả nhỏ (Nỗ lực không mang lại Kết quả) thường cảnh báo về một dạng phân kỳ hoặc kết luận rằng Nỗ lực (khối lượng) không hài hòa so với Kết quả (giá). Đây là dấu hiệu cảnh báo của một xu hướng tăng đang yếu dần (nguồn cung cản trở) và dự kiến sẽ cần có một sự điều chỉnh giá giảm.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch23-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ AAPL 'Wyckoff's Laws Illustrated' dưới đây tô màu 3 vùng: đỏ ('Supply exceeds Demand'), vàng ('Supply and Demand are Equal thru Trading Range'), và xanh ('Demand Exceeds Supply'). Vùng màu vàng minh họa cho quy luật nào đang diễn ra?",
+      "chartImage": "/charts/part_23/p111_chart-385.jpg",
+      "options": [
+        "Quy Luật Cung-Cầu (Law #1) ở trạng thái cân bằng — đây chính là giai đoạn 'Absorption Occurring' (Hấp Thụ Đang Diễn Ra), nơi 'Nguyên Nhân được Xây Dựng, và Kết Quả sẽ Nối Tiếp Sau Đó'",
+        "Quy Luật Nỗ Lực-Kết Quả đang bị vi phạm hoàn toàn",
+        "Đây là vùng không tuân theo bất kỳ quy luật Wyckoff nào",
+        "Đây là vùng chỉ áp dụng riêng cho Downtrend, không áp dụng cho TR"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Supply and Demand are Equal thru Trading Range', 'Absorption Occurring', và 'Cause is Built. And the Effect Follows.' — vùng vàng minh họa đồng thời cả Quy Luật #1 (Cung=Cầu, TR hình thành) và Quy Luật #2 (Nguyên Nhân đang được xây dựng trong TR trước khi Kết Quả/Uptrend theo sau)."
+    },
+    {
+      "id": "ch23-q7",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ Point and Figure của AAPL dưới đây có tiêu đề 'Counting the Cause. Estimating the Effect.' Việc đếm số cột X/O ngang trong nền giá đã xây dựng dự kiến đạt được mục tiêu giá nào?",
+      "chartImage": "/charts/part_23/p113_chart-390.jpg",
+      "options": [
+        "$50 — được xác định qua 'Ascending Triple Top Breakout' và ghi nhãn 'Generating the Effect' phía trên nền 'A Cause has been built (Accumulation)' phía dưới",
+        "$10 — mức giá thấp nhất từng ghi nhận của AAPL",
+        "Không có mục tiêu giá cụ thể nào được xác định trên biểu đồ này",
+        "$1000 — một mục tiêu giá không thực tế và không được sách đề cập"
+      ],
+      "correctIndex": 0,
+      "explanation": "Biểu đồ ghi rõ: 'P&F Pattern: Ascending Triple Top Breakout' với mũi tên chỉ lên mức $50, kèm nhãn 'Generating the Effect' và bên dưới nền giá là nhãn 'A Cause has been built (Accumulation)' — minh họa trực tiếp cách áp dụng Quy Luật #2 để ước lượng mục tiêu giá bằng PnF."
+    },
+    {
+      "id": "ch23-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách nhấn mạnh: 'Mọi thứ trong Phương Pháp Wyckoff đều được tuân theo sự vận động của ba quy luật chính này.' Vì sao việc hiểu SÂU cả BA quy luật cùng lúc (thay vì chỉ một) lại quan trọng — ví dụ, làm sao Quy Luật Cung-Cầu và Nỗ Lực-Kết Quả cùng hỗ trợ cho việc áp dụng Quy Luật Nhân-Quả?",
+      "sampleAnswer": "Ba quy luật này thực chất mô tả cùng một hiện tượng thị trường ở 3 góc nhìn bổ sung cho nhau: Cung-Cầu giải thích TẠI SAO giá di chuyển theo hướng nào; Nỗ Lực-Kết Quả (qua khối lượng) giúp XÁC NHẬN liệu Cung-Cầu có thực sự đang mất cân bằng hay không (tránh bị đánh lừa bởi biến động giá đơn thuần không có khối lượng xác nhận); còn Nhân-Quả giúp ƯỚC LƯỢNG QUY MÔ của kết quả sắp xảy ra một khi đã xác nhận đúng hướng. Chỉ dùng một quy luật riêng lẻ sẽ thiếu một mảnh ghép quan trọng — ví dụ nếu chỉ nhìn Cung-Cầu mà không xác nhận bằng Nỗ Lực-Kết Quả (khối lượng), nhà phân tích dễ nhầm lẫn một đợt biến động giá ngẫu nhiên với một sự thay đổi cung-cầu thực sự.",
+      "chartImage": null
+    }
+  ]
+}

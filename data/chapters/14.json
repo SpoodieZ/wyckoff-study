@@ -1,0 +1,98 @@
+{
+  "chapterId": 14,
+  "title": "Lựa Chọn Ngã Rẽ - Tái Tích Lũy Hay Phân Phối",
+  "summary": "Ẩn dụ 'ngã rẽ' của Yogi Berra: sau khi một xu hướng tăng bị dừng lại, Wyckoffian phải chọn giữa hai kịch bản — Tái Tích Lũy (một khoảng nghỉ) hay Phân Phối (điểm kết thúc). Đi sâu vào cách CO 'bán lẻ' cổ phiếu cho công chúng, và hai Sơ Đồ Phân Phối (#1, #2) với khái niệm UTAD và LPSY.",
+  "questions": [
+    {
+      "id": "ch14-q1",
+      "type": "multiple_choice",
+      "prompt": "Yogi Berra khuyên: 'khi gặp một ngã rẽ, hãy đi theo nó'. Sách dùng ẩn dụ này để mô tả hai kịch bản sau khi một xu hướng tăng bị dừng lại. Điểm khác biệt cốt lõi giữa hai kịch bản Tái Tích Lũy và Phân Phối là gì?",
+      "options": [
+        "Tái Tích Lũy là một giai đoạn TẠM DỪNG (pause) trong một xu hướng tăng đang diễn ra; còn Phân Phối là sự KẾT THÚC (stop) của xu hướng tăng trước đó",
+        "Tái Tích Lũy luôn kéo dài hơn Phân Phối gấp 10 lần",
+        "Phân Phối chỉ xảy ra vào tháng 12 hàng năm còn Tái Tích Lũy xảy ra quanh năm",
+        "Không có sự khác biệt nào, hai thuật ngữ này hoàn toàn đồng nghĩa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Chỉ khác ở chỗ: Giai đoạn Tái tích lũy là một giai đoạn tạm dừng nghỉ (pause) trong một xu hướng tăng giá đang diễn ra, trong khi đó giai đoạn Phân phối lại là sự kết thúc (stop) của xu hướng tăng giá trước đó.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch14-q2",
+      "type": "multiple_choice",
+      "prompt": "Sách nói có một sự thật 'mỉa mai' (irony) trên thị trường liên quan đến Giai Đoạn Phân Phối. Đó là gì?",
+      "options": [
+        "Giai Đoạn Phân Phối thường bắt đầu với những dấu vết đặc trưng giống HỆT như Giai Đoạn Tái Tích Lũy — được ví như 'phiên bản ác' của Tái Tích Lũy",
+        "Giai Đoạn Phân Phối không bao giờ xảy ra trên thực tế, chỉ tồn tại trên lý thuyết",
+        "Giai Đoạn Phân Phối luôn được công ty phát hành công khai trước cho nhà đầu tư biết",
+        "Giai Đoạn Phân Phối chỉ xảy ra với các cổ phiếu vốn hóa nhỏ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Có một sự thật mỉa mai ở trên thị trường rằng giai đoạn Phân phối thường bắt đầu với những dấu vết đặc trưng giống hệt như trong giai đoạn Tái Tích Lũy. Có thể nói, giai đoạn Phân phối chính là \"phiên bản ác\" của giai đoạn Tái Tích Lũy.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch14-q3",
+      "type": "multiple_choice",
+      "prompt": "Trong Giai Đoạn Phân Phối, CO thực hiện chiến lược bán ra được gọi là 'bán lẻ' (retail selling). Sách mô tả kỹ thuật này diễn ra như thế nào trong một Phạm Vi Giao Dịch (TR)?",
+      "options": [
+        "CO bán cổ phiếu trong các nhịp tăng giá và ở các mức đỉnh của TR; khi giá giảm về lại vùng đáy, họ dừng bán (thậm chí mua để đỡ giá) — quá trình lặp đi lặp lại để phân phối hết lượng lớn cổ phiếu mà không làm giá thoát khỏi TR quá sớm",
+        "CO bán toàn bộ cổ phiếu chỉ trong đúng 1 phiên giao dịch duy nhất",
+        "CO chỉ mua vào, không bao giờ bán ra trong Giai Đoạn Phân Phối",
+        "CO thông báo công khai lịch bán ra trên các phương tiện truyền thông"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Chiến lược của CO để thực hiện điều này, họ sẽ bán cổ phiếu trong các nhịp tăng giá trong quá trình Phân phối và ở các mức đỉnh, trên đỉnh của phạm vi giao dịch TR. Sau đó, khi giá giảm về lại phía đáy của phạm vi giao dịch TR, họ ngừng bán và thậm chí họ có thể mua vào tại đây để đỡ giá tại đáy (mục đích là để không cho giá thoát khỏi TR khi mà CO vẫn còn hàng để bán).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch14-q4",
+      "type": "multiple_choice",
+      "prompt": "Đáng buồn thay, đối tượng mà CO phân phối (bán) cổ phiếu cho chính là ai, và điều gì xảy ra với họ sau đó?",
+      "options": [
+        "Chính là công chúng (nhà đầu tư nhỏ lẻ) — họ mua cổ phiếu của CO và giữ chúng suốt đợt suy thoái tiếp theo (Downtrend)",
+        "CO chỉ bán cho các quỹ đầu tư tổ chức khác, không bao giờ bán cho công chúng",
+        "CO bán cho chính công ty phát hành cổ phiếu đó để công ty mua lại cổ phiếu quỹ",
+        "CO không bán cho ai cả, chỉ đơn giản là hủy cổ phiếu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'CO họ phải phân phối cổ phiếu cho ai? Đáng buồn thay, đối tượng mà CO muốn phân phối hàng đó chính là công chúng, họ sẽ mua cổ phiếu của CO và giữ chúng suốt đợt suy thoái tiếp theo (giai đoạn Downtrend).' Việc mua vào lớn của công chúng thường xảy ra trong xu hướng tăng mạnh và trở nên hưng phấn xung quanh mức giá tăng nóng (cuối giai đoạn Uptrend).",
+      "chartImage": null
+    },
+    {
+      "id": "ch14-q5",
+      "type": "chart_identify",
+      "prompt": "Nhìn Sơ Đồ Phân Phối #1 (Distribution Schematic #1) dưới đây, một 'Upthrust After Distribution (UTAD)' xuất hiện ở Phase C. Theo sách, nên nghĩ về UTAD như một câu hỏi nào?",
+      "chartImage": "/charts/part_14/p059_chart-223.jpg",
+      "options": [
+        "'Có bao nhiêu nguồn cầu xuất hiện tại các mức giá cao mới này?' — nếu nhịp tăng thất bại (fail rally) sau đó, điều đó cho thấy lực cầu tại đây rất yếu, xác nhận CO nên bán ra",
+        "'Công ty có sắp công bố lợi nhuận kỷ lục hay không?'",
+        "'Cổ phiếu có nên được chia tách (stock split) hay không?'",
+        "'Chỉ số VIX có đang ở mức thấp hay không?'"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Hãy nghĩ về UTAD như một câu hỏi: Có bao nhiêu nguồn cầu xuất hiện tại các mức giá cao mới này? Một nhịp sóng tăng với sự xuất hiện của nguồn cầu mới tham gia vào sẽ đưa giá tăng và khỏi đỉnh cũ trước đó... Tuy nhiên, sự thất bại (fail rally) sau đó sẽ khiến CO kết luận rằng sức mua trong nhịp tăng giá kiểm tra này rất yếu (cạn cầu) và họ sẽ quyết định bán cổ phiếu trên quy mô giảm diện rộng.'"
+    },
+    {
+      "id": "ch14-q6",
+      "type": "chart_identify",
+      "prompt": "Sơ Đồ Phân Phối #2 (Distribution Schematic #2) dưới đây có nhiều nhịp LPSY (Last Point of Supply) với đỉnh sau thấp hơn đỉnh trước. Theo sách, đặc điểm biên độ và khối lượng của các nhịp LPSY này là gì, và nó cho thấy điều gì?",
+      "chartImage": "/charts/part_14/p060_chart-226.jpg",
+      "options": [
+        "LPSY có biên độ giá thu hẹp và khối lượng giao dịch thấp — cho thấy sự thiếu hụt về nguồn cầu (cạn cầu); mỗi đợt LPSY sau đó thường tạo đỉnh THẤP HƠN đỉnh trước (LH) do lực cản của nguồn cung CO bán ra tại các mức đó",
+        "LPSY luôn có khối lượng cực cao, cao hơn cả BCLX ban đầu",
+        "LPSY luôn tạo đỉnh cao hơn đỉnh trước đó (higher high) trong mọi trường hợp",
+        "LPSY không liên quan gì đến khối lượng giao dịch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Đợt điều chỉnh tăng giá LPSY sẽ có biên độ giá thu hẹp và khối lượng giao dịch mua thường thấp, cho thấy sự thiếu hụt về nguồn cầu (cạn cầu)... Mỗi đợt điều chỉnh giá tăng lên sẽ gặp rất nhiều khó khăn và giá chỉ tạo được một mức đỉnh thấp hơn đỉnh cũ trước đó (LH) do có sự cản trở của nguồn cung bán ra của CO tại các mức giá LPSY.'"
+    },
+    {
+      "id": "ch14-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách mô tả CO phải 'chạy đua với thời gian' trong Giai Đoạn Phân Phối vì còn nhiều đối tượng khác (CO nhỏ, ITF...) cũng đang có ý định bán ra. Vì sao yếu tố thời gian lại tạo áp lực và rủi ro cho CO trong giai đoạn này?",
+      "sampleAnswer": "Vì nếu CO trì hoãn quá lâu trong việc bán ra, các đối tượng lớn khác (CO nhỏ hơn, các quỹ ITF...) cũng nhận ra tín hiệu suy yếu và bắt đầu bán tháo cùng lúc — khi 'một căn phòng đầy voi lớn' cùng cố thoát ra một lúc, áp lực bán sẽ áp đảo và đẩy giá giảm nhanh, mạnh hơn dự kiến trước khi CO kịp bán hết số lượng cổ phiếu họ đang nắm giữ với mức giá tốt. Vì vậy CO buộc phải phân phối cẩn thận nhưng không được quá chậm trễ.",
+      "chartImage": null
+    }
+  ]
+}

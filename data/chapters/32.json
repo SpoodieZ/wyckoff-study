@@ -1,0 +1,105 @@
+{
+  "chapterId": 32,
+  "title": "Giới Thiệu Point And Figure (PnF)",
+  "summary": "Nền tảng kỹ thuật của biểu đồ Point and Figure (PnF) — không có trục thời gian, chỉ ghi nhận biến động giá bằng X (Cầu) và O (Cung). Quy tắc '3 ô đảo chiều' và '1 ô đảo chiều', cách chọn kích thước hộp (box-size), và vai trò trung tâm trong Quy Luật Nhân-Quả của Wyckoff.",
+  "questions": [
+    {
+      "id": "ch32-q1",
+      "type": "multiple_choice",
+      "prompt": "Điểm khác biệt cơ bản nhất giữa biểu đồ Point and Figure (PnF) và các loại biểu đồ khác (nến, thanh, đường) là gì?",
+      "options": [
+        "Trục hoành của PnF KHÔNG dùng để biểu thị thời gian — chỉ có sự thay đổi của giá mới tạo ra thêm những điểm/cột mới trên biểu đồ",
+        "PnF luôn hiển thị khối lượng giao dịch ngay trên mỗi ô, các biểu đồ khác thì không",
+        "PnF chỉ có thể dùng cho thị trường ngoại hối, không dùng được cho cổ phiếu",
+        "PnF không có ký hiệu nào để phân biệt giữa tăng giá và giảm giá"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Trục hoành không dùng để biểu thị thời gian: Không giống như biểu đồ nến Nhật hay biểu đồ Line, PnF không có trục thời gian (trục hoành), chỉ có sự thay đổi của giá mới tạo ra thêm những điểm trên biểu đồ.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch32-q2",
+      "type": "multiple_choice",
+      "prompt": "Trên biểu đồ PnF, ký hiệu X và O đại diện cho điều gì?",
+      "options": [
+        "X đại diện cho nguồn Cầu (giá tăng), O đại diện cho nguồn Cung (giá giảm)",
+        "X đại diện cho khối lượng cao, O đại diện cho khối lượng thấp",
+        "X đại diện cho ngày lễ, O đại diện cho ngày giao dịch thường",
+        "X và O hoàn toàn không có ý nghĩa gì, chỉ để trang trí biểu đồ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Hai ký tự được chúng ta sử dụng trong biểu đồ Point and Figure (PnF) đó là X và O. Trong đó X đại diện cho nguồn cầu và O đại diện cho nguồn cung.' Giống như cờ ca-rô, ký hiệu X là tăng giá, ký hiệu O là giảm giá.",
+      "chartImage": null
+    },
+    {
+      "id": "ch32-q3",
+      "type": "multiple_choice",
+      "prompt": "Theo quy tắc 'X ô đảo chiều - X box reversal' của PnF (ví dụ '3 ô đảo chiều'), điều gì phải xảy ra để bắt đầu một cột mới đi ngược hướng với cột hiện tại?",
+      "options": [
+        "Giá phải di chuyển ngược chiều tối thiểu bằng đúng số ô quy định (ví dụ 3 ô đối với '3 ô đảo chiều') mới được phép vẽ một cột mới theo hướng ngược lại",
+        "Chỉ cần giá di chuyển ngược chiều 1 xu (cent) là đủ để tạo cột mới bất kể thông số cài đặt",
+        "Không cần điều kiện gì, mỗi ngày giao dịch luôn tự động tạo một cột mới",
+        "Cột mới chỉ được tạo khi có tin tức công bố từ công ty"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'PnF không thay đổi hướng đi của nó (từ X thành O hoặc ngược lại) trừ khi giá di chuyển được 3 ô (hay 3 đơn vị) hoặc 1 ô (hay 1 đơn vị) theo chiều ngược lại.' Đặc điểm này giúp PnF 'lọc' ra những biến động nhỏ gây nhiễu và chỉ tập trung vào những điểm đảo chiều quan trọng.",
+      "chartImage": null
+    },
+    {
+      "id": "ch32-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ BA (Boeing) dưới đây minh họa phương pháp '1 Box Reversal'. Ghi chú 'One box method requires at least two entries in each column' muốn nói điều gì?",
+      "chartImage": "/charts/part_32/p165_chart-612.jpg",
+      "options": [
+        "Với phương pháp '1 ô đảo chiều', mỗi cột (trước khi có thể bắt đầu một cột mới) cần có TỐI THIỂU 2 ô đã được đánh dấu — nhiều công cụ vẽ biểu đồ tự động thực hiện SAI nguyên tắc này",
+        "Mỗi cột luôn phải có đúng 100 ô mới được coi là hợp lệ",
+        "Cột đầu tiên trên mọi biểu đồ PnF luôn phải trống, không có ô nào",
+        "Quy tắc này chỉ áp dụng cho cổ phiếu Boeing, không áp dụng cho cổ phiếu khác"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Điều cần lưu ý với phương pháp \"1 ô đảo chiều - 1 box reversal\" là một cột phải có ít nhất 2 ô trước khi có thể bắt đầu một cột mới. Nhiều công cụ biểu đồ làm sai điều này trong khi Stock Charts tự động thực hiện đúng công việc vẽ và xác nhận này.'"
+    },
+    {
+      "id": "ch32-q5",
+      "type": "multiple_choice",
+      "prompt": "Theo bảng kích thước hộp (box-size) truyền thống được sách trích dẫn, mức giá TRÊN $100 thường dùng box-size là bao nhiêu điểm?",
+      "options": [
+        "2 điểm (points) cho mỗi ô",
+        "0.0625 điểm cho mỗi ô",
+        "500 điểm cho mỗi ô",
+        "Không có quy định cụ thể nào cho mức giá trên $100"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Biểu đồ Point and Figure (PnF) sử dụng một tỷ lệ có quy tắc. Trên $100, một đơn vị (box) là hai điểm. Từ $20 đến $100, một đơn vị (box) là một điểm. Dưới $20 và xuống $5 là nửa điểm.' Bảng chi tiết hơn của Tom Dorsey cũng được sách trích dẫn tham khảo (trang 164).",
+      "chartImage": null
+    },
+    {
+      "id": "ch32-q6",
+      "type": "multiple_choice",
+      "prompt": "Sách nhắc đến một điều thú vị về nguồn gốc lịch sử của Point and Figure (PnF). Đó là gì?",
+      "options": [
+        "PnF được sử dụng phổ biến từ thế kỷ XIX; không ai biết chắc chắn 'cha đẻ' của biểu đồ này là ai, nhưng nhiều ý kiến cho rằng nó được sáng tạo bởi Charles Dow — một trong những người đặt nền móng cho trường phái Phân Tích Kỹ Thuật hiện đại",
+        "PnF được phát minh bởi chính Richard Wyckoff vào năm 1930",
+        "PnF chỉ mới được phát minh gần đây, vào thập niên 2000",
+        "PnF không có bất kỳ nguồn gốc lịch sử nào được ghi chép lại"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Point and Figure (PnF) được sử dụng rất phổ biến vào những năm của thế kỷ XIX. Không ai biết cha đẻ của biểu đồ này là ai và nó ra đời khi nào. Nhiều ý kiến cho rằng, PnF được sáng tạo bởi Charles Dow. Điều này hoàn toàn có cơ sở khi Charles Dow là một trong những người đã đặt nền móng cho trường phái Phân Tích Kỹ Thuật hiện đại.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch32-q7",
+      "type": "multiple_choice",
+      "prompt": "Vì sao Phương Pháp PnF của Wyckoff lại đặc biệt hiệu quả khi kết hợp với 'Quy Luật số 2: Nguyên Nhân và Kết Quả'?",
+      "options": [
+        "Vì PnF dùng kỹ thuật đếm SỐ Ô NẰM NGANG (horizontal) trong phạm vi giao dịch để đại diện cho Nguyên Nhân, từ đó ước tính target giá (Kết Quả) — trong khi hầu hết phương pháp khác chỉ dùng số ô đếm THEO CHIỀU DỌC (vertical)",
+        "Vì PnF không liên quan gì đến Quy Luật Nhân Quả",
+        "Vì PnF chỉ hoạt động được trên thị trường downtrend, không hoạt động được trên uptrend",
+        "Vì PnF luôn cho ra kết quả chính xác 100% không có sai số"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Phương pháp PnF của Wyckoff là một phương pháp khá ít người được tiếp cận và biết đến, kỹ thuật sử dụng các số ô đếm Nằm ngang (Horizontal) để dự báo và xác định được target giá tiềm năng. Các target giá được tính toán và xác định trong các phương pháp khác hầu như chỉ sử dụng phương pháp đếm số ô đếm Nằm dọc (Vertical).'",
+      "chartImage": null
+    }
+  ]
+}

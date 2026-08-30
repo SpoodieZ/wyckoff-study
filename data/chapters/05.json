@@ -1,0 +1,77 @@
+{
+  "chapterId": 5,
+  "title": "Hài Lòng Với Các Biểu Đồ Hiện Đại Theo Phong Cách Wyckoff",
+  "summary": "Chương ngắn giới thiệu trước các thuật ngữ của Giai Đoạn Phân Phối (Distribution) — Buying Climax (BCLX), Automatic Reaction (AR), Secondary Test (ST), Up Thrust After Distribution (UTAD), Sign of Weakness (SOW) — và lưu ý về Stepping Stone Reaccumulation (SSR/SSTR), sẽ được đào sâu ở các phần sau.",
+  "questions": [
+    {
+      "id": "ch5-q1",
+      "type": "multiple_choice",
+      "prompt": "Phần 5 nhắc lại 4 giai đoạn cơ bản của Chu Kỳ Giá trong Phương pháp Wyckoff. Theo đúng thứ tự, 4 giai đoạn đó là gì?",
+      "options": [
+        "Giai Đoạn Tích Lũy → Uptrend → Giai Đoạn Phân Phối → Downtrend",
+        "Downtrend → Giai Đoạn Phân Phối → Uptrend → Giai Đoạn Tích Lũy",
+        "Uptrend → Giai Đoạn Tích Lũy → Downtrend → Giai Đoạn Phân Phối",
+        "Giai Đoạn Phân Phối → Giai Đoạn Tích Lũy → Downtrend → Uptrend"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Giai đoạn Tích Lũy, Uptrend, Giai đoạn Phân Phối và Downtrend là bốn giai đoạn cơ bản của Chu Kỳ giá trong phương pháp Wyckoff.' Các phần trước đã tập trung vào Tích Lũy; phần này mở đầu giới thiệu các nguyên tắc của Giai Đoạn Phân Phối.",
+      "chartImage": null
+    },
+    {
+      "id": "ch5-q2",
+      "type": "multiple_choice",
+      "prompt": "Trong bối cảnh Giai Đoạn Phân Phối, hai điểm Buying Climax (BCLX) và Automatic Reaction (AR) đóng vai trò gì trên biểu đồ?",
+      "options": [
+        "Xác định biên trên và biên dưới của Phạm Vi Giao Dịch (TR) tại vùng đỉnh — tương tự vai trò của CLX và AR ở vùng đáy trong Tích Lũy, nhưng đảo ngược vị trí",
+        "BCLX và AR chỉ là hai tên gọi khác nhau của cùng một điểm duy nhất trên biểu đồ",
+        "Chúng chỉ xuất hiện trên biểu đồ khung thời gian tháng (monthly), không dùng được ở khung ngày/tuần",
+        "Chúng chỉ có ý nghĩa thống kê, không liên quan gì đến hành động của Composite Man"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Hai điểm này đóng vai trò xác định biên trên và biên dưới của phạm vi giao dịch TR trong tương lai gần' — BCLX (Buying Climax) tạo biên trên, AR (Automatic Reaction) tạo biên dưới, ngược lại với vai trò của CLX/AR trong Tích Lũy.",
+      "chartImage": null
+    },
+    {
+      "id": "ch5-q3",
+      "type": "chart_identify",
+      "prompt": "Trên biểu đồ chỉ số $INDU dưới đây, một 'Up Thrust After Distribution (UTAD)' được đánh dấu ở vùng đỉnh. Theo mô tả trong sách, UTAD là gì?",
+      "chartImage": "/charts/part_05/p017_chart-083.jpg",
+      "options": [
+        "Một hành động cuối cùng trong quá trình Phân Phối: giá tạo mức cao mới với biên độ nhỏ vượt qua đỉnh BCLX nhưng không duy trì được, rồi quay trở lại vào bên trong TR — thường kèm khối lượng tăng ở các đợt giảm sau đó",
+        "Một tín hiệu chắc chắn 100% rằng giá sẽ tiếp tục tăng mạnh không giới hạn",
+        "Điểm mà công ty phát hành thêm cổ phiếu mới ra thị trường",
+        "Một loại lệnh dừng lỗ tự động do sàn giao dịch đặt ra"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một Up Thrust After Distribution (UTAD) là một diễn biến thú vị. Như một hành động cuối cùng trong quá trình Phân Phối, giá đôi khi sẽ tạo ra một mức cao hơn với biên độ nhỏ... Sau đó nó sẽ quay trở lại vào bên trong TR.' Đây gần như là hình ảnh 'soi gương' của Spring ở đáy Tích Lũy, nhưng ở đỉnh Phân Phối."
+    },
+    {
+      "id": "ch5-q4",
+      "type": "multiple_choice",
+      "prompt": "Sách lưu ý rằng không phải mọi Phạm Vi Giao Dịch (TR) xuất hiện sau một đợt tăng giá đều là Giai Đoạn Phân Phối. Khái niệm nào được nhắc đến như một khả năng thay thế cần cân nhắc?",
+      "options": [
+        "Giai Đoạn Tái Tích Lũy Trung Gian (Stepping Stone Reaccumulation - SSR/SSTR) — TR chỉ là điểm dừng tạm để tích lũy thêm trước khi tiếp tục xu hướng tăng",
+        "Giai Đoạn Downtrend chính thức bắt đầu ngay lập tức không cần xác nhận thêm",
+        "Một lỗi kỹ thuật trong dữ liệu biểu đồ cần được bỏ qua",
+        "Chỉ số P/E của công ty đã vượt quá mức hợp lý"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Đợt tăng giá tiếp theo sẽ tiết lộ nhiều điều về việc liệu toàn bộ cấu trúc có phải là một giai đoạn Phân Phối lớn với tiềm năng tiếp tục giảm giá hay sẽ là một Giai đoạn Tái Tích Lũy Trung Gian (Stepping Stone Reaccumulation - SSR hoặc SSTR)' — một mô hình quan trọng cần phân biệt rõ, tránh kết luận vội vàng là Phân Phối.",
+      "chartImage": null
+    },
+    {
+      "id": "ch5-q5",
+      "type": "chart_identify",
+      "prompt": "Trên biểu đồ Russell 2000 iShares (IWM) dưới đây, hai nhãn ST (Secondary Test) và LPSY (Last Point of Supply) đều xuất hiện. Theo sách, sự khác biệt chính giữa hai loại điểm này là gì?",
+      "chartImage": "/charts/part_05/p018_chart-087.jpg",
+      "options": [
+        "ST là nhịp giảm về gần các mức thấp trước đó của Phạm Vi Phân Phối, còn LPSY là mức kháng cự cuối cùng (hoặc 'fail rally') trước một xu hướng giảm giá lớn hơn",
+        "ST và LPSY hoàn toàn giống nhau, chỉ khác tên gọi tùy theo sở thích người phân tích",
+        "ST chỉ xuất hiện ở đáy Tích Lũy, không bao giờ xuất hiện ở Phân Phối",
+        "LPSY luôn xảy ra trước BCLX theo thời gian"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Sự khác biệt chính giữa hai loại này là một ST suy giảm đến các mức thấp trước đó của Phạm vi giai đoạn Phân Phối và LPSY là mức kháng cự cuối cùng (hoặc Fail rally) trước một xu hướng giảm giá lớn hơn.' Cả hai đều là các nhịp hồi yếu ớt xác nhận nguồn cung đang chiếm ưu thế."
+    }
+  ]
+}

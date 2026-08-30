@@ -1,0 +1,112 @@
+{
+  "chapterId": 24,
+  "title": "Composite Man/Operator - CO",
+  "summary": "Đào sâu khái niệm Composite Man — hình tượng đại diện cho mọi hoạt động giao dịch lớn trên thị trường. Khung 5W (Who/What/Where/When/Why/How) để tư duy như CO, và tái hiện chiến dịch DJIA 2008-14 làm ví dụ minh họa toàn bộ vòng đời một chiến dịch.",
+  "questions": [
+    {
+      "id": "ch24-q1",
+      "type": "multiple_choice",
+      "prompt": "Wyckoff lập luận: 'tất cả các biến động trong thị trường... nên được nghiên cứu như thể chúng là kết quả của các hoạt động của MỘT người duy nhất.' Tuy nhiên, sách cũng nhấn mạnh một điều quan trọng cần hiểu về CO. Đó là gì?",
+      "options": [
+        "CO KHÔNG hề kiểm soát thị trường — họ chỉ thích nghi với các điều kiện thị trường và tận dụng cơ hội khi nó xuất hiện (ví dụ như sự hoảng loạn); không một ai có thể kiểm soát thị trường trong bất cứ thời điểm nào",
+        "CO hoàn toàn kiểm soát và quyết định mọi biến động giá trên thị trường",
+        "CO là một tổ chức chính phủ bí mật điều hành toàn bộ sàn giao dịch",
+        "CO chỉ tồn tại trên lý thuyết, không có ảnh hưởng thực tế nào đến giá"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Điều quan trọng bạn phải hiểu rằng CO không hề kiểm soát thị trường. Họ thích nghi với các điều kiện của thị trường và tận dụng cơ hội đến với họ... Do đó, bạn không thể nói rằng họ kiểm soát thị trường. Không một ai có thể kiểm soát thị trường trong bất cứ thời điểm nào.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch24-q2",
+      "type": "multiple_choice",
+      "prompt": "Dựa trên quan sát nhiều năm về hoạt động của Composite Man, Wyckoff phát hiện ra CO có 2 đặc điểm hành vi cốt lõi nào?",
+      "options": [
+        "(1) Lên kế hoạch cẩn thận rồi thực hiện và kết thúc đúng kế hoạch đã vạch ra; (2) Tìm cách thu hút đám đông mua vào các cổ phiếu mà CO đã mua trước đó, bằng cách thực hiện lệnh lớn và đưa thông tin tốt lên truyền thông",
+        "(1) Luôn công khai minh bạch mọi giao dịch của mình; (2) Không bao giờ quan tâm đến tin tức truyền thông",
+        "(1) Chỉ giao dịch duy nhất một loại tài sản; (2) Không bao giờ thay đổi kế hoạch dù thị trường biến động",
+        "Sách không đưa ra đặc điểm hành vi cụ thể nào của CO"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Composite Man họ lên kế hoạch một cách cẩn thận sau đó thực hiện kế hoạch và kết thúc quá trình của họ đã vạch ra. Composite Man tìm cách thu hút đám đông các nhà đầu tư mua vào các cổ phiếu mà họ đã mua một số lượng lớn trước đó bằng cách thực hiện các lệnh giao dịch mua bán với khối lượng lớn và họ tìm cách đưa các thông tin tốt về cổ phiếu trên các phương tiện truyền thông.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch24-q3",
+      "type": "multiple_choice",
+      "prompt": "Trong khung '5W+H' (Who, What, Where, When, Why, How) để hiểu về sự 'chuyển giao' cổ phiếu, câu hỏi 'Who - Ai?' được sách trả lời như thế nào?",
+      "options": [
+        "CO là người 'chuyển đổi trạng thái' sớm nhất, các nhà đầu cơ chuyên nghiệp khác là người phát hiện sớm, còn công chúng với số đông là những người chậm chạp phát hiện sau cùng",
+        "Chỉ có công chúng tham gia vào sự chuyển giao, CO không liên quan",
+        "Chỉ có CO tham gia, không có ai khác liên quan đến quá trình chuyển giao",
+        "Câu hỏi 'Who' không được sách đề cập đến"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Who - Ai? trong sự chuyển giao bao gồm Composite Man như một nhà chuyển đổi trạng thái, các sàn giao dịch và các nhà đầu cơ chuyên nghiệp khác là những người phát hiện sớm, còn công chúng với hầu như số đông là những người chậm chạp phát hiện sau cùng.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch24-q4",
+      "type": "multiple_choice",
+      "prompt": "Sách trả lời câu hỏi 'Why - Tại sao?' CO thực hiện các chiến dịch thị trường (cả phía Bò lẫn phía Gấu). Động lực cốt lõi là gì?",
+      "options": [
+        "Lợi nhuận của riêng CO — họ hoàn thành các chiến dịch bằng cách thu hút một lượng công chúng theo dõi, dẫn dắt và chi phối cảm xúc của họ theo mục đích tối thượng của CO",
+        "CO thực hiện chiến dịch hoàn toàn vì lợi ích của công chúng, không vì lợi nhuận cá nhân",
+        "CO bị pháp luật bắt buộc phải thực hiện các chiến dịch định kỳ",
+        "Không có động lực cụ thể nào, hoàn toàn ngẫu nhiên"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Why - Tại sao? Composite Man thực hiện các chiến dịch thị trường trên cả phía Bò và phía Gấu vì lợi nhuận của riêng mình và họ hoàn thành những chiến dịch này bằng cách thu hút một lượng người công chúng theo dõi, dẫn dắt và chi phối cảm xúc của họ theo mục đích tối thượng của CO.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch24-q5",
+      "type": "chart_identify",
+      "prompt": "Sơ đồ 'CO actions in a TR and how Sweet Spot is created' dưới đây (nguồn Roman Bogomazov) đánh dấu một 'Sweet Spot'. Theo sơ đồ, Sweet Spot nằm ở khu vực nào và đại diện cho điều gì?",
+      "chartImage": "/charts/part_24/p119_chart-410.jpg",
+      "options": [
+        "Nằm ở vùng chuyển tiếp giữa Phase C (Test) và Phase D (Markup trong TR) — đại diện cho 'Strength for rally and reaction', tức khu vực có tỷ lệ lợi nhuận/rủi ro tốt nhất để tham gia",
+        "Nằm ở đúng đỉnh Phase E, sau khi giá đã tăng hết mức",
+        "Nằm ở Phase A, ngay khi hành động dừng lại vừa xảy ra",
+        "Sweet Spot không có vị trí cụ thể nào trên sơ đồ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sơ đồ đánh dấu 'Sweet Spot' tại khu vực Spring/BUC giữa Phase C và Phase D với chú thích 'Strength for rally and reaction' — đây là vùng CO đã hấp thụ xong phần lớn nguồn cung và bắt đầu đẩy giá tăng mạnh, mang lại tỷ lệ lợi nhuận/rủi ro hấp dẫn nhất cho nhà giao dịch tham gia."
+    },
+    {
+      "id": "ch24-q6",
+      "type": "multiple_choice",
+      "prompt": "Trong ví dụ tái hiện chiến dịch DJIA 2008-09, sau khi Composite Man tích lũy phần lớn nguồn cung, hành động 'Shakeout - rũ bỏ' cuối cùng vào tháng 3/2009 (đạp giá xuống 6.500) có mục đích gì?",
+      "options": [
+        "Loại bỏ hầu hết nguồn cung còn lại được bán tháo bởi các nhà đầu tư nhỏ lẻ hoảng loạn cuối cùng — giúp CO hấp thụ nốt phần cổ phiếu còn trôi nổi ở mức giá thấp và rẻ",
+        "Để chính thức tuyên bố phá sản toàn bộ chỉ số DJIA",
+        "Để trừng phạt các nhà đầu tư tổ chức khác trên thị trường",
+        "Không có mục đích cụ thể nào, đó chỉ là biến động ngẫu nhiên"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Composite Man tạo ra một đợt giảm biến động lớn với hành động Shakeout - rũ bỏ cuối cùng bằng cách đạp giá giảm mạnh xuống mức giá 6.500 DJIA. Bằng cách làm như vậy, CO đã loại bỏ hầu hết nguồn cung còn lại được bán tháo ra bởi các nhà đầu tư nhỏ lẻ cũng như hấp thụ thêm được số lượng lớn cổ phiếu ở mức giá thấp và rẻ.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch24-q7",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ MU (Micron) dưới đây minh họa một chiến dịch Phân Phối hoàn chỉnh với biến thể 'Hypodermic'. Vì sao sách chọn ví dụ với đỉnh nhọn (single sharp peak) này để minh họa một cảnh báo cụ thể?",
+      "chartImage": "/charts/part_24/p121_chart-419.jpg",
+      "options": [
+        "Vì một đỉnh giá tăng nóng đơn lẻ rồi giảm đột ngột (như biến thể Hypodermic) là một cảnh báo về một Giai Đoạn Phân Phối đang diễn ra, khác với kịch bản Phân Phối phổ biến hơn (nhiều đỉnh, TR rộng)",
+        "Vì MU là cổ phiếu duy nhất từng tăng giá trong lịch sử",
+        "Vì đỉnh nhọn đơn lẻ luôn là dấu hiệu của Tích Lũy, không phải Phân Phối",
+        "Không có lý do cụ thể nào được đưa ra trong sách"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Việc hình thành đỉnh phân phối biến động lớn có thể là con đường \"kết thúc chiến dịch\" khác được Composite Man theo đuổi... Việc bán tháo mạnh ra ngày càng lớn (biến động giá lớn và khối lượng tăng cao) bởi CO là dấu hiệu cảnh báo về một Giai đoạn Phân phối đang diễn ra mạnh mẽ.' Đây là biến thể ít phổ biến hơn nhưng quan trọng cần nhận biết."
+    },
+    {
+      "id": "ch24-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách viết: 'một xu hướng sẽ tồn tại cho đến khi việc mua bán của công chúng có dấu hiệu bị cạn kiệt - exhaustion.' Vì sao sự 'cạn kiệt' của công chúng (chứ không phải của CO) lại là yếu tố quyết định thời điểm một xu hướng kết thúc?",
+      "sampleAnswer": "Vì bản chất của một xu hướng (Uptrend hay Downtrend) phụ thuộc vào việc CO có tiếp tục thu hút được dòng tiền/lệnh giao dịch từ công chúng hay không — CO cần công chúng làm đối tác giao dịch (người mua khi CO bán, người bán khi CO mua). Khi công chúng đã hết tiền để mua thêm (trong Uptrend) hoặc hết cổ phiếu để bán thêm (trong Downtrend), sẽ không còn đủ lực đối ứng để duy trì đà di chuyển của giá, bất kể CO có còn muốn tiếp tục chiến dịch hay không. Do đó, sự cạn kiệt của công chúng — chứ không phải ý muốn của CO — mới là giới hạn thực sự của một xu hướng.",
+      "chartImage": null
+    }
+  ]
+}

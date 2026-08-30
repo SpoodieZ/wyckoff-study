@@ -1,0 +1,154 @@
+{
+  "chapterId": 8,
+  "title": "Wyckoff Accumulation",
+  "summary": "Tổng hợp toàn diện Giai Đoạn Tích Lũy qua Sơ Đồ Tích Lũy #1 và #2 (Accumulation Schematics) của Wyckoff — 5 giai đoạn Phase A-E chi tiết, vai trò của 'Ngữ Cảnh' (Context), các biến thể thực tế của Phạm Vi Tích Lũy, và ví dụ đối chiếu với cổ phiếu AAPL thật.",
+  "questions": [
+    {
+      "id": "ch8-q1",
+      "type": "multiple_choice",
+      "prompt": "Điều gì làm cho 'Power Charting' theo Phương Pháp Wyckoff khác biệt so với các công cụ nhận diện mẫu hình biểu đồ (pattern recognition) thông thường khác?",
+      "options": [
+        "Power Charting tập trung vào việc theo dõi dấu chân (footprint) của Composite Man (CO) trong suốt quá trình Tích Lũy, thay vì chỉ nhận diện hình dạng mẫu hình",
+        "Power Charting chỉ sử dụng các chỉ báo kỹ thuật tự động như MACD hay RSI",
+        "Power Charting không quan tâm đến khối lượng giao dịch, chỉ nhìn vào giá",
+        "Power Charting chỉ áp dụng được cho thị trường tiền điện tử"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Điều làm cho Power Charting theo Phương pháp Wyckoff khác biệt với các công cụ nhận diện mẫu hình biểu đồ khác là tập trung vào theo dõi dấu chân của CO.' Biểu đồ giá kèm khối lượng là công cụ được lựa chọn để theo dõi hoạt động của CO.",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q2",
+      "type": "multiple_choice",
+      "prompt": "Theo đúng chu kỳ liên tục được mô tả, Giai Đoạn Tích Lũy là điều kiện tiên quyết cho giai đoạn nào, và Giai Đoạn Phân Phối là điều kiện tiên quyết cho giai đoạn nào?",
+      "options": [
+        "Tích Lũy là điều kiện tiên quyết cho Tăng Giá (Markup); Phân Phối là điều kiện tiên quyết cho Giảm Giá (Markdown)",
+        "Tích Lũy là điều kiện tiên quyết cho Markdown; Phân Phối là điều kiện tiên quyết cho Markup",
+        "Cả hai đều là điều kiện tiên quyết cho Markup, không liên quan gì đến Markdown",
+        "Không có mối liên hệ nào giữa Tích Lũy/Phân Phối với Markup/Markdown"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Giai đoạn Tích Lũy là giai đoạn chuẩn bị cho quá trình Tăng giá (Markup) và giai đoạn Phân phối là điều kiện tiên quyết cho quá trình Giảm giá (Markdown).' Tích lũy, Tăng giá, Phân phối và Giảm giá là một chu kỳ liên tục trong thị trường tài chính.",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q3",
+      "type": "chart_identify",
+      "prompt": "Nhìn Sơ Đồ Tích Lũy #1 (Accumulation Schematic #1) dưới đây. Giai Đoạn |A| (Stopping of a Trend) kết thúc bằng sự kiện nào?",
+      "chartImage": "/charts/part_08/p026_chart-114.jpg",
+      "options": [
+        "Một nhịp kiểm tra lại (retest) đáy Selling Climax (SC), được gán nhãn ST (Secondary Test)",
+        "Một cú Spring phá vỡ xuống mức đáy mới thấp hơn nhiều",
+        "Sự kiện JAC (Jump Across the Creek)",
+        "Một Buying Climax (BCLX) ở vùng đỉnh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Giai Đoạn |A| được hoàn tất với một nhịp kiểm tra test lại đáy SCLX và được gán nhãn là ST (Secondary Test).' Trình tự đầy đủ của Phase A: PS → SCLX → AR → ST."
+    },
+    {
+      "id": "ch8-q4",
+      "type": "multiple_choice",
+      "prompt": "Trong Giai Đoạn |B| (Xây Dựng Mệnh Đề Nguyên Nhân - Building the Cause), sách mô tả biến động giá và khối lượng thay đổi ra sao từ đầu đến cuối giai đoạn, và điều đó có ý nghĩa gì?",
+      "options": [
+        "Biến động và khối lượng thường CAO ở đầu Giai Đoạn |B| rồi GIẢM DẦN về cuối giai đoạn — phản ánh việc công chúng nắm giữ dần chán nản, hoảng loạn rồi từ bỏ/xả cổ phiếu, trong khi CO âm thầm hấp thụ",
+        "Biến động và khối lượng luôn ở mức không đổi trong suốt Giai Đoạn |B|",
+        "Biến động và khối lượng tăng dần đều từ đầu đến cuối Giai Đoạn |B| không có ngoại lệ",
+        "Giai Đoạn |B| không có bất kỳ biến động giá nào, hoàn toàn đi ngang tuyệt đối"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Sự biến động trong quá trình này tương đối dài do đó làm chán nản những công chúng đang nắm giữ cổ phiếu, những người đã chịu đựng sự hoảng loạn trong giai đoạn giảm giá trước đó nhưng cuối cùng cũng từ bỏ và xả cổ phiếu.' Đây chính là bản chất Hấp Thụ (Absorption) của Giai Đoạn |B|.",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q5",
+      "type": "multiple_choice",
+      "prompt": "Mục đích chính của Giai Đoạn |C| (Test) trong Sơ Đồ Tích Lũy là gì?",
+      "options": [
+        "Kiểm tra xem nguồn cung tại các mức Hỗ trợ đã cạn kiệt hay chưa — có thể bằng một phiên Spring (bẫy giá giảm) hoặc bằng một đáy cao hơn (HL) gọi là Last Point of Support (LPS), quan trọng không kém Spring",
+        "Tăng giá cổ phiếu lên mức cao nhất mọi thời đại ngay lập tức",
+        "Công bố báo cáo tài chính quý để thu hút nhà đầu tư mới",
+        "Loại bỏ hoàn toàn khối lượng giao dịch khỏi biểu đồ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Việc Kiểm Tra - Test này nhằm xác định xem nguồn cung đã cạn kiệt hay chưa... Đôi khi, mức đáy cuối cùng được tạo trước khi bắt đầu Giai Đoạn Tăng Giá lại là một mức đáy cao (HL). Phân tích Wyckoff coi đây là Điểm Hỗ Trợ Cuối Cùng (LPS) và nó cũng quan trọng như Spring.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q6",
+      "type": "multiple_choice",
+      "prompt": "Giai Đoạn |D| (Mark Up within TR) được đặc trưng bởi điều gì, theo đúng mô tả trong sách?",
+      "options": [
+        "Cầu chiếm ưu thế áp đảo so với Cung; giá tăng với biên độ mạnh và khối lượng tăng lên — gồm các sự kiện JAC/SOS (nhảy vọt) xen kẽ các nhịp điều chỉnh nhẹ gọi là LPS hoặc BUEC",
+        "Cung hoàn toàn áp đảo Cầu, giá liên tục giảm sâu hơn",
+        "Không có bất kỳ giao dịch nào diễn ra trong suốt Giai Đoạn |D|",
+        "Đây là giai đoạn công ty tuyên bố phá sản"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Giai Đoạn |C| và |D| có tầm quan trọng chiến lược... Các thuật ngữ Nhảy Qua Con Lạch (JAC) và Dấu Hiệu Của Sức Mạnh (SOS) thể hiện hành động giá nhảy vọt với lực cầu mạnh mẽ. Các nhịp điều chỉnh giảm xảy ra với biên độ giá và khối lượng thu hẹp dần và được gắn nhãn Điểm Hỗ Trợ Cuối Cùng (LPS) hoặc Quay Trở Lại Bên Con Lạch (BUEC).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q7",
+      "type": "multiple_choice",
+      "prompt": "Trong Giai Đoạn |E| (Bước Vào Xu Hướng Tăng), sách liệt kê các công cụ nào để phân tích tiếp Giai Đoạn Uptrend sau khi cổ phiếu đã rời khỏi nền Tích Lũy?",
+      "options": [
+        "Kênh Xu Hướng (Trend Channels), Đường Nhu Cầu (Demand Lines), Đường Quá Mua (Overbought Lines), và Bước Đệm Tái Tích Lũy (Stepping Stone Reaccumulation)",
+        "Chỉ số RSI, MACD và Bollinger Bands",
+        "Chỉ báo Fibonacci Retracement duy nhất",
+        "Sách không đề cập đến bất kỳ công cụ nào cho Giai Đoạn Uptrend"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Các công cụ cho Giai Đoạn Uptrend bao gồm: Kênh Xu Hướng (Trend Channels), Đường Nhu Cầu (Demand Lines), Đường Quá Mua (Overbought Lines) và Bước Đệm Tái Tích Lũy (Stepping Stone Reaccumulation). Việc nghiên cứu Giai đoạn Uptrend sẽ là một chủ đề phong phú và bổ ích' — sẽ được khai triển ở các Phần sau.",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q8",
+      "type": "multiple_choice",
+      "prompt": "Sách đưa ra ví dụ về những nhà giao dịch bán khống liên tục quanh Đường Kháng Cự (R) trong Giai Đoạn |B|, rồi vẫn tiếp tục bán khống ở khu vực đó trong Giai Đoạn |D| và |E| mà không hiểu 'Ngữ Cảnh' (Context). Điều gì xảy ra với họ?",
+      "options": [
+        "Họ rơi vào bẫy thua lỗ lớn khi Dấu Hiệu Của Sức Mạnh (Major Sign of Strength - MSOS) phá vỡ các mức cản và giá vĩnh viễn không quay trở lại TR nữa",
+        "Họ luôn luôn thắng lớn nhờ kiên trì với chiến lược bán khống của mình",
+        "Sàn giao dịch sẽ tự động hủy các lệnh bán khống của họ",
+        "Không có gì xảy ra, chiến lược bán khống tại Đường Kháng Cự luôn hiệu quả trong mọi giai đoạn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Rất nhanh chóng, họ có thể thấy mình rơi vào bẫy thua lỗ lớn khi Dấu Hiệu của Sức Mạnh (Major Sign of Strength - MSOS) di chuyển và phá vỡ các mức cản ra ngoài TR và giá cổ phiếu vĩnh viễn không quay trở lại TR.' Đây là ví dụ về giá trị của Ngữ Cảnh (Context) trong Wyckoff — công cụ nhận diện mẫu hình biểu đồ đơn thuần không cung cấp Ngữ Cảnh này.",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q9",
+      "type": "chart_identify",
+      "prompt": "So với Sơ Đồ Tích Lũy #1, Sơ Đồ Tích Lũy #2 dưới đây minh họa một tình huống khác biệt ở nhịp kiểm tra cuối cùng trước khi tăng giá. Điểm khác biệt chính là gì?",
+      "chartImage": "/charts/part_08/p029_chart-122.jpg",
+      "options": [
+        "Thay vì một phiên Spring/Shakeout (rũ bỏ) tạo đáy thấp hơn, nhịp kiểm tra cuối cùng tạo ra một mức đáy CAO hơn (Higher Low - HL), được gọi là Điểm Hỗ Trợ Cuối Cùng (LPS)",
+        "Sơ Đồ #2 không có Giai Đoạn |A| như Sơ Đồ #1",
+        "Sơ Đồ #2 chỉ có 3 giai đoạn thay vì 5 giai đoạn như Sơ Đồ #1",
+        "Sơ Đồ #2 hoàn toàn giống hệt Sơ Đồ #1, không có gì khác biệt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Sơ Đồ Tích Lũy số #2 minh họa một tình huống trong đó hành động giá thực hiện một nhịp kiểm tra cuối cùng quanh mức hỗ trợ bằng cách tạo ra một mức đáy cao (HL) thay vì một phiên rũ bỏ (Spring or Shakeout)... được gọi là Hỗ trợ cuối cùng (Last Point of Support - LPS).'"
+    },
+    {
+      "id": "ch8-q10",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ AAPL (2008-09) dưới đây được đối chiếu với Sơ Đồ Tích Lũy #1. Ghi chú 'Value of Context' trên biểu đồ nói gì về những người bán khống (short sellers)?",
+      "chartImage": "/charts/part_08/p030_chart-126.jpg",
+      "options": [
+        "Họ đã quen bán khống ở vùng đỉnh của TR, và bị mắc kẹt (trapped) trong Giai Đoạn |D| và |E| khi giá tiếp tục tăng ra khỏi phạm vi",
+        "Họ đã kiếm lời rất lớn nhờ bán khống đúng thời điểm ở mọi giai đoạn",
+        "Ghi chú này không đề cập gì đến short sellers, chỉ nói về khối lượng",
+        "Tất cả short sellers đều đã đóng vị thế an toàn trước Giai Đoạn |C|"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Value of Context: Short sellers have conditioned to sell at the top of the TR. They are trapped in Phase D & E.' Đây là minh chứng thực tế cho bài học về Ngữ Cảnh (Context) đã nêu ở câu trước — thiếu hiểu biết về giai đoạn hiện tại khiến nhà giao dịch mắc kẹt trong vị thế thua lỗ."
+    },
+    {
+      "id": "ch8-q11",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách trình bày nhiều biến thể của Phạm Vi Tích Lũy (VD: 'Absorption at Higher Level', 'Continuous Weakness', 'Extrastrength' Trading Range...) bên cạnh Sơ Đồ #1 và #2 kinh điển. Vì sao việc nhận biết các biến thể này lại quan trọng đối với một nhà phân tích Wyckoff, thay vì chỉ học thuộc lòng một sơ đồ lý tưởng duy nhất?",
+      "sampleAnswer": "Vì thị trường thực tế hiếm khi lặp lại chính xác một sơ đồ lý tưởng — mỗi cổ phiếu, mỗi giai đoạn tích lũy sẽ có đặc điểm biến động, độ sâu điều chỉnh và thời gian khác nhau tùy vào cách Composite Man hành động. Nếu chỉ học thuộc một khuôn mẫu cứng nhắc, nhà phân tích sẽ bỏ lỡ hoặc hiểu sai các tình huống tích lũy hợp lệ khác — kỹ năng thực sự nằm ở việc nhận diện đúng các NGUYÊN TẮC cốt lõi (hấp thụ, kiểm tra cung, ngữ cảnh) đằng sau mọi biến thể, chứ không phải khớp hình dạng y hệt sơ đồ mẫu.",
+      "chartImage": null
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "chapterId": 31,
+  "title": "Theo Dõi Dấu Chân Lớn Và Thiết Lập Chiến Dịch",
+  "summary": "Ẩn dụ 'Bigfoot' cho việc theo dõi dấu vết của CO qua Giá và Khối Lượng. Nghiên cứu điển hình Cameco Corp (CCJ) — một chiến dịch kéo dài nhiều năm với cấu trúc Nguyên Nhân khổng lồ, xác nhận bằng Chỉ Số Sức Mạnh Tương Đối (Relative Strength), minh họa tính chất 'fractal' của Phương Pháp Wyckoff.",
+  "questions": [
+    {
+      "id": "ch31-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách ví việc phát hiện dấu vết của Composite Man/Operator (CO) giống như việc săn tìm 'Bigfoot' (người tuyết khổng lồ). Điểm khác biệt quan trọng giữa hai việc này mà sách chỉ ra là gì?",
+      "options": [
+        "Trong khi nhìn thấy Bigfoot có thể chỉ để 'thắng một cuộc cá cược', thì việc nhận diện đúng sự hiện diện của CO có thể dẫn đến các quyết định giao dịch đúng đắn và mang lại LỢI NHUẬN LỚN",
+        "Bigfoot có thật còn CO hoàn toàn không có thật",
+        "Không có sự khác biệt nào, hai việc hoàn toàn giống nhau về ý nghĩa thực tế",
+        "Việc tìm CO dễ hơn tìm Bigfoot rất nhiều vì CO luôn xuất hiện công khai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Trong khi việc nhìn thấy một sinh vật to lớn Bigfoot có thể sẽ thắng một cuộc cá cược, thì việc nhận diện sự hiện diện của Composite Man/Operator (CO) có thể dẫn đến các quyết định giao dịch đúng đắn và mang lại lợi nhuận lớn.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch31-q2",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ PnF của CMG dưới đây so sánh 'Distribution Count' và 'Accumulation Count' — với vùng 'Spring & Test' được tính như một 'local TR Absorption' nằm bên trong TR lớn hơn. Việc cộng dồn số đếm cục bộ này vào số đếm của TR lớn nhằm mục đích gì?",
+      "chartImage": "/charts/part_31/p158_chart-586.jpg",
+      "options": [
+        "Dự báo một mục tiêu giá hấp dẫn hơn (588/568) cho một tín hiệu Sức Mạnh (SOS) tiềm năng — việc đạt mục tiêu này 'sẽ tạo ra một Dấu Hiệu Sức Mạnh Lớn (Major Sign of Strength)'",
+        "Không có mục đích thực tế nào, chỉ là một phép tính trang trí",
+        "Để tính thuế thu nhập từ giao dịch cổ phiếu CMG",
+        "Để xác định chính xác ngày công ty công bố báo cáo tài chính tiếp theo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Reaching this objective would produce a Major Sign of Strength.' Vùng Spring & Test được tính là một TR hấp thụ cục bộ (local Absorption) nằm trong TR Tích Lũy lớn hơn, cho ra mục tiêu giá tiềm năng 568-588."
+    },
+    {
+      "id": "ch31-q3",
+      "type": "multiple_choice",
+      "prompt": "Sách mô tả Phương Pháp Wyckoff có 'tính chất dạng fractal, hoạt động hiệu quả trong nhiều khung thời gian khác nhau'. Tuy nhiên, đối với việc THIẾT LẬP MỘT CHIẾN DỊCH (campaign) cụ thể, sách khuyên nên tập trung đánh giá các giai đoạn vận động giá trong khoảng thời gian như thế nào?",
+      "options": [
+        "Khoảng thời gian DÀI HƠN — với mục tiêu xác định các điều kiện trước khi xuất hiện các xu hướng tăng giá có thể kéo dài trong nhiều tháng cho đến nhiều năm",
+        "Chỉ tập trung duy nhất vào khung thời gian 5 phút cho mọi chiến dịch",
+        "Không có khuyến nghị cụ thể nào về khung thời gian cho việc thiết lập chiến dịch",
+        "Luôn luôn dưới 1 ngày giao dịch cho mọi chiến dịch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Trong trường hợp thiết lập chiến dịch, các giai đoạn vận động trong khoảng thời gian dài hơn sẽ được đánh giá. Mục tiêu là xác định các điều kiện trước khi xuất hiện các xu hướng tăng giá có thể kéo dài trong nhiều tháng cho đến nhiều năm.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch31-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ CCJ (Cameco Corp) 1998-2009 dưới đây là một 'Campaign Case Study'. Công cụ nào được sử dụng SONG SONG với giá để xác nhận xu hướng tăng kéo dài 7 năm này vẫn còn nguyên vẹn?",
+      "chartImage": "/charts/part_31/p159_chart-589.jpg",
+      "options": [
+        "Chỉ Số Sức Mạnh Tương Đối (Relative Strength - RS, so với $SPX) — RS được xác nhận nằm trên đường trung bình động dài hạn (MA) trong suốt hơn 3 năm khi xu hướng tăng được mở rộng",
+        "Chỉ số P/E của công ty",
+        "Số lượng nhân viên của công ty Cameco",
+        "Giá vàng thế giới, không liên quan gì đến RS"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Xu hướng tăng được xác định bởi một kênh xu hướng tăng trong khi giá và chỉ số sức mạnh tương đối (Relative Strength - ở đây lấy $SPX làm chỉ số so sánh) vẫn nằm trên mức giá được xác định bởi đường trung bình động (Moving Average - MA) dài hạn trong hơn 3 năm khi xu hướng tăng được mở rộng ra.'"
+    },
+    {
+      "id": "ch31-q5",
+      "type": "multiple_choice",
+      "prompt": "Trong nghiên cứu CCJ 1998-2009, giá cổ phiếu đã tăng từ mức trung bình khoảng $4 (trong giai đoạn Tích Lũy) lên mức cao nhất hơn bao nhiêu, trong khoảng thời gian bao lâu?",
+      "options": [
+        "Hơn $46, trong khoảng thời gian 4 năm — một thiết lập chiến dịch hiệu quả rất cao",
+        "Chỉ tăng lên $5, trong khoảng thời gian 10 năm",
+        "Tăng lên $10, trong khoảng thời gian 1 tháng",
+        "Giá không hề thay đổi trong suốt toàn bộ giai đoạn nghiên cứu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Giá cổ phiếu đã vượt qua target giá của giai đoạn Tích lũy ở mức giá trung bình $4 và cuối cùng đạt mức cao nhất hơn $46 trong khoảng thời gian 4 năm. Đây là một thiết lập chiến dịch hiệu quả rất cao.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch31-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ CCJ cập nhật (2016-2021) dưới đây cho thấy một 'Nguyên Nhân' MỚI đang được xây dựng. Sự kiện nào trong đợt sụp đổ do dịch Covid-19 (tháng 3/2020) đóng vai trò là bài kiểm tra cuối cùng của Giai Đoạn Tích Lũy này?",
+      "chartImage": "/charts/part_31/p160_chart-592.jpg",
+      "options": [
+        "Một hành động Rũ Bỏ (Shakeout) — sau đó là một đợt tăng giá mạnh mẽ thể hiện sự Thay Đổi Tính Cách (Change of Character - CHOCH) đẩy giá vượt qua vùng đỉnh kháng cự vào cuối năm 2020",
+        "Việc công ty tuyên bố phá sản hoàn toàn",
+        "Việc cổ phiếu bị hủy niêm yết tạm thời khỏi sàn NYSE",
+        "Không có sự kiện đặc biệt nào xảy ra trong giai đoạn Covid-19"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một hành động Rũ bỏ (Shakeout) là bài kiểm tra cuối cùng của giai đoạn Tích lũy (trong giai đoạn suy giảm do dịch Covid-19 vào tháng 3 năm 2020), sau đó là một đợt tăng giá mạnh mẽ Thay đổi tính cách (Change of Character - CHOCH) đẩy giá cổ phiếu tăng lên và vượt qua vùng đỉnh kháng cự vào cuối năm 2020.'"
+    },
+    {
+      "id": "ch31-q7",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ PnF của CCJ dưới đây tính target giá từ đáy LPS năm 2016 (khoảng $9). Với mức tăng trưởng tiềm năng $37.50 được đếm ra, target giá đạt khoảng $43-$46.50 — gấp bao nhiêu lần so với mức đáy LPS, và có thỏa mãn tỷ lệ R:R tối thiểu đã học không?",
+      "chartImage": "/charts/part_31/p161_chart-595.jpg",
+      "options": [
+        "Gấp khoảng 4.78 lần so với mức đáy LPS — thỏa mãn tỷ lệ Lợi Nhuận/Rủi Ro tối thiểu 3:1 đã học ở Phần 27",
+        "Chỉ gấp 1.1 lần, không đủ hấp dẫn để giao dịch",
+        "Gấp 100 lần, một con số phi thực tế cần loại bỏ",
+        "Không thể tính được tỷ lệ R:R từ biểu đồ PnF này"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Từ mức giá đáy của LPS là $9, có tiềm năng tăng trưởng $37.50, target giá đếm được mức giá $43 đến $46.50. Target giá này gấp 4.78 lần từ mức đáy LPS (thỏa mãn R:R -3:1). Phải mất bao lâu cho một mục tiêu với quy mô lớn đó có thể đạt được (có thể mất rất nhiều năm).'"
+    },
+    {
+      "id": "ch31-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách kết luận về mục tiêu giá khổng lồ của CCJ (gấp 4.78 lần) rằng: 'Phải mất bao lâu cho một mục tiêu với quy mô lớn đó có thể đạt được (có thể mất rất nhiều năm). Nhưng hãy tưởng tượng sức mạnh của phân tích này!' Theo bạn, đâu là thách thức tâm lý LỚN NHẤT khi nắm giữ một vị thế hướng đến mục tiêu giá có thể mất NHIỀU NĂM mới đạt được?",
+      "sampleAnswer": "Thách thức lớn nhất là duy trì được sự KIÊN NHẪN và niềm tin vào phân tích ban đầu trong suốt một khoảng thời gian dài, khi phải chứng kiến nhiều đợt điều chỉnh giảm, các giai đoạn Tái Tích Lũy xen kẽ, và cả những giai đoạn thị trường biến động dữ dội có thể khiến nhà đầu tư nghi ngờ và bán ra quá sớm. Ngoài ra còn có rủi ro về việc bối cảnh cơ bản (fundamentals) của công ty hoặc ngành có thể thay đổi trong nhiều năm, khiến cấu trúc Nguyên Nhân ban đầu không còn hợp lệ nữa — đòi hỏi nhà đầu tư phải liên tục theo dõi và xác nhận lại phân tích theo thời gian, chứ không phải chỉ đặt lệnh một lần rồi bỏ mặc.",
+      "chartImage": null
+    }
+  ]
+}

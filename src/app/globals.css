@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+/*
+ * "Academic Precision" design system — provided by the user (Stitch export),
+ * ported from its standalone Tailwind CDN config into this project's
+ * Tailwind v4 @theme. Only the tokens actually used by the UI are kept.
+ * Source: docs mockups (Trang chủ / Luyện tập quiz / Ôn lại câu sai / Kết quả).
+ */
+@theme {
+  /* Accent — Primary Indigo. Single saturated color in the whole UI. */
+  --color-primary: #4255ff;
+  --color-primary-strong: #2136e7;
+  --color-on-primary: #ffffff;
+  --color-primary-fixed: #dfe0ff;
+
+  /* Secondary — muted lilac, used for the active nav pill / secondary badges */
+  --color-secondary-container: #dadff4;
+  --color-on-secondary-container: #5c6274;
+
+  /* Text */
+  --color-on-surface: #191c1f;
+  --color-on-surface-variant: #444656;
+  --color-outline: #757688;
+  --color-outline-variant: #c5c5d9;
+
+  /* Surfaces */
+  --color-surface: #f8f9fd;
+  --color-surface-bright: #f8f9fd;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container: #edeef2;
+  --color-surface-container-high: #e7e8ec;
+  --color-surface-container-highest: #e1e2e6;
+
+  /* Chart image frame */
+  --color-light-chart-bg: #edefff;
+  --color-dark-chart: #1a1d24;
+
+  /* Feedback */
+  --color-sage: #22a06b;
+  --color-sage-soft: #e7f7ef;
+  --color-crimson: #e5484d;
+  --color-crimson-soft: #fdedee;
+
+  /* Typography — font-family vars injected by next/font in layout.tsx */
+  --font-display: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Typography — named sizes (mobile downscales display-title/card-title, see components) */
+  --text-display-title: 32px;
+  --text-display-title--line-height: 40px;
+  --text-card-title: 24px;
+  --text-card-title--line-height: 32px;
+  --text-headline-md: 20px;
+  --text-headline-md--line-height: 28px;
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+  --text-body-md: 16px;
+  --text-body-md--line-height: 24px;
+  --text-btn: 15px;
+  --text-btn--line-height: 20px;
+  --text-label-sm: 13px;
+  --text-label-sm--line-height: 16px;
+  --text-caption: 12px;
+  --text-caption--line-height: 16px;
+
+  /* Radius */
+  --radius-control: 0.25rem; /* 4px — inputs */
+  --radius-card: 0.5rem; /* 8px — cards */
+  --radius-panel: 0.75rem; /* 12px */
+  --radius-frame: 1.5rem; /* 24px — chart image outer frame */
+
+  /* Note: spacing intentionally NOT customized here — named keys like xs/sm/md/lg/xl
+     would shadow Tailwind's built-in size scale (used by max-w-*, w-*, etc. too),
+     not just padding/gap. Use the default numeric scale instead: 1=4px, 3=12px,
+     6=24px, 10=40px, 16=64px (matches the 8px-rhythm this design system wants). */
+
+  /* Shadow */
+  --shadow-study: 0 4px 16px rgba(40, 46, 62, 0.1);
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+}
+
+/* Signature element: a tiny candlestick used as a per-chapter/per-question result marker. */
+.mini-candlestick {
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 24px;
+}
+.mini-candlestick::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: currentColor;
+}
+.mini-candlestick::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 6px;
+  width: 8px;
+  height: 12px;
+  background-color: currentColor;
+}
+.candlestick-sage {
+  color: var(--color-sage);
+}
+.candlestick-crimson {
+  color: var(--color-crimson);
+}
+.candlestick-grey {
+  color: var(--color-outline-variant);
+}

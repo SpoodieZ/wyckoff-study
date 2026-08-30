@@ -1,0 +1,126 @@
+{
+  "chapterId": 35,
+  "title": "Phân Tích Sức Mạnh Tương Đối",
+  "summary": "Chỉ Số Sức Mạnh Tương Đối (Relative Strength - RS) — 'chân thứ ba' bổ sung cho PnF và biểu đồ thường, tạo thành 'chiếc ghế ba chân' vững chắc của Wyckoff. Khái niệm Không Xác Nhận (UNC/DNC), RS thường yếu trong Tái Tích Lũy, và chiến lược 'Né Tránh' khi nhóm ngành chuyển từ dẫn đầu sang tụt hậu.",
+  "questions": [
+    {
+      "id": "ch35-q1",
+      "type": "multiple_choice",
+      "prompt": "Trong một xu hướng tăng giá bền vững, mối quan hệ lý tưởng giữa Giá và Chỉ Số Sức Mạnh Tương Đối (RS) là gì?",
+      "options": [
+        "Cả Giá và RS cùng tạo đỉnh cao hơn (HH) và đáy cao hơn (HL) đồng thời với nhau — được gọi là 'Tăng Đồng Bộ (In-Gear)'",
+        "Giá tăng còn RS phải giảm liên tục mới là dấu hiệu tốt",
+        "RS không có bất kỳ mối liên hệ nào với xu hướng giá",
+        "Chỉ cần RS tăng là đủ, không cần quan tâm đến xu hướng giá"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Trong một xu hướng tăng giá dài hạn vững bền, giá và chỉ số RS sẽ phần lớn đồng bộ với nhau. Chúng thực hiện điều này bằng cách tạo ra các đỉnh cao hơn (HH) và đáy cao hơn (HL) đồng thời với nhau... Nếu một xu hướng tăng tốt về giá đi kèm với một đỉnh cao hơn (HH) trong chỉ số RS, chúng ta sẽ coi chúng là 'tăng đồng bộ'.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch35-q2",
+      "type": "multiple_choice",
+      "prompt": "'Không Xác Nhận Tăng - Upside Non-Confirmation (UNC)' xảy ra khi nào?",
+      "options": [
+        "Khi giá tạo một mức đỉnh cao mới (HH), nhưng chỉ số RS lại chỉ tạo ra một đỉnh THẤP HƠN (LH) — một cảnh báo rằng cổ phiếu đang yếu hơn so với thị trường/nhóm ngành dù giá vẫn tăng",
+        "Khi cả giá và RS đều cùng tạo đỉnh cao hơn đồng thời",
+        "Khi khối lượng giao dịch giảm về 0",
+        "UNC chỉ xảy ra ở đáy của downtrend, không bao giờ ở đỉnh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Nhưng với một đỉnh thấp hơn (LH) trong chỉ số RS, trong khi giá đẩy lên một mức cao mới (HH) được coi là một sự Không Xác Nhận Tăng (UNC). Điều kiện này gây lo ngại rằng giá sẽ theo chỉ số RS đi xuống.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch35-q3",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ $DJUSRS dưới đây có ghi chú 'RS Will often Remain Weak Thru Reaccumulation Process' và 'Extreme RS Oversold at LPS'. Điều này xác nhận nguyên tắc thường gặp nào về hành vi của RS trong một Giai Đoạn Tái Tích Lũy?",
+      "chartImage": "/charts/part_35/p208_chart-750.jpg",
+      "options": [
+        "RS thường vẫn duy trì ở trạng thái YẾU (thậm chí quá bán cực độ) trong suốt quá trình Tái Tích Lũy — vì CO thường mua cổ phiếu dưới sự 'che đậy' của một chỉ số RS yếu để làm nản lòng các tổ chức khác và công chúng",
+        "RS luôn luôn phải mạnh mẽ trong suốt Giai Đoạn Tái Tích Lũy, không có ngoại lệ",
+        "RS không có bất kỳ liên hệ nào với Giai Đoạn Tái Tích Lũy",
+        "Ghi chú này chỉ áp dụng cho một cổ phiếu duy nhất, không mang tính nguyên tắc chung"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'CO thường mua cổ phiếu dưới sự che đậy của chỉ số Sức Mạnh Tương Đối (RS) yếu để làm nản lòng các tổ chức khác và công chúng. Là những người theo Wyckoff, nhiệm vụ của chúng ta là kiên nhẫn chờ đợi giai đoạn Tái Tích Lũy kết thúc khi các cổ phiếu trong nhóm ngành này trở nên tích cực.'"
+    },
+    {
+      "id": "ch35-q4",
+      "type": "multiple_choice",
+      "prompt": "Sách lưu ý một TRƯỜNG HỢP NGOẠI LỆ đặc biệt tích cực: nếu RS tiếp tục TĂNG trong suốt một Giai Đoạn Tái Tích Lũy (thay vì yếu đi như thường lệ), điều đó có ý nghĩa gì?",
+      "options": [
+        "Đây là một dấu hiệu 'rất tích cực' (very bullish) — xác nhận rằng những tổ chức lớn nên tiếp tục nắm giữ và thậm chí tăng thêm tỷ trọng phân bổ vào nhóm cổ phiếu này",
+        "Đây là dấu hiệu tiêu cực cho thấy cổ phiếu sắp sụp đổ",
+        "Không có ý nghĩa gì đặc biệt nếu RS tăng trong Tái Tích Lũy",
+        "Đây là dấu hiệu công ty sắp bị hủy niêm yết"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết (về $DJUSSW): 'Trong giai đoạn Tái Tích Lũy năm 2015-16 của $DJUSSW, chỉ số RS vẫn tiếp tục tăng, đây là một dấu hiệu rất tích cực. Xu hướng tăng giá sau giai đoạn Tái Tích Lũy rất mạnh mẽ. Chỉ số RS tăng tốc, điều này xác nhận với các tổ chức rằng những cổ phiếu này nên được giữ và việc phân bổ danh mục vào nhóm này nên được tăng lên.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch35-q5",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ ARNC dưới đây minh họa ẩn dụ 'Ghế Ba Chân' — kết hợp Phân Tích Biểu Đồ Thường, PnF, và RS. Nếu thiếu MỘT trong ba 'chân ghế' này, điều gì sẽ xảy ra theo ẩn dụ?",
+      "chartImage": "/charts/part_35/p219_chart-781.jpg",
+      "options": [
+        "Chiếc ghế (tức phân tích của nhà giao dịch) sẽ trở nên YẾU và KHÔNG ỔN ĐỊNH — thiếu đi sự vững chắc cần thiết để đưa ra quyết định giao dịch đáng tin cậy",
+        "Không có ảnh hưởng gì, hai chân vẫn đủ để phân tích chính xác 100%",
+        "Chiếc ghế sẽ trở nên vững chắc hơn nếu chỉ dùng một chân duy nhất",
+        "Ẩn dụ này không liên quan gì đến việc kết hợp nhiều công cụ phân tích"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một chiếc ghế có ba chân, nếu thiếu đi một chân thì sẽ làm cho chiếc ghế bị yếu và không ổn định. Phép ẩn dụ cho thấy về chiếc ghế của Phương pháp Wyckoff cũng cần có ba chân mạnh mẽ' — ba chân đó là: Phân tích Biểu đồ Thường, Point and Figure (PnF), và Sức Mạnh Tương Đối (RS)."
+    },
+    {
+      "id": "ch35-q6",
+      "type": "multiple_choice",
+      "prompt": "Sách mô tả 'Chiến Lược Né Tránh' liên quan đến Nhóm Ngành. Chiến lược này được áp dụng khi nào?",
+      "options": [
+        "Khi một Nhóm Ngành chuyển từ trạng thái DẪN ĐẦU sang TỤT HẬU — nhóm ngành đó có thể duy trì trạng thái tụt hậu trong một thời gian dài, nên cần tránh giao dịch trong nhóm này",
+        "Khi một Nhóm Ngành luôn luôn dẫn đầu thị trường không đổi",
+        "Chiến lược này chỉ áp dụng cho thị trường trái phiếu",
+        "Không có chiến lược nào được sách gọi là 'Né Tránh'"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một khi một Nhóm Ngành chuyển từ dẫn đầu sang tụt hậu, nó có thể duy trì trạng thái đó trong một thời gian dài. Trong một thị trường tăng giá, chúng ta có thể gọi đây là \"Chiến Lược Né Tránh\". Việc biết nơi các nhóm dẫn đầu và tụt hậu ở bất kỳ thị trường nào và khi nào các chuyển đổi quan trọng đang diễn ra là rất quan trọng.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch35-q7",
+      "type": "multiple_choice",
+      "prompt": "Quy trình lựa chọn cổ phiếu của Wyckoff (kết hợp RS) đi theo thứ tự phân tích nào?",
+      "options": [
+        "Từ NGÀNH (Sector) → đến NHÓM NGÀNH (Industry Group) → và sau đó đến CỔ PHIẾU riêng lẻ — luôn tìm kiếm cổ phiếu mạnh nhất trong nhóm ngành mạnh nhất",
+        "Chỉ cần phân tích cổ phiếu riêng lẻ, không cần quan tâm đến ngành hay nhóm ngành",
+        "Từ Cổ Phiếu → đến Nhóm Ngành → và cuối cùng đến Ngành (thứ tự ngược lại)",
+        "Không có quy trình thứ tự cụ thể nào được đề xuất"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Quy trình của chúng ta là đi sâu từ Ngành đến Nhóm Ngành và sau đó đến Cổ Phiếu, luôn tìm kiếm các cổ phiếu mạnh nhất trong các nhóm mạnh nhất.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch35-q8",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ so sánh AAPL và chỉ số $COMPX (Nasdaq tổng hợp) dưới đây sử dụng một kỹ thuật RS THAY THẾ — không dùng đường tỷ lệ RS mà đánh dấu trực tiếp các điểm số #1-#6 và nhãn 'Stronger'/'Weaker'. Kỹ thuật này hoạt động như thế nào?",
+      "chartImage": "/charts/part_35/p225_chart-798.jpg",
+      "options": [
+        "So sánh các nhịp sóng (swing) liên tiếp giữa hai biểu đồ đặt chồng lên nhau — xem cổ phiếu có tạo đỉnh/đáy cao hơn hay thấp hơn so với chỉ số tại các điểm tương ứng để đánh giá 'Stronger' (mạnh hơn) hay 'Weaker' (yếu hơn)",
+        "Kỹ thuật này chỉ dùng để so sánh khối lượng giao dịch, không liên quan đến RS",
+        "Kỹ thuật này yêu cầu phải tính toán bằng máy tính, không thể thực hiện thủ công",
+        "Kỹ thuật này không có giá trị phân tích thực tế nào"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Wyckoff so sánh các nhịp sóng hoặc đợt swing biến động liên tiếp trên mỗi biểu đồ, xem xét sự mạnh mẽ (SOS) hay sự suy yếu (SOW) của từng nhịp sóng so với các nhịp sóng trước đó trên cùng một biểu đồ và với các điểm tương ứng trên biểu đồ dùng để so sánh.' Đây là một biến thể thủ công của phân tích RS, không cần đường tỷ lệ toán học."
+    },
+    {
+      "id": "ch35-q9",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách kết luận: chỉ số RS 'giữ chúng ta trong xu hướng trong phần lớn thời gian di chuyển' của nó. Vì sao việc theo dõi RS liên tục (không chỉ một lần) lại giúp nhà đầu tư 'giữ vững' niềm tin vào một vị thế đang nắm giữ qua các đợt điều chỉnh ngắn hạn?",
+      "sampleAnswer": "Vì miễn là RS của cổ phiếu vẫn tiếp tục 'tăng đồng bộ' (in-gear) với giá — tức tạo đỉnh/đáy cao hơn cùng lúc với giá — điều đó xác nhận cổ phiếu vẫn đang vượt trội hơn thị trường/nhóm ngành, nghĩa là các tổ chức lớn (CO) vẫn đang ưu ái nắm giữ nó. Những đợt điều chỉnh giá ngắn hạn trong một xu hướng tăng dài hạn là bình thường; nhưng nếu RS vẫn khỏe mạnh trong suốt các đợt điều chỉnh đó, nhà đầu tư có thêm cơ sở để không hoảng loạn bán ra sớm, vì bức tranh sức mạnh tương đối tổng thể cho thấy xu hướng chính chưa hề bị phá vỡ.",
+      "chartImage": null
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "chapterId": 7,
+  "title": "Nhảy Qua Con Lạch - Jumping the Creek",
+  "summary": "Câu chuyện ẩn dụ của Robert Evans về 'con lạch' (nguồn cung dư thừa) chặn đà tăng giá trong Phạm Vi Tích Lũy, và cách nhận diện cú 'nhảy qua suối' (JAC - Jump Across the Creek) cùng nhịp lùi lại kiểm tra (BUEC - Backup to the Edge of the Creek) báo hiệu xu hướng tăng thực sự bắt đầu.",
+  "questions": [
+    {
+      "id": "ch7-q1",
+      "type": "multiple_choice",
+      "prompt": "Trong câu chuyện ẩn dụ của Robert Evans về cậu bé và con suối, hình ảnh 'con lạch/con suối' (the creek) đại diện cho điều gì trong Phạm Vi Tích Lũy (TR)?",
+      "options": [
+        "Nguồn cung dư thừa còn tồn tại, ngăn cản giá cổ phiếu bắt đầu xu hướng tăng — mỗi lần giá cố vượt lên đều gặp phải nguồn cung này và bị đẩy lùi lại",
+        "Đường trung bình động 200 ngày của cổ phiếu",
+        "Mức hỗ trợ tại đáy của Phạm Vi Giao Dịch",
+        "Số lượng cổ đông tổ chức đang nắm giữ cổ phiếu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Câu chuyện về con lạch (suối) - the creek truyền đạt bản chất của nguồn cung dư thừa trong phạm vi giao dịch TR.' Con suối càng rộng/chảy xiết ở nhiều đoạn tương ứng nguồn cung còn nhiều, khiến giá bị 'chặn lại' quay về mức hỗ trợ mỗi khi cố tăng lên.",
+      "chartImage": null
+    },
+    {
+      "id": "ch7-q2",
+      "type": "multiple_choice",
+      "prompt": "Robert Evans mô tả 'cú nhảy' (Jump) qua con lạch có đặc điểm gì về hành động giá và khối lượng — được gọi là 'Significant Bar' hoặc 'SOS Bar'?",
+      "options": [
+        "Các thanh giá mở rộng biên độ (wide bars) đi kèm khối lượng giao dịch tăng đột biến — thể hiện sức mạnh cần thiết để vượt qua lượng cung còn lại",
+        "Các thanh giá thu hẹp biên độ với khối lượng cực thấp, gần như không có giao dịch",
+        "Một khoảng gap giảm giá lớn xuất hiện đột ngột giữa hai phiên",
+        "Giá đi ngang hoàn toàn không biến động trong nhiều tuần liên tiếp"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Cú nhảy - Jump này, như Evans gọi, nó có đặc điểm là các thanh giá mở rộng và khối lượng giao dịch tăng đột biến (Significant Bar or SOS Bar - Sbar - sức mạnh cần thiết để vượt qua lượng cung còn lại).' Đây là thời điểm để hành động (act) theo nhà phân tích Wyckoffian.",
+      "chartImage": null
+    },
+    {
+      "id": "ch7-q3",
+      "type": "multiple_choice",
+      "prompt": "Theo sách, một Phạm Vi Tích Lũy (TR) thông thường có bao nhiêu 'con lạch' (khu vực nguồn cung/kháng cự) mà giá cần phải vượt qua trước khi thoát hẳn khỏi nền tích lũy?",
+      "options": [
+        "Thường có hai (hai bờ suối/hai khu vực Supply cần phải vượt qua)",
+        "Chỉ có một duy nhất, không bao giờ nhiều hơn",
+        "Luôn luôn có đúng ba con lạch trong mọi trường hợp",
+        "Số lượng không xác định, thay đổi theo vốn hóa thị trường của công ty"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Thường thì một con suối sẽ chia thành hai bờ, một bờ thấp và một bờ cao. Các phạm vi TR tích lũy thường có hai khu vực Supply (hai bờ suối) cần phải vượt qua.' Đường Kháng cự (R) là khu vực giá nơi một đợt bán ra khác sẽ xuất hiện và ngăn chặn đà tăng của giá.",
+      "chartImage": null
+    },
+    {
+      "id": "ch7-q4",
+      "type": "multiple_choice",
+      "prompt": "Sách nói rằng JAC (Jump Across the Creek) và BUEC (Backup to the Edge of the Creek) có thể 'được sử dụng thay thế cho nhau' với hai thuật ngữ Wyckoff cổ điển nào?",
+      "options": [
+        "JAC tương ứng với mSOS (Minor Sign of Strength), BUEC tương ứng với LPS (Last Point of Support)",
+        "JAC tương ứng với Selling Climax, BUEC tương ứng với Automatic Rally",
+        "JAC tương ứng với UTAD, BUEC tương ứng với BCLX",
+        "JAC và BUEC không tương ứng với bất kỳ thuật ngữ nào khác trong sách"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'JAC tương ứng với dấu hiệu của sức mạnh (mSOS - Minor Sign of Strength) và BUEC với điểm hỗ trợ cuối cùng (LPS - Last Point of Support). Chúng có thể được sử dụng thay thế cho nhau.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch7-q5",
+      "type": "chart_identify",
+      "prompt": "Trên biểu đồ KBH dưới đây, đường 'Meandering Creek of supply' (con lạch uốn lượn của nguồn cung) được vẽ để 'kiểm soát đà tăng của giá'. Các nhãn JAC xuất hiện ở đâu trên biểu đồ so với đường Creek này?",
+      "chartImage": "/charts/part_07/p024_chart-108.jpg",
+      "options": [
+        "JAC xuất hiện đúng tại các thời điểm giá phá vỡ (nhảy qua) đường Creek với khối lượng mạnh, được ghi chú là 'Price Jumps on strong Vol. with successful Tests'",
+        "JAC xuất hiện ở đáy sâu nhất của biểu đồ, không liên quan gì đến đường Creek",
+        "JAC không xuất hiện trên biểu đồ này, chỉ có nhãn BUEC",
+        "JAC xuất hiện trước cả khi Phạm Vi Tích Lũy bắt đầu hình thành"
+      ],
+      "correctIndex": 0,
+      "explanation": "Biểu đồ KBH ghi chú: 'Meandering Creek of supply checks the advance of price' và các điểm JAC được đánh dấu đúng lúc giá phá vỡ mạnh qua đường Creek uốn lượn đó với 'Price Jumps on strong Vol. with successful Tests' — xác nhận nguồn cung đã bị vượt qua thành công."
+    },
+    {
+      "id": "ch7-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ eBay (2008-09) dưới đây có ghi chú 'Note the good jumping action from the Spring to the Sign of Strength (SOS)'. Theo ghi chú này, hành động đó thể hiện điều gì đã xảy ra với eBay?",
+      "chartImage": "/charts/part_07/p025_chart-111.jpg",
+      "options": [
+        "Một sự thay đổi thuộc tính giá (change of character) — eBay đã được mua tích cực và đẩy giá ra khỏi Phạm Vi Tích Lũy (markup begins)",
+        "eBay chuẩn bị bước vào một đợt Phân Phối lớn ngay sau đó",
+        "Khối lượng giao dịch của eBay giảm dần về 0 trong suốt giai đoạn này",
+        "Đây là dấu hiệu công ty sắp bị hủy niêm yết"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'This represents a change of character as EBAY is aggressively being bought out of the Accumulation range' — cú nhảy tốt từ Spring lên đến Sign of Strength (SOS) xác nhận cổ phiếu đã thay đổi tính chất và bắt đầu giai đoạn Markup."
+    },
+    {
+      "id": "ch7-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sau sự kiện JAC (nhảy qua con lạch), sách mô tả một nhịp lùi lại nhẹ gọi là BUEC. Vì sao một nhịp lùi lại (thoái lui) sau cú nhảy lại được xem là 'một dấu hiệu TỐT' thay vì một tín hiệu xấu?",
+      "sampleAnswer": "Vì BUEC không phải là giá quay đầu giảm thật sự, mà chỉ là một đợt kiểm tra lại (test) nhẹ nhàng ở khối lượng thấp cho thấy nguồn cung phía trên (con lạch) đã thực sự được hấp thụ hết — nếu giá giữ vững trên đường Creek/kháng cự cũ trong nhịp lùi này (biến kháng cự cũ thành hỗ trợ mới), đó là bằng chứng xác nhận sự thay đổi tính chất giá (change of character) và củng cố cho xu hướng tăng sắp tới, chứ không phải phủ nhận nó.",
+      "chartImage": null
+    }
+  ]
+}

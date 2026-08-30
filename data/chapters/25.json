@@ -1,0 +1,98 @@
+{
+  "chapterId": 25,
+  "title": "Năm Bước Tiếp Cận Thị Trường",
+  "summary": "Quy trình 5 bước hoàn chỉnh của Phương Pháp Wyckoff để chọn lọc và tham gia thị trường: (1) xác định vị thế xu hướng chung, (2) chọn cổ phiếu đồng thuận với thị trường, (3) chọn cổ phiếu có Nguyên Nhân đủ lớn, (4) xác định cổ phiếu đã sẵn sàng, (5) canh đúng thời điểm đảo chiều.",
+  "questions": [
+    {
+      "id": "ch25-q1",
+      "type": "multiple_choice",
+      "prompt": "Bước 1 trong Năm Bước Tiếp Cận Thị Trường là gì?",
+      "options": [
+        "Xác định vị trí hiện tại trong xu hướng chung của thị trường (Nontrend, Uptrend hay Downtrend) để quyết định có nên tham gia và tham gia ở vị thế Long hay Short",
+        "Chọn ngay một cổ phiếu bất kỳ để mua mà không cần phân tích thị trường chung",
+        "Đọc báo cáo tài chính quý mới nhất của công ty",
+        "Xác định mức thuế thu nhập từ giao dịch chứng khoán"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: '1. Xác định vị trí hiện tại trong xu hướng chung của thị trường. Thị trường đang trong môi trường Nontrend, Uptrend hay Downtrend? Các phân tích của bạn về thị trường, về Cung – Cầu có cho thấy tín hiệu gì về xu hướng sắp tới của thị trường hay không?'",
+      "chartImage": null
+    },
+    {
+      "id": "ch25-q2",
+      "type": "multiple_choice",
+      "prompt": "Bước 2 yêu cầu 'Lựa chọn cổ phiếu riêng lẻ đang vận động đồng thuận với thị trường'. Trong một Uptrend, tiêu chí lựa chọn được đề xuất là gì?",
+      "options": [
+        "Chọn những cổ phiếu MẠNH HƠN thị trường — biên độ tăng mạnh hơn khi thị trường tăng, và giảm ÍT HƠN khi thị trường điều chỉnh",
+        "Chọn những cổ phiếu YẾU HƠN thị trường để mua với giá rẻ hơn",
+        "Chọn ngẫu nhiên bất kỳ cổ phiếu nào không cần so sánh với thị trường chung",
+        "Chỉ chọn cổ phiếu có giá cổ phiếu dưới $10"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Trong một xu hướng Uptrend, hãy chọn những cổ phiếu mạnh hơn thị trường. Ví dụ tìm kiếm các cổ phiếu có biên độ tăng mạnh hơn khi thị trường tăng, và giảm ít hơn khi thị trường điều chỉnh. Nếu bạn không chắc chắn về một cổ phiếu nào đó thì hãy bỏ qua nó.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch25-q3",
+      "type": "multiple_choice",
+      "prompt": "Sách lưu ý một tín hiệu quan trọng: khi 'nhóm ngành dẫn dắt' thị trường bắt đầu có dấu hiệu tạo đỉnh, điều này có ý nghĩa gì?",
+      "options": [
+        "Đây là một trong những tín hiệu cảnh báo sớm cho việc tạo đỉnh của toàn bộ thị trường — vì nhóm dẫn dắt thường tăng trước thị trường, nhưng cũng thường điều chỉnh/tạo đỉnh trước thị trường",
+        "Không có ý nghĩa gì, nhóm ngành dẫn dắt không liên quan đến xu hướng chung",
+        "Điều này chỉ xảy ra vào tháng 12 hàng năm",
+        "Đây là tín hiệu chắc chắn thị trường sẽ tăng thêm 50% nữa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Nhóm cổ phiếu này sẽ tăng trước thị trường, nhưng cũng điều chỉnh trước thị trường. Một trong những tín hiệu tạo đỉnh của thị trường chính là khi nhóm dẫn dắt có tín hiệu tạo đỉnh. Bạn hãy note lại điều này vì nó rất quan trọng trong suốt quá trình giao dịch của bạn.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch25-q4",
+      "type": "multiple_choice",
+      "prompt": "Bước 3 yêu cầu chọn cổ phiếu 'với một Nguyên Nhân (Cause) có khả năng tạo ra Kết Quả (Effect) bằng hoặc tốt hơn mức kỳ vọng'. Công cụ nào được dùng để đánh giá bước này?",
+      "options": [
+        "Biểu đồ Point and Figure (PnF) để dự đoán target giá, kết hợp với việc kiểm tra xem cổ phiếu có đủ THỜI GIAN tích lũy trong nền giá hay không",
+        "Chỉ báo MACD kết hợp với đường trung bình động 50 ngày",
+        "Báo cáo phân tích của các ngân hàng đầu tư lớn",
+        "Không có công cụ cụ thể nào được đề xuất"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một yếu tố quan trọng trong cách lựa chọn và quản lý giao dịch của Wyckoff là phương pháp xác định target giá bằng cách sử dụng biểu đồ Point and Figure (PnF)... Vì vậy, nếu bạn đang có kế hoạch mở vị thế mua, hãy chọn những cổ phiếu đang ở giai đoạn tích lũy hoặc đang tái tích lũy trong một xu hướng Uptrend và có đủ thời gian tích lũy đủ lâu (Nguyên nhân) để đáp ứng target giá của bạn.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch25-q5",
+      "type": "multiple_choice",
+      "prompt": "Bước 4 áp dụng '9 Buying/Selling Test' để làm gì?",
+      "options": [
+        "Xác định xem cổ phiếu đã sẵn sàng tăng hoặc giảm khỏi nền giá hay chưa — ví dụ kiểm tra xem nguồn cung đã được hấp thụ hết chưa (qua một phiên Spring khối lượng thấp)",
+        "Xác định mức thuế phải nộp khi bán cổ phiếu",
+        "Xác định tên công ty phát hành cổ phiếu",
+        "9 Buying/Selling Test không liên quan gì đến Bước 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: '4. Xác định cổ phiếu đã sẵn sàng tăng hoặc giảm khỏi nền. Áp dụng 9 Buying/Selling Test để mua hoặc bán cổ phiếu... Hoặc trong một giai đoạn tích lũy, 9 điểm Buying Test có cho thấy rằng nguồn cung đã được hấp thụ hết hay chưa, chứng tỏ bằng một phiên (Spring) với khối lượng thấp và thậm chí thấp hơn khối lượng của phiên test đảo chiều trước đó?'",
+      "chartImage": null
+    },
+    {
+      "id": "ch25-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ AAPL 'Wyckoff's Buying Tests' dưới đây minh họa Bước 4 và 5 kết hợp — dùng nhiều Test (#2 đến #8) để xác nhận nền giá đã hình thành. Test #4 ('Downward Stride is Broken') được xác nhận bằng hành động gì trên biểu đồ?",
+      "chartImage": "/charts/part_25/p125_chart-440.jpg",
+      "options": [
+        "Giá phá vỡ lên trên đường xu hướng giảm (đường màu đỏ nối các đỉnh) đã được thiết lập trong suốt downtrend trước đó",
+        "Giá tạo đáy mới thấp hơn mọi đáy trước đó",
+        "Khối lượng giao dịch giảm về 0 hoàn toàn",
+        "Công ty công bố sáp nhập với đối thủ cạnh tranh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trên biểu đồ, đường xu hướng giảm màu đỏ (nối các đỉnh trong downtrend) bị phá vỡ lên trên tại 'Test #4: Downward Stride is Broken' — xác nhận rằng nhịp điệu giảm giá trước đó đã kết thúc, một bước quan trọng để xác định cổ phiếu sẵn sàng cho một xu hướng tăng mới."
+    },
+    {
+      "id": "ch25-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Bước 5 nhấn mạnh: 'Thời điểm xuất hiện điểm đảo chiều của thị trường' — và rằng hầu hết cổ phiếu vận động đồng thuận với thị trường chung. Vì sao khả năng dự đoán điểm đảo chiều của TOÀN THỊ TRƯỜNG lại quan trọng hơn việc chỉ phân tích riêng một cổ phiếu đơn lẻ?",
+      "sampleAnswer": "Vì phần lớn cổ phiếu di chuyển theo cùng nhịp điệu với thị trường chung — nếu không dự đoán được điểm đảo chiều của thị trường, nhà đầu tư có nguy cơ mua đúng cổ phiếu tốt nhưng sai thời điểm (ví dụ mua ngay trước khi cả thị trường bước vào Downtrend, kéo theo cả cổ phiếu tốt cũng giảm giá). Việc kết hợp phân tích cả thị trường chung (Bước 1, 5) LẪN cổ phiếu riêng lẻ (Bước 2-4) giúp tăng đáng kể xác suất thành công, vì nhà đầu tư đang 'đi cùng chiều gió' thay vì chỉ dựa vào sức mạnh riêng của một cổ phiếu để chống lại toàn bộ xu hướng thị trường.",
+      "chartImage": null
+    }
+  ]
+}

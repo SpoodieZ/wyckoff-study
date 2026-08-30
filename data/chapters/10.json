@@ -1,0 +1,98 @@
+{
+  "chapterId": 10,
+  "title": "Đường Kênh Xu Hướng",
+  "summary": "Đào sâu kỹ thuật Kênh Xu Hướng qua nhiều ví dụ thực tế (CMG, IWM, GLW, $TRAN, XLF): vai trò trung tâm của Đường Hỗ Trợ, dấu hiệu Sign of Weakness khi phá vỡ hỗ trợ, nghịch lý giá không chạm hỗ trợ trong uptrend mạnh, và việc đường xu hướng áp dụng được trên mọi khung thời gian.",
+  "questions": [
+    {
+      "id": "ch10-q1",
+      "type": "multiple_choice",
+      "prompt": "Theo sách, đường nào đóng vai trò 'chủ đạo chính' trong việc xác định một Giai Đoạn Uptrend, và điều gì xảy ra khi giá quay trở lại chạm đường đó?",
+      "options": [
+        "Đường Hỗ Trợ (Support Line) — khi giá quay trở lại đường này, nguồn Cầu sẽ xuất hiện và đợt tăng giá sẽ tiếp tục",
+        "Đường Quá Mua (Overbought Line) — khi giá chạm đường này thì xu hướng lập tức đảo chiều giảm",
+        "Đường trung bình động 50 ngày (MA50)",
+        "Đường zero của chỉ báo MACD"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Đường chủ đạo chính trong cách xác định một xu hướng tăng giá là Đường Hỗ Trợ. Giá cổ phiếu sẽ biến động lên xuống tại Đường Hỗ Trợ này. Khi giá quay trở lại Đường Hỗ Trợ, nguồn cầu sẽ xuất hiện và đợt tăng giá sẽ tiếp tục.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch10-q2",
+      "type": "chart_identify",
+      "prompt": "Trên biểu đồ IWM (weekly) dưới đây, điều gì xảy ra khi giá phá vỡ Đường Hỗ Trợ với biên độ lớn, tốc độ nhanh và khối lượng cao — và đường Hỗ Trợ cũ sau đó trở thành gì?",
+      "chartImage": "/charts/part_10/p036_chart-147.jpg",
+      "options": [
+        "Đây là tín hiệu Dấu Hiệu Suy Yếu (Sign of Weakness - SOW); một nỗ lực hồi phục quay lại đường Hỗ Trợ cũ thất bại, và đường Hỗ Trợ cũ đó trở thành đường Kháng Cự mới",
+        "Đây là tín hiệu tăng giá cực mạnh, xác nhận Đà Tăng (Stride) sẽ tiếp tục vô thời hạn",
+        "Không có ý nghĩa gì đặc biệt, chỉ là nhiễu giá thông thường",
+        "Đây là dấu hiệu công ty sắp bị mua lại (M&A)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Khi giá phá vỡ đường hỗ trợ với biên độ lớn và tốc độ nhanh kèm theo khối lượng lớn, đây chính là tín hiệu cho thấy xuất hiện sự suy yếu SOW, lúc này xuất hiện một nỗ lực hồi phục quay trở lại đường hỗ trợ trước đó và đường hỗ trợ trước đó trở thành đường kháng cự. Hai đường xu hướng gặp nhau tại điểm mà tại đó giá bị giảm.'"
+    },
+    {
+      "id": "ch10-q3",
+      "type": "chart_identify",
+      "prompt": "Trên biểu đồ GLW (Corning) dưới đây, giá di chuyển gần Đường Quá Mua (Overbought Line) trong khoảng 9 tháng trước khi giảm trở lại Đường Hỗ Trợ. Theo sách, việc giá 'lởn vởn' gần đường kháng cự trong thời gian dài như vậy có ý nghĩa gì?",
+      "chartImage": "/charts/part_10/p037_chart-150.jpg",
+      "options": [
+        "Đây CHƯA PHẢI là tín hiệu bắt buộc phải bán — giá có thể vận động gần đường kháng cự trong một thời gian dài mà không nhất thiết phải đảo chiều ngay",
+        "Đây LUÔN LUÔN là tín hiệu bắt buộc phải bán ngay lập tức không do dự",
+        "Đây là lỗi vẽ biểu đồ cần được loại bỏ khỏi phân tích",
+        "Đây là dấu hiệu cổ phiếu sắp được chia tách (stock split)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Giá có thể vận động gần đường kháng cự trong 1 thời gian dài, đây chưa phải là tín hiệu bắt buộc để bán.' Tuy nhiên trong ví dụ GLW, cổ phiếu sau đó đã 'rơi ra khỏi' kênh xu hướng khi giá phá thủng đường hỗ trợ và mất đi 'Đà Tăng - Stride' của nó."
+    },
+    {
+      "id": "ch10-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ $TRAN (Dow Jones Transportation Average) dưới đây minh họa một 'nghịch lý' được sách nhắc đến. Theo ghi chú trên biểu đồ, nghịch lý đó là gì?",
+      "chartImage": "/charts/part_10/p037_chart-151.jpg",
+      "options": [
+        "Trong một uptrend mạnh (robust), giá tiệm cận nhưng KHÔNG chạm Đường Hỗ Trợ — đây là dấu hiệu của sự tăng giá (bullish); về sau khi xu hướng dần yếu đi, giá mới thực sự phá vỡ Đường Hỗ Trợ ngay trước đợt tăng cuối cùng của xu hướng",
+        "Giá luôn luôn chạm chính xác Đường Hỗ Trợ ở mọi nhịp điều chỉnh trong suốt xu hướng, không có ngoại lệ",
+        "$TRAN không bao giờ có xu hướng tăng, chỉ số này luôn đi ngang",
+        "Đường Hỗ Trợ và Đường Kháng Cự trên biểu đồ này hoàn toàn trùng nhau"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Dealing with the paradox of getting near the Support Line in a robust uptrend. Price approaches but does not touch Support. This is a sign of bullishness. Later in the trend it breaks Support before the final advance. This proves to be the final advance in this uptrend.'"
+    },
+    {
+      "id": "ch10-q5",
+      "type": "multiple_choice",
+      "prompt": "Theo phần kết của Phần 10 (minh họa qua biểu đồ XLF theo ngày), kỹ thuật vẽ Đường Xu Hướng/Kênh Xu Hướng có thể áp dụng trên phạm vi khung thời gian nào?",
+      "options": [
+        "Có thể được vẽ và nhìn thấy ở BẤT KỲ khung thời gian nào (kể cả biểu đồ ngày, không chỉ biểu đồ tuần)",
+        "Chỉ áp dụng được duy nhất trên khung thời gian tuần (weekly)",
+        "Chỉ áp dụng được duy nhất trên khung thời gian tháng (monthly)",
+        "Chỉ áp dụng được cho chỉ số, không áp dụng được cho cổ phiếu riêng lẻ hay ETF"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Đường xu hướng có thể được vẽ và nhìn thấy ở bất kỳ khung thời gian nào. Hình trên là một biểu đồ khung ngày được phân tích... Biểu đồ hàng ngày có thể hiển thị sự biến động nhiều hơn nhưng vẫn tuân theo các nguyên tắc tương tự.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch10-q6",
+      "type": "chart_identify",
+      "prompt": "Trên biểu đồ CMG (weekly) dưới đây với tiêu đề 'Power of the Stride', ghi chú 'Four touches on Support Line where it holds and rallies' cho thấy điều gì về độ tin cậy của kênh xu hướng đã vẽ?",
+      "chartImage": "/charts/part_10/p035_chart-143.jpg",
+      "options": [
+        "Việc Đường Hỗ Trợ được giá kiểm tra lại 4 lần và đều giữ vững rồi phục hồi tăng tiếp là bằng chứng củng cố độ tin cậy của kênh xu hướng — xác nhận 'Đà Tăng - Stride' của cổ phiếu này",
+        "Bốn lần chạm đó chứng tỏ kênh xu hướng đã vẽ sai và cần phải vẽ lại từ đầu",
+        "Đây chỉ là sự trùng hợp ngẫu nhiên, không có giá trị phân tích nào",
+        "Bốn lần chạm này là dấu hiệu chắc chắn cổ phiếu sắp giảm giá mạnh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Power of the Stride. Getting creative we draw a trendline anchored to this peak. The Support trendline and the Mid-Point trendline become relevant later in the trend... Four touches on Support Line where it holds and rallies.' Mỗi lần giá chạm và bật lên từ Đường Hỗ Trợ mà không phá vỡ là một xác nhận thêm cho tính hợp lệ của kênh xu hướng."
+    },
+    {
+      "id": "ch10-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Dựa theo nghịch lý trên biểu đồ $TRAN (câu trên), vì sao việc giá tiệm cận nhưng KHÔNG chạm được Đường Hỗ Trợ trong một xu hướng tăng lại được xem là dấu hiệu 'tăng giá' (bullish) hơn so với việc giá chạm đúng Đường Hỗ Trợ ở mọi nhịp điều chỉnh?",
+      "sampleAnswer": "Vì việc giá không chạm được xuống tận Đường Hỗ Trợ cho thấy lực cầu đã vào mua sớm hơn dự kiến — nhà đầu tư không chờ đến mức giá thấp nhất (hỗ trợ) mới chịu mua vào, mà đã chủ động mua ở vùng giá cao hơn. Điều đó phản ánh nhu cầu mạnh mẽ và sự tự tin cao vào xu hướng, mạnh hơn so với kịch bản giá luôn phải giảm về sát đáy kênh mỗi lần mới tìm được người mua.",
+      "chartImage": null
+    }
+  ]
+}

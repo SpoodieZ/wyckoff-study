@@ -1,0 +1,70 @@
+{
+  "chapterId": 16,
+  "title": "Chỉ Cần Đọc Và Phân Tích Biểu Đồ",
+  "summary": "Luyện tập đọc biểu đồ Phân Phối qua nhiều ví dụ (AKAM, ISRG, GMCR, MS) — nhận diện tốc độ vận động giá bất đối xứng (tăng nhanh/giảm chậm) như một dấu hiệu phân phối, và khái niệm 'Vùng Nguy Hiểm' (Danger Zone) phía trên BCLX.",
+  "questions": [
+    {
+      "id": "ch16-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách nhấn mạnh một Wyckoffian cần rèn luyện khả năng xác định các cổ phiếu tốt nhất từ một 'danh sách - checklist' để quan sát. Tiêu chí chọn lọc chính được nêu ra là gì?",
+      "options": [
+        "Đó là cổ phiếu có khả năng di chuyển XA NHẤT và NHANH NHẤT — cũng là cổ phiếu mà nhà phân tích Wyckoff muốn tham gia giao dịch",
+        "Đó là cổ phiếu có giá cổ phiếu thấp nhất trên sàn giao dịch",
+        "Đó là cổ phiếu có tên công ty bắt đầu bằng chữ cái A",
+        "Đó là cổ phiếu có khối lượng giao dịch thấp nhất thị trường"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Như một Wyckoffian, chúng ta cần tìm cách xác định các cổ phiếu tốt nhất từ danh sách (checklist) để quan sát và tìm kiếm cơ hội tiềm năng. Đó là cổ phiếu có khả năng di chuyển xa nhất và nhanh nhất, cũng là cổ phiếu mà chúng ta muốn tham gia giao dịch.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch16-q2",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ ISRG dưới đây ghi chú: 'During this distribution the price jumps are quick and the time spent declining is long.' Đặc điểm bất đối xứng về tốc độ này (tăng nhanh, giảm chậm/dài) cho thấy điều gì về hành vi của CO?",
+      "chartImage": "/charts/part_16/p067_chart-249.jpg",
+      "options": [
+        "CO đang bán ra ngay sau mỗi nhịp giá nhảy vọt nhanh, và tiếp tục bán trên quy mô giảm dần (scale down) khi giá trôi dạt thấp hơn từ từ",
+        "CO hoàn toàn không hoạt động gì trong giai đoạn này",
+        "Tốc độ tăng/giảm không mang ý nghĩa phân tích nào",
+        "Đây là dấu hiệu chắc chắn của Tái Tích Lũy, không phải Phân Phối"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'C.O. is selling after the quick jumps and as price drifts lower. C.O. is selling on a scale down.' Đây là một dấu hiệu bổ sung hữu ích: các đợt tăng giá nhanh/ngắn nhưng các đợt giảm giá dài/từ từ là dấu hiệu CO đang tích cực phân phối."
+    },
+    {
+      "id": "ch16-q3",
+      "type": "multiple_choice",
+      "prompt": "Trên biểu đồ AKAM (trang 67), sách chỉ ra rằng khi đường ICE (tảng băng) bị phá vỡ ('Cracks thru the ICE on Volume'), giá có thể phục hồi trở lại vùng nào — nhưng chỉ đến mức đó mà thôi ('but that is all')?",
+      "options": [
+        "Giá có thể hồi phục trở lại vùng mà ICE từng bị phá vỡ (khu vực LPSY) — nhưng không thể vượt xa hơn được nữa",
+        "Giá sẽ luôn hồi phục vượt qua đỉnh BCLX cũ",
+        "Giá sẽ không bao giờ hồi phục dù chỉ một chút sau khi ICE bị phá vỡ",
+        "Đường ICE không liên quan gì đến khả năng hồi phục của giá"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ AKAM: 'Cracks thru the ICE on Volume. Can lift back into area where ICE was broken (LPSY) but that is all.' Nhịp hồi sau khi phá ICE chỉ mang tính kiểm tra lại (test) khu vực Hỗ trợ cũ vừa trở thành Kháng cự, không đủ sức để đảo ngược xu hướng giảm.",
+      "chartImage": null
+    },
+    {
+      "id": "ch16-q4",
+      "type": "multiple_choice",
+      "prompt": "Trên biểu đồ MS (Morgan Stanley), sách gọi vùng giá ngay phía trên BCLX là 'Danger Zone' (Vùng Nguy Hiểm). Vì sao vùng đó lại nguy hiểm đối với người mua?",
+      "options": [
+        "Vì đó là vùng giá mà một UT (Upthrust) có thể xảy ra — một cú bứt phá giả tạo bẫy tăng giá (bull trap) trước khi giá quay đầu giảm mạnh trở lại vào TR",
+        "Vì đó là vùng SEC cấm giao dịch",
+        "Vì đó là mức giá công ty sẽ tuyên bố phá sản",
+        "Vì đó là vùng giá luôn tăng vô hạn không giới hạn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vùng phía trên BCLX là nơi các đợt bứt phá tăng giá (UT) thường xảy ra — đây là 'bẫy giá tăng' (bull trap) thu hút nhà đầu tư nhỏ lẻ mua đuổi theo phá cản (breakout), trong khi CO tận dụng chính lực mua đó để bán ra số lượng lớn cổ phiếu, khiến giá nhanh chóng quay đầu giảm trở lại vào TR.",
+      "chartImage": null
+    },
+    {
+      "id": "ch16-q5",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách khẳng định 'Không có hành trình nào giống hành trình nào cả' khi nói về các Giai Đoạn Phân Phối khác nhau (AKAM, ISRG, GMCR, MS...). Vì sao việc luyện tập đọc NHIỀU ví dụ thực tế khác nhau lại quan trọng hơn việc chỉ học thuộc một sơ đồ lý tưởng duy nhất?",
+      "sampleAnswer": "Vì dù các Giai Đoạn Phân Phối đều tuân theo cùng những nguyên tắc cốt lõi (PSY, BCLX, AR, ST, SOW...), cách các sự kiện này biểu hiện trên từng cổ phiếu cụ thể lại rất đa dạng về thời gian, biên độ, và thứ tự chi tiết. Chỉ qua việc luyện tập với nhiều ví dụ thực tế, nhà phân tích mới rèn được 'con mắt tinh tường' để nhận ra các đặc điểm chung ẩn dưới vô số biến thể khác nhau, thay vì chỉ nhận diện được đúng một hình dạng mẫu cứng nhắc và bỏ lỡ các tình huống thực tế lệch khỏi khuôn mẫu đó.",
+      "chartImage": null
+    }
+  ]
+}

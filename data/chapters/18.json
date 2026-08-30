@@ -1,0 +1,112 @@
+{
+  "chapterId": 18,
+  "title": "Wyckoff Distribution",
+  "summary": "Phiên bản chính thức, đầy đủ của Sơ Đồ Phân Phối #1 và #2 — định nghĩa chuẩn từng sự kiện (PSY, BCLX, AR, ST, UT, SOW, UTAD, LPSY) và cách phân biệt hai kịch bản: có UTAD kịch tính hay chỉ có LPSY lặng lẽ.",
+  "questions": [
+    {
+      "id": "ch18-q1",
+      "type": "multiple_choice",
+      "prompt": "'Preliminary Supply (PSY - Nguồn Cung Sơ Bộ)' được định nghĩa là gì, và nó có ý nghĩa như thế nào?",
+      "options": [
+        "Một đỉnh vừa mới được tạo, có sự điều chỉnh giảm mạnh ngắn hạn ngay sau đó cho thấy sự tham gia mạnh mẽ đầu tiên của nguồn cung (Supply) — bằng chứng sớm về việc CO bắt đầu bán ra lần đầu tiên ở cuối xu hướng tăng",
+        "Một mức giá thấp nhất trong toàn bộ lịch sử giao dịch của cổ phiếu",
+        "Một loại lệnh giới hạn (limit order) đặc biệt trên sàn giao dịch",
+        "Chỉ số đo lường tỷ lệ P/E trung bình của ngành"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'PSY là một đỉnh vừa mới được tạo, giai đoạn giá này sẽ có sự điều chỉnh giảm mạnh ngắn hạn xảy ra ngay sau đó, cho thấy có sự tham gia của nguồn cung (Supply) mạnh mẽ đầu tiên trong xu hướng tăng... Một PSY là bằng chứng sớm của việc bán ra lần đầu tiên bởi CO ở cuối của một xu hướng tăng.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch18-q2",
+      "type": "multiple_choice",
+      "prompt": "Theo định nghĩa chính thức, 'Upthrust (UT)' được sách mô tả có quan hệ như thế nào với 'Secondary Test (ST)'?",
+      "options": [
+        "UT là một dạng MỞ RỘNG HƠN của ST — cũng là một đợt phục hồi tăng giá vượt lên trên đường kháng cự được tạo bởi BCLX, nhưng với biên độ lớn hơn",
+        "UT và ST hoàn toàn không liên quan gì đến nhau",
+        "UT luôn nhỏ hơn ST về mọi mặt biên độ và khối lượng",
+        "UT chỉ xảy ra trước BCLX, không bao giờ xảy ra sau"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'UT là một dạng mở rộng hơn của ST. Một Upthrust (UT) thường dẫn đến một nhịp phục hồi giá tăng vượt lên trên đường kháng cự được tạo bởi BCLX.' Cả UT và ST đều thu hút sự chú ý mua vào của các nhà đầu tư nhỏ lẻ mua theo phá cản (breakout) — thường đây là một hành động tạo bẫy giá tăng (bull trap).",
+      "chartImage": null
+    },
+    {
+      "id": "ch18-q3",
+      "type": "multiple_choice",
+      "prompt": "'Sign of Weakness (SOW)' xảy ra sau một ST hoặc UT. Sách mô tả SOW là dấu hiệu đầu tiên cho thấy đặc điểm chính nào của hành vi giá đã thay đổi?",
+      "options": [
+        "Nguồn Cung (Supply) đang lớn hơn Nguồn Cầu (Demand) — Cung đang chiếm ưu thế",
+        "Nguồn Cầu đang lớn hơn Nguồn Cung, chuẩn bị cho một đợt tăng giá mới",
+        "Khối lượng giao dịch không còn ý nghĩa gì trong việc phân tích SOW",
+        "Công ty sắp công bố sáp nhập với đối thủ cạnh tranh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Thường thì một SOW và AR xuất hiện đầu tiên của giai đoạn cho thấy có sự thay đổi về đặc điểm chính của hành vi giá đó là Cung đang lớn hơn Cầu. Khi SOW hoàn tất, chúng ta sẽ cần cảnh giác bởi khả năng cao sẽ có một đợt tăng giá cuối cùng để thiết lập và kết luận của quá trình Giai đoạn Phân phối.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch18-q4",
+      "type": "chart_identify",
+      "prompt": "So sánh Sơ Đồ Phân Phối #1 và #2 dưới đây. Điểm khác biệt cốt lõi giữa hai sơ đồ này nằm ở Giai Đoạn |B|/|C| là gì?",
+      "chartImage": "/charts/part_18/p082_chart-294.jpg",
+      "options": [
+        "Ở Sơ Đồ #2, đợt tăng giá trong Phase B KHÔNG đạt được mức cao mới (không phá qua UT) — được gắn nhãn thẳng là LPSY, thay vì có một UTAD kịch tính như Sơ Đồ #1",
+        "Sơ Đồ #2 không có Giai Đoạn |A|, chỉ bắt đầu từ Giai Đoạn |B|",
+        "Sơ Đồ #2 luôn có Downtrend mạnh hơn Sơ Đồ #1 gấp 10 lần",
+        "Hai sơ đồ này hoàn toàn giống hệt nhau, không có gì khác biệt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Trong Sơ đồ số #2, đợt tăng giá không đạt được mức cao mới phá qua UT và được gắn nhãn là Last Point of Supply (LPSY). Đợt điều chỉnh tăng giá LPSY sẽ có biên độ giá thu hẹp và khối lượng giao dịch mua thường thấp, cho thấy sự thiếu hụt về nguồn cầu (cạn cầu).'"
+    },
+    {
+      "id": "ch18-q5",
+      "type": "multiple_choice",
+      "prompt": "Sách mô tả LPSY 'có ý nghĩa đúng như tên gọi của nó'. Theo tên gọi đầy đủ 'Last Point of Supply', ý nghĩa cốt lõi của điểm này là gì?",
+      "options": [
+        "Đây là mức giá CAO NHẤT và CUỐI CÙNG mà nguồn cung của CO còn ngăn cản được nỗ lực tăng giá của người mua trong Giai Đoạn Phân Phối — các đỉnh sau đó sẽ không thể vượt qua mức này trước khi giá quay đầu giảm",
+        "Đây là mức giá thấp nhất mà cổ phiếu từng đạt được",
+        "Đây là điểm mà công ty ngừng hoàn toàn hoạt động kinh doanh",
+        "LPSY không có bất kỳ ý nghĩa thực tế nào, chỉ là thuật ngữ trang trí"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'LPSY - Last Point of Supply (Nguồn Cung Cuối Cùng) có ý nghĩa đúng như tên gọi của nó. Đây là điểm giá cao nhất và cuối cùng mà nguồn cung của CO sẽ ngăn cản nỗ lực tăng giá của người mua (nguồn cầu ít ỏi còn lại của công chúng) trong giai đoạn Phân phối này. Giá sẽ tôn trọng các điểm LPSY trong giai đoạn phân phối.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch18-q6",
+      "type": "multiple_choice",
+      "prompt": "Sách liên hệ đặc điểm của các nhịp phục hồi tại LPSY với khái niệm 'Effort >< Result' (Nỗ lực >< Kết quả) đã học trước đó. Đặc điểm cụ thể đó ở LPSY là gì?",
+      "options": [
+        "LPSY phục hồi tăng từ khu vực đáy Hỗ trợ một cách yếu ớt, với biên độ giá hẹp, chồng lên nhau và khối lượng mua giảm dần — Nỗ lực (cố phục hồi) không mang lại Kết quả tương xứng",
+        "LPSY luôn phục hồi với biên độ giá cực rộng và khối lượng cực cao — Nỗ lực và Kết quả hoàn toàn tương xứng",
+        "Khái niệm Effort >< Result không áp dụng được cho LPSY",
+        "LPSY luôn xảy ra với khối lượng bằng 0 tuyệt đối"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một LPSY được xác nhận với một đỉnh thấp hơn (LH). Đặc điểm của LPSY sẽ phục hồi tăng từ khu vực đáy Hỗ trợ một cách yếu ớt với các biên độ giá hẹp, chồng lên nhau và khối lượng mua giảm dần (hoặc nỗ lực không mang lại kết quả - Effort >< Result).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch18-q7",
+      "type": "multiple_choice",
+      "prompt": "Trong Giai Đoạn |D|, một Last Point of Supply (LPSY) cũng đóng vai trò như một vị trí giao dịch chiến thuật. Cụ thể, đó là vị trí để làm gì?",
+      "options": [
+        "Là nơi mở một lệnh BÁN (bán khống) và đặt điểm dừng lỗ (stop loss) ngay trên đỉnh của LPSY đó",
+        "Là nơi mở một lệnh MUA lớn với kỳ vọng giá sẽ tăng vô hạn",
+        "Là nơi công ty phát hành thêm cổ phiếu mới ra công chúng",
+        "LPSY không có bất kỳ ứng dụng giao dịch thực tế nào"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một LPSY là nơi chúng ta mở một lệnh bán và đặt điểm dừng lỗ ngay trên đỉnh LPSY. Giai đoạn |D| tiếp tục di chuyển giảm giá xuống bên dưới khỏi phạm vi của giai đoạn Phân phối, nơi xu hướng giảm chính bắt đầu (Giai đoạn |E|).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch18-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách kết thúc chương bằng lời khuyên lặp lại ba lần: 'Luyện tập, luyện tập, luyện tập.' Đồng thời nhấn mạnh 'có vô số các biến thể có thể xuất hiện trong Giai Đoạn Phân Phối' dù Sơ Đồ #1/#2 chỉ là mô hình lý tưởng hóa. Bạn nghĩ kỹ năng cốt lõi nào (không phải kiến thức ghi nhớ) mà việc luyện tập lặp lại thực sự đang rèn giũa cho một Wyckoffian?",
+      "sampleAnswer": "Việc luyện tập lặp lại không chỉ giúp ghi nhớ tên gọi các sự kiện (PSY, BCLX, UT, SOW...) mà quan trọng hơn là rèn luyện trực giác/con mắt tinh tường (pattern recognition qua kinh nghiệm) để nhận ra các NGUYÊN TẮC cốt lõi (thay đổi cung-cầu, thay đổi thuộc tính giá CHOCH, nỗ lực-kết quả) ẩn bên dưới vô số hình dạng biểu đồ khác nhau trong thực tế — một kỹ năng chỉ có thể có được qua thực hành nhiều, không thể học thuộc lòng từ lý thuyết đơn thuần.",
+      "chartImage": null
+    }
+  ]
+}

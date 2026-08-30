@@ -1,0 +1,98 @@
+{
+  "chapterId": 9,
+  "title": "Wyckoff Uptrend",
+  "summary": "Khái niệm 'Đà Tăng - Stride' được thiết lập sớm trong Giai Đoạn Uptrend, cách vẽ Kênh Xu Hướng (Trend Channel) từ hai đáy điều chỉnh liền kề, kỹ thuật 'đường xu hướng ngược' (counter trend channel), và giới thiệu đếm mục tiêu giá bằng biểu đồ Point and Figure (PnF).",
+  "questions": [
+    {
+      "id": "ch9-q1",
+      "type": "multiple_choice",
+      "prompt": "Khái niệm 'Đà Tăng - Stride' của một Giai Đoạn Uptrend là gì, và vì sao nó hữu ích?",
+      "options": [
+        "Là nhịp điệu/tốc độ tăng giá thường được xác lập SỚM trong quá trình Markup; nhận biết được Stride giúp dự đoán tốc độ mà cổ phiếu dự định tăng giá trong tương lai gần",
+        "Là tên gọi khác của Selling Climax, chỉ xuất hiện ở đáy downtrend",
+        "Là chỉ số đo lường số lượng cổ đông tổ chức đang nắm giữ cổ phiếu",
+        "Là khoảng thời gian tối thiểu bắt buộc một cổ phiếu phải nằm trong Phạm Vi Tích Lũy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: ''Stride - Đà tăng' của một giai đoạn Uptrend thường được xác lập sớm trong quá trình Markup (Giai đoạn |E|). Cổ phiếu đang chỉ ra tốc độ tiến trình mà nó dự định tăng. Đây là một thông tin rất có giá trị và hữu ích. Nó báo hiệu rằng cổ phiếu sẽ tăng giá.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch9-q2",
+      "type": "chart_identify",
+      "prompt": "Trên biểu đồ AAPL (weekly) dưới đây, quy trình chung để vẽ một Kênh Xu Hướng (Trend Channel) được thực hiện như thế nào, dựa theo ghi chú 'Construct Support Line by identifying two adjacent lows'?",
+      "chartImage": "/charts/part_09/p031_chart-130.jpg",
+      "options": [
+        "Xác định hai mức đáy điều chỉnh liền kề nhau có mức độ giảm giá (số điểm) tương đối gần nhau để vẽ Đường Hỗ Trợ, sau đó vẽ Đường Quá Mua song song đi qua đỉnh nằm giữa hai đáy đó",
+        "Chỉ cần vẽ một đường thẳng nối điểm cao nhất và điểm thấp nhất trong toàn bộ lịch sử cổ phiếu",
+        "Sử dụng duy nhất chỉ báo RSI để xác định kênh xu hướng, không cần nhìn vào giá",
+        "Vẽ kênh xu hướng bằng cách nối các đỉnh volume cao nhất với nhau"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Construct Support Line by identifying two adjacent lows then projecting trendline upward. Overbought Line is anchored to the intervening high (circled). Draw the Overbought Line parallel to the Support Line.' Ví dụ AAPL: Đợt điều chỉnh #1 giảm ~9 điểm trong 7 tuần, đợt #2 giảm ~8 điểm trong 19 tuần — mức độ giảm giá tương đồng dù thời gian khác nhau."
+    },
+    {
+      "id": "ch9-q3",
+      "type": "multiple_choice",
+      "prompt": "Với cổ phiếu CENX (được vẽ trên thang đo logarit trong sách), tại sao Wyckoff khuyên nên cân nhắc dùng thang logarit (log scale) thay vì thang số học (arithmetic) khi vẽ Kênh Xu Hướng cho các đợt tăng giá lớn?",
+      "options": [
+        "Vì các đợt tăng giá kéo dài với biên độ phần trăm lớn thường được đánh giá vẽ đường xu hướng tốt hơn trên thang logarit — nên thử vẽ trên cả hai thang đo và chọn thang phù hợp nhất",
+        "Vì thang logarit là quy định bắt buộc theo luật chứng khoán Hoa Kỳ",
+        "Vì thang số học không thể hiển thị được khối lượng giao dịch",
+        "Vì thang logarit chỉ dùng được cho chỉ số, không dùng được cho cổ phiếu riêng lẻ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết (về CENX): 'Các đợt tăng giá kéo dài thường được đánh giá tốt nhất trên thang logarit, nhưng bạn nên tham khảo cả hai... Khi vẽ đường kênh xu hướng, hãy thử chuyển đổi giữa hai thang giá này để tìm thang đo phù hợp nhất.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch9-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ IBB dưới đây minh họa kỹ thuật 'Đảo Ngược Cách Dùng Đường Xu Hướng' (Reverse use of Trendlines / counter trend channel). Theo ghi chú trên biểu đồ, đường nào được vẽ TRƯỚC tiên trong kỹ thuật này?",
+      "chartImage": "/charts/part_09/p032_chart-134.jpg",
+      "options": [
+        "Đường Quá Mua (Overbought Line) được vẽ trước — nối hai đỉnh giá liền kề nhau — sau đó Đường Hỗ Trợ được vẽ song song, đi qua điểm đáy nằm xen giữa 2 đỉnh đó",
+        "Đường Hỗ Trợ luôn được vẽ trước trong mọi trường hợp, không có ngoại lệ",
+        "Cả hai đường được vẽ đồng thời cùng một lúc bằng phần mềm tự động",
+        "Kỹ thuật này không sử dụng đường Quá Mua, chỉ dùng đường Hỗ Trợ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ IBB: 'Reverse use of Trendlines. Draw the Overbought Line first. Then the Support Line is drawn parallel to it.' Sách cũng chỉ ra: cuối đợt tăng giá, một hành động 'vượt khỏi - throwover' kênh giá xuất hiện, được gán nhãn Buying Climax (BCLX), và đợt điều chỉnh sau đó (AR) cùng BCLX xác định biên trên/biên dưới của một phạm vi TR mới — có thể là Phân Phối hoặc Tái Tích Lũy Stepping Stone."
+    },
+    {
+      "id": "ch9-q5",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ CENX (weekly) dưới đây được mô tả có nền của một 'mô hình vai đầu vai' (head and shoulders) ở đỉnh. Điều gì xảy ra ngay khi đường kênh xu hướng bị 'quá mua' (overbought) và 'vượt khỏi - throwover'?",
+      "chartImage": "/charts/part_09/p033_chart-137.jpg",
+      "options": [
+        "Đó là tín hiệu kết thúc đợt tăng giá và bắt đầu tạo đỉnh (Buying Climax) — báo hiệu Kênh Xu Hướng tăng đã hoàn tất nhiệm vụ",
+        "Đó là tín hiệu chắc chắn giá sẽ tiếp tục tăng thêm gấp đôi",
+        "Throwover chỉ có ý nghĩa trang trí, không mang thông tin phân tích nào",
+        "Throwover chỉ xảy ra ở đáy downtrend, không bao giờ xảy ra ở đỉnh uptrend"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một đường kênh xu hướng đã được hình thành và xuất hiện với tình trạng quá mua báo hiệu kết thúc đợt tăng giá và bắt đầu tạo đỉnh.' Đây chính xác là hành động Throwover & Overbought dẫn tới Buying Climax (BCLX) như đã thấy ở biểu đồ IBB trước đó."
+    },
+    {
+      "id": "ch9-q6",
+      "type": "multiple_choice",
+      "prompt": "Sách giới thiệu việc dùng biểu đồ Point and Figure (PnF) kết hợp với cổ phiếu CENX. Mục đích chính của việc 'đếm' (count) trên biểu đồ PnF trong nền tích lũy là gì?",
+      "options": [
+        "Ước lượng các mục tiêu giá (target giá) tiềm năng cho một chiến dịch tăng/giảm giá trong tương lai, dựa trên chiều rộng (số cột) của nền tích lũy/phân phối",
+        "Chỉ để trang trí biểu đồ cho đẹp mắt hơn, không có giá trị phân tích",
+        "Để tính chính xác 100% ngày công ty sẽ công bố báo cáo tài chính",
+        "Để thay thế hoàn toàn cho biểu đồ nến, không cần dùng biểu đồ giá thường nữa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Mục đích của việc đếm PnF là để thiết lập một mục tiêu phản ứng tiềm năng của một chiến dịch trong tương lai.' Ví dụ CENX: nền tích lũy đếm số cột (ô nằm ngang) từ $8 cho một mục tiêu tiềm năng trong khoảng $28-$30; sau đó nền phân phối lại cho mục tiêu giảm giá khoảng $5-$10 — và giá CENX sau đó thực sự xác nhận đạt các mục tiêu này.",
+      "chartImage": null
+    },
+    {
+      "id": "ch9-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Vì sao việc kết hợp cả Kênh Xu Hướng (Trend Channel) lẫn đếm mục tiêu giá bằng Point and Figure (PnF) lại mang đến sự tự tin phân tích cao hơn so với chỉ dùng một trong hai công cụ?",
+      "sampleAnswer": "Vì hai công cụ trả lời hai câu hỏi khác nhau nhưng bổ sung cho nhau: Kênh Xu Hướng (dựa trên các đáy/đỉnh điều chỉnh liền kề) giúp ước lượng NHỊP ĐIỆU và TỐC ĐỘ tăng giá theo thời gian (khi nào giá có thể chạm biên quá mua), còn PnF Count giúp ước lượng MỤC TIÊU GIÁ cuối cùng dựa trên độ rộng của nền tích lũy/phân phối. Khi cả hai công cụ cùng chỉ về một vùng giá/thời điểm tương tự, đó là sự xác nhận chéo (confluence) làm tăng độ tin cậy của phân tích, thay vì chỉ dựa vào một góc nhìn duy nhất.",
+      "chartImage": null
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "chapterId": 15,
+  "title": "Theo Dõi Quả Bóng Cao Su Nảy",
+  "summary": "Ẩn dụ 'quả bóng cao su nảy' của Wham-O mô tả Giai Đoạn Phân Phối — trạng thái tưởng chừng yên tĩnh nhưng ẩn chứa năng lượng lớn, chờ một tác nhân đẩy nó rơi khỏi mép bàn (Downtrend). Giới thiệu khái niệm 'The ICE' (đường cản mềm của Cầu trong Phân Phối) — đối lập với 'The Creek' của Tích Lũy.",
+  "questions": [
+    {
+      "id": "ch15-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách ví Giai Đoạn Phân Phối như việc đặt một 'quả bóng cao su nảy đặc biệt' lên mặt bàn — trông có vẻ yên tĩnh, bất động. Ẩn dụ này muốn nhấn mạnh điều gì về bản chất thực sự của Giai Đoạn Phân Phối?",
+      "options": [
+        "Dù trông có vẻ bất động/vô hại, Giai Đoạn Phân Phối thực chất đang chứa một nguồn năng lượng tiềm tàng rất lớn (nguồn cung dồn nén) chờ được giải phóng — trạng thái này dễ đánh lừa công chúng rằng nó vô hại",
+        "Giai Đoạn Phân Phối luôn diễn ra rất nhanh, chỉ trong vài phút",
+        "Quả bóng cao su chỉ là một hình ảnh trang trí, không mang ý nghĩa phân tích nào",
+        "Giai Đoạn Phân Phối có nghĩa là cổ phiếu sẽ tăng giá không giới hạn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một quả bóng nảy đang yên vị trên mặt bàn và một cổ phiếu đang trong giai đoạn phân phối có nhiều điểm chung. Có một nguồn cung lớn tiềm tàng đang chờ được giải phóng. Trạng thái tưởng chừng bất động rất dễ bị đánh lừa bởi CO và tạo ấn tượng cho công chúng rằng chúng vô hại đến xu hướng tăng giá của cổ phiếu, nhưng thực chất không phải như vậy.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch15-q2",
+      "type": "multiple_choice",
+      "prompt": "Trong ẩn dụ, quả bóng cần một 'tác nhân chủ đạo' (ví dụ một đứa trẻ) đẩy nó lăn đến gần mép bàn rồi rơi xuống. Trong bối cảnh thị trường, điều gì đóng vai trò 'tác nhân' đẩy giá cổ phiếu tiến gần đến 'mép bàn' (điểm sụp đổ)?",
+      "options": [
+        "Chính đà của xu hướng tăng (Uptrend) trước đó đã đưa giá tiến sát đến vùng đỉnh/rìa của Phạm Vi Phân Phối, trước khi chỉ cần một cú đẩy nhẹ (nguồn cung xuất hiện) là đủ khiến giá rơi mạnh",
+        "Tác nhân đó luôn luôn là một báo cáo tài chính chính thức của công ty",
+        "Không có tác nhân nào được đề cập, quả bóng tự rơi mà không cần lý do",
+        "Tác nhân đó là hành động của ngân hàng trung ương thay đổi lãi suất"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách mô tả quá trình quả bóng bị lăn đến gần mép bàn nhờ một tác nhân (đứa trẻ), tương tự cách đà tăng giá của Uptrend trước đó đưa cổ phiếu đến gần 'mép bàn' của Phạm vi Phân phối. 'Chỉ cần một cú đẩy nhẹ là quả bóng rơi khỏi mép bàn và lao nhanh xuống với tốc độ giảm rất mạnh. Cú rơi này bất ngờ và đột ngột.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch15-q3",
+      "type": "multiple_choice",
+      "prompt": "Sau khi quả bóng rơi và chạm sàn nhiều lần, mỗi lần nảy lên sau đó chỉ đạt một mức thấp hơn lần trước — 'sự biến động lớn nhất xảy ra ở lúc đầu và giảm dần theo thời gian'. Áp dụng vào Giai Đoạn Downtrend sau Phân Phối, điều này gợi ý gì?",
+      "options": [
+        "Biến động giá mạnh nhất (climactic) thường xảy ra sớm trong Downtrend, sau đó các đợt phục hồi/biến động tiếp theo có xu hướng suy yếu dần — một dạng 'hấp thụ ngược' đang hình thành, báo hiệu Downtrend cũng sẽ có điểm dừng",
+        "Downtrend sẽ luôn kéo dài vĩnh viễn, không bao giờ có điểm dừng",
+        "Biến động sẽ tăng dần đều mãi mãi không có xu hướng suy yếu",
+        "Ẩn dụ này không liên quan gì đến giai đoạn Downtrend"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Quả bóng này cứ tiếp tục nảy lên sau mỗi lần chạm lại sàn nhà, nhưng mỗi lần nảy lên sau đó, quả bóng chỉ đạt được một mức thấp hơn so với lần này trước đó. Do đó, sự biến động lớn nhất được xảy ra ở lúc đầu và giảm dần theo thời gian (bạn có thể nghĩ đến sự hấp thụ).' Downtrend sẽ được nghiên cứu chi tiết ở phần sau, nhưng cũng có logic dừng lại tương tự như Uptrend.",
+      "chartImage": null
+    },
+    {
+      "id": "ch15-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ NTAP dưới đây có ghi chú 'Little Distribution inside Big Distribution'. Trong nhiều tháng, giá NTAP duy trì ở mức cao gần BCLX. Theo sách, việc này có tác dụng gì đối với tâm lý nhà đầu tư?",
+      "chartImage": "/charts/part_15/p063_chart-236.jpg",
+      "options": [
+        "Việc giá duy trì gần mức đỉnh trong thời gian dài tạo ra một sự 'trấn an giả' cho công chúng — khiến họ an tâm trong khi CO đang có thời gian để thanh lý dần vị thế và bắt đầu đặt các lệnh bán khống lớn",
+        "Việc này khiến toàn bộ nhà đầu tư bán tháo ngay lập tức không do dự",
+        "Việc này không có ý nghĩa tâm lý nào theo sách",
+        "Việc này chứng tỏ công ty sắp công bố cổ tức đặc biệt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Chú ý cách cổ phiếu NTAP duy trì ở mức giá cao của BCLX trong nhiều tháng. Mức giá duy trì gần đỉnh là một sự trấn an cho các nhà đầu tư (công chúng và các đối tượng khác) trong khi đó, nó tạo thời gian cho CO bắt đầu thanh lý và có thể chuyển sang đặt các vị thế bán khống lớn.'"
+    },
+    {
+      "id": "ch15-q5",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ MU (Micron) dưới đây giới thiệu khái niệm 'The ICE' — một đường cản mềm nối các đáy trong Giai Đoạn Phân Phối. So với 'The Creek' đã học ở Giai Đoạn Tích Lũy, 'The ICE' đại diện cho điều gì, và điều gì xảy ra khi giá giảm xuống dưới nó?",
+      "chartImage": "/charts/part_15/p064_chart-239.jpg",
+      "options": [
+        "The ICE đại diện cho NGUỒN CẦU (ngược lại với The Creek đại diện cho Nguồn Cung); khi giá giảm xuống dưới đường ICE, nó sẽ chuyển đổi từ nguồn cầu thành nguồn cung — Hỗ trợ cũ trở thành Kháng cự mới",
+        "The ICE hoàn toàn giống The Creek, không có gì khác biệt",
+        "The ICE chỉ là tên gọi khác của đường trung bình động 50 ngày",
+        "The ICE đại diện cho khối lượng giao dịch, không liên quan đến giá"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'The ICE là đường cản mềm được nối từ các đáy được tạo trong giai đoạn Phân phối và nó đại diện cho nguồn cầu. Chúng ta sẽ dành nhiều thời gian hơn để thảo luận về kỹ thuật hữu ích này trong tương lai. Lưu ý cách The ICE chuyển đổi từ nguồn cầu sang nguồn cung khi giá giảm xuống dưới nó... Điều này cũng đúng với Đường Hỗ trợ chuyển thành Đường Kháng Cự khi bị phá qua.'"
+    },
+    {
+      "id": "ch15-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ TXN dưới đây minh họa một Giai Đoạn Phân Phối biến động rất mạnh ('a wild ride'). Theo sách, một điểm Last Point of Supply (LPSY) được định nghĩa và có giá trị chiến lược như thế nào?",
+      "chartImage": "/charts/part_15/p065_chart-242.jpg",
+      "options": [
+        "LPSY là mức đỉnh cao nhất mà giá có thể đạt được trước khi bị bán tháo mạnh và đảo chiều giảm — vì các nhịp phục hồi sau đó thường không vượt qua được mức này (chỉ tạo đỉnh/đáy thấp hơn - LH/LL), LPSY trở thành vị trí chiến lược để đặt lệnh bán khống",
+        "LPSY là mức giá thấp nhất trong toàn bộ lịch sử giao dịch của cổ phiếu",
+        "LPSY không có giá trị chiến lược nào, chỉ mang tính tham khảo",
+        "LPSY luôn xuất hiện trước BCLX, không bao giờ xuất hiện sau"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một Last Point of Supply (LPSY) là mức đỉnh cao nhất mà giá có thể đạt được trước khi bị bán tháo ra mạnh mẽ và đảo chiều giảm. Một LPSY được hiểu rằng đây là điểm sẽ không bị phá vỡ (vượt qua) bởi các nhịp phục hồi tăng sau đó, chỉ có các đỉnh thấp hơn được tạo (LH, LL). Do đó, LPSY là một vị trí chiến lược để bán và có thể đặt các vị thế bán khống cổ phiếu.'"
+    },
+    {
+      "id": "ch15-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách kết luận rằng với tư cách người theo Phương Pháp Wyckoff, chúng ta cần 'trở nên cảnh giác và tỉnh táo hơn' khi tìm kiếm dấu hiệu của Giai Đoạn Phân Phối. Dựa vào toàn bộ ẩn dụ quả bóng nảy, vì sao sự cảnh giác SỚM (trước khi giá thực sự sụp đổ) lại quan trọng hơn nhiều so với phản ứng sau khi giá đã giảm mạnh?",
+      "sampleAnswer": "Vì theo ẩn dụ, khi quả bóng đã rơi khỏi mép bàn thì cú rơi diễn ra 'bất ngờ và đột ngột' — tốc độ giảm giá lúc đó đã rất nhanh và mạnh, khiến nhà đầu tư khó phản ứng kịp. Giống như việc nghe thấy tiếng sấm — thực tế tia chớp (thiệt hại) đã xảy ra trước khi âm thanh đến tai. Nếu chờ đến khi thấy giá giảm rõ ràng mới hành động thì đã quá muộn; chỉ có việc nhận diện sớm các dấu hiệu tinh vi của Phân Phối (khối lượng, LPSY, UTAD...) ngay khi nó còn đang 'nằm yên trên bàn' mới giúp nhà đầu tư thoát ra kịp thời hoặc tránh mua vào nhầm lúc.",
+      "chartImage": null
+    }
+  ]
+}

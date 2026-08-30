@@ -1,0 +1,107 @@
+{
+  "chapterId": 1,
+  "title": "Chu Kỳ Thị Trường",
+  "summary": "Cơ chế chiết khấu (giá đi trước dữ liệu kinh tế), phương pháp Tape Reading của Wyckoff, 4 giai đoạn của chu kỳ thị trường, khung STOP-PREPARE-GO (Phase A-E), và giới thiệu lần đầu khái niệm Composite Man.",
+  "questions": [
+    {
+      "id": "ch1-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách giải thích rằng giá cổ phiếu thường tăng/giảm trước khi dữ liệu kinh tế (lợi nhuận, tăng trưởng...) xác nhận điều đó. Cơ chế nào gây ra hiện tượng 'đi trước' này?",
+      "options": [
+        "Vì giá cổ phiếu phản ánh (chiết khấu) kỳ vọng lợi nhuận tương lai, không phải kết quả đã công bố",
+        "Vì các nhà đầu tư luôn dự đoán sai hướng thị trường",
+        "Vì báo cáo tài chính doanh nghiệp được công bố trước khi thị trường mở cửa",
+        "Vì giá cổ phiếu không có mối liên hệ nào với nền kinh tế thực"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây là 'cơ chế chiết khấu' (discounting mechanism): giá cổ phiếu phản ánh kỳ vọng tương lai của nhà đầu tư, trong khi báo cáo kinh tế/tài chính luôn là dữ liệu có độ trễ (lagging indicator).",
+      "chartImage": null
+    },
+    {
+      "id": "ch1-q2",
+      "type": "multiple_choice",
+      "prompt": "Richard D. Wyckoff gọi phương pháp phân tích hoàn toàn dựa vào hành động giá và khối lượng (không dùng báo cáo tài chính) của ông là gì?",
+      "options": ["Fundamental Analysis", "Tape Reading", "Elliott Wave Theory", "Dow Theory"],
+      "correctIndex": 1,
+      "explanation": "Wyckoff gọi đây là 'Tape Reading' — ông vẽ hành động giá hàng ngày lên biểu đồ bar chart, kèm khối lượng bên dưới, vì tin rằng giá cổ phiếu là chỉ số tiên đoán tối thượng.",
+      "chartImage": null
+    },
+    {
+      "id": "ch1-q3",
+      "type": "chart_identify",
+      "prompt": "Nhìn biểu đồ dưới đây ('Stock Prices Discount Business Conditions'). Theo đúng thứ tự sách mô tả, bốn giai đoạn chính tạo nên chu kỳ thị trường (đường liền nét) là gì?",
+      "chartImage": "/charts/part_01/p002_chart-030.jpg",
+      "options": [
+        "Phân phối → Markdown → Tích lũy → Markup",
+        "Tích lũy → Markup → Phân phối → Markdown",
+        "Markup → Markdown → Tích lũy → Phân phối",
+        "Markdown → Tích lũy → Phân phối → Markup"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bốn giai đoạn nối tiếp nhau tạo thành chu kỳ liên tục: Tích lũy (Accumulation) → Markup → Phân phối (Distribution) → Markdown, rồi lặp lại. Chú ý đường Chu Kỳ Thị Trường (liền nét) luôn ĐI TRƯỚC đường Chu Kỳ Kinh Doanh (nét đứt) trên biểu đồ — đúng minh họa cho cơ chế chiết khấu ở câu 1."
+    },
+    {
+      "id": "ch1-q4",
+      "type": "multiple_choice",
+      "prompt": "\"Composite Man/Operator (CO)\" mà Wyckoff nhắc đến trong Phần 1 là khái niệm chỉ điều gì?",
+      "options": [
+        "Một cá nhân giao dịch cụ thể có thật tên là Composite Man",
+        "Chỉ số tổng hợp của toàn thị trường (composite index)",
+        "Hình tượng đại diện gộp cho nhóm nhà giao dịch/tổ chức lớn, có thông tin và kỹ năng vượt trội, hành động theo chu kỳ",
+        "Một thuật toán giao dịch tự động do chính Wyckoff lập trình"
+      ],
+      "correctIndex": 2,
+      "explanation": "CO là khái niệm đại diện cho những nhà giao dịch/tổ chức có thông tin và kỹ năng vượt trội, đủ lớn để ảnh hưởng đến xu hướng giá. Wyckoff quan sát 'dấu chân' của họ qua Tape Reading. CO thường ở trong cổ phiếu tốt nhất khi xu hướng bắt đầu và giữ theo xu hướng lâu hơn đám đông.",
+      "chartImage": null
+    },
+    {
+      "id": "ch1-q5",
+      "type": "chart_identify",
+      "prompt": "Investment Clock (Merrill Lynch) dưới đây chia chu kỳ kinh tế thành 4 giai đoạn dựa trên Tăng trưởng và Lạm phát. Giai đoạn nào trong 4 giai đoạn này thường trùng khớp với vùng 'Tích Lũy' theo tư duy Wyckoff — tức giai đoạn giá cổ phiếu (Stocks) được xem là loại tài sản tốt nhất để nắm giữ?",
+      "chartImage": "/charts/part_01/p003_chart-034.jpg",
+      "options": [
+        "Reflation (Giảm phát) — lãi suất đang được cắt giảm",
+        "Recovery (Phục hồi) — cổ phiếu là tài sản được ưa chuộng nhất",
+        "Overheat (Tăng nóng) — hàng hóa (Commodities) dẫn dắt",
+        "Stagflation (Lạm phát đình trệ) — tiền mặt là tài sản tốt nhất"
+      ],
+      "correctIndex": 1,
+      "explanation": "Theo bảng 'Table 1: The Four Phases of the Investment Clock' trong ảnh, giai đoạn Recovery (Phục hồi) có Best Equity Sector là 'Cyclical Growth' và cổ phiếu (Stocks) là loại tài sản được ưa chuộng — đây là giai đoạn ngay sau đáy chu kỳ, tương ứng với logic Wyckoff: CO đã âm thầm tích lũy trong giai đoạn Reflation/đáy trước đó, giờ bắt đầu giai đoạn giá tăng được đám đông nhận ra."
+    },
+    {
+      "id": "ch1-q6",
+      "type": "short_answer_selfgrade",
+      "prompt": "Vì sao việc chỉ dựa vào giá + khối lượng (Tape Reading) lại có lợi thế hơn so với chỉ dựa vào báo cáo tài chính, theo tinh thần Phần 1?",
+      "sampleAnswer": "Vì giá đã tự động phản ánh (chiết khấu) toàn bộ kỳ vọng của thị trường theo thời gian thực — kể cả thông tin mà Composite Man biết trước — trong khi báo cáo tài chính luôn là dữ liệu trễ, công bố sau khi chuyện đã xảy ra.",
+      "chartImage": null
+    },
+    {
+      "id": "ch1-q7",
+      "type": "chart_identify",
+      "prompt": "Sơ đồ 'Wyckoff Method: The Price Cycle' (Roman Bogomazov) dưới đây tóm tắt chu kỳ giá bằng khung STOP → PREPARE → GO. Phase |A| (vùng STOP, màu đỏ) trong sơ đồ được mô tả là giai đoạn nào?",
+      "chartImage": "/charts/part_01/p004_chart-039.jpg",
+      "options": [
+        "Dừng lại của xu hướng trước đó — mất đà đột ngột, đảo chiều mạnh, không thể tiếp tục xu hướng cũ",
+        "Xây dựng nguyên nhân — tích lũy hoặc phân phối cổ phiếu trong biên độ đi ngang",
+        "Bắt đầu xu hướng mới ngay sau khi phá vỡ phạm vi giao dịch",
+        "Giai đoạn tạm dừng (Pause) nằm giữa hai xu hướng liên tiếp"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sơ đồ ghi rõ: 'Phase |A| — Stop of a Trend: Acceleration or loss of momentum, sharp reversal, inability to resume a trend.' Đây là giai đoạn STOP, đánh dấu sự dừng lại của xu hướng cũ — dù là dừng downtrend (mở đầu Tích Lũy) hay dừng uptrend (mở đầu Phân Phối)."
+    },
+    {
+      "id": "ch1-q8",
+      "type": "chart_identify",
+      "prompt": "Vẫn sơ đồ 'The Price Cycle' ở trên. Theo đúng thứ tự, khung STOP → PREPARE → GO tương ứng với các Phase nào?",
+      "chartImage": "/charts/part_01/p004_chart-039.jpg",
+      "options": [
+        "Phase A → Phase B+C → Phase D+E",
+        "Phase A → Phase D → Phase B+C",
+        "Phase E → Phase C → Phase A",
+        "Phase B → Phase A → Phase D"
+      ],
+      "correctIndex": 0,
+      "explanation": "STOP = Phase |A| (dừng xu hướng cũ). PREPARE = Phase |B| + |C| — giai đoạn Consolidation, dao động xây dựng nguyên nhân, gồm cả bước Test/Spring ở Phase C. GO = Phase |D| + |E| — 'Emergence of a Trend', xu hướng mới chính thức bắt đầu và tăng tốc ('GO FASTER'). Khung này sẽ được nhắc lại xuyên suốt các chương về Tích Lũy/Phân Phối sau này."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "chapterId": 12,
+  "title": "Tổng Hợp Phân Tích Tái Tích Lũy",
+  "summary": "Rà soát nhiều ví dụ thực tế về Tái Tích Lũy (AMZN, AAPL, Polaris, Micron, BOFI) — cách nhận diện điểm vào lệnh chiến thuật (Test, JAC, BUEC), tâm lý bi quan của nhà đầu tư nhỏ lẻ trong phạm vi kéo dài, và cách phân biệt Tái Tích Lũy với Phân Phối qua tín hiệu khối lượng bán ở giai đoạn cuối.",
+  "questions": [
+    {
+      "id": "ch12-q1",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ AMZN dưới đây ghi chú 'Tactical places to enter this Reaccumulation: 2 Tests, 3 JACs, 2 BUEC'. Những vị trí này có điểm chung gì về mặt chiến lược?",
+      "chartImage": "/charts/part_12/p045_chart-179.jpg",
+      "options": [
+        "Đều là các điểm mà nguồn cung tại khu vực đó đã được xác nhận cạn kiệt hoặc yếu đi (qua kiểm tra thành công hoặc nhịp điều chỉnh nhẹ sau khi phá vỡ kháng cự) — nên là các cơ hội vào lệnh mua tốt trong Giai Đoạn Tái Tích Lũy",
+        "Đều là các điểm nên bán khống ngay lập tức vì xác nhận Phân Phối",
+        "Đều là các điểm ngẫu nhiên không mang ý nghĩa chiến lược nào",
+        "Đều là thời điểm công ty công bố báo cáo tài chính"
+      ],
+      "correctIndex": 0,
+      "explanation": "Test, JAC (Jump Across the Creek) và BUEC (Backup to the Edge of the Creek) đều là các điểm xác nhận cung đã được hấp thụ hoặc đà tăng vẫn được duy trì sau khi phá vỡ kháng cự — theo đúng nguyên tắc điểm vào lệnh hệ thống đã học ở các phần trước, áp dụng cụ thể cho Tái Tích Lũy của AMZN kéo dài khoảng 15 tháng."
+    },
+    {
+      "id": "ch12-q2",
+      "type": "multiple_choice",
+      "prompt": "Trong ví dụ AMZN, phần lớn thời gian giá dành phần lớn thời gian vận động ở nửa dưới của TR, liên tục quay lại vùng Hỗ Trợ mà không chạm được Kháng Cự. Điều này khiến tâm lý nhà giao dịch nhỏ lẻ trở nên như thế nào, và CO nhận thức được điều gì?",
+      "options": [
+        "Nhà giao dịch nhỏ lẻ trở nên bi quan và chán nản; CO luôn nhận thức được phong cách, hành vi và tâm lý của các nhà đầu tư nhỏ lẻ này để tận dụng",
+        "Nhà giao dịch nhỏ lẻ trở nên cực kỳ hưng phấn và mua vào ồ ạt",
+        "Không có ảnh hưởng tâm lý nào được ghi nhận trong sách",
+        "CO hoàn toàn không quan tâm đến tâm lý của nhà đầu tư nhỏ lẻ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Các nhà giao dịch nhỏ lẻ trở nên rất bi quan và chán nản khi giá liên tục vận động quay trở lại mức Hỗ trợ và không thể nâng lên mức Kháng cự (CO luôn nhận thức được phong cách, hành vi và phương pháp của các nhà đầu tư nhỏ lẻ).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch12-q3",
+      "type": "multiple_choice",
+      "prompt": "Trong ví dụ AMZN, một tín hiệu Thay Đổi Thuộc Tính (CHOCH) xuất hiện khi phiên Spring được kiểm tra (test) thành công. Đặc điểm khối lượng của nhịp test đó là gì?",
+      "options": [
+        "Khối lượng bán tại nhịp test cạn kiệt và nhỏ hơn rất nhiều so với khối lượng của chính phiên Spring trước đó",
+        "Khối lượng tại nhịp test cao gấp đôi khối lượng của phiên Spring",
+        "Khối lượng bằng 0 hoàn toàn trong suốt nhịp test",
+        "Sách không đề cập đến khối lượng ở nhịp test này"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Hành động giá có sự thay đổi lớn về Thuộc tính (Change of Character - CHOCH) khi hành động Spring được test thành công với volume bán cạn kiệt và nhỏ hơn rất nhiều so với phiên Spring, theo sau đó là một hành động JAC tăng mạnh phá qua the creek (SOS Rally).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch12-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ AAPL (2009-10, daily) dưới đây ghi chú nhịp giảm đầu Tái Tích Lũy thứ hai 'Not a classic Spring (#3) but acts like one with a breach of the two prior lows'. Điều gì xác nhận nhịp giảm đó vẫn có thể được xem như một dạng Spring hợp lệ?",
+      "chartImage": "/charts/part_12/p046_chart-183.jpg",
+      "options": [
+        "Nó phá vỡ (breach) xuống dưới hai đáy thấp trước đó — hành vi tương tự một phiên Spring dù không đúng hình dạng cổ điển; và khối lượng thấp ở cả hai lần Tái Tích Lũy khi kết thúc là bằng chứng của sự Hấp Thụ",
+        "Nó xảy ra đúng vào ngày công ty công bố báo cáo tài chính quý",
+        "Nó có khối lượng giao dịch cao nhất trong toàn bộ lịch sử cổ phiếu AAPL",
+        "Nó không liên quan gì đến hai đáy thấp trước đó"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Not a classic Spring (#3) but acts like one with a breach of the two prior lows' và 'In both cases vol. is low at the conclusion of the Reaccum. Evidence of Absorption.' — dù không đúng hình dạng Spring cổ điển, hành vi phá vỡ đáy cũ + khối lượng thấp vẫn xác nhận tính chất hấp thụ."
+    },
+    {
+      "id": "ch12-q5",
+      "type": "multiple_choice",
+      "prompt": "Sách cảnh báo một sai lầm phổ biến là nhầm lẫn Tái Tích Lũy với Phân Phối ở vùng đỉnh (đặc biệt khi mô hình trông giống 'vai đầu vai'). Dấu hiệu khối lượng bán nào giúp phân biệt hai trường hợp này ở GIAI ĐOẠN CUỐI của phạm vi giao dịch?",
+      "options": [
+        "Trong Tái Tích Lũy, khối lượng bán có xu hướng GIẢM dần về cuối (dấu hiệu hấp thụ); trong khi ở một Giai Đoạn Phân Phối đang hình thành, khối lượng bán vẫn duy trì ở mức CAO xuyên suốt",
+        "Không có cách nào để phân biệt hai trường hợp này bằng khối lượng",
+        "Khối lượng luôn tăng đều ở cả hai trường hợp không có khác biệt",
+        "Chỉ có thể phân biệt bằng cách xem báo cáo tài chính công ty"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây là nguyên tắc cốt lõi để tránh nhầm lẫn: khối lượng bán giảm dần (tính chất hấp thụ) xác nhận Tái Tích Lũy, còn khối lượng bán duy trì cao xuyên suốt xác nhận khả năng cao đang hình thành một Giai Đoạn Phân Phối thực sự — như đã thấy qua ví dụ mô hình vai đầu vai của AAPL lần thứ hai.",
+      "chartImage": null
+    },
+    {
+      "id": "ch12-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ Polaris (PII) dưới đây cho thấy khối lượng GIẢM DẦN trong suốt nhịp điều chỉnh Automatic Reaction (AR) sau Buying Climax. Đây là một manh mối sớm cho điều gì?",
+      "chartImage": "/charts/part_12/p047_chart-186.jpg",
+      "options": [
+        "Manh mối sớm rằng một quá trình Tái Tích Lũy đang bắt đầu hình thành (chứ không phải Phân Phối)",
+        "Manh mối rằng cổ phiếu sắp bị hủy niêm yết",
+        "Manh mối rằng công ty sắp phá sản trong quý tới",
+        "Không có ý nghĩa phân tích nào, chỉ là dữ liệu nhiễu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Khối lượng giảm dần trong nhịp điều chỉnh AR là một manh mối sớm rằng một quá trình Tái Tích Lũy đang bắt đầu.' Trong ví dụ này, AR là mức đáy thấp nhất được tạo trong phạm vi giao dịch TR — CO tận dụng phần lớn thời gian ở nửa dưới phạm vi để gom mua càng nhiều cổ phiếu càng tốt."
+    },
+    {
+      "id": "ch12-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Vì sao 'Kiên Nhẫn' được nhấn mạnh là một đức tính đặc biệt quan trọng khi phân tích các Giai Đoạn Tái Tích Lũy, dựa theo tinh thần các ví dụ (AMZN ~15 tháng, WDC 3 năm, Micron nhiều lần) trong phần này?",
+      "sampleAnswer": "Vì các Giai Đoạn Tái Tích Lũy có thể kéo dài rất lâu (nhiều tháng đến nhiều năm) và phần lớn thời gian giá chỉ dao động trong nửa dưới của phạm vi, liên tục khiến nhà đầu tư thiếu kiên nhẫn cảm thấy chán nản và từ bỏ vị thế sớm. Chỉ những ai đủ kiên nhẫn quan sát và chờ đợi các tín hiệu xác nhận (khối lượng giảm dần, Test/JAC/BUEC thành công) mới có thể tham gia đúng lúc trước khi xu hướng tăng chính thức tiếp tục — nôn nóng thoát lệnh sớm đồng nghĩa với việc bỏ lỡ phần lớn đợt tăng giá tiếp theo.",
+      "chartImage": null
+    }
+  ]
+}

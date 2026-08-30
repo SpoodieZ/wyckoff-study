@@ -1,0 +1,112 @@
+{
+  "chapterId": 26,
+  "title": "9 Bài Kiểm Tra Mua Bán",
+  "summary": "Danh sách kiểm tra logic gồm 9 Buying Test (cho Tích Lũy) và 9 Selling Test (cho Phân Phối) — bước kế tiếp cụ thể hóa Ba Quy Luật Wyckoff. Ghép cùng các Sơ Đồ trực quan, hai bộ công cụ này tạo thành một hệ thống 'não trái - não phải' hoàn chỉnh cho việc phân tích và giao dịch.",
+  "questions": [
+    {
+      "id": "ch26-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách mô tả '9 Bài Kiểm Tra' (9 Tests) có mối quan hệ như thế nào với 'Ba Quy Luật của Wyckoff' đã học ở Phần 23?",
+      "options": [
+        "9 Bài Kiểm Tra là bước logic tiếp theo của Ba Quy Luật — cung cấp các nguyên tắc chi tiết và cụ thể hơn trong việc ứng dụng thực tế của chúng",
+        "9 Bài Kiểm Tra hoàn toàn không liên quan gì đến Ba Quy Luật",
+        "9 Bài Kiểm Tra thay thế hoàn toàn Ba Quy Luật, Ba Quy Luật không còn giá trị sử dụng",
+        "9 Bài Kiểm Tra chỉ áp dụng được cho thị trường trái phiếu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Trong khi ba quy luật của Wyckoff cung cấp một phương pháp tiếp cận rộng rãi và tổng quan hơn cho việc nghiên cứu biểu đồ theo phương pháp Wyckoff, thì 9 bài kiểm tra là một tập hợp các nguyên tắc chi tiết và cụ thể hơn trong ứng dụng của chúng. Các bài kiểm tra của Wyckoff logic như là bước kế tiếp của các quy luật của Wyckoff.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch26-q2",
+      "type": "chart_identify",
+      "prompt": "Bảng '9 Buying Tests' dưới đây áp dụng cho Giai Đoạn Tích Lũy sau một downtrend kéo dài. Theo bảng, Test #1 và Test #9 có điểm gì đặc biệt so với 7 test còn lại?",
+      "chartImage": "/charts/part_26/p126_chart-444.jpg",
+      "options": [
+        "Test #1 và Test #9 CHỈ có thể được xác định thông qua biểu đồ Point and Figure (Figure Chart) — trong khi các test khác có thể dùng biểu đồ dạng cột (Vertical Chart) hoặc kết hợp cả hai",
+        "Test #1 và Test #9 không quan trọng bằng các test khác, có thể bỏ qua",
+        "Test #1 và Test #9 chỉ áp dụng cho thị trường tiền điện tử",
+        "Test #1 và Test #9 luôn xảy ra đồng thời cùng lúc với nhau"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bảng ghi rõ cột 'Xác Định': Test #1 ('Đã hoàn thành Target ở xu hướng giảm giá trước đó') và Test #9 ('Xác định tỉ lệ Risk and Reward') đều chỉ dùng 'Figure Chart' (PnF) — sách cũng nhấn mạnh sau đó: 'Lưu ý rằng điểm Test #1 và #9 chỉ có thể được đáp ứng thông qua việc sử dụng biểu đồ PnF.'"
+    },
+    {
+      "id": "ch26-q3",
+      "type": "multiple_choice",
+      "prompt": "Test #4 trong 'Buying Test' liên quan đến việc kiểm tra nguồn cung bằng cách phá vỡ các mức hỗ trợ xuống mức thấp hơn (Spring hoặc Shakeout). Test #4 tương ứng phía 'Selling Test' (Phân Phối) sẽ kiểm tra điều gì?",
+      "options": [
+        "Kiểm tra nguồn cầu bằng việc phá vỡ lên mức cao hơn (dấu hiệu xuất hiện Upthrust hoặc UTAD)",
+        "Kiểm tra khối lượng giao dịch trung bình 10 năm của cổ phiếu",
+        "Kiểm tra tỷ lệ cổ tức mà công ty đã trả trong quá khứ",
+        "Test #4 hoàn toàn giống nhau ở cả hai phía Buying và Selling, không có gì khác biệt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Theo bảng '9 Selling Tests', Test #4 ghi: 'Có dấu hiệu của việc kiểm tra nguồn cầu bằng việc phá vỡ lên mức cao hơn (dấu hiệu xuất hiện Upthrust hoặc Utad). Sau đó xu hướng tăng bị phá vỡ (nghĩa là các đường Cầu hoặc đường Xu hướng tăng bị phá vỡ).' — đối xứng ngược lại với Test #4 phía Buying (Spring/Shakeout kiểm tra nguồn cung).",
+      "chartImage": null
+    },
+    {
+      "id": "ch26-q4",
+      "type": "multiple_choice",
+      "prompt": "Sách đề cập một hạn chế của bộ 9 Bài Kiểm Tra GỐC: chúng ban đầu được thiết kế để xác định sự bắt đầu từ đáy hoặc từ đỉnh, nên không dễ áp dụng trực tiếp cho trường hợp nào?",
+      "options": [
+        "Các khu vực Tái Tích Lũy hoặc Tái Phân Phối — ví dụ Test #2 (Preliminary Support, Selling Climax, Secondary Test) không áp dụng được vì Tái Tích Lũy thường bắt đầu cùng Buying Climax (BC) chứ không phải Selling Climax",
+        "Không có hạn chế nào, bộ 9 Test gốc áp dụng hoàn hảo cho mọi trường hợp",
+        "Chỉ có Test #9 mới gặp hạn chế, các test khác đều áp dụng tốt cho mọi trường hợp",
+        "Bộ 9 Test gốc chỉ có hạn chế khi áp dụng cho thị trường crypto"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một số bài kiểm tra, chẳng hạn như bài Test #2 các phiên như \"Preliminary Support (PS), Selling Climax (SC) và Secondary Test (ST)\" đơn giản là không áp dụng được... mà thường bắt đầu cùng với Buying Climax (BC). Việc sửa đổi trực tiếp quy tắc điểm cao trào (Climax) này để phù hợp với giai đoạn Tái tích lũy càng trở nên mơ hồ hơn.' Đây là lý do bộ '9 Reaccumulation Tests' mới ra đời.",
+      "chartImage": null
+    },
+    {
+      "id": "ch26-q5",
+      "type": "multiple_choice",
+      "prompt": "Bộ '9 Reaccumulation Tests' mới thêm một tiêu chí gọi là 'Stepping-stone confirming count' (Bước Đệm Xác Nhận Số Lượng Ô Đếm). Nguyên tắc Wyckoff nào mà tiêu chí này đặc biệt liên quan đến?",
+      "options": [
+        "Nguyên tắc 'Timing - Thời điểm' — số lượng ô đếm xác nhận (từ biểu đồ PnF) giúp nhà giao dịch cảnh giác về khả năng tiếp tục xu hướng tăng khi target giá của Tái Tích Lũy đã được xác nhận",
+        "Nguyên tắc về thuế thu nhập cá nhân",
+        "Nguyên tắc chọn công ty môi giới chứng khoán",
+        "Không liên quan đến bất kỳ nguyên tắc Wyckoff nào khác"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Việc số lượng ô đếm xác nhận này đáng được xem xét đặc biệt như một bài kiểm tra tái tích lũy vì nó sở hữu một nguyên tắc quan trọng của Wyckoff về \"timing - thời điểm\". Do đó, nhà giao dịch nên cảnh giác với khả năng tiếp tục xu hướng tăng giá khi biểu đồ PnF đã tạo ra và đủ tiềm năng cho giai đoạn tái tích lũy hoặc \"ô đếm\" để xác nhận target giá từ nền cơ sở ban đầu.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch26-q6",
+      "type": "multiple_choice",
+      "prompt": "Sách trích dẫn Hank Pruden và Daniel Pink để mô tả mối quan hệ giữa Sơ Đồ (Schematics) và 9 Bài Kiểm Tra bằng ẩn dụ 'não trái - não phải'. Theo ẩn dụ này, thành phần nào tương ứng với 'não phải' (right-brain)?",
+      "options": [
+        "Sơ Đồ Tích Lũy/Phân Phối (Wyckoff's Schematics) — vì chúng thiên về nhận diện trực quan bằng hình ảnh; còn 9 Bài Kiểm Tra tương ứng 'não trái' vì thiên về logic phân tích tuần tự",
+        "9 Bài Kiểm Tra tương ứng não phải, Sơ Đồ tương ứng não trái",
+        "Cả Sơ Đồ và 9 Bài Kiểm Tra đều thuộc về não trái",
+        "Ẩn dụ não trái - não phải không được sách sử dụng"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách trình bày rõ trong bảng: 'Sơ Đồ Tích Lũy/Phân Phối trong Wyckoff + Danh Sách 9 Bài Kiểm Tra = Hệ Thống Nhận Dạng Mẫu Hình và Giao Dịch Tùy Ý.' Cụ thể: Sơ đồ được gán là 'Hoạt Động Não Phải (Right-brain)' (nhận diện mẫu hình trực quan), còn 9 Bài Kiểm Tra được gán là 'Hoạt Động Não Trái (Left-brain)' (phân tích logic).",
+      "chartImage": null
+    },
+    {
+      "id": "ch26-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách nhấn mạnh: 'Phương pháp Wyckoff là một phương pháp đánh giá chứ không phải là một hệ thống cơ học (rập khuôn).' Dù có tới 9 bài kiểm tra chi tiết, vì sao nhà giao dịch vẫn không nên áp dụng chúng một cách máy móc, cứng nhắc?",
+      "sampleAnswer": "Vì thị trường thực tế luôn biến thiên với vô số biến thể (như đã thấy qua nhiều ví dụ khác nhau ở các chương trước) — không phải lúc nào cả 9 điều kiện cũng xuất hiện đầy đủ và theo đúng thứ tự lý tưởng. Bộ 9 Bài Kiểm Tra là một KHUNG THAM CHIẾU giúp nhà giao dịch có hệ thống đánh giá logic và nhất quán, nhưng việc RA QUYẾT ĐỊNH cuối cùng vẫn cần sự phán đoán linh hoạt (discretionary judgment) dựa trên kinh nghiệm và bối cảnh cụ thể của từng tình huống — đúng như tinh thần 'não trái + não phải' kết hợp mà sách đã trình bày.",
+      "chartImage": null
+    },
+    {
+      "id": "ch26-q8",
+      "type": "chart_identify",
+      "prompt": "Bảng '9 Selling Tests' (áp dụng cho Phân Phối) dưới đây có Test #7 nói về việc xác định 'cổ phiếu mạnh hơn thị trường'. Trong bối cảnh Phân Phối/Downtrend, việc một nhóm cổ phiếu dẫn dắt tạo đỉnh trước có ý nghĩa gì (liên hệ với Phần 25)?",
+      "chartImage": "/charts/part_26/p127_chart-453.jpg",
+      "options": [
+        "Đó là một trong những tín hiệu cảnh báo sớm cho việc thị trường chung sắp tạo đỉnh — nhất quán với nguyên tắc đã học ở Bước 2 của Năm Bước Tiếp Cận Thị Trường",
+        "Không có mối liên hệ nào với các phần trước đã học",
+        "Điều này chỉ áp dụng cho thị trường trái phiếu, không áp dụng cho cổ phiếu",
+        "Nhóm dẫn dắt tạo đỉnh trước là dấu hiệu thị trường sẽ tăng thêm mạnh mẽ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Test #7 ghi: 'Xác định các cổ phiếu mạnh hơn thị trường... Một trong những tín hiệu tạo đỉnh của thị trường chính là khi nhóm dẫn dắt có tín hiệu tạo đỉnh.' Đây chính xác là nguyên tắc đã học ở Bước 2, Phần 25 — nhất quán xuyên suốt hệ thống Wyckoff."
+    }
+  ]
+}

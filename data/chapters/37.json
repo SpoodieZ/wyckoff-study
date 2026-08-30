@@ -1,0 +1,140 @@
+{
+  "chapterId": 37,
+  "title": "Phân Tích Ngành, Nhóm Ngành Cổ Phiếu",
+  "summary": "Quy trình phân tích 'từ trên xuống' (top-down): Thị trường → Ngành → Nhóm Ngành → Cổ Phiếu, luôn tìm cổ phiếu mạnh nhất trong nhóm ngành mạnh nhất. Luân chuyển dòng tiền theo chu kỳ kinh doanh (nhóm ngành dẫn đầu sớm/muộn), và chỉ báo ROC (Rate of Change) hỗ trợ RS xác nhận chất lượng xu hướng.",
+  "questions": [
+    {
+      "id": "ch37-q1",
+      "type": "multiple_choice",
+      "prompt": "Quy trình rà soát thị trường 'từ trên xuống' theo Phương Pháp Wyckoff đi theo trình tự nào?",
+      "options": [
+        "Thị Trường ($SPX) → Ngành (Sector) → Nhóm Ngành (Industry Group) → Cổ Phiếu",
+        "Cổ Phiếu → Nhóm Ngành → Ngành → Thị Trường (thứ tự ngược lại)",
+        "Chỉ cần phân tích Cổ Phiếu, bỏ qua hoàn toàn Ngành và Nhóm Ngành",
+        "Không có trình tự cụ thể nào được đề xuất"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Tôi thường rà soát toàn bộ thị trường, sau đó đến các Ngành, sau đó là Nhóm Ngành. Chọn các Nhóm Ngành triển vọng nhất và sau đó phân tích đi sâu vào chúng để tìm các Cổ phiếu dẫn đầu mạnh nhất.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch37-q2",
+      "type": "multiple_choice",
+      "prompt": "Theo sách, sự thay đổi vai trò dẫn đầu (leadership) giữa các Ngành thường xảy ra như thế nào về mặt tốc độ?",
+      "options": [
+        "Thường xảy ra khá ĐỘT NGỘT, chỉ trong vài tuần",
+        "Luôn diễn ra từ từ trong nhiều thập kỷ",
+        "Không bao giờ xảy ra, thứ hạng dẫn đầu là cố định vĩnh viễn",
+        "Chỉ xảy ra đúng một lần duy nhất trong lịch sử thị trường"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Sự thay đổi việc dẫn đầu giữa các Ngành thường xảy ra khá đột ngột (trong vài tuần).' Đây là lý do việc rà soát thị trường đều đặn (hàng tuần) được khuyến khích để không bỏ lỡ các thay đổi quan trọng.",
+      "chartImage": null
+    },
+    {
+      "id": "ch37-q3",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ H.B. Fuller (FUL) dưới đây minh họa một cổ phiếu chuyển từ 'kẻ tụt hậu' thành 'người dẫn đầu mới nổi'. Ghi chú 'Stride of FUL begins while $SPX is Testing the lows' cho thấy điều gì?",
+      "chartImage": "/charts/part_37/p236_chart-833.jpg",
+      "options": [
+        "FUL bắt đầu thiết lập nhịp điệu tăng giá riêng của mình ngay cả khi $SPX vẫn còn đang kiểm tra lại các mức đáy — một dấu hiệu Sức Mạnh Tương Đối rất sớm và tích cực",
+        "FUL luôn di chuyển giống hệt $SPX, không có gì khác biệt",
+        "FUL đã bị hủy niêm yết trước khi $SPX kiểm tra đáy",
+        "Ghi chú này không liên quan gì đến Sức Mạnh Tương Đối"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'FUL đạt mức đáy thấp cuối cùng một tuần trước khi $SPX đạt mức đáy thấp điểm... Sự dẫn đầu sớm của FUL trong Nhóm Hóa Chất Chuyên Dụng và Ngành mới nổi.' FUL thiết lập Stride của riêng nó trong khi $SPX vẫn đang kiểm tra đáy — dấu hiệu dẫn đầu rất sớm."
+    },
+    {
+      "id": "ch37-q4",
+      "type": "multiple_choice",
+      "prompt": "Sách đưa ra 'quy tắc ngón tay cái quan trọng' về hành động Backup to the Edge of the Creek (BUEC). Quy tắc đó là gì?",
+      "options": [
+        "Một BUEC không nên thoái lui quá 1/3 đến 1/2 mức tăng đã đạt được trong đợt tăng giá (rally) trước đó",
+        "Một BUEC phải luôn thoái lui đúng 100% mức tăng trước đó",
+        "BUEC không có bất kỳ quy tắc định lượng cụ thể nào",
+        "BUEC chỉ áp dụng được cho chỉ số, không áp dụng cho cổ phiếu riêng lẻ hay ETF ngành"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Important rule of thumb is that a BUEC not retrace more than 1/3 to 1/2 of the gain made in the rally.' Đây là tiêu chí định lượng hữu ích để đánh giá liệu một nhịp lùi sau breakout có còn lành mạnh hay đã trở nên đáng lo ngại.",
+      "chartImage": null
+    },
+    {
+      "id": "ch37-q5",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ Dow Chemical (DOW) dưới đây có ghi chú 'Downside Non-Confirmation as RS makes a higher low.' Trong bối cảnh này, điều gì đang xảy ra giữa Giá và RS?",
+      "chartImage": "/charts/part_37/p249_chart-873.jpg",
+      "options": [
+        "Trong khi Giá tạo một đáy THẤP HƠN (LL), chỉ số RS lại tạo một đáy CAO HƠN (HL) — một tín hiệu phân kỳ TÍCH CỰC cho thấy sức mạnh tương đối tiềm ẩn đang được xây dựng dù giá tạm thời còn yếu",
+        "Cả Giá và RS đều tạo đáy thấp hơn đồng thời, xác nhận xu hướng giảm sẽ tiếp diễn",
+        "RS hoàn toàn không có dữ liệu trong giai đoạn này",
+        "DOW đã ngừng giao dịch trong giai đoạn được mô tả"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây là một 'Downside Non-Confirmation' (đối lập với UNC đã học ở Phần 35) — dấu hiệu tích cực cho thấy dù giá tạo đáy mới thấp hơn, RS đã không xác nhận theo, ngụ ý CO có thể đang âm thầm tích lũy DOW ngay cả khi giá tạm thời còn yếu."
+    },
+    {
+      "id": "ch37-q6",
+      "type": "multiple_choice",
+      "prompt": "Sách phân loại các Ngành theo giai đoạn của Chu Kỳ Kinh Doanh (business cycle). Nhóm Ngành nào thường DẪN ĐẦU vào GIAI ĐOẠN SỚM (early cycle), và nhóm nào thường dẫn đầu vào GIAI ĐOẠN CUỐI (late cycle)?",
+      "options": [
+        "Sớm: Hàng Tiêu Dùng Không Thiết Yếu, Hàng Tiêu Dùng Thiết Yếu và Tài Chính; Cuối: Năng Lượng và Chăm Sóc Sức Khỏe",
+        "Sớm: Năng Lượng và Chăm Sóc Sức Khỏe; Cuối: Hàng Tiêu Dùng Không Thiết Yếu và Tài Chính",
+        "Không có sự khác biệt nào giữa các nhóm ngành theo chu kỳ kinh doanh",
+        "Tất cả các nhóm ngành đều dẫn đầu đồng thời tại mọi giai đoạn của chu kỳ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một số Ngành dẫn đầu trong một chu kỳ kinh doanh sớm bao gồm Hàng Tiêu Dùng Không Thiết Yếu, Hàng Tiêu Dùng Thiết Yếu và Tài Chính. Các Ngành ở chu kỳ cuối thường bao gồm Năng Lượng và Chăm Sóc Sức Khỏe.' (Ngành Vật Liệu và Công Nghiệp cũng được thảo luận thêm là các Ngành thường hưởng lợi ở nửa sau của chu kỳ mở rộng kinh tế.)",
+      "chartImage": null
+    },
+    {
+      "id": "ch37-q7",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ $DJUSCC (Hóa Chất Hàng Hóa) khung tuần dưới đây có ghi chú 'After BCLX the RS stays mostly below a declining 30 week MA. This is a good indication of a bear market.' Ghi chú này minh họa nguyên tắc gì?",
+      "chartImage": "/charts/part_37/p253_chart-889.jpg",
+      "options": [
+        "Việc RS duy trì liên tục DƯỚI đường trung bình động dài hạn đang giảm là một dấu hiệu đáng tin cậy cho thấy một thị trường giá xuống (bear market) đang diễn ra ở nhóm ngành đó",
+        "Đường trung bình động không có bất kỳ ý nghĩa gì trong phân tích RS",
+        "RS luôn phải nằm trên đường trung bình động, không bao giờ nằm dưới",
+        "Ghi chú này chỉ áp dụng cho một tuần giao dịch duy nhất"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Persistence of RS decline warns of the group price being under Distribution. Be prepared for weakness at ST of BCLX. Price downtrend eventually follows RS downtrend.' Biểu đồ cũng giới thiệu chỉ báo ROC (Rate of Change): 'ROC above zero indicates quality uptrend.'"
+    },
+    {
+      "id": "ch37-q8",
+      "type": "chart_identify",
+      "prompt": "Nghiên cứu trường hợp DowDuPont (DWDP) dưới đây được gọi là 'Campaign Case Study'. Ghi chú 'DWDP compared to the Industry Grp. Stronger tone to Price during decline and advance' cho thấy điều gì về vai trò của DWDP?",
+      "chartImage": "/charts/part_37/p256_chart-897.jpg",
+      "options": [
+        "DWDP thể hiện vai trò DẪN ĐẦU (leadership) trong Nhóm Ngành của nó — mạnh hơn cả khi thị trường giảm lẫn khi thị trường tăng, so với chính Nhóm Ngành mà nó thuộc về",
+        "DWDP luôn yếu hơn Nhóm Ngành của nó trong mọi giai đoạn",
+        "DWDP không có bất kỳ mối liên hệ nào với Nhóm Ngành Hóa Chất",
+        "Ghi chú này chỉ đề cập đến khối lượng giao dịch, không liên quan đến giá"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'DWDP is leadership in the Group.' Kết hợp với 'Quality and persistent uptrend in RS and Price. These are Bull Market conditions' — xác nhận DWDP là ứng viên dẫn đầu mạnh mẽ trong chiến dịch tăng giá của cả Nhóm Ngành Hóa Chất."
+    },
+    {
+      "id": "ch37-q9",
+      "type": "multiple_choice",
+      "prompt": "Sách giải thích cổ phiếu hóa chất hàng hóa (Commodity Chemicals) 'có một chân trong cả hai Ngành' nào cùng lúc?",
+      "options": [
+        "Ngành Công Nghiệp (Industrials) và Ngành Vật Liệu (Materials) — vì hóa chất vừa là sản phẩm cần thiết cho sản xuất công nghiệp, vừa là nguyên liệu thô/trung gian của Ngành Vật Liệu",
+        "Ngành Công Nghệ và Ngành Y Tế",
+        "Ngành Tài Chính và Ngành Bất Động Sản",
+        "Không có Ngành nào liên quan đến hóa chất hàng hóa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Cổ phiếu hóa chất hàng hóa có một chân trong cả hai ngành Công Nghiệp và Vật Liệu của thị trường. Ngành Công Nghiệp vì các sản phẩm hóa chất cần thiết cho sản xuất và bảo trì hầu hết các thiết bị được sử dụng trong nền kinh tế. Còn Ngành Vật Liệu vì hóa chất hàng hóa này là nguyên liệu thiết yếu cho hoạt động của nền kinh tế dựa trên sản xuất thực tế.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch37-q10",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách khuyên nên dành thời gian MỖI TUẦN để rà soát tất cả các Ngành và Nhóm Ngành dẫn đầu, thay vì chỉ làm việc này một lần rồi thôi. Dựa trên nguyên tắc 'sự thay đổi vai trò dẫn đầu thường xảy ra đột ngột trong vài tuần' (câu 2), vì sao việc duy trì thói quen rà soát ĐỀU ĐẶN lại quan trọng hơn việc chỉ phân tích sâu một lần duy nhất?",
+      "sampleAnswer": "Vì nếu chỉ phân tích một lần rồi không cập nhật lại, nhà đầu tư có thể bỏ lỡ những thay đổi vai trò dẫn đầu quan trọng xảy ra chỉ trong vài tuần — dẫn đến việc tiếp tục nắm giữ hoặc theo dõi các Ngành/Nhóm Ngành đã chuyển từ dẫn đầu sang tụt hậu (hoặc ngược lại) mà không hề hay biết. Việc rà soát đều đặn hàng tuần giúp nhà đầu tư luôn có 'bức tranh sống' cập nhật về dòng tiền luân chuyển giữa các Ngành, từ đó phản ứng kịp thời trước khi thị trường xác nhận rõ ràng xu hướng mới — đúng tinh thần chủ động 'đi trước thị trường' mà Phương Pháp Wyckoff hướng tới.",
+      "chartImage": null
+    }
+  ]
+}

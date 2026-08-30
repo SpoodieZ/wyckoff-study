@@ -1,0 +1,98 @@
+{
+  "chapterId": 21,
+  "title": "Câu Chuyện Đằng Sau Các Đường Xu Hướng",
+  "summary": "Ẩn dụ 'kính 3D' — các đường xu hướng (Demand, Supply, Overbought, Oversold, Support, Resistance) biến biểu đồ 2D tĩnh thành một câu chuyện sống động. Nguyên tắc xác nhận điểm neo bằng khối lượng, và mẫu hình 'Plateau' trong Downtrend.",
+  "questions": [
+    {
+      "id": "ch21-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách ví việc vẽ các đường xu hướng theo Phương Pháp Wyckoff giống như 'đeo kính 3D'. Ẩn dụ này muốn truyền đạt điều gì?",
+      "options": [
+        "Các đường xu hướng giúp biểu đồ 2D tĩnh trở nên 'sống động' và tiết lộ những bí mật/ý định thực sự ẩn giấu đằng sau hành vi giá, giống như kính 3D làm cho hình ảnh phẳng có chiều sâu",
+        "Cần phải đeo kính 3D thật khi phân tích biểu đồ mới nhìn thấy được xu hướng",
+        "Biểu đồ giá thực chất luôn là hình ảnh 3 chiều được vẽ bằng phần mềm chuyên dụng",
+        "Ẩn dụ này không có ý nghĩa gì, chỉ là câu nói vui"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Khi các đường xu hướng (trendlines) được vẽ bằng Phương pháp Wyckoff, nó giống như việc bạn đeo kính 3D. Với việc phân tích xu hướng chính xác, các biểu đồ 2D sẽ trở nên sống động và tiết lộ những bí mật được giấu kín nhất và ý định thực sự của chúng là gì.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch21-q2",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ HOG (Harley Davidson) dưới đây ghi chú 'Best Supply Lines have large volume around the peaks'. Điều này bổ sung nguyên tắc mới nào khi chọn hai đỉnh liền kề để vẽ Đường Cung (Supply Line)?",
+      "chartImage": "/charts/part_21/p092_chart-323.jpg",
+      "options": [
+        "Nên ưu tiên chọn các đỉnh có khối lượng giao dịch LỚN xung quanh chúng để làm điểm neo — vì khối lượng cao xác nhận sự hiện diện thực sự của nguồn cung tại đó, khiến Đường Cung đáng tin cậy hơn",
+        "Khối lượng giao dịch không liên quan gì đến việc chọn điểm neo cho Đường Cung",
+        "Nên luôn chọn đỉnh có khối lượng thấp nhất để vẽ Đường Cung",
+        "Chỉ cần chọn đỉnh cao nhất về giá, không cần quan tâm đến khối lượng"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'High Volume around the peak confirms supply is present. This turns down the price. Best Supply Lines have large volume around the peaks.' Đây là một tiêu chí bổ sung quan trọng: không chỉ chọn 2 đỉnh liền kề về vị trí, mà nên ưu tiên đỉnh có khối lượng lớn xác nhận nguồn cung thực sự hiện diện."
+    },
+    {
+      "id": "ch21-q3",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ $INDU (1998) dưới đây cho thấy một đợt cao trào bán (climax) phá xuyên qua Đường Quá Bán (O/S Line) rồi 'stalls before jumping back into the channel and back to the Supply Line'. Điều gì được minh họa rõ ràng qua việc giá KHÔNG THỂ quay lại phá Đường Quá Bán lần nữa?",
+      "chartImage": "/charts/part_21/p092_chart-324.jpg",
+      "options": [
+        "Sự mất đà giảm giá (loss of downward momentum) — được minh họa rõ qua việc giá thất bại khi cố quay trở lại Đường Quá Bán",
+        "Xu hướng giảm giá sẽ tăng tốc mạnh hơn nữa trong tương lai gần",
+        "Chỉ số Dow Jones sắp bị loại bỏ khỏi các sàn giao dịch chính",
+        "Không có ý nghĩa phân tích cụ thể nào được rút ra"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Loss of downward momentum is illustrated by the failure to return to the O/S Line.' Sau khi giá không thể quay lại phá vỡ Đường Quá Bán, một nhịp Automatic Rally (AR) xuất hiện (CHOB) và Giai Đoạn Tích Lũy bắt đầu."
+    },
+    {
+      "id": "ch21-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ CREE dưới đây minh họa mẫu hình 'Plateau' — nơi giá 'di chuyển hết chiều rộng của kênh giá, chạm đến Đường Cung rồi sụp đổ xuống Đường Quá Bán'. Ngoài ra biểu đồ còn cho thấy hai cách vẽ kênh giá khác nhau (normal và reverse trendlines). Điều đó minh họa nguyên tắc gì?",
+      "chartImage": "/charts/part_21/p093_chart-327.jpg",
+      "options": [
+        "Có nhiều hơn một cách hợp lệ để vẽ và diễn giải các đường xu hướng trên cùng một biểu đồ — mỗi kỹ thuật (thông thường và đảo ngược) đều có giá trị phân tích riêng",
+        "Chỉ có duy nhất một cách đúng để vẽ đường xu hướng, mọi cách khác đều sai",
+        "Đường xu hướng thông thường (normal) luôn chính xác hơn đường xu hướng đảo ngược (reverse) trong mọi trường hợp",
+        "CREE là cổ phiếu duy nhất có thể áp dụng cả hai kỹ thuật vẽ đường xu hướng"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Hai đường kênh xu hướng hữu ích được vẽ trên biểu đồ của CREE... Chúng minh họa rằng có nhiều cách hơn để vẽ và diễn giải các đường xu hướng trên biểu đồ. Hãy xem xét việc tách rời các đường xu hướng này và vẽ lại chúng riêng biệt. Mỗi kỹ thuật kẻ đều cung cấp các điểm phản ứng (giao dịch).'"
+    },
+    {
+      "id": "ch21-q5",
+      "type": "multiple_choice",
+      "prompt": "Biểu đồ $INDU (weekly, 4+ năm) trong sách có độ RỘNG kênh giá rất lớn. Sách gợi ý độ rộng lớn này là một manh mối về điều gì?",
+      "options": [
+        "Độ rộng của kênh là một gợi ý về những điều có thể xảy ra khi đợt suy giảm tiếp theo quay trở lại Đường Quá Bán — kênh càng rộng thường tương ứng với tính chất của một đợt Cao Trào Bán (Selling Climax) lớn",
+        "Độ rộng kênh giá không có bất kỳ ý nghĩa phân tích nào",
+        "Độ rộng kênh giá xác định chính xác giá cổ phiếu sẽ đạt bao nhiêu đô la trong tương lai",
+        "Kênh giá càng rộng thì chắc chắn công ty sắp phá sản"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Lưu ý độ rộng của kênh giá này, nó rất lớn. Khối lượng tại đỉnh năm 2001 và đỉnh thấp hơn năm 2002 ngay sau đó là bằng chứng của nguồn cung hiện diện... Độ rộng của kênh là một gợi ý về những điều sắp xảy ra khi đợt suy giảm từ đỉnh thứ hai quay trở lại xuống toàn bộ Đường quá bán của kênh giá, nơi mà giá đạt đến cao trào bán đỉnh điểm gần như chính xác tại đường xu hướng.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch21-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ MNST (Monster Beverage) dưới đây sử dụng kỹ thuật đảo ngược đường xu hướng (Reverse Use of Trendlines). Theo ghi chú, hành động nào là cần thiết để 'dừng lại' đợt suy giảm và thoát khỏi việc phá lên trên đường kênh xu hướng giảm?",
+      "chartImage": "/charts/part_21/p094_chart-331.jpg",
+      "options": [
+        "Phải có một hành động cao trào bán (climactic action) để dừng lại đợt suy giảm này và sau đó thoát khỏi phá lên trên Đường Kênh Xu Hướng giảm",
+        "Chỉ cần đợi đúng 90 ngày là giá tự động đảo chiều không cần bất kỳ hành động nào",
+        "Cần công ty công bố sáp nhập với đối thủ cạnh tranh",
+        "Không cần bất kỳ hành động đặc biệt nào, giá sẽ tự phục hồi ngẫu nhiên"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Phải có hành động cao trào bán để dừng lại của đợt suy giảm này và sau đó thoát khỏi phá lên trên đường kênh xu hướng giảm.' Đây cũng là ví dụ tiếp theo minh họa vai trò quan trọng của hành động cao trào bán trong việc đánh dấu kết thúc của Giai Đoạn Downtrend."
+    },
+    {
+      "id": "ch21-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách kết luận: các loại đường xu hướng khác nhau (Demand, Supply, Overbought, Oversold, Support, Resistance) đều 'kể cho chúng ta một câu chuyện về hành vi và hướng đi của giá cả'. Vì sao việc coi các đường này như đang 'kể chuyện' lại hữu ích hơn việc chỉ coi chúng là các đường kẻ hình học đơn thuần?",
+      "sampleAnswer": "Vì cách tiếp cận 'kể chuyện' buộc nhà phân tích phải diễn giải Ý NGHĨA đằng sau mỗi đường xu hướng (ai đang mua/bán ở đâu, tại sao giá phản ứng ở mức đó) thay vì chỉ máy móc nối các điểm trên biểu đồ. Hiểu câu chuyện giúp nhà phân tích linh hoạt hơn khi thực tế lệch khỏi hình dạng lý tưởng — họ có thể suy luận ra diễn biến tiếp theo dựa trên logic cung-cầu, thay vì chỉ áp dụng một công thức hình học cứng nhắc không phản ánh đúng bản chất thị trường.",
+      "chartImage": null
+    }
+  ]
+}

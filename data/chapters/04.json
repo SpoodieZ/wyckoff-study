@@ -1,0 +1,119 @@
+{
+  "chapterId": 4,
+  "title": "Giai Đoạn Tích Lũy: Hấp Thụ Cổ Phiếu Như Một Miếng Bọt Biển",
+  "summary": "Khái niệm 'Hấp thụ' (Absorption) — cách Composite Man âm thầm mua cổ phiếu như một miếng bọt biển để giữ giá thấp trong lúc gom hàng, nghịch lý công chúng càng bi quan khi CO càng tích lũy, và hiện tượng 'Ease of Movement' khi nguồn cung cạn kiệt.",
+  "questions": [
+    {
+      "id": "ch4-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách ví Giai Đoạn Tích Lũy của Composite Man (CO) giống như hành động của một 'miếng bọt biển'. Mục tiêu chiến lược cốt lõi của CO trong giai đoạn này là gì?",
+      "options": [
+        "Mua được số lượng lớn cổ phiếu ở mức giá thuận lợi mà KHÔNG làm giá tăng lên đáng kể",
+        "Đẩy giá tăng thật nhanh ngay từ đầu để thu hút nhà đầu tư nhỏ lẻ mua theo",
+        "Bán hết cổ phiếu đang nắm giữ trước khi giá giảm sâu hơn",
+        "Chỉ giao dịch trong 1 phiên duy nhất để tránh bị phát hiện"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: mục tiêu của CO là 'mua các cổ phiếu này một cách âm thầm mà không gây chú ý đến hoạt động của họ' — hấp thụ số lượng lớn cổ phiếu ở mức giá thấp và rẻ, giữ giá ở mức thấp càng lâu càng tốt.",
+      "chartImage": null
+    },
+    {
+      "id": "ch4-q2",
+      "type": "multiple_choice",
+      "prompt": "'Hấp Thụ' (Absorption) — đặc điểm chính của Giai Đoạn Tích Lũy — được định nghĩa như thế nào trong sách?",
+      "options": [
+        "CO mua cổ phiếu như một miếng bọt biển, ở mức giá thấp/rẻ nhất có thể, với ý định giữ cổ phiếu trong thời gian rất dài",
+        "CO bán tháo cổ phiếu ra thị trường để tạo hoảng loạn cho nhà đầu tư nhỏ lẻ",
+        "Một thuật toán tính chỉ số thanh khoản trung bình của cổ phiếu",
+        "Quá trình sáp nhập giữa hai công ty cùng ngành"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'CO thực hiện hấp thụ cổ phiếu như một miếng bọt biển, ở mức giá tốt thấp và rẻ với ý định giữ cổ phiếu trong thời gian rất dài.' Kịch bản duy nhất khiến CO bán cổ phiếu đã hấp thụ là khi giá bị đẩy lên quá cao quá nhanh trong quá trình tăng nóng.",
+      "chartImage": null
+    },
+    {
+      "id": "ch4-q3",
+      "type": "multiple_choice",
+      "prompt": "Theo sách, nhóm người mua số lượng lớn đầu tiên (first large buyers) thường trở nên tích cực hoạt động gom hàng vào lúc nào — vì đó là thời điểm có lợi thế lớn nhất để tích lũy âm thầm?",
+      "options": [
+        "Trong giai đoạn Selling Climax (SC) hoặc ngay sau đó",
+        "Ngay tại đỉnh của đợt tăng giá trước đó",
+        "Chỉ sau khi cổ phiếu đã tăng giá được 50% từ đáy",
+        "Vào ngày công ty công bố báo cáo tài chính quý"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Người mua số lượng lớn đầu tiên này trở nên tích cực hoạt động thu gom cổ phiếu trong giai đoạn SC (Selling Climax), hoặc ngay sau đó và họ có lợi thế lớn nhất trong việc tích lũy cổ phiếu một cách âm thầm.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch4-q4",
+      "type": "multiple_choice",
+      "prompt": "Sách mô tả một nghịch lý (irony) trong Giai Đoạn Tích Lũy: khi giá cổ phiếu vẫn ở mức thấp/trầm lắng, công chúng lại càng trở nên bi quan hơn. Điều này có ý nghĩa chiến lược gì đối với CO?",
+      "options": [
+        "Chính sự bi quan này giúp CO tiếp tục mua được cổ phiếu với giá thấp — đây là một 'chìa khóa' trong chiến lược của CO là giữ giá ở mức thấp",
+        "Nó không có ý nghĩa gì, chỉ là hiện tượng tâm lý ngẫu nhiên không liên quan đến CO",
+        "Nó buộc CO phải dừng hoàn toàn việc mua vào để chờ tâm lý thị trường cải thiện",
+        "Nó khiến CO phải bán tháo ngay lập tức để tránh thua lỗ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Điều nghịch lý là công chúng ngày càng trở nên bi quan hơn khi giá cổ phiếu vẫn ở mức thấp và trầm lắng. Đây là một chìa khóa trong chiến lược của CO: giữ giá ở mức thấp.' Sự bi quan của đám đông chính là điều kiện thuận lợi để CO tiếp tục hấp thụ nguồn cung giá rẻ.",
+      "chartImage": null
+    },
+    {
+      "id": "ch4-q5",
+      "type": "chart_identify",
+      "prompt": "Ghi chú trên biểu đồ SLB dưới đây giải thích mục tiêu của CO trong việc hấp thụ cổ phiếu. Theo đúng ghi chú đó, CO đặt mục tiêu hấp thụ cổ phiếu ở vùng nào của Phạm Vi Tích Lũy (Accumulation Range)?",
+      "chartImage": "/charts/part_04/p014_chart-073.jpg",
+      "options": [
+        "Nửa dưới (lower half) của Phạm Vi Tích Lũy — mua theo kiểu 'scale down', khi cung được hấp thụ hết giá sẽ bắt đầu nhích lên vùng đỉnh",
+        "Nửa trên (upper half) của Phạm Vi Tích Lũy — mua đuổi theo đà tăng giá",
+        "Chỉ mua đúng 1 lần duy nhất tại điểm thấp nhất trong toàn bộ lịch sử cổ phiếu",
+        "Mua rải đều không phân biệt vùng giá cao hay thấp trong phạm vi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ SLB: 'Goal of the C.O. is to absorb shares in the lower half of the Accumulation Range. They buy on a scale down in the lower half of the range. When the supply is absorbed and the stock begins to lift toward the top of the range the C.O. will stop buying and potentially sell shares near the top to check the advance.'"
+    },
+    {
+      "id": "ch4-q6",
+      "type": "multiple_choice",
+      "prompt": "Điều gì xảy ra về mặt cấu trúc giá khi CO đã hấp thụ (khóa lại) gần như toàn bộ nguồn cung cổ phiếu trôi nổi trên thị trường?",
+      "options": [
+        "Nguồn cung còn lại trở nên rất mỏng, chỉ cần một lực cầu nhỏ cũng đủ khiến giá tăng vọt dễ dàng — hiện tượng 'Ease of Movement (EOM)' — báo hiệu cấu trúc tăng giá chính thức bắt đầu hình thành",
+        "Giá sẽ đi ngang mãi mãi vì không còn ai giao dịch",
+        "CO buộc phải bán ngay lập tức toàn bộ vị thế để chốt lời",
+        "Sàn giao dịch sẽ tạm ngừng giao dịch cổ phiếu đó"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một khi cổ phiếu nằm phần lớn trong tay Strong Hands, nguồn cung sẵn có sẽ bị cạn kiệt và chỉ cần một chút lực cầu đẩy giá tăng sẽ khiến giá cổ phiếu tăng nhảy vọt (Ease of Movement - EOM). Cấu trúc tăng giá chính thức bắt đầu được hình thành.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch4-q7",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ chỉ số DOW dưới đây minh họa một Phạm Vi Giao Dịch (TR) không có xu hướng. Ghi chú trên biểu đồ nói gì về khối lượng giao dịch ở vùng đỉnh của phạm vi?",
+      "chartImage": "/charts/part_04/p015_chart-076.jpg",
+      "options": [
+        "Khối lượng tăng vọt (surge) ở vùng đỉnh phạm vi cho thấy nguồn cung vẫn còn hiện diện và cần được hấp thụ trước khi có xu hướng tăng thực sự",
+        "Khối lượng giảm dần về 0 ở vùng đỉnh cho thấy không còn ai muốn bán cổ phiếu này nữa",
+        "Khối lượng chỉ tăng ở vùng đáy, còn vùng đỉnh hoàn toàn không có giao dịch",
+        "Ghi chú không đề cập gì đến khối lượng, chỉ nói về giá"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Evidence of supply at the top of the range turns price back toward the lows again.' TR là sự bế tắc giữa cung và cầu; khối lượng tăng vọt ở đỉnh phạm vi chứng tỏ nguồn cung rõ ràng vẫn còn và phải được hấp thụ hết trước khi bất kỳ xu hướng tăng có ý nghĩa nào có thể bắt đầu."
+    },
+    {
+      "id": "ch4-q8",
+      "type": "multiple_choice",
+      "prompt": "Khi Preliminary Support (PS) không thể hiện rõ ràng trên biểu đồ, sách gợi ý cách nào để ước tính mức giá bình quân (average cost) mà CO đã tích lũy?",
+      "options": [
+        "Tính điểm giữa (mid-point) của toàn bộ Phạm Vi Giao Dịch (TR)",
+        "Lấy mức giá đóng cửa cao nhất trong toàn bộ phạm vi",
+        "Lấy mức giá đóng cửa của phiên đầu tiên trong phạm vi, bất kể đó là giá gì",
+        "Không có cách nào ước tính được, phải bỏ qua cổ phiếu đó"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết (chú thích trên biểu đồ COP): 'It is considered the objective of the C.O. to average cost the position at or below the Preliminary Support (PS)... If the PS is not evident, calculate the mid-point of the range.' Mức giữa phạm vi trở thành ước lượng thay thế hợp lý cho mức giá bình quân mà CO nhắm tới.",
+      "chartImage": null
+    }
+  ]
+}

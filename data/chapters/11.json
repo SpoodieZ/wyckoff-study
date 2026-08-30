@@ -1,0 +1,98 @@
+{
+  "chapterId": 11,
+  "title": "Wyckoff Re-accumulation",
+  "summary": "Giai Đoạn Tái Tích Lũy (Reaccumulation) — nhịp tạm dừng trong một Uptrend dài hạn. Cách phân biệt sớm với Phân Phối qua đặc điểm hấp thụ (biên độ/khối lượng giảm dần), và ví dụ thực tế cho thấy một cổ phiếu có thể trải qua nhiều lần Tái Tích Lũy trong suốt một xu hướng tăng lớn.",
+  "questions": [
+    {
+      "id": "ch11-q1",
+      "type": "multiple_choice",
+      "prompt": "Cả Giai Đoạn Tái Tích Lũy (Reaccumulation) và Giai Đoạn Phân Phối (Distribution) đều BẮT ĐẦU bằng cùng một loại hành động nào?",
+      "options": [
+        "Hành động ngăn chặn một xu hướng tăng trước đó (stopping action) — chỉ khác nhau ở việc Phạm Vi Giao Dịch (TR) hình thành sau đó phát triển theo hướng nào",
+        "Một đợt IPO mới của công ty liên quan",
+        "Một Selling Climax (SCLX) giống hệt như ở đáy downtrend",
+        "Việc công ty tuyên bố chia cổ tức đặc biệt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Cả hai giai đoạn Tái Tích Lũy và giai đoạn Phân Phối đều bắt đầu bằng cùng một hành động và theo cùng một cách. Chúng ta gọi đó là hành động ngăn chặn một xu hướng tăng trước đó. Điều xảy ra sau đó là một phạm vi giao dịch TR hình thành và sẽ mất một thời gian để biết chính xác đó là giai đoạn Tái Tích Lũy hay giai đoạn Phân Phối.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch11-q2",
+      "type": "multiple_choice",
+      "prompt": "Sau một Buying Climax (BCLX), một nhịp Automatic Reaction (AR) mạnh xuất hiện, được gọi là 'Change of Behavior - CHOB'. Cặp điểm BCLX và AR đóng vai trò gì?",
+      "options": [
+        "Xác định ranh giới ban đầu — BCLX làm biên Kháng Cự (đỉnh) và AR làm biên Hỗ Trợ (đáy) của Phạm Vi Giao Dịch mới, tương tự cách SC và AR xác định TR ở đáy trong Tích Lũy",
+        "Chúng không có vai trò xác định ranh giới nào, chỉ mang tính thống kê",
+        "BCLX làm biên Hỗ Trợ và AR làm biên Kháng Cự (ngược lại hoàn toàn)",
+        "Chúng chỉ xuất hiện trong Giai Đoạn Downtrend, không liên quan đến Tái Tích Lũy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Bạn có thể đánh dấu BCLX và AR xác định để vẽ một đường Kháng Cự tại đỉnh của BCLX và một đường Hỗ Trợ tại đáy của AR - xác định TR... Nếu những điều này nghe có vẻ quen thuộc, đó là vì chúng ta đã áp dụng cùng một kỹ thuật sau một Selling Climax (CLX) và một Nhịp Phục Hồi Tự Động (AR) được sử dụng các ranh giới vận động giá trong giai đoạn Tích Lũy.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch11-q3",
+      "type": "multiple_choice",
+      "prompt": "Trong khi phạm vi TR đang phát triển, đặc điểm nào về biên độ giá và khối lượng ở các nhịp điều chỉnh giảm giúp gợi ý sớm rằng đây là Tái Tích Lũy (chứ không phải Phân Phối)?",
+      "options": [
+        "Biên độ điều chỉnh giảm và khối lượng giao dịch GIẢM DẦN theo thời gian ('tính chất hấp thụ') — ngược lại, nếu chúng TĂNG DẦN ('tính chất xả hàng') thì có khả năng đang hình thành Phân Phối",
+        "Biên độ và khối lượng luôn giữ nguyên không đổi trong cả hai trường hợp, không thể phân biệt được",
+        "Chỉ cần nhìn màu nến xanh/đỏ là đủ để phân biệt, không cần quan tâm khối lượng",
+        "Tái Tích Lũy luôn có khối lượng cao hơn Phân Phối ở mọi thời điểm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Trong giai đoạn Phân Phối, biên độ biến động giá giảm và khối lượng giao dịch bán (nguồn cung tăng dần) tăng lên khi phạm vi giao dịch TR được xác định (tính chất xả hàng) và chuẩn bị cho một giai đoạn Downtrend. Ngược lại, trong giai đoạn Tái Tích Lũy, điều ngược lại xảy ra do nguyên tắc của việc Hấp Thụ nguồn cung (tính chất hấp thụ).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch11-q4",
+      "type": "chart_identify",
+      "prompt": "Sơ đồ 'Conventional labeling of Wyckoff Reaccumulation Trading Range' (nguồn: Prof. Hank Pruden) dưới đây liệt kê chuỗi sự kiện gồm PSY, AR, ST, Creek, Jump across the creek, SoS, LPS. Sự kiện 'Jump across the creek' (JAC) diễn ra ở giai đoạn nào của chuỗi này?",
+      "chartImage": "/charts/part_11/p041_chart-162.jpg",
+      "options": [
+        "Sau khi giá đã kiểm tra nhiều lần quanh vùng Hỗ Trợ (5,7,8 Support) và đường Creek (kháng cự uốn lượn) — JAC là hành động phá vỡ quyết định qua đường Creek đó, ngay trước các sự kiện SoS/LPS tiếp theo",
+        "JAC luôn là sự kiện đầu tiên xảy ra, trước cả BCLX",
+        "JAC không xuất hiện trong sơ đồ Tái Tích Lũy, chỉ có trong sơ đồ Tích Lũy",
+        "JAC xảy ra đồng thời với PSY ngay từ đầu phạm vi giao dịch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Theo đúng trình tự trên sơ đồ: BCLX → ST → PSY/AR (xác định TR) → nhiều nhịp kiểm tra Support (5,7,8) quanh đường Creek (6) → Jump across the creek (9) → SoS (10,12) → LPS (11,13), báo hiệu giai đoạn tăng giá tiếp diễn."
+    },
+    {
+      "id": "ch11-q5",
+      "type": "multiple_choice",
+      "prompt": "Theo sách, sự khác biệt giữa 'Giai Đoạn Tích Lũy' (Accumulation) và 'Giai Đoạn Tái Tích Lũy' (Reaccumulation) xét theo TẦN SUẤT xuất hiện trong vòng đời một xu hướng tăng dài hạn là gì?",
+      "options": [
+        "Chỉ có DUY NHẤT MỘT Giai Đoạn Tích Lũy ở điểm khởi đầu của một xu hướng tăng dài hạn, nhưng có thể có NHIỀU Giai Đoạn Tái Tích Lũy xuất hiện xuyên suốt quá trình Uptrend đó",
+        "Có nhiều Giai Đoạn Tích Lũy nhưng chỉ có một Giai Đoạn Tái Tích Lũy duy nhất trong một xu hướng",
+        "Số lượng của cả hai loại giai đoạn luôn bằng nhau trong mọi xu hướng",
+        "Không có giới hạn nào về số lượng của Giai Đoạn Tích Lũy, còn Tái Tích Lũy hoàn toàn không có giới hạn về mặt lý thuyết cũng như thực tế"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Duy nhất chỉ có một Giai Đoạn Tích Lũy ở đầu của một xu hướng tăng giá dài hạn, trong khi đó, quá trình tăng giá trong giai đoạn Uptrend xuất hiện nhiều Giai Đoạn Tái Tích Lũy để chúng ta phân tích và khai thác tối ưu trong quá trình Uptrend.' Ví dụ DJIA có bốn Giai Đoạn Tái Tích Lũy lớn trong một thị trường tăng giá.",
+      "chartImage": null
+    },
+    {
+      "id": "ch11-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ DJIA (weekly, 2009 đến nay) dưới đây có 4 Giai Đoạn Tái Tích Lũy được khoanh vùng màu xanh lá. Theo ghi chú trên biểu đồ, điểm chung của cả 4 giai đoạn này là gì dù mỗi giai đoạn có 'hồ sơ' (profile) riêng biệt?",
+      "chartImage": "/charts/part_11/p043_chart-173.jpg",
+      "options": [
+        "Tất cả đều kết thúc bằng việc tiếp tục lại xu hướng tăng (resumption of the uptrend) — các nhà giao dịch Wyckoff cố gắng xác định đúng thời điểm kết thúc của phạm vi giao dịch và sự khởi đầu của một chiến dịch tăng giá mới",
+        "Tất cả 4 giai đoạn đều có thời gian kéo dài chính xác bằng nhau",
+        "Tất cả 4 giai đoạn đều kết thúc bằng một đợt giảm giá mạnh (Downtrend)",
+        "Cả 4 giai đoạn đều xảy ra vào cùng một tháng trong năm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Reaccumulations in a bull market campaign. Each has a unique profile. What they have in common is that all conclude with a resumption of the uptrend. Wyckoffians attempt to properly time the conclusion of the trading range and the resumption of the markup and the beginning of a new campaign.'"
+    },
+    {
+      "id": "ch11-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách chỉ ra rằng Giai Đoạn Tái Tích Lũy 'có mặt trong tất cả các thị trường giao dịch bao gồm: cổ phiếu, hàng hóa, trái phiếu, tiền tệ...' và ở mọi khung thời gian. Vì sao khái niệm này lại mang tính phổ quát như vậy, không chỉ giới hạn ở thị trường cổ phiếu?",
+      "sampleAnswer": "Vì bản chất của Tái Tích Lũy không phụ thuộc vào loại tài sản cụ thể mà dựa trên nguyên lý phổ quát về hành vi của cung-cầu và tâm lý đám đông: bất kỳ tài sản nào có người mua lớn/tổ chức (CO) tích lũy dài hạn đều cần những giai đoạn tạm dừng để hấp thụ thêm nguồn cung, lọc bỏ nhà đầu tư ngắn hạn thiếu kiên nhẫn, trước khi tiếp tục xu hướng. Nguyên tắc cung-cầu-tâm lý này áp dụng chung cho hàng hóa, trái phiếu, tiền tệ hay bất kỳ thị trường tự do nào có đủ thanh khoản.",
+      "chartImage": null
+    }
+  ]
+}

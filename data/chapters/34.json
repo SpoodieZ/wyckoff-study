@@ -1,0 +1,98 @@
+{
+  "chapterId": 34,
+  "title": "Tại Sao Biểu Đồ PnF Hoạt Động Hiệu Quả",
+  "summary": "Lý giải bản chất vì sao đếm số ô đếm nằm ngang (Horizontal Count) trên PnF dự báo được target giá: mối quan hệ nghịch giữa mức độ biến động và thời gian cần thiết để CO hấp thụ đủ nguồn cung. Ứng dụng thực tế trên các chỉ số lớn ($SPX, $INDU, $NDX) để đánh giá 'còn bao nhiêu nhiên liệu trong bình'.",
+  "questions": [
+    {
+      "id": "ch34-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách giải thích lý do cốt lõi vì sao một Phạm Vi Giao Dịch (TR) có ÍT biến động (dao động lên xuống) thường cần THỜI GIAN DÀI HƠN để hoàn tất, so với một TR có NHIỀU biến động?",
+      "options": [
+        "Nếu có ít biến động, quá trình sẽ kéo dài hơn vì CO cần thêm thời gian để tìm kiếm nguồn cung cổ phiếu bổ sung; ngược lại, nhiều biến động hơn giúp CO tìm đủ nguồn cung nhanh hơn nên quá trình diễn ra ngắn hơn",
+        "Không có mối liên hệ nào giữa mức độ biến động và thời gian hoàn tất TR",
+        "TR có nhiều biến động luôn luôn mất nhiều thời gian hơn TR ít biến động",
+        "Thời gian hoàn tất TR chỉ phụ thuộc vào ngày trong tuần, không liên quan đến biến động"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một phạm vi giao dịch rộng với nhiều sự biến động lên xuống cung cấp cho CO cơ hội để hấp thụ (absorption) nhiều cổ phiếu nhất có thể... Nếu có ít sự biến động trong phạm vi giao dịch TR, quá trình sẽ kéo dài hơn vì cần thời gian để tìm kiếm thêm nguồn cung cổ phiếu. Ngược lại, với nhiều sự biến động hơn, quá trình sẽ diễn ra ngắn hơn.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch34-q2",
+      "type": "multiple_choice",
+      "prompt": "Trên biểu đồ thanh/nến thông thường, THỜI GIAN là một hằng số cố định trên trục hoành. Trên biểu đồ PnF thì sao?",
+      "options": [
+        "Mỗi cột mới chỉ được tạo ra khi có sự đảo chiều giá đạt mức tối thiểu (box reversal) đã xác định trước — kích thước của một giai đoạn TR trên PnF hoàn toàn phụ thuộc vào SỐ LẦN ĐẢO CHIỀU của giá, không phụ thuộc thời gian trôi qua",
+        "PnF cũng dùng thời gian làm hằng số y hệt như biểu đồ thanh/nến, không có gì khác biệt",
+        "PnF không bao giờ tạo cột mới bất kể giá biến động thế nào",
+        "PnF chỉ tạo cột mới vào đầu mỗi tháng dương lịch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Trong việc xây dựng giá trên biểu đồ Point and Figure (PnF), mỗi cột chỉ được ghi nhận giá thông qua sự biến động. Một cột mới được tạo sang bên phải chỉ xuất hiện khi có sự đảo chiều giá đạt mức tối thiểu (thông số box reversal) đã xác định trước. Trên biểu đồ PnF, kích thước phạm vi vận động của một giai đoạn Tích lũy (hoặc Phân phối) hoàn toàn phụ thuộc vào số lần đảo chiều của giá.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch34-q3",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ PnF của $SPX dưới đây đặt câu hỏi 'Accumulation and Reaccumulation counts confirm. Is the fuel in the tank nearly used up?' Câu hỏi 'nhiên liệu trong bình' này ám chỉ điều gì?",
+      "chartImage": "/charts/part_34/p202_chart-728.jpg",
+      "options": [
+        "Ám chỉ việc liệu Nguyên Nhân (Cause) đã được xây dựng trong các nền giá trước đó có còn đủ 'năng lượng' (tiềm năng tăng giá) để đẩy giá tiếp tục hay không, hay đã gần cạn kiệt và cần một Nguyên Nhân MỚI",
+        "Ám chỉ giá dầu thô thế giới, không liên quan gì đến chỉ số $SPX",
+        "Ám chỉ lượng tiền mặt công ty đang nắm giữ trong báo cáo tài chính",
+        "Không có ý nghĩa phân tích cụ thể nào, chỉ là một câu hỏi tu từ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Accumulation and Reaccumulation counts confirm. Is the fuel in the tank nearly used up?' — ẩn dụ 'nhiên liệu' đại diện cho Nguyên Nhân (Cause) đã xây dựng; khi mục tiêu target giá gần đạt được, câu hỏi đặt ra là liệu Nguyên Nhân cũ có đủ để tiếp tục đẩy giá hay cần một Nguyên Nhân mới."
+    },
+    {
+      "id": "ch34-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ PnF của $INDU (Trang 203) dưới đây có ghi chú ở '2nd Phase' rằng 'This larger count carries a bigger price objective.' Nguyên tắc nào của việc đếm PnF được minh họa qua ghi chú này?",
+      "chartImage": "/charts/part_34/p203_chart-731.jpg",
+      "options": [
+        "Một phạm vi nền giá (số cột đếm) CÀNG LỚN thì mục tiêu giá (target) tính ra CÀNG LỚN — nguyên tắc cốt lõi của Quy Luật Nhân Quả áp dụng trên PnF",
+        "Số cột đếm không có bất kỳ ảnh hưởng nào đến độ lớn của mục tiêu giá",
+        "Chỉ có 'Phase' đầu tiên mới có giá trị, các Phase sau không quan trọng",
+        "Ghi chú này chỉ mang tính trang trí, không có ý nghĩa phân tích"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây là minh họa trực quan của Quy Luật Nhân-Quả (Phần 23): số cột (Nguyên Nhân) càng lớn thì Kết Quả (target giá) tính ra càng lớn. Biểu đồ cho thấy nhiều 'Phase' đếm khác nhau ($INDU) với các target giá tăng dần tương ứng với quy mô nền giá."
+    },
+    {
+      "id": "ch34-q5",
+      "type": "multiple_choice",
+      "prompt": "Ghi chú trên biểu đồ $NDX (Nasdaq 100) trong Phần này viết: 'Distribution is forming... Note how volatility increases as Distribution matures.' Ghi chú này xác nhận lại nguyên tắc nào đã học ở Phần 33?",
+      "options": [
+        "Biến động của Giai Đoạn Phân Phối có xu hướng TĂNG DẦN vào giai đoạn CUỐI (khi CO đang tích cực xả hàng), khác với Tích Lũy vốn biến động mạnh ngay từ ĐẦU",
+        "Biến động của Giai Đoạn Phân Phối luôn giảm dần đều từ đầu đến cuối, không có ngoại lệ",
+        "Nasdaq 100 không bao giờ có thể hình thành Giai Đoạn Phân Phối",
+        "Khối lượng giao dịch không liên quan gì đến sự trưởng thành của Giai Đoạn Phân Phối"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây chính là nguyên tắc đã học ở Phần 33 (ch33-q8): 'Khi CO xả hàng cổ phiếu, sự biến động tăng dần lên nhiều hơn do sự biến động mạnh lên dần vào cuối giai đoạn Phân phối' — được xác nhận lại qua ví dụ thực tế $NDX với PSY, BCLX, AR, ST, UT, SOW, LPSY đầy đủ.",
+      "chartImage": null
+    },
+    {
+      "id": "ch34-q6",
+      "type": "multiple_choice",
+      "prompt": "Trong ví dụ $SPX đạt mức cao nhất mọi thời đại (ATH) sau khi hoàn thành target giá PnF, sách đặt câu hỏi: 'Fuel used up in the base? ... Does a new cause need to be built?' Đây là ví dụ thực tế cho Kịch Bản nào (trong 3 Kịch Bản đã học ở Phần 33)?",
+      "options": [
+        "Kịch Bản 3 — khi giá đạt target và có khả năng hình thành một phạm vi giao dịch TR mới để xây dựng thêm Nguyên Nhân trước khi tiếp tục hoặc đảo chiều",
+        "Kịch Bản 1 — giá luôn bỏ qua hoàn toàn target và không có bất kỳ phản ứng nào",
+        "Đây không liên quan gì đến 3 Kịch Bản đã học trước đó",
+        "Kịch Bản 2 — chỉ áp dụng riêng cho Downtrend, không áp dụng cho Uptrend"
+      ],
+      "correctIndex": 0,
+      "explanation": "Khi $SPX đạt target giá và bắt đầu chững lại (đi ngang) ngay tại vùng mục tiêu, đặt câu hỏi liệu có cần xây dựng Nguyên Nhân mới — đây chính xác là tình huống mô tả trong Kịch Bản 3 (Phần 33): một TR mới hình thành tại vùng mục tiêu để xây dựng thêm Nguyên Nhân trước khi có bước di chuyển tiếp theo.",
+      "chartImage": null
+    },
+    {
+      "id": "ch34-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách thừa nhận: 'Việc đếm target giá chính xác yêu cầu nhiều luyện tập để đạt đến mức độ thành thạo' và ví PnF 'dường như là phép màu khi chúng ta thấy chúng hoạt động lần này qua lần khác.' Dựa trên những gì đã học xuyên suốt các Phần 32-34, vì sao việc đếm target giá PnF không phải là một công thức máy móc đơn thuần, mà đòi hỏi 'sự phán đoán và tinh tế' như sách đã nói?",
+      "sampleAnswer": "Vì việc đếm đòi hỏi nhiều quyết định chủ quan quan trọng: chọn box-size phù hợp, xác định đúng điểm bắt đầu/kết thúc đếm (LPS/LPSY, SCLX/BCLX), phân biệt đâu là một TR độc lập hay TR lồng bên trong TR lớn hơn, và đánh giá xem một target đã đạt được có ý nghĩa là kết thúc xu hướng hay chỉ là điểm tạm dừng cần xây dựng Nguyên Nhân mới. Tất cả những quyết định này đòi hỏi hiểu biết sâu về ngữ cảnh thị trường (Context) và kinh nghiệm thực chiến — không thể áp dụng một công thức cứng nhắc mà bỏ qua việc đọc hiểu câu chuyện đằng sau hành động giá.",
+      "chartImage": null
+    }
+  ]
+}

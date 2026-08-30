@@ -1,0 +1,98 @@
+{
+  "chapterId": 20,
+  "title": "Dấu Hiệu Cảnh Báo Xu Hướng Hỗn Loạn",
+  "summary": "Downtrend 'ít thân thiện' hơn Uptrend — biến động mạnh, đột ngột và khó giao dịch. Cách xây dựng Kênh Xu Hướng giảm (Supply Line từ 2 đỉnh liền kề, Đường Quá Bán - Oversold Line), và dấu hiệu cạn kiệt (exhaustion) khi giá phá xuống dưới Đường Quá Bán.",
+  "questions": [
+    {
+      "id": "ch20-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách nhắc câu nói quen thuộc 'Xu hướng là bạn - The Trend is Your Friend', nhưng lưu ý Downtrend 'ít thân thiện hơn nhiều' so với Uptrend. Lý do chính được đưa ra là gì?",
+      "options": [
+        "Xu hướng giảm giá thường biến động một cách mạnh mẽ, đột ngột và nói chung khó để giao dịch hơn — 'hỗn loạn' trong khi Uptrend có xu hướng được các tổ chức lớn đặt lệnh mua hỗ trợ đều đặn tại các đáy hỗ trợ",
+        "Vì luật pháp cấm giao dịch trong xu hướng giảm giá",
+        "Vì Downtrend luôn kết thúc trong vòng 24 giờ",
+        "Không có lý do cụ thể nào được đưa ra"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Xu hướng giảm giá (Downtrend) thì lại ít thân thiện hơn nhiều so với xu hướng tăng giá (Uptrend). Xu hướng giảm giá thường biến động một cách mạnh mẽ, đột ngột và nói chung là khó để giao dịch. Nói một cách ngắn gọn hơn là chúng chẳng hề thân thiện, giá thường rất hỗn loạn trong xu hướng giảm.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch20-q2",
+      "type": "multiple_choice",
+      "prompt": "Để xây dựng một Kênh Xu Hướng giảm (Downtrend channel), Đường Cung (Supply Line) được vẽ bằng cách nào?",
+      "options": [
+        "Nối HAI mức đỉnh liền kề được tạo trong giai đoạn đầu của xu hướng giảm giá (mirror ngược lại của kỹ thuật nối 2 đáy liền kề trong Uptrend)",
+        "Nối đỉnh cao nhất và đáy thấp nhất trong toàn bộ lịch sử cổ phiếu",
+        "Chỉ dùng một điểm duy nhất, không cần điểm thứ hai",
+        "Sử dụng đường trung bình động 20 ngày làm Đường Cung"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Việc chúng ta xây dựng đường kênh xu hướng bắt đầu với một đường Supply (Supply Line). Đây là một Đường kênh xu hướng được vẽ từ các đỉnh được tạo trong quá trình đầu của giai đoạn Downtrend.' Đường quá bán (Oversold Line) sau đó được vẽ song song, đi qua đáy nằm xen giữa hai đỉnh đó.",
+      "chartImage": null
+    },
+    {
+      "id": "ch20-q3",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ GMCR dưới đây ghi chú 'Throw-under of the Oversold Line is exhaustion and results in a SCLX'. Điều gì xảy ra khi giá phá XUỐNG DƯỚI Đường Quá Bán (Oversold Line)?",
+      "chartImage": "/charts/part_20/p088_chart-311.jpg",
+      "options": [
+        "Đó là dấu hiệu của sự cạn kiệt (exhaustion) — thường dẫn đến hình thành một Selling Climax (SCLX), báo hiệu Downtrend có thể tạm dừng",
+        "Đó là dấu hiệu chắc chắn Downtrend sẽ còn tiếp diễn mạnh hơn nữa không giới hạn",
+        "Đó là lỗi kỹ thuật của nền tảng biểu đồ, không có ý nghĩa gì",
+        "Đó là dấu hiệu công ty sắp tuyên bố phá sản ngay lập tức"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Throw-under of the Oversold Line is exhaustion and results in a SCLX.' Sau một giai đoạn giảm giá, giá bắt đầu có những hành động rơi xuống khỏi Đường quá bán, báo hiệu về một sự kiệt sức (exhaustion) hay trạng thái quá bán đầu tiên của xu hướng giảm — Giai đoạn Tái phân phối (SSR) có thể xảy ra ngay sau đó."
+    },
+    {
+      "id": "ch20-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ TSLA dưới đây minh họa một Downtrend kéo dài 7 tháng. Việc giá KHÔNG THỂ quay trở lại Đường Quá Bán (oversold line) vào tháng Ba báo hiệu điều gì?",
+      "chartImage": "/charts/part_20/p089_chart-314.jpg",
+      "options": [
+        "Một sự suy yếu của nguồn cung trong động lượng giảm giá — giai đoạn này được khuyến khích đánh dấu là một Giai Đoạn Tích Lũy đang hình thành ngay bên trong kênh giá giảm",
+        "Một sự tăng cường mạnh mẽ của nguồn cung, xác nhận Downtrend sẽ còn giảm sâu hơn nữa vô hạn",
+        "Không có ý nghĩa gì, chỉ là biến động ngẫu nhiên không cần quan tâm",
+        "Dấu hiệu công ty Tesla sắp bị hủy niêm yết khỏi sàn Nasdaq"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Việc giá không thể quay trở lại đường quá bán (oversold line) vào tháng Ba đã báo hiệu về một sự suy yếu của nguồn cung trong động lượng giảm giá. Giai đoạn này được khuyến khích đánh dấu của một giai đoạn Tích lũy đang hình thành ngay bên trong kênh giá giảm.' Việc giá vượt qua Đường Cung (Supply Line) và sử dụng nó như một đường hỗ trợ tăng giá là bằng chứng quan trọng về sự thay đổi tính chất (CHOCH)."
+    },
+    {
+      "id": "ch20-q5",
+      "type": "multiple_choice",
+      "prompt": "Theo 'Phương pháp Wyckoff', cần có tối thiểu bao nhiêu điểm chạm (touch points) để xác định một kênh giá xu hướng giảm là hợp lệ?",
+      "options": [
+        "Ba điểm",
+        "Một điểm duy nhất",
+        "Mười điểm",
+        "Không có yêu cầu tối thiểu nào về số điểm chạm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết (về ví dụ GMCR): 'Khi giá bên ngoài đường kênh giá, đường cung (supply line) lúc này đóng vai trò như một hỗ trợ tăng giá, trong khi trước đó nó là kháng cự giảm giá. Phương pháp Wyckoff quy định rằng cần có ba điểm để xác định một kênh giá xu hướng giảm.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch20-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ ETF IWM (daily 2016) dưới đây cho thấy xu hướng giảm 'trở nên biến động mạnh hơn khi quá trình này kéo dài được 1/2 thời gian'. Hành động cao trào bán (climactic) với giá phá vỡ đáng kể xuống dưới Đường Quá Bán là hành động gì?",
+      "chartImage": "/charts/part_20/p090_chart-317.jpg",
+      "options": [
+        "Một hành động dừng lại (stopping action) — có khả năng dẫn đến một Giai Đoạn Tái Phân Phối hoặc một Giai Đoạn Tích Lũy tiếp theo",
+        "Một hành động xác nhận Downtrend sẽ không bao giờ kết thúc",
+        "Một hành động chỉ xảy ra trên các quỹ ETF, không xảy ra với cổ phiếu riêng lẻ",
+        "Một sự kiện không có bất kỳ ý nghĩa phân tích nào"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú: 'Climax sets up Stepping Stone Redistribution or possibly new Accumulation. Draw support and resistance lines.' Việc giá phá vỡ mạnh xuống dưới Đường Quá Bán rồi trở nên climactic là hành động dừng lại (stopping action), và bất kỳ kịch bản nào sau đó cũng cần thêm thời gian vận động giá để xác nhận."
+    },
+    {
+      "id": "ch20-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Vì sao trong Uptrend, các đợt điều chỉnh giảm giá thường được các tổ chức lớn 'tôn trọng' bằng cách đặt lệnh mua đều đặn ở đáy hỗ trợ, trong khi ở Downtrend lại không có hành động mua vào 'đỡ giá' tương tự để làm cho các đợt hồi phục trở nên đáng tin cậy?",
+      "sampleAnswer": "Vì trong Uptrend, CO/tổ chức lớn đang chủ động xây dựng và bảo vệ vị thế nắm giữ dài hạn của mình nên họ có động lực đặt lệnh mua ở các mức hỗ trợ để tích lũy thêm và giữ giá ổn định. Ngược lại, trong Downtrend, CO đã bán hết hoặc đang bán ra (hoặc thậm chí bán khống) — không có động lực kinh tế nào để họ mua vào 'đỡ giá' ở các đợt hồi phục, vì việc đó đi ngược lại mục tiêu chiến dịch giảm giá của họ. Thiếu sự hỗ trợ có tổ chức này khiến các đợt hồi phục trong Downtrend trở nên yếu ớt, thất thường và khó dự đoán hơn nhiều.",
+      "chartImage": null
+    }
+  ]
+}

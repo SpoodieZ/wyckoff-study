@@ -1,0 +1,88 @@
+{
+  "chapterId": 2,
+  "title": "Richard D. Wyckoff - Các Quy Tắc Thực Sự Của Trò Chơi",
+  "summary": "Khái niệm Composite Man/Operators (CO), 'sự hấp thụ nguồn cung' trong giai đoạn Tích Lũy, lý do Wyckoff công khai phương pháp cho công chúng, và 5 giai đoạn (A-E) trong một Phạm Vi Giao Dịch (Trading Range).",
+  "questions": [
+    {
+      "id": "ch2-q1",
+      "type": "multiple_choice",
+      "prompt": "Theo Phần 2, điều gì khiến Composite Man/Operators (CO) có khả năng ảnh hưởng đến cả xu hướng giá cổ phiếu, không giống nhà đầu tư nhỏ lẻ?",
+      "options": [
+        "Họ có thông tin tốt hơn và kỹ năng cao hơn, với quy mô giao dịch đủ lớn để ảnh hưởng đến xu hướng",
+        "Họ được pháp luật cho phép giao dịch nội gián một cách hợp pháp",
+        "Họ luôn nắm giữ cổ phiếu vĩnh viễn, không bao giờ bán ra",
+        "Họ chỉ giao dịch trên thị trường phái sinh, không giao dịch cổ phiếu trực tiếp"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: Wyckoff 'đã phát hiện ra một nhóm nhà đầu tư/giao dịch có thông tin tốt hơn và kỹ năng cao hơn. Những \"siêu\" nhà giao dịch này có quy mô lớn đến mức có khả năng ảnh hưởng đến cả xu hướng và hướng đi của giá' — họ được gọi là Composite Man/Operators (CO).",
+      "chartImage": null
+    },
+    {
+      "id": "ch2-q2",
+      "type": "multiple_choice",
+      "prompt": "Trong Giai Đoạn Tích Lũy, CO âm thầm gom hàng số lượng lớn cổ phiếu mà không làm giá tăng lên. Nhà phân tích Wyckoff gọi hiện tượng này là gì?",
+      "options": [
+        "\"Sự hấp thụ nguồn cung\" (absorption) — mua tỉ mỉ, cẩn thận, kéo dài hàng tháng để không bị phát hiện",
+        "\"Cú đánh úp\" (short squeeze) — mua dồn dập trong một phiên duy nhất",
+        "\"Phá vỡ giả\" (fakeout) — tạo tín hiệu giả để đánh lừa nhà đầu tư nhỏ lẻ",
+        "\"Chia nhỏ lệnh\" (order splitting) — kỹ thuật chỉ áp dụng trên thị trường phái sinh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Bằng cách làm việc tỉ mỉ và cẩn thận để không bị phát hiện, số lượng lớn cổ phiếu trôi nổi có thể được họ mua với mức giá thấp và rẻ... Các nhà phân tích Wyckoff gọi đây là sự hấp thụ nguồn cung (absorption) trôi nổi của cổ phiếu.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch2-q3",
+      "type": "multiple_choice",
+      "prompt": "Vì sao Wyckoff quyết định công khai dạy công chúng về \"Các Quy Tắc Thực Sự Của Trò Chơi\" — tức các hoạt động của CO?",
+      "options": [
+        "Vì nếu không có kiến thức này, công chúng dễ tham gia thị trường sai thời điểm (timing), dẫn đến sai lầm và thất bại",
+        "Vì ông muốn trực tiếp cạnh tranh và đánh bại CO trên thị trường",
+        "Vì luật chứng khoán thời đó bắt buộc ông phải công khai toàn bộ phương pháp",
+        "Vì ông muốn khuyên công chúng ngừng đầu tư vào cổ phiếu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Nếu không có kiến thức quan trọng này, công chúng sẽ có xu hướng tham gia thị trường sai thời điểm - timing... dẫn đến sai lầm lớn và thất bại.' Wyckoff hướng dẫn học viên giao dịch hài hòa với CO, hành động phù hợp với CO, và học cách suy nghĩ như CO.",
+      "chartImage": null
+    },
+    {
+      "id": "ch2-q4",
+      "type": "chart_identify",
+      "prompt": "Nhìn biểu đồ AAPL (2008-09) dưới đây và đọc dòng \"Tip\" được ghi trên đó. Theo tip này, Phạm Vi Tích Lũy (Accumulation Range) thường được giới hạn (bound) bởi hai mốc nào?",
+      "chartImage": "/charts/part_02/p006_chart-047.jpg",
+      "options": ["AR và CLX", "PS và ST", "AR và ST", "PS và CLX"],
+      "correctIndex": 0,
+      "explanation": "Đúng như dòng Tip trên biểu đồ: \"Accumulation range will often be bound by the CLX & AR.\" Nghĩa là Cao Trào Bán (CLX, đáy vùng) và Nhịp Phục Hồi Tự Động (AR, đỉnh vùng) thường tạo thành hai đường biên trên/dưới của Phạm Vi Tích Lũy. PS và ST chỉ là các điểm kiểm tra nằm bên trong phạm vi đó."
+    },
+    {
+      "id": "ch2-q5",
+      "type": "multiple_choice",
+      "prompt": "Wyckoff mô tả CO là một \"khái niệm, một giả thuyết hữu ích\" chứ không phải một cá nhân/tổ chức cụ thể. Điều này nên được hiểu như thế nào?",
+      "options": [
+        "CO là hình tượng đại diện tổng hợp cho nhiều hoạt động giao dịch chuyên nghiệp diễn ra cùng lúc, được kể như một \"nhà điều hành khổng lồ\" duy nhất để tiện phân tích trên biểu đồ",
+        "CO là tên một quỹ đầu tư có thật đã đăng ký với SEC vào đầu thế kỷ 20",
+        "CO là một thuật toán máy tính do chính Wyckoff viết ra để tự động giao dịch",
+        "CO chỉ tồn tại ở thị trường chứng khoán Mỹ, không áp dụng được cho thị trường khác"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'CO là một khái niệm, một giả thuyết hữu ích. CO là câu chuyện về các hoạt động chung của một số hoạt động chuyên nghiệp diễn ra cùng một lúc... Chúng tôi kể câu chuyện về các hành động và động cơ của họ như thể họ là một nhà điều hành khổng lồ.' (Phần Giới Thiệu cũng nói phương pháp Wyckoff áp dụng được cho bất kỳ thị trường nào có sự xuất hiện của CO: Chứng khoán, Chỉ số, Hàng hóa, Tiền điện tử hay Ngoại hối.)",
+      "chartImage": null
+    },
+    {
+      "id": "ch2-q6",
+      "type": "multiple_choice",
+      "prompt": "Phần 2 giới thiệu 5 giai đoạn (A-E) áp dụng cho Sơ Đồ Tích Lũy/Phân Phối của Wyckoff trong một Phạm Vi Giao Dịch (TR). Giai đoạn nào được mô tả là \"Building the Cause - Xây Dựng Mệnh Đề Nguyên Nhân\"?",
+      "options": ["Giai đoạn A", "Giai đoạn B", "Giai đoạn C", "Giai đoạn D"],
+      "correctIndex": 1,
+      "explanation": "Thứ tự 5 giai đoạn: |A| Stopping the Trend (Kết Thúc Xu Hướng Trước Đó) → |B| Building the Cause (Xây Dựng Mệnh Đề Nguyên Nhân) → |C| Test (Kiểm Tra) → |D| Defining the Trend (Xác Định Cấu Trúc - Xu Hướng Giá) → |E| Mark Up/Mark Down (Bắt Đầu Giai Đoạn Uptrend/Downtrend Chính).",
+      "chartImage": null
+    },
+    {
+      "id": "ch2-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Vì sao việc \"tránh bị phát hiện\" lại quan trọng với CO trong lúc gom hàng ở Giai Đoạn Tích Lũy?",
+      "sampleAnswer": "Vì CO luôn phải cạnh tranh với các đối tượng khác trên thị trường để có được số lượng cổ phiếu tốt nhất với giá thấp. Nếu bị phát hiện đang gom hàng, nhà đầu tư khác sẽ mua theo và đẩy giá lên sớm, khiến CO không thể tích lũy đủ số lượng lớn cổ phiếu với giá rẻ như mục tiêu ban đầu — làm hỏng cả chiến dịch.",
+      "chartImage": null
+    }
+  ]
+}

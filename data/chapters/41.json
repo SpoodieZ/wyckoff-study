@@ -1,0 +1,84 @@
+{
+  "chapterId": 41,
+  "title": "Trò Chơi Nội Tâm",
+  "summary": "Kỹ thuật 'Luyện Tập Tinh Thần' (Mental Rehearsal) — mượn câu chuyện cầu thủ bóng chày All-Star Shawn Green luyện swing bằng cọc đánh bóng để minh họa cách một nhà giao dịch Wyckoff có thể luyện tập có mục đích với cấu trúc giá lịch sử, biến kỹ năng phân tích thành bản năng.",
+  "questions": [
+    {
+      "id": "ch41-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách định nghĩa 'Luyện Tập Tinh Thần' (Mental Rehearsal) trong giao dịch là gì?",
+      "options": [
+        "Lấy một cấu trúc giá thị trường lịch sử, quyết tâm thành thạo nó — phân tích, đánh giá, gắn nhãn và giao dịch với nó — nhằm trở nên nhạy bén với nhiều biến thể của các cấu trúc giá phát triển trên thị trường",
+        "Chỉ đơn giản là đọc sách lý thuyết mà không cần thực hành trên biểu đồ thật",
+        "Một kỹ thuật thiền định không liên quan gì đến phân tích biểu đồ",
+        "Việc ghi nhớ chính xác giá đóng cửa của mọi phiên giao dịch trong quá khứ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Luyện tập tinh thần có thể là một kỹ thuật có giá trị để tăng cường kỹ năng giao dịch. Với kỹ thuật này, chúng ta lấy một cấu trúc giá thị trường lịch sử mà chúng ta quyết tâm thành thạo và am hiểu chúng; phân tích, đánh giá, gắn nhãn và sau đó giao dịch với chúng.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch41-q2",
+      "type": "multiple_choice",
+      "prompt": "Sách kể câu chuyện về Shawn Green, cầu thủ bóng chày chuyên nghiệp hai lần được chọn vào đội hình All-Star. Khi còn là tân binh gặp khó khăn, Green đã làm gì để cải thiện kỹ thuật đánh bóng của mình?",
+      "options": [
+        "Anh mua một cọc đánh bóng (tee), hình dung người ném bóng đang ném với tốc độ 95 dặm/giờ, và liên tục luyện tập đánh bóng ra khỏi cọc vào một bức tường bê tông",
+        "Anh thuê một huấn luyện viên riêng đắt tiền để tập cùng mỗi ngày",
+        "Anh ngừng chơi bóng chày chuyên nghiệp và chuyển sang môn thể thao khác",
+        "Anh chỉ xem video các cầu thủ khác thi đấu mà không luyện tập thực tế"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Green đã thử và thành công trong việc tập luyện kỹ thuật đánh bóng của mình bằng cách sáng tạo ra một hình thức tập luyện tinh thần. Anh đã mua một cọc đánh bóng... Green sẽ hình dung trong đầu rằng người ném bóng đang ném với tốc độ 95 dặm/giờ khi anh luyện tập các cơ chế đánh bóng của mình để tiếp xúc với quả bóng.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch41-q3",
+      "type": "multiple_choice",
+      "prompt": "Theo sách, điều gì đã giúp việc luyện tập với cọc đánh bóng của Shawn Green thực sự hiệu quả và mang lại thành công cho sự nghiệp All-Star của anh?",
+      "options": [
+        "Sự HÌNH DUNG (mental rehearsal) ngày càng tinh tế hơn qua từng buổi tập, và việc anh áp dụng những gì luyện tập được vào các trận đấu thực tế — bóng chày được anh xem là một nghề nghiệp đòi hỏi rất nhiều về mặt tinh thần",
+        "Việc anh chỉ tập trung vào sức mạnh cơ bắp mà không cần tư duy chiến thuật",
+        "Việc anh may mắn được chọn vào đội hình chính ngay từ đầu sự nghiệp",
+        "Việc anh không bao giờ luyện tập, chỉ dựa vào tài năng bẩm sinh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Việc tập luyện tinh thần của anh ngày càng trở nên tinh tế hơn khi anh luyện tập đánh các loại cú ném khác nhau, ở các vị trí khác nhau... Anh kết luận rằng bóng chày là một nghề nghiệp đòi hỏi rất nhiều về mặt tinh thần.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch41-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ $SPX (2016) dưới đây được dùng để minh họa việc 'luyện tập tinh thần' — với các 'Khu Vực Mua' (Buy Zone) được đánh dấu tại mỗi phiên Spring. Ghi chú 'Stride of the advance is set at the two Springs' xác nhận lại nguyên tắc nào?",
+      "chartImage": "/charts/part_41/p301_chart-1036.jpg",
+      "options": [
+        "Nguyên tắc 'Đà - Stride' được thiết lập sớm bởi các phiên Spring — nhất quán với các nguyên tắc đã học ở Phần 9, 10 và 40 về việc Đà của một xu hướng thường được xác lập từ rất sớm",
+        "Đây là một khái niệm hoàn toàn mới về Stride chưa từng xuất hiện trước đó",
+        "Spring không có bất kỳ liên hệ nào với khái niệm Stride",
+        "$SPX là chỉ số duy nhất có khái niệm Stride được thiết lập bởi Spring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây là một minh họa tổng hợp: đường xu hướng nối hai phiên Spring thiết lập 'giọng điệu' (tone) cho toàn bộ con đường tăng giá phía sau — nhất quán với nguyên tắc Stride đã học nhiều lần xuyên suốt cuốn sách (Phần 9, 10, 40)."
+    },
+    {
+      "id": "ch41-q5",
+      "type": "multiple_choice",
+      "prompt": "Sách khuyên khi luyện tập tinh thần với các cấu trúc giá lịch sử, người học Wyckoff nên đi xa hơn việc gì, và hướng tới điều gì?",
+      "options": [
+        "Nên đi xa hơn việc CHỈ HIỂU ĐÚNG CẤU TRÚC GIÁ — mà còn phải xác định điểm vào lệnh đúng, áp dụng chiến thuật tốt, và trải nghiệm kết hợp tất cả các yếu tố để thực hiện giao dịch đúng",
+        "Chỉ cần hiểu đúng cấu trúc giá là đủ, không cần quan tâm đến điểm vào lệnh",
+        "Nên bỏ qua hoàn toàn việc phân tích cấu trúc giá, chỉ tập trung vào cảm tính",
+        "Không có lời khuyên cụ thể nào được đưa ra trong sách"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Trong quá trình luyện tập, chúng ta phải đi xa hơn việc chỉ hiểu đúng cấu trúc giá. Chúng ta muốn thấy các điểm vào lệnh đúng và áp dụng các chiến thuật tốt. Và để có trải nghiệm kết hợp tất cả các yếu tố lại với nhau và sau đó thực hiện giao dịch đúng.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch41-q6",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách viết: 'Hãy quay lại và thay vì chỉ nghiên cứu nó, hãy luyện tập một cách có mục đích. Hãy làm cho thời gian nghiên cứu của bạn trở nên ý nghĩa và có giá trị.' So sánh câu chuyện Shawn Green với việc học Phương Pháp Wyckoff, hãy giải thích sự khác biệt giữa 'nghiên cứu thụ động' và 'luyện tập có mục đích' trong bối cảnh phân tích biểu đồ.",
+      "sampleAnswer": "'Nghiên cứu thụ động' giống như việc chỉ xem lại các biểu đồ và đọc nhãn dán (PS, SC, AR, ST...) đã có sẵn mà không thực sự tự mình đưa ra quyết định — giống như chỉ xem video các cầu thủ khác đánh bóng mà không tự cầm gậy luyện tập. 'Luyện tập có mục đích' (như Shawn Green với cọc đánh bóng) đòi hỏi phải CHỦ ĐỘNG mô phỏng toàn bộ quá trình ra quyết định thực tế: tự phân tích một biểu đồ chưa biết trước kết quả, tự đặt điểm vào lệnh, điểm dừng lỗ, và điểm thoát lệnh như thể đang giao dịch thật — sau đó so sánh với những gì thực sự xảy ra để rút kinh nghiệm. Chỉ có cách luyện tập chủ động, lặp đi lặp lại và có phản hồi này mới thực sự biến kiến thức lý thuyết thành phản xạ và trực giác giao dịch đáng tin cậy.",
+      "chartImage": null
+    }
+  ]
+}

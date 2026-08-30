@@ -1,0 +1,84 @@
+{
+  "chapterId": 29,
+  "title": "Quy Luật Nhân Quả Trong Hành Động",
+  "summary": "Tái áp dụng Quy Luật Nhân-Quả qua ví dụ $INDU khung giờ (M60/M5) — chứng minh Nguyên Nhân (Cause) có thể được xây dựng ở BẤT KỲ khung thời gian nào, kể cả khung 5 phút, và luôn cần cảnh giác tìm Nguyên Nhân MỚI sau khi Kết Quả cũ đã hoàn thành.",
+  "questions": [
+    {
+      "id": "ch29-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách nhắc lại niềm tin cốt lõi của nhà đầu tư Wyckoff: Nguyên Nhân (Cause) luôn 'đi trước' Kết Quả (Effect). Trong chương này, việc xây dựng Nguyên Nhân được minh họa qua khung thời gian nào để chứng minh tính phổ quát của quy luật?",
+      "options": [
+        "Khung giờ (M60) và thậm chí khung 5 phút (M5) của chỉ số $INDU — chứng minh Nguyên Nhân có thể hình thành ở bất kỳ khung thời gian nào, không chỉ khung ngày/tuần/tháng",
+        "Chỉ minh họa duy nhất trên khung năm (yearly)",
+        "Chỉ minh họa được trên khung tháng, không áp dụng được cho khung nhỏ hơn",
+        "Sách không đưa ra ví dụ minh họa cụ thể nào"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Nguyên nhân (Cause) có thể được tạo ra trong nhiều khung thời gian. Biểu đồ PnF ở trên là biểu đồ khung M5 với Box-size được xác định theo thông số của ATR.' Đây là minh chứng Quy Luật Nhân-Quả không giới hạn ở khung thời gian lớn.",
+      "chartImage": null
+    },
+    {
+      "id": "ch29-q2",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ $INDU khung M60 dưới đây cho thấy một khoảng GAP tăng giá mạnh từ PSY kèm bùng nổ khối lượng, sau đó là BCLX. Ghi chú trên biểu đồ ('*Trading Range is Wide and Volatile... *INDU is Building a Cause for the Next Move') muốn nhấn mạnh điều gì về TR này?",
+      "chartImage": "/charts/part_29/p150_chart-559.jpg",
+      "options": [
+        "TR rộng và biến động này thực chất đang XÂY DỰNG MỘT NGUYÊN NHÂN cho đợt di chuyển giá tiếp theo (có thể là Tăng hoặc Giảm) — cần theo dõi thêm để biết đó là Tích Lũy hay Phân Phối",
+        "TR này hoàn toàn không có ý nghĩa gì, chỉ là nhiễu ngẫu nhiên",
+        "TR này chắc chắn 100% sẽ dẫn đến một đợt tăng giá không giới hạn",
+        "TR rộng và biến động chứng tỏ Nguyên Nhân đã hoàn tất, không cần theo dõi gì thêm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: '*Trading Range is Wide and Volatile (SCLX to AR is 1,515.22 pts wide) *Now at Resistance *Future Declines Will Tipoff Whether Accumulation or Distribution *INDU is Building a Cause for the Next Move (Up or Down).'"
+    },
+    {
+      "id": "ch29-q3",
+      "type": "multiple_choice",
+      "prompt": "Sau khi UpThrust (UT) xảy ra, biểu đồ $INDU xuất hiện một khoảng GAP giảm giá mạnh xuống dưới AR — được coi là gì?",
+      "options": [
+        "Một Sign of Weakness (SOW) — khi SOW được tạo ra, cần cảnh giác với một Last Point of Supply (LPSY) xuất hiện tiếp theo",
+        "Một Sign of Strength (SOS) xác nhận xu hướng tăng sẽ tiếp tục",
+        "Một tín hiệu công ty niêm yết chỉ số sắp phá sản",
+        "Không có ý nghĩa gì đặc biệt, chỉ là khoảng trống giá thông thường"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Cũng lưu ý rằng sau khoảng trống GAP, chỉ số $INDU giảm xuống dưới đáy AR và điều này được coi là Sign of Weakness (SOW). Khi một SOW được tạo ra, chúng ta sẽ cảnh giác với một Last Point of Supply (LPSY) xuất hiện tiếp theo.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch29-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ PnF khung M5 của $INDU dưới đây tính toán được mục tiêu giá giảm khoảng 24.549,66 / 24.831,84. Ghi chú 'Distribution Counts Can Form Quickly And Be Large' muốn nói gì?",
+      "chartImage": "/charts/part_29/p151_chart-562.jpg",
+      "options": [
+        "Ngay cả trên khung thời gian rất ngắn (M5), một 'số ô đếm' (Cause) của Phân Phối vẫn có thể hình thành NHANH CHÓNG và cho ra mục tiêu giá LỚN — không nên đánh giá thấp các khung thời gian nhỏ",
+        "Số ô đếm trên khung M5 luôn không chính xác và không đáng tin cậy",
+        "Chỉ có khung thời gian tháng mới có thể tạo ra số ô đếm lớn",
+        "Ghi chú này không liên quan gì đến biểu đồ PnF"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Distribution Counts Can Form Quickly And Be Large. After UT Trading Character Changes. SOW & LPSY Show Lack of Demand.' Mục tiêu đếm được (24.549,66 và 24.831,84) đã được xác nhận hoàn thành và vượt qua trong đợt giảm giá mạnh của thị trường diễn ra ngay sau đó."
+    },
+    {
+      "id": "ch29-q5",
+      "type": "multiple_choice",
+      "prompt": "Sau khi mục tiêu giá PnF của Giai Đoạn Phân Phối trên khung M5 đã được hoàn thành (giá giảm đạt mục tiêu), sách khuyên nhà giao dịch nên làm gì tiếp theo?",
+      "options": [
+        "Cảnh giác và quan sát xem có sự xuất hiện của một Nguyên Nhân MỚI khác đang được xây dựng hay không (ví dụ Tái Tích Lũy sau đợt giảm giá mạnh)",
+        "Ngừng theo dõi hoàn toàn cổ phiếu/chỉ số đó vì đã hết việc để phân tích",
+        "Tự động mở vị thế mua lớn ngay lập tức không cần phân tích thêm",
+        "Không cần làm gì thêm, chu kỳ giá đã hoàn toàn kết thúc vĩnh viễn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Do đó, chúng ta cần cảnh giác và quan sát xem có sự xuất hiện với một Nguyên nhân mới khác nữa không. Quay lại biểu đồ tại Trang 150, chúng ta có thể thấy một Nguyên nhân khác đang được xây dựng' — Nhân-Quả là một chu trình liên tục, không kết thúc sau một lần Kết Quả xảy ra.",
+      "chartImage": null
+    },
+    {
+      "id": "ch29-q6",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách gợi ý một 'bài tập về nhà': lập danh sách quan sát các đặc điểm của giá và khối lượng mà bạn sẽ mong đợi nếu phạm vi giao dịch đang trong Giai Đoạn Tái Tích Lũy hoặc Tái Phân Phối. Dựa trên kiến thức đã học ở các chương trước, hãy liệt kê 2-3 đặc điểm bạn mong đợi thấy cho MỘT trong hai trường hợp đó.",
+      "sampleAnswer": "Ví dụ với Tái Tích Lũy: (1) Biên độ giá và khối lượng của các nhịp điều chỉnh giảm có xu hướng THU HẸP/GIẢM DẦN theo thời gian (tính chất hấp thụ); (2) Các đáy sau có xu hướng cao hơn đáy trước (Higher Lows); (3) Một phiên Spring hoặc LPS với khối lượng thấp xác nhận nguồn cung đã cạn kiệt trước khi giá tiếp tục xu hướng tăng. Với Tái Phân Phối thì ngược lại: khối lượng bán tăng dần, đỉnh sau thấp hơn đỉnh trước (Lower Highs), và một SOW/LPSY xác nhận nguồn cầu suy yếu.",
+      "chartImage": null
+    }
+  ]
+}

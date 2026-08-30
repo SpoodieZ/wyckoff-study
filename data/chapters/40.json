@@ -1,0 +1,112 @@
+{
+  "chapterId": 40,
+  "title": "Xây Dựng Kỹ Năng",
+  "summary": "Rèn kỹ năng quan sát và phân tích qua các ví dụ đáy Downtrend (LVS - Las Vegas Sands), Tái Tích Lũy Bậc Thang (AHS), và thị trường hàng hóa ($CORN) — nhấn mạnh việc chờ đợi bằng chứng Test/Spring thay vì kết luận vội vàng khi tín hiệu chưa rõ ràng (như trường hợp Spring thất bại của $CORN).",
+  "questions": [
+    {
+      "id": "ch40-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách mở đầu chương với nhận định: 'Không có điều gì là tuyệt đối trong giao dịch thị trường tài chính. Những nhà điều hành thị trường (CO) giỏi nhất thường là những người quản lý điều gì xuất sắc nhất?'",
+      "options": [
+        "Quản lý RỦI RO xuất sắc nhất",
+        "Quản lý đội ngũ nhân sự đông đảo nhất",
+        "Quản lý mối quan hệ truyền thông tốt nhất",
+        "Quản lý số lượng văn phòng chi nhánh nhiều nhất"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Không có điều gì là tuyệt đối trong giao dịch thị trường tài chính. Những nhà điều hành thị trường (CO) giỏi nhất thường là những người quản lý rủi ro xuất sắc nhất.' Đây là lời nhắc nhở cuối cùng về tầm quan trọng của quản lý rủi ro, nhất quán với nguyên tắc '40% kiểm soát rủi ro' đã học ở Phần 27.",
+      "chartImage": null
+    },
+    {
+      "id": "ch40-q2",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ LVS (Las Vegas Sands) dưới đây cho thấy một xu hướng giảm kéo dài hai năm. Ghi chú 'Stride of the downtrend is set very early in the decline' xác nhận lại nguyên tắc nào đã học?",
+      "chartImage": "/charts/part_40/p296_chart-1019.jpg",
+      "options": [
+        "Nguyên tắc 'Đà - Stride' của một xu hướng (dù tăng hay giảm) thường được xác lập RẤT SỚM trong quá trình vận động — đã học ở Phần 9/10 cho Uptrend, nay được xác nhận tương tự cho Downtrend",
+        "Đây là một nguyên tắc hoàn toàn mới, chưa từng xuất hiện ở bất kỳ chương nào trước",
+        "Đà giảm giá luôn được xác lập ở giai đoạn CUỐI của xu hướng, không phải giai đoạn đầu",
+        "Nguyên tắc này chỉ áp dụng cho ngành sòng bạc/giải trí"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây là ứng dụng lặp lại của nguyên tắc 'Stride - Đà' đã học ở Phần 9 (cho Uptrend): 'Đà tăng của một Giai đoạn Uptrend thường được xác lập sớm.' Biểu đồ LVS xác nhận nguyên tắc tương tự áp dụng cho Downtrend — đường Cung và Đường Quá Bán được xác định rõ ràng ngay từ đầu (ba vòng tròn đỏ xác định đường đi tương lai của giá)."
+    },
+    {
+      "id": "ch40-q3",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ PnF của LVS dưới đây ghi chú 'Down count is fulfilled. The base built a Cause to 74/78 which is the area of the prior peak.' Điều thú vị về target giá này là gì?",
+      "chartImage": "/charts/part_40/p297_chart-1022.jpg",
+      "options": [
+        "Target giá của đợt giảm (74/78) trùng khớp với khu vực ĐỈNH GIÁ TRƯỚC ĐÓ — một sự trùng hợp thú vị cho thấy các mức giá quan trọng trong quá khứ thường lặp lại vai trò hỗ trợ/kháng cự trong tương lai",
+        "Target giá không có bất kỳ ý nghĩa lịch sử nào",
+        "Target giá luôn luôn bằng 0 trong mọi trường hợp Downtrend",
+        "LVS đã bị hủy niêm yết trước khi đạt target giá"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Down count is fulfilled. The base built a Cause to 74/78 which is the area of the prior peak.' Điều này minh họa nguyên tắc chung rằng các vùng giá quan trọng trong lịch sử (như đỉnh cũ) thường đóng vai trò hỗ trợ/kháng cự có ý nghĩa trong tương lai."
+    },
+    {
+      "id": "ch40-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ LVS (daily) dưới đây ghi chú 'Spring #2 needs to be tested and it is twice. Either, or both, can be bought.' Điều này minh họa sự linh hoạt nào trong việc áp dụng hệ thống điểm vào lệnh POE?",
+      "chartImage": "/charts/part_40/p297_chart-1023.jpg",
+      "options": [
+        "Một phiên Spring có thể cần được kiểm tra lại (test) NHIỀU LẦN trước khi giá thực sự đảo chiều — nhà giao dịch có thể chọn mua ở lần test đầu, lần test thứ hai, hoặc cả hai, tùy vào mức độ thận trọng mong muốn",
+        "Một phiên Spring chỉ có thể được kiểm tra đúng một lần duy nhất, không có ngoại lệ",
+        "Không nên bao giờ mua vào sau một phiên Spring dù được test bao nhiêu lần",
+        "Spring #2 luôn luôn thất bại, không nên mua ở bất kỳ lần test nào"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ xác nhận tính linh hoạt của hệ thống: một phiên Spring có thể được kiểm tra lại nhiều lần, và mỗi lần kiểm tra thành công đều là một cơ hội vào lệnh hợp lệ — không nhất thiết phải cứng nhắc chỉ chấp nhận đúng một điểm vào duy nhất."
+    },
+    {
+      "id": "ch40-q5",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ AHS (AMN Healthcare) dưới đây là một Tái Tích Lũy Bậc Thang. Ghi chú 'Series of lower peaks suggests a Spring is ahead' được rút ra từ nguyên tắc đã học ở chương nào trước đó?",
+      "chartImage": "/charts/part_40/p298_chart-1026.jpg",
+      "options": [
+        "Nguyên tắc đã học ở Phần 39 (case study SCHW): các đỉnh THẤP DẦN trong một SSR là cảnh báo về khả năng quay lại vùng Hỗ Trợ, dự đoán khả năng xảy ra một phiên Spring",
+        "Đây là một nguyên tắc hoàn toàn mới chưa từng xuất hiện trước đây",
+        "Đỉnh thấp dần luôn là dấu hiệu của một Giai Đoạn Phân Phối chắc chắn 100%",
+        "Nguyên tắc này chỉ áp dụng riêng cho ngành y tế/chăm sóc sức khỏe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đây chính là sự lặp lại và củng cố nguyên tắc đã học ở case study SCHW (Phần 39): chuỗi đỉnh thấp dần (Lower Highs) trong một SSR là dấu hiệu cảnh báo sớm về khả năng xảy ra một phiên Spring/Shakeout trước khi giá thực sự đảo chiều tăng."
+    },
+    {
+      "id": "ch40-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ $CORN (Ngô) dưới đây ghi chú về một nỗ lực tạo Spring vào tháng 1: 'Qualities of a Spring but the rally stalls quickly and turns back to Support.' Theo đúng tinh thần thận trọng của Wyckoff, nhà giao dịch nên phản ứng thế nào trước tín hiệu 'giống Spring nhưng chưa chắc chắn' này?",
+      "chartImage": "/charts/part_40/p299_chart-1029.jpg",
+      "options": [
+        "Cần đánh giá thêm hành động giá tiếp theo trước khi hành động — không vội kết luận đó là SOS chỉ vì giá có đặc điểm giống Spring; đợi đến khi có xác nhận rõ ràng hơn (như CHOCH thực sự) mới hành động",
+        "Nên mua vào ngay lập tức bất kể diễn biến sau đó ra sao",
+        "Nên bán khống ngay lập tức vì đây chắc chắn là tín hiệu giảm giá",
+        "Nên bỏ qua hoàn toàn thị trường hàng hóa từ đây trở đi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Lưu ý nỗ lực tạo phiên Spring vào tháng 1. Giá chững lại và sau đó đảo chiều tăng giá quay trở lại Hỗ trợ mà không tạo ra một Dấu Hiệu Của Sức Mạnh (SOS) nào bằng việc vượt qua các đỉnh trước đó, do đó cần phải đánh giá thêm hành động giá này.' Đây là minh chứng cho tinh thần thận trọng, không kết luận vội vàng của Phương pháp Wyckoff."
+    },
+    {
+      "id": "ch40-q7",
+      "type": "multiple_choice",
+      "prompt": "Trên biểu đồ $CORN, một thanh giá giảm rất lớn vào tháng 4 với khối lượng cực cao được gọi là gì, và nó dẫn đến điều gì?",
+      "options": [
+        "Được gọi là 'Terminal Shakeout' (Rũ Bỏ Cuối Cùng) — đặc trưng bởi khối lượng rất cao và biên độ giảm giá lớn; sau đó một Spring thực sự xuất hiện và một CHOCH đưa $CORN tăng giá nhanh chóng lên Kháng Cự",
+        "Được gọi là 'Buying Climax', dẫn đến một đợt giảm giá kéo dài nhiều năm",
+        "Không có tên gọi cụ thể nào cho hành động này",
+        "Đây là dấu hiệu thị trường hàng hóa CORN sẽ ngừng giao dịch vĩnh viễn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một thanh giá giảm rất lớn vào tháng 4 phá vỡ mức đáy thấp trước đó với biên độ giá rộng và khối lượng bán cao đột biến tạo ra một phiên Spring thực sự (Terminal Shakeout).' Sau đó một Sự Thay Đổi Tính Cách (CHOCH) đưa $CORN tăng giá lên Kháng Cự nhanh chóng.",
+      "chartImage": null
+    },
+    {
+      "id": "ch40-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "Xuyên suốt các ví dụ LVS, AHS và $CORN trong chương này, sách liên tục nhấn mạnh việc phải CHỜ ĐỢI xác nhận (Test, CHOCH) thay vì hành động ngay khi thấy dấu hiệu ban đầu giống Spring hay SOS. Vì sao sự kiên nhẫn chờ xác nhận này lại là một 'kỹ năng' cần rèn luyện, chứ không đơn thuần là kiến thức lý thuyết?",
+      "sampleAnswer": "Vì về mặt lý thuyết, việc 'chờ xác nhận trước khi hành động' nghe có vẻ đơn giản, nhưng trong thực tế giao dịch, nhà đầu tư luôn chịu áp lực tâm lý muốn hành động ngay (sợ bỏ lỡ cơ hội - FOMO) khi thấy dấu hiệu đầu tiên xuất hiện. Kỹ năng thực sự nằm ở việc RÈN LUYỆN được sự kỷ luật để phân biệt giữa một tín hiệu THỰC SỰ đã được xác nhận đầy đủ (như CHOCH rõ ràng) với một tín hiệu CHỈ MỚI CÓ VẺ giống mẫu hình mong muốn (như trường hợp $CORN tháng 1 'có đặc điểm giống Spring nhưng chưa xác nhận'). Chỉ qua thực hành lặp đi lặp lại nhiều lần, nhà giao dịch mới xây dựng được bản năng phân biệt này mà không cần suy nghĩ có ý thức mỗi lần — đúng như tinh thần 'biến kỹ năng thành bản năng' đã được nhấn mạnh trong suốt cuốn sách.",
+      "chartImage": null
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "chapterId": 6,
+  "title": "Francis Bacon - Tiết Lộ Bản Chất Xu Hướng Thị Trường",
+  "summary": "Ẩn dụ của Francis Bacon về sự vận động của tự nhiên áp vào thị trường: Tích Lũy là Nguyên Nhân tạo ra Kết Quả (Uptrend). Đi sâu vào hành động Spring — 'bẫy giá giảm', Shakeout, và 3 loại Spring (#1, #2, #3) phân biệt bằng khối lượng.",
+  "questions": [
+    {
+      "id": "ch6-q1",
+      "type": "multiple_choice",
+      "prompt": "Francis Bacon từng nói vạn vật trong tự nhiên di chuyển dữ dội để đến vị trí của chúng, rồi nhẹ nhàng khi đã ở đúng vị trí. Sách áp dụng ẩn dụ này vào thị trường chứng khoán như thế nào?",
+      "options": [
+        "Cổ phiếu di chuyển nhẹ nhàng, chậm chạp trong Phạm Vi Giao Dịch (TR — 'đúng vị trí'), rồi sau đó chuyển sang di chuyển dữ dội khi xu hướng (trend) bắt đầu; 'Thời điểm - Timing là tất cả'",
+        "Cổ phiếu luôn di chuyển dữ dội trong TR và nhẹ nhàng khi có xu hướng — ngược lại hoàn toàn với thực tế",
+        "Ẩn dụ này chỉ áp dụng cho thị trường hàng hóa, không áp dụng được cho cổ phiếu",
+        "Ẩn dụ này nói về việc nên đầu tư dài hạn và không bao giờ bán cổ phiếu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Cổ phiếu có xu hướng di chuyển nhẹ nhàng, từ từ, không mấy sôi động trong các phạm vi giao dịch TR của chúng và sau đó chuyển đổi sang xu hướng một cách dữ dội... Thời điểm - Timing là tất cả' — thiên tài của đầu cơ là biết được khi nào sự yên tĩnh đó kết thúc.",
+      "chartImage": null
+    },
+    {
+      "id": "ch6-q2",
+      "type": "multiple_choice",
+      "prompt": "Sách khẳng định 'Tích Lũy là một Nguyên Nhân tạo ra một Kết Quả sau đó.' Theo logic nhân-quả này, điều gì xảy ra khi CO đã hấp thụ gần hết nguồn cung và công chúng gần như không còn gì để bán (điểm cân bằng, nhàm chán)?",
+      "options": [
+        "Chỉ cần mức giá cao hơn đáng kể mới khiến Strong Hands chịu bán ra một phần — khi đó sự thiếu hụt nguồn cung gặp một lực cầu nhẹ cũng đủ khiến giá di chuyển dữ dội, khởi động Uptrend",
+        "Thị trường sẽ đóng băng vĩnh viễn vì không còn ai giao dịch",
+        "Giá sẽ ngay lập tức giảm mạnh trở lại vùng đáy cũ",
+        "CO sẽ phải bán tháo toàn bộ cổ phiếu đã mua vì không tìm được người mua tiếp theo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Chỉ khi có các mức giá cao hơn rất nhiều (quá trình tăng giá nóng) mới khiến nhóm lợi ích lớn này cung cấp cổ phiếu ra thị trường... Khi sự thiếu hụt cổ phiếu gặp một sự tăng giá nhẹ của lực cầu đẩy lên, giá có thể di chuyển một cách dữ dội. Một xu hướng tăng có quy mô lớn đã được khởi động.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch6-q3",
+      "type": "multiple_choice",
+      "prompt": "Một phiên 'Spring' được định nghĩa như thế nào, và vì sao nó được gọi là 'Bẫy Giá Giảm' (Bear Trap)?",
+      "options": [
+        "Spring là hành động phá vỡ hỗ trợ đáy của TR để tạo mức đáy mới (LL), kích hoạt các nhà giao dịch theo xu hướng giảm bán tháo và công chúng hoảng loạn bán hết — nhưng thực chất đây là cái bẫy vì giá sẽ quay đầu tăng trở lại ngay sau đó",
+        "Spring là khi giá tăng vọt vượt đỉnh TR với khối lượng cực lớn",
+        "Spring chỉ là tên gọi khác của Selling Climax, không có gì khác biệt",
+        "Spring là hành động công ty phát hành thêm cổ phiếu mới (dilution)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một phiên Spring kiểm tra giới hạn biên dưới (hỗ trợ) của TR bằng cách phá qua các mức hỗ trợ và tạo ra mức đáy mới (LL). Đây là một Bẫy giá giảm - Bear trap. Điều này kích hoạt các nhà giao dịch theo xu hướng giảm bán tháo thêm cổ phiếu và công chúng bán hết bất kỳ cổ phiếu còn lại trong sự hoảng loạn tột cùng (Point of Fear #2).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch6-q4",
+      "type": "multiple_choice",
+      "prompt": "Sau một phiên Spring, nếu có nguồn cung mới xuất hiện dưới các mức thấp (khiến giá có thể giảm mạnh hơn trước khi CO đặt lệnh mua), hiện tượng này được gọi là gì?",
+      "options": [
+        "Shakeout (Rũ bỏ) — thường đi kèm khối lượng giao dịch tăng lên, cho thấy một nguồn cung mới đang được đẩy vào thị trường",
+        "Automatic Rally (AR)",
+        "Buying Climax (BCLX)",
+        "Ease of Movement (EOM)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Đối với CO, một phiên Spring thực sự là một câu hỏi quan trọng: Có bao nhiêu nguồn cung xuất hiện dưới các mức thấp? Nếu có nguồn cung, giá cổ phiếu có thể giảm mạnh hơn trước khi CO đặt lệnh mua phía bên dưới. Điều kiện này được gọi là Shakeout (Rũ bỏ). Một Shakeout thường đi kèm với khối lượng giao dịch tăng lên.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch6-q5",
+      "type": "multiple_choice",
+      "prompt": "Trong 3 loại Spring mà sách phân loại, 'Spring #1' được mô tả là gì và lời khuyên hành động đi kèm là gì?",
+      "options": [
+        "Spring #1 thực sự là một Shakeout dưới dạng Sign of Weakness (SOW) — một sự sụp đổ hoàn toàn; KHÔNG nên mua tại đây",
+        "Spring #1 là loại spring an toàn nhất, nên mua ngay lập tức không cần chờ xác nhận",
+        "Spring #1 chỉ xảy ra trên thị trường trái phiếu, không áp dụng cho cổ phiếu",
+        "Spring #1 luôn đi kèm khối lượng thấp nhất trong 3 loại"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Phiên Spring #1 thực sự là một Shakeout as SOW, là một sự sụp đổ hoàn toàn. Không nên mua tại đây.' Đây là loại spring rủi ro nhất vì cho thấy nguồn cung còn rất nhiều bên dưới hỗ trợ.",
+      "chartImage": null
+    },
+    {
+      "id": "ch6-q6",
+      "type": "multiple_choice",
+      "prompt": "Với 'Spring #2', sau khi giá phá sâu xuống dưới hỗ trợ với khối lượng lớn rồi phục hồi mạnh trở lại vào trong TR, sách khuyên nhà giao dịch nên làm gì trước khi mua?",
+      "options": [
+        "Chờ một nhịp giảm nhẹ trở lại mức thấp với khối lượng giảm dần (gọi là 'Test'), rồi mới mua với lệnh dừng lỗ đặt dưới đáy của Spring",
+        "Mua ngay lập tức tại đỉnh của nhịp phục hồi mà không cần chờ đợi gì thêm",
+        "Bán khống ngay lập tức vì đây là dấu hiệu xu hướng giảm sẽ tiếp diễn",
+        "Bỏ qua hoàn toàn cổ phiếu này và không giao dịch nữa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Spring #2 di chuyển xuống sâu hơn dưới mức đáy với khối lượng lớn và sau đó có một đợt phục hồi tăng quay lại TR, sau đó có nhịp giảm nhẹ trở lại mức thấp (điều này được gọi là test kiểm tra). Test sẽ có khối lượng giảm và có thể mua với các lệnh dừng lỗ dưới mức đáy của Spring.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch6-q7",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ CMG (2008-09) dưới đây minh họa một phiên Spring #3. Theo ghi chú trên biểu đồ, vì sao đây được xác định là Spring #3 chứ không phải Spring #1 hay #2?",
+      "chartImage": "/charts/part_06/p020_chart-094.jpg",
+      "options": [
+        "Giá chỉ phá nhẹ và ngắn xuống dưới đáy cũ với khối lượng vừa phải/không tăng đáng kể — nên có thể mua ngay lập tức mà không cần chờ Test",
+        "Vì khối lượng ngày Spring cao gấp 5 lần trung bình, cho thấy Shakeout mạnh",
+        "Vì giá giảm liên tục suốt 3 tuần sau phiên Spring",
+        "Vì đây là cổ phiếu duy nhất trong sách có phiên Spring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: '#3 Springs briefly and marginally break to new lows on modest Vol. CMG has no increase in Vol. on final push to price low and the Spring day is an up day on slightly increased volume. #3 Spring is at hand and can be bought immediately. No Test required.'"
+    },
+    {
+      "id": "ch6-q8",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ DJIA weekly 1981-83 dưới đây cho thấy đáy lịch sử tháng 9/1982. So với hai lần Điểm Kiểm Tra Thứ Cấp (ST1, ST2) trước đó với khối lượng cao, phiên Spring cuối cùng (tạo đáy thấp nhất) có đặc điểm khối lượng như thế nào, và điều đó có ý nghĩa gì?",
+      "chartImage": "/charts/part_06/p021_chart-097.jpg",
+      "options": [
+        "Khối lượng ở phiên Spring cuối rất THẤP (trái ngược với ST1, ST2 khối lượng cao trước đó) — cho thấy nguồn cung đã cạn kiệt, là tín hiệu đáng tin cậy để thị trường tăng giá mới bắt đầu",
+        "Khối lượng ở phiên Spring cuối cao hơn tất cả các phiên trước đó cộng lại",
+        "Khối lượng không có gì khác biệt so với ST1 và ST2",
+        "Biểu đồ này không thể hiện thông tin về khối lượng"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Hai thanh nến weekly của đợt giảm giá là khối lượng thấp và Spring cũng là khối lượng thấp... Điều này trái ngược với hai Điểm kiểm tra Thứ cấp trước đó [khối lượng cao]. Đợt phục hồi tiếp theo rất tích cực. Trong ba tuần, chỉ số DJIA nhảy ra khỏi phạm vi TR Tích Lũy và một thị trường tăng giá mới bắt đầu.'"
+    },
+    {
+      "id": "ch6-q9",
+      "type": "short_answer_selfgrade",
+      "prompt": "Vì sao một phiên Spring có khối lượng CAO thường cần được kiểm tra lại (retest) trong những ngày/tuần tiếp theo, trong khi một phiên Spring có khối lượng THẤP đôi khi không cần retest?",
+      "sampleAnswer": "Vì khối lượng cao ở phiên Spring cho thấy vẫn còn nhiều nguồn cung dồi dào xuất hiện ngay dưới đường hỗ trợ — cần một nhịp retest với khối lượng giảm dần để xác nhận nguồn cung đó đã được hấp thụ hết trước khi tin tưởng mua vào. Ngược lại, khối lượng thấp ngay tại phiên Spring cho thấy nguồn cung ở vùng đó vốn đã không còn nhiều, nên không cần thêm bước xác nhận retest.",
+      "chartImage": null
+    }
+  ]
+}

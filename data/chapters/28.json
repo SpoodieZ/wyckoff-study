@@ -1,0 +1,98 @@
+{
+  "chapterId": 28,
+  "title": "Các Hành Động Và Test",
+  "summary": "Cặp khái niệm nền tảng 'Hành Động - Action' (climax, biến động lớn) và 'Kiểm Tra - Test' (xác nhận sự cạn kiệt) lặp lại ở MỌI khung thời gian. Bốn Test quan trọng trong một TR Tích Lũy, và 2 Point of Fear / 2 Point of Excitement.",
+  "questions": [
+    {
+      "id": "ch28-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách định nghĩa mối quan hệ giữa 'Hành Động - Action' và 'Kiểm Tra - Test' như một ẩn dụ điều tra vụ án. Ẩn dụ đó là gì?",
+      "options": [
+        "'Hành Động (Action) là hiện trường của vụ án, thì Kiểm Tra (Test) là sự trở lại điều tra hiện trường của vụ án đó' — Test xác nhận liệu Action (ví dụ một cao trào) có thực sự tạo ra sự cạn kiệt (exhaustion) của xu hướng trước đó hay không",
+        "'Action là quan tòa, Test là bị cáo' — Test luôn phải tuân theo phán quyết của Action",
+        "Ẩn dụ này không được sách sử dụng ở bất kỳ đâu",
+        "'Action là luật sư, Test là nhân chứng' — không liên quan gì đến việc xác nhận xu hướng"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Chúng ta có thể nói rằng nếu Hành động (Action) là hiện trường của vụ án, thì bài Kiểm tra (Test) là sự trở lại điều tra hiện trường của vụ án đó.' Một bài Test là 'Tín hiệu' khi đánh giá xem Hành động tại một điểm Cao trào (Climax) có làm Cạn kiệt (Exhaustion) xu hướng trước đó hay không.",
+      "chartImage": null
+    },
+    {
+      "id": "ch28-q2",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ AAPL dưới đây đánh dấu 4 Test quan trọng trong một TR Tích Lũy (Test #1 đến #4). Test #1 diễn ra ở Phase |A| và xác nhận điều gì?",
+      "chartImage": "/charts/part_28/p146_chart-544.jpg",
+      "options": [
+        "Chính là ST kiểm tra lại SC trong Giai Đoạn |A| — nếu thành công thì đây là nơi xác nhận CHOCH đầu tiên, đồng thời là ranh giới giữa Giai Đoạn |A| và |B|",
+        "Là phiên kiểm tra khối lượng giao dịch trung bình 10 năm của AAPL",
+        "Là ngày công ty công bố sản phẩm mới",
+        "Test #1 luôn diễn ra ở Giai Đoạn |E|, không bao giờ ở |A|"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Test #1: Chính là ST kiểm tra lại SC trong giai đoạn |A|. Nếu thành công thì đây là nơi xác nhận CHOCH đầu tiên, đồng thời là ranh giới giữa giai đoạn |A| và |B|. Trong giai đoạn Tái tích lũy thì Test#1 có thể chính là Local Test trong SO (Shake-out), tức là SO = Test #1.'"
+    },
+    {
+      "id": "ch28-q3",
+      "type": "multiple_choice",
+      "prompt": "Trong Giai Đoạn Tích Lũy, có 2 điểm 'Point of Fear' (PoF). PoF #1 tại đâu, và PoF #2 tại đâu?",
+      "options": [
+        "PoF #1 chính là ở SC (hành động cao trào Climax); PoF #2 chính là ở Giai Đoạn |C| (Spring/Shakeout hoặc LPS) — một bẫy giá giảm (bear trap) đối với Weak Hands",
+        "PoF #1 và #2 đều nằm ở Giai Đoạn |E|",
+        "PoF #1 tại BCLX, PoF #2 tại SOW — chỉ áp dụng cho Phân Phối",
+        "Không có PoF nào trong Giai Đoạn Tích Lũy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'PoF #1: Chính là ở SC (Hành động cao trào Climax). PoF #2: Chính là ở giai đoạn |C|, với phiên Spring/Shakeout (SO) hoặc Last Point of Support (LPS). Một bẫy giá giảm (bear trap) dành cho WHs, điều này xảy ra khi CO cố tình đạp giá xuống hoặc không đỡ giá.' Lưu ý: không bắt buộc phải có PoF#2 trong mọi trường hợp Tích lũy.",
+      "chartImage": null
+    },
+    {
+      "id": "ch28-q4",
+      "type": "multiple_choice",
+      "prompt": "Đối xứng với PoF, trong Giai Đoạn Phân Phối có 2 điểm 'Point of Excitement' (PoEx). PoEx #2 xuất hiện ở đâu và mang ý nghĩa gì?",
+      "options": [
+        "Xuất hiện ở cuối Giai Đoạn |B| và đầu Giai Đoạn |C| — đây là nơi sẽ xuất hiện điểm Kiểm Tra (Test) lại vùng giá bên trên mức kháng cự lần cuối trước khi giá có thể di chuyển xuống, một bẫy giá tăng (bull trap) với WHs",
+        "Xuất hiện ở Giai Đoạn |E|, sau khi Downtrend đã kết thúc hoàn toàn",
+        "PoEx #2 không tồn tại trong bất kỳ trường hợp Phân Phối nào",
+        "PoEx #2 chỉ xảy ra vào ngày thứ Sáu hàng tuần"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Point of Excitement (PoEx #2): Xuất hiện ở cuối Giai đoạn |B| và đầu Giai đoạn |C|. Đây là nơi sẽ xuất hiện điểm Kiểm tra (Test) lại vùng giá bên trên mức kháng cự lần cuối trước khi giá có thể di chuyển xuống.' Đây chính là UT/UTAD — bẫy giá tăng cho WHs.",
+      "chartImage": null
+    },
+    {
+      "id": "ch28-q5",
+      "type": "chart_identify",
+      "prompt": "Sơ đồ 'CHANGE OF CHARACTER / CHANGE OF BEHAVIOR' dưới đây (nguồn Roman Bogomazov) minh họa các ký hiệu CHOB và CHOCH lặp lại xuyên suốt một chu kỳ giá đầy đủ. Theo sơ đồ, môi trường thị trường luân phiên qua lại như thế nào?",
+      "chartImage": "/charts/part_28/p147_chart-547.jpg",
+      "options": [
+        "Luân phiên giữa 'Non-trending environment' (TR - Tích Lũy/Phân Phối) và 'Trending environment' (Uptrend/Downtrend) — CHOB và CHOCH là các sự kiện đánh dấu ranh giới chuyển tiếp giữa hai môi trường này",
+        "Thị trường luôn ở trạng thái Trending, không bao giờ có Non-trending",
+        "CHOB và CHOCH chỉ xảy ra một lần duy nhất trong toàn bộ lịch sử một cổ phiếu",
+        "Sơ đồ không thể hiện bất kỳ sự luân phiên nào"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sơ đồ minh họa rõ chuỗi: Uptrend → Non-trending (TR) → Trending (Downtrend hoặc Uptrend mới) → Non-trending... với CHOB (Change of Behavior) và CHOCH (Change of Character) đánh dấu từng điểm chuyển tiếp — đúng tinh thần cốt lõi của toàn bộ Phương pháp Wyckoff đã học xuyên suốt các chương."
+    },
+    {
+      "id": "ch28-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ SPY (khung M5) dưới đây cho thấy cặp 'Action' và 'Test' lặp lại NHIỀU LẦN chỉ trong khoảng 2 ngày giao dịch. Ghi chú 'Tests have diminished price spread and volume' muốn nói gì?",
+      "chartImage": "/charts/part_28/p148_chart-552.jpg",
+      "options": [
+        "Các phiên Test có biên độ giá và khối lượng THU HẸP hơn — đây chính là dấu hiệu cho thấy xu hướng trước đó đang cạn kiệt (exhaustion), báo hiệu khả năng đảo chiều giá",
+        "Các phiên Test luôn có biên độ giá và khối lượng LỚN HƠN phiên Action",
+        "Khối lượng và biên độ giá không có mối liên hệ nào với việc xác nhận Test",
+        "Ghi chú này chỉ áp dụng cho khung thời gian tháng, không áp dụng cho khung M5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Dấu hiệu của giai đoạn Hành động (Action) là sự biến động, biên độ giá rộng và khối lượng lớn. Ngược lại, việc Kiểm tra (Test) sẽ có sự thu hẹp biên độ giá, ít biến động hơn và khối lượng thấp. Những chỉ báo này đều chỉ ra sự cạn kiệt (exhaustion) của xu hướng trước đó.'"
+    },
+    {
+      "id": "ch28-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách kết luận: 'Mỗi khung thời gian lớn hơn có thể kể một câu chuyện khác nhau (ngữ cảnh), mặc dù các nguyên tắc Hành Động và Kiểm Tra vẫn diễn ra.' Vì sao việc nhận ra cặp Action/Test lặp lại ở MỌI khung thời gian (từ M5 đến khung tháng) lại là một phát hiện quan trọng đối với một nhà giao dịch Wyckoff?",
+      "sampleAnswer": "Vì điều này chứng tỏ các nguyên tắc cốt lõi của Wyckoff (cung-cầu, hành động dừng lại, kiểm tra xác nhận) không phải là quy luật chỉ áp dụng cho biểu đồ dài hạn, mà là NGUYÊN LÝ PHỔ QUÁT về hành vi thị trường, áp dụng được ở bất kỳ 'độ phóng đại' nào của thời gian. Điều này cho phép nhà giao dịch trong ngày (day trader) hay nhà đầu tư dài hạn đều có thể dùng chung một bộ công cụ phân tích, chỉ khác nhau về khung thời gian quan sát — đồng thời cũng cảnh báo rằng cần xác định rõ mình đang phân tích ở khung thời gian nào để tránh nhầm lẫn ngữ cảnh giữa các khung khác nhau.",
+      "chartImage": null
+    }
+  ]
+}

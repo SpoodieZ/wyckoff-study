@@ -1,0 +1,154 @@
+{
+  "chapterId": 27,
+  "title": "Hệ Thống Điểm Vào Lệnh POE Và Thoát Lệnh EXIT",
+  "summary": "Hệ thống hóa 4 Điểm Vào Lệnh (POE) tại Spring/Test, LPS và BU, cùng 4 Điểm Thoát Lệnh (EXIT) đối xứng ở Phân Phối. Kỹ thuật xây dựng vị thế theo 3 phần, tỷ lệ Lợi Nhuận/Rủi Ro tối thiểu 3:1, và nguyên tắc '40% kiểm soát rủi ro - 60% kiểm soát bản thân'.",
+  "questions": [
+    {
+      "id": "ch27-q1",
+      "type": "multiple_choice",
+      "prompt": "Hệ thống 'Wyckoff Point Of Entry (POE)' liệt kê 4 điểm vào lệnh lý tưởng trong Giai Đoạn |C|, |D| và early |E|. Đó là 4 điểm nào?",
+      "options": [
+        "(1) Spring #3 và Test phiên Spring #2/Shakeout; (2) Last Point of Support (LPS); (3) Backup (BU) sau khi phá lên khỏi TR; (4) Break BU - phá vỡ trên mức cao của BU/SOS",
+        "(1) Selling Climax; (2) Buying Climax; (3) Preliminary Support; (4) Preliminary Supply",
+        "Chỉ có duy nhất 1 điểm vào lệnh — Spring #3",
+        "(1) Ngày thứ Hai; (2) Ngày thứ Ba; (3) Ngày thứ Tư; (4) Ngày thứ Sáu trong tuần"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Bốn điểm giao dịch lý tưởng trong Giai Đoạn |C|, |D| và early |E| là: 1) Spring #3 và Test phiên Spring #2 hoặc Shake-out. 2) Last Point of Support - LPS (thường có nhiều điểm LPS theo sau). 3) Backup (BU) sau khi phá lên và ra khỏi TR Tích lũy. 4) Break BU - Phá vỡ trên mức cao của BU/SOS (Dấu hiệu Sức mạnh).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q2",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ GDX dưới đây minh họa một 'Change of Character' rõ rệt. Theo ghi chú, sự thay đổi này thể hiện qua điều gì?",
+      "chartImage": "/charts/part_27/p132_chart-489.jpg",
+      "options": [
+        "Việc giá chuyển từ trạng thái giao dịch yếu ớt, ảm đạm sang các bước nhảy vọt năng động với khối lượng cao — nguồn cung đã bị siết chặt và hấp thụ bởi CO, khiến việc mua số lượng lớn cổ phiếu trở nên khó khăn hơn nên giá tăng tốc cao hơn",
+        "Việc giá không có bất kỳ thay đổi nào trong suốt quá trình",
+        "Việc công ty GDX công bố sáp nhập với đối thủ khai thác vàng khác",
+        "Việc khối lượng giao dịch giảm về 0 hoàn toàn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ: 'Change of Character is going from weak and listless trading to dynamic leaping of prices on high volume. Supply is tight and has been absorbed by the C.O. It is hard to buy stock in large quantities and therefore the price is accelerating higher.'"
+    },
+    {
+      "id": "ch27-q3",
+      "type": "multiple_choice",
+      "prompt": "Sách trình bày hai cách để xác định vùng 'Mua' tại các phiên Test của Spring/Shakeout, LPS hoặc BU. Đó là hai cách nào?",
+      "options": [
+        "(1) Xác định biên độ giá nhỏ và khối lượng bán thấp trong nhịp điều chỉnh giảm (Tín Hiệu); (2) Xác định hành động giá đảo chiều tăng dứt khoát (thanh S-bar/RS-bar) sau phiên Test (Xác Nhận)",
+        "(1) Gọi điện hỏi ý kiến môi giới; (2) Xem báo cáo phân tích kỹ thuật của ngân hàng",
+        "Chỉ có duy nhất một cách để xác định vùng Mua",
+        "(1) Đợi giá tăng 50%; (2) Đợi khối lượng bằng 0 tuyệt đối"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Có hai cách để xác định mua: Xác định các biên độ giá nhỏ và khối lượng bán thấp trong các nhịp điều chỉnh giảm - Test cạn cung tại các phiên Test của Spring hoặc Shakeout, các LPS và BU (Tín Hiệu). Xác định hành động giá đảo chiều tăng dứt khoát (các thanh S-bar và RS-bar) sau phiên Test cạn cung tại các phiên Test... (Xác Nhận).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q4",
+      "type": "multiple_choice",
+      "prompt": "Theo hệ thống POE, tỷ lệ Lợi Nhuận/Rủi Ro (Reward/Risk) TỐI THIỂU được yêu cầu cho một giao dịch là bao nhiêu, tính bằng target giá PnF?",
+      "options": [
+        "3:1 hoặc lớn hơn",
+        "1:1 (bằng nhau)",
+        "10:1 bắt buộc, không có ngoại lệ",
+        "Không có yêu cầu tỷ lệ cụ thể nào"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Thiết lập tỷ lệ tối thiểu Reward/Risk - 3:1 với phân tích Point and Figure (PnF) điều là rất quan trọng.' Ví dụ minh họa: giá vào lệnh $16.25, dừng lỗ $15 (rủi ro $1.25), mục tiêu lợi nhuận tối thiểu phải là $16.25 + 3×$1.25 = $20 trở lên để đạt tỷ lệ R:R 3:1.",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q5",
+      "type": "multiple_choice",
+      "prompt": "Sách khuyên nên xây dựng một vị thế giao dịch theo BA PHẦN (thirds) thay vì mua hết một lần. Điều kiện để thực hiện lần mua TIẾP THEO là gì?",
+      "options": [
+        "Chỉ mua thêm phần tiếp theo nếu phần mua TRƯỚC ĐÓ đang có lợi nhuận — nếu lần mua gần nhất chưa có lãi thì không thực hiện thêm lần mua kế tiếp",
+        "Mua thêm bất kể lần mua trước có lãi hay lỗ",
+        "Chỉ mua thêm khi đã lỗ để trung bình giá xuống (DCA down)",
+        "Không có bất kỳ điều kiện nào, mua theo cảm tính"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một nhà đầu tư Wyckoff luôn phải nghĩ đến việc gia tăng vị thế mua trong một giao dịch đang có lợi nhuận. Nếu lần mua cuối cùng không có lợi nhuận thì lần mua thêm tiếp theo sẽ không được thực hiện cho đến khi lần mua trước đó có lợi nhuận.' Đây là quy tắc 'Chỉ mua trung bình giá lên (DCA Up)'.",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q6",
+      "type": "multiple_choice",
+      "prompt": "Sách đưa ra một nguyên tắc gây bất ngờ: 'Để giao dịch thành công sẽ bao gồm: 40% là kiểm soát rủi ro và 60% là kiểm soát bản thân.' Theo phân tích chi tiết, việc PHÂN TÍCH THỊ TRƯỜNG chỉ chiếm khoảng bao nhiêu phần trăm của thành công?",
+      "options": [
+        "Khoảng 20% — vì phần kiểm soát rủi ro (40%) lại chia đôi thành một nửa quản lý vốn và một nửa phân tích thị trường",
+        "100% — phân tích thị trường là yếu tố duy nhất quyết định thành công",
+        "0% — phân tích thị trường hoàn toàn không quan trọng",
+        "80% — phân tích thị trường là yếu tố quan trọng nhất áp đảo mọi yếu tố khác"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: '40% là kiểm soát rủi ro và 60% là kiểm soát bản thân. Trong đó, phần kiểm soát rủi ro bao gồm một nửa là quản lý vốn và một nửa còn lại là phân tích thị trường. Như vậy, phân tích thị trường chỉ chiếm khoảng 20% của việc giao dịch thành công. Tuy nhiên, hầu hết các nhà giao dịch lại tập trung vào phân tích thị trường trong khi không hề quan tâm đến kiểm soát bản thân và coi nhẹ việc kiểm soát rủi ro.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q7",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ STLD (Steel Dynamics) dưới đây minh họa việc xây dựng vị thế 3 phần với các điểm mua #1, #2, #3. Sau lần mua #2 (tại LPS), điểm dừng lỗ được điều chỉnh như thế nào?",
+      "chartImage": "/charts/part_27/p138_chart-513.jpg",
+      "options": [
+        "Điểm dừng lỗ được di chuyển lên dưới mức đáy thấp của LPS (mức $16.75) — tạo một điểm hòa vốn cho lần mua #1 và mức lãi trên giá trung bình cho lần mua #2",
+        "Điểm dừng lỗ được giữ nguyên không đổi trong suốt cả chiến dịch giao dịch",
+        "Điểm dừng lỗ được di chuyển xuống thấp hơn để chấp nhận rủi ro lớn hơn",
+        "Không cần đặt điểm dừng lỗ sau lần mua thứ hai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Hãy di chuyển điểm dừng lỗ lên dưới mức đáy thấp của LPS tại $16.75 nơi điểm mua số #1 đang có lợi nhuận và điểm mua số #2 cho một điểm lỗ hòa vốn trên mức giá trung bình.' Đây là cách bảo vệ vốn dần dần khi vị thế được xây dựng thêm."
+    },
+    {
+      "id": "ch27-q8",
+      "type": "multiple_choice",
+      "prompt": "Hệ thống 'EXIT' (điểm thoát lệnh) được thiết kế đối xứng với hệ thống POE, áp dụng cho Phase |A|, |B| và |D| của một Giai Đoạn Phân Phối tiếp theo. EXIT #1 tương ứng với sự kiện nào?",
+      "options": [
+        "Thoát lệnh bằng việc đặt dừng lỗ (SL) bên dưới, với bằng chứng xuất hiện của Buying Climax (BC) — một 'Hành Động Cao Trào' (Climax Action)",
+        "Thoát lệnh khi công ty công bố cổ tức đặc biệt",
+        "Thoát lệnh chỉ khi giá đã giảm quá 90% từ đỉnh",
+        "EXIT #1 không được sách định nghĩa cụ thể"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'EXIT #1: In Phase |A| - Thoát bằng việc đặt dừng lỗ (SL) bên dưới. Các bằng chứng có sự xuất hiện của BC (Đặc điểm về: Biên độ, tốc độ và khối lượng). (Hành động Cao trào - Climax Action).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q9",
+      "type": "multiple_choice",
+      "prompt": "Sách phân loại 'Ba Chiến Lược Thoát Lệnh' theo mức độ MONG MUỐN giảm dần. Chiến Lược #1 (được mong muốn nhất) là gì?",
+      "options": [
+        "Chốt lời, loại bỏ vị thế và thoát khỏi thị trường khi hành động giá đạt đến mức cao trào (climax) trong vùng mục tiêu giá (target giá gần đạt được)",
+        "Tự động thoát khỏi thị trường khi lệnh dừng lỗ kéo theo (trailing stop) bị chạm",
+        "Không bao giờ thoát lệnh, giữ vị thế vĩnh viễn",
+        "Thoát lệnh ngẫu nhiên không theo bất kỳ tiêu chí nào"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Ba chiến lược thoát lệnh theo định hướng Wyckoff, được xếp hạng theo mức độ mong muốn của chúng, như sau: Chốt lời, loại bỏ vị thế và thoát khỏi thị trường khi hành động giá đạt đến mức cao trào (climax) trong vùng mục tiêu giá (target giá gần đạt được).' Chiến lược #2 là trailing stop tự động; Chiến lược #3 (dự phòng, thụ động nhất) dành cho người thiếu kỹ năng áp dụng Chiến lược #1/#2.",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q10",
+      "type": "multiple_choice",
+      "prompt": "Sách giải thích vì sao Chiến Lược Thoát Lệnh #1 KHÔNG thể chuyển thành một lệnh bán/mua tự động đặt sẵn (limit order) ngay giữa vùng mục tiêu giá. Lý do là gì?",
+      "options": [
+        "Vì Chiến lược #1 vẫn đòi hỏi phải có hành động khối lượng Cao Trào (Climax) THỰC SỰ xảy ra để ngăn chặn đà di chuyển giá tiếp tục — không thể biết trước chính xác khi nào cao trào đó xảy ra để đặt lệnh tự động",
+        "Vì các sàn giao dịch cấm đặt lệnh limit order trong vùng mục tiêu giá",
+        "Vì Chiến lược #1 không có bất kỳ hạn chế nào, hoàn toàn có thể tự động hóa",
+        "Vì mục tiêu giá PnF không bao giờ chính xác nên không cần chiến lược thoát lệnh nào cả"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Câu trả lời là chiến lược thoát lệnh #1 cũng đòi hỏi hành động khối lượng Cao trào (Climax) để ngăn chặn sự di chuyển giá.' Việc đặt lệnh tự động ở giữa vùng mục tiêu mà không xác nhận có hành động cao trào thực sự sẽ dẫn đến thoát lệnh quá sớm nếu giá còn tiếp tục di chuyển.",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q11",
+      "type": "short_answer_selfgrade",
+      "prompt": "Chiến Lược Thoát Lệnh #3 (trailing stop) được mô tả là 'phương pháp dự phòng, mặc định và thụ động' — dành cho người thiếu kỹ năng ở Chiến lược #1/#2. Vì sao một nhà giao dịch MỚI BẮT ĐẦU nên chấp nhận bắt đầu với Chiến lược #3, thay vì cố áp dụng ngay Chiến lược #1 (chốt lời tại cao trào) dù nó 'được mong muốn nhất'?",
+      "sampleAnswer": "Vì Chiến lược #1 đòi hỏi khả năng nhận diện chính xác một hành động Cao Trào (Climax) đang diễn ra trong thời gian thực — một kỹ năng đọc biểu đồ tinh vi cần nhiều kinh nghiệm và luyện tập mới thành thạo được, dễ mắc sai lầm nếu chưa đủ kinh nghiệm (thoát quá sớm hoặc quá muộn). Chiến lược #3 (trailing stop) đơn giản, khách quan, không đòi hỏi phán đoán chủ quan phức tạp, nên phù hợp làm điểm khởi đầu an toàn để bảo toàn vốn trong khi nhà giao dịch mới tích lũy dần kỹ năng và kinh nghiệm cần thiết để tiến tới các chiến lược thoát lệnh chủ động và tối ưu hơn.",
+      "chartImage": null
+    }
+  ]
+}

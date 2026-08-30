@@ -1,0 +1,140 @@
+{
+  "chapterId": 17,
+  "title": "Context is King",
+  "summary": "Phân tích đầy đủ 5 Giai Đoạn (Phase A-E) của Phân Phối như một 'bản đồ ngữ cảnh'. Giới thiệu mẫu hình 'Hypodermic' (mũi tiêm) — dạng phân phối hiếm gặp với đợt tăng tốc thẳng đứng trước khi sụp đổ — qua các ví dụ FXI, NFLX, PCLN.",
+  "questions": [
+    {
+      "id": "ch17-q1",
+      "type": "multiple_choice",
+      "prompt": "Trong Giai Đoạn |B| của Phân Phối, sách mô tả một hành động Upthrust (UT) 'có khả năng sẽ xảy ra, nhưng đó không phải là điều bắt buộc phải xuất hiện trong giai đoạn này'. Điều này có ý nghĩa gì khi phân tích thực tế?",
+      "options": [
+        "Không phải mọi Giai Đoạn Phân Phối đều có một cú UT rõ ràng trong Phase B — nhà phân tích không nên cứng nhắc chờ đợi sự kiện này mới công nhận Phase B đang diễn ra",
+        "UT luôn luôn phải xuất hiện, nếu không thì đó chắc chắn không phải là Phân Phối",
+        "UT chỉ xảy ra trong Giai Đoạn |D|, không bao giờ trong Giai Đoạn |B|",
+        "UT là sự kiện bắt buộc duy nhất định nghĩa toàn bộ Giai Đoạn Phân Phối"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một Upthrust (UT) là một hành động phá vỡ nhỏ lên trên mức đỉnh cũ BC nhưng chỉ tồn tại trong thời gian ngắn và nhanh chóng thất bại... Nó có khả năng sẽ xảy ra, nhưng đó không phải là điều bắt buộc xuất hiện trong giai đoạn này.' Ngữ cảnh (context) — nguyên tắc cốt lõi của chương này — đòi hỏi sự linh hoạt thay vì chờ đúng một mẫu hình cứng nhắc.",
+      "chartImage": null
+    },
+    {
+      "id": "ch17-q2",
+      "type": "multiple_choice",
+      "prompt": "Theo sách, Giai Đoạn |B| càng kéo dài thì hệ quả gì có thể xảy ra với Giai Đoạn Downtrend theo sau, dựa trên Quy Luật Nhân Quả (Luật Nhân-Quả)?",
+      "options": [
+        "Giai Đoạn |B| càng kéo dài, CO càng có nhiều thời gian và cơ hội để bán tiếp cổ phiếu, điều này có thể dẫn đến Giai Đoạn Downtrend sau đó sẽ lớn và kéo dài hơn",
+        "Giai Đoạn |B| càng kéo dài thì Downtrend sau đó chắc chắn sẽ ngắn hơn",
+        "Thời gian của Giai Đoạn |B| không có bất kỳ mối liên hệ nào với Downtrend sau đó",
+        "Giai Đoạn |B| càng kéo dài thì cổ phiếu sẽ không bao giờ giảm giá nữa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Giai đoạn |B| càng kéo dài, CO càng có nhiều thời gian và cơ hội để bán tiếp cổ phiếu và điều này có thể dẫn đến giai đoạn Downtrend tiếp theo sẽ lớn và kéo dài hơn (quy luật Nhân - Quả).' Đây chính là nguyên lý 'xây dựng nguyên nhân' áp dụng ngược lại cho phía Phân Phối.",
+      "chartImage": null
+    },
+    {
+      "id": "ch17-q3",
+      "type": "multiple_choice",
+      "prompt": "Giai Đoạn |C| của Phân Phối — nơi diễn ra đợt kiểm tra cuối cùng — có thể kết thúc theo hai cách chính nào theo sách?",
+      "options": [
+        "Có hành động UTAD (được xác nhận thất bại bởi một phiên Test sau đó), HOẶC chỉ đơn giản có một LPSY tạo đỉnh thấp hơn (không có UTAD)",
+        "Chỉ có duy nhất một cách duy nhất là UTAD, không có cách nào khác",
+        "Giai Đoạn |C| luôn kết thúc bằng việc công ty bị hủy niêm yết",
+        "Giai Đoạn |C| không bao giờ kết thúc, kéo dài vĩnh viễn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Hành động kiểm tra test cuối cùng là trọng tâm chính của Giai đoạn |C|, sẽ kết thúc theo hai cách chính (có hành động UTAD hoặc chỉ có LPSY) (nhưng dưới nhiều biến thể khác nhau).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch17-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ CVX (Chevron, weekly 2007-09) dưới đây được gắn nhãn đầy đủ Phase A đến E, kèm 'Stepping Stone Redistribution'. Đặc điểm nào của phạm vi TR này xác nhận CHOCH (thay đổi thuộc tính giá) đã xảy ra ngay từ Phase A?",
+      "chartImage": "/charts/part_17/p074_chart-269.jpg",
+      "options": [
+        "Hành động Secondary Test (ST) kiểm tra lại đỉnh của BCLX xác nhận rằng xu hướng tăng của CVX đã dừng lại, và một phạm vi giao dịch TR rộng, biến động mạnh cho thấy môi trường và thuộc tính giá đã thay đổi",
+        "Việc công ty công bố lợi nhuận vượt kỳ vọng phân tích",
+        "Việc giá tăng liên tục không có bất kỳ điều chỉnh nào",
+        "Việc khối lượng giao dịch giảm về 0 hoàn toàn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Hành động Secondary Test (ST) kiểm tra lại đỉnh của Buying Climax (BCLX) đã xác nhận rằng: xu hướng tăng của CVX đã dừng lại (CHOCH). Một phạm vi giao dịch TR rộng và biến động mạnh cho thấy điều kiện của cổ phiếu đã có sự thay đổi về môi trường và thuộc tính của giá.'"
+    },
+    {
+      "id": "ch17-q5",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ KLAC dưới đây có ghi chú 'Big break signals that large sellers are present'. Sự kiện phá vỡ mạnh này xảy ra ở Giai Đoạn nào, và nó báo hiệu điều gì?",
+      "chartImage": "/charts/part_17/p075_chart-272.jpg",
+      "options": [
+        "Xảy ra ở Giai Đoạn |B| — một đợt bán tháo cổ phiếu tích cực của CO, đặt nhà giao dịch vào tình thế cảnh giác rằng Phân Phối có thể đang diễn ra nhanh hơn mức thông thường",
+        "Xảy ra ở Giai Đoạn |E| sau khi Downtrend đã hoàn toàn kết thúc",
+        "Đây là dấu hiệu công ty sắp được mua lại với giá cao hơn",
+        "Đây là lỗi kỹ thuật của sàn giao dịch, không có ý nghĩa phân tích"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết về KLAC: 'Giai đoạn |C| trong trường hợp này với sự xuất hiện của một Upthrust After Distribution (UTAD)... Big break signals that large sellers are present' — đợt phá vỡ mạnh này (trong Giai đoạn |B|) là hoạt động bán tháo cổ phiếu tích cực của CO, đặt nhà giao dịch vào tình thế cảnh giác rằng Phân phối đang diễn ra nhanh hơn mức thông thường."
+    },
+    {
+      "id": "ch17-q6",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ NFLX dưới đây được mô tả là một dạng Phân Phối 'đặc biệt khó xác định' vì nó diễn ra 'Distribution on a rising scale throughout uptrend'. Vì sao dạng phân phối này khó phát hiện hơn dạng thông thường?",
+      "chartImage": "/charts/part_17/p076_chart-275.jpg",
+      "options": [
+        "Vì CO phân phối cổ phiếu ngay trong lúc giá vẫn đang trên đà tăng (thay vì đợi giá đi ngang hẳn ở đỉnh) — khiến xu hướng tăng trông vẫn có vẻ lành mạnh/nguyên vẹn trong mắt đa số nhà đầu tư",
+        "Vì NFLX không có bất kỳ khối lượng giao dịch nào trong suốt quá trình này",
+        "Vì đây là dạng phân phối duy nhất không bao giờ dẫn đến giảm giá",
+        "Vì biểu đồ NFLX bị lỗi hiển thị không đọc được"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Việc phân phối cổ phiếu trên một quy mô giá đang tăng dần trong một xu hướng tăng, rất khó để có thể phát hiện và đánh giá. Khi xu hướng tăng này hoàn tất, một đợt giảm mạnh bắt đầu ngay lập tức sau đó. Việc phân tích giai đoạn này trở nên khó khăn vì mọi thứ diễn ra quá nhanh.'"
+    },
+    {
+      "id": "ch17-q7",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ FXI (weekly) dưới đây minh họa mẫu hình 'Hypodermic' (mũi tiêm) mà Richard Wyckoff đặt tên. Mẫu hình này có đặc điểm gì đặc trưng ngay trước khi tạo đỉnh?",
+      "chartImage": "/charts/part_17/p078_chart-281.jpg",
+      "options": [
+        "Một đợt 'tăng tốc' (acceleration) giá gần như thẳng đứng, cạn kiệt nhanh chóng ở giai đoạn cuối cùng của xu hướng tăng — trước khi sụp đổ mạnh ngay sau đó",
+        "Một đợt giảm giá từ từ kéo dài nhiều năm không có biến động",
+        "Khối lượng giao dịch bằng 0 trong suốt toàn bộ quá trình hình thành đỉnh",
+        "Giá đi ngang tuyệt đối không có bất kỳ dao động nào"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết (trích Hank Pruden): 'Sự tăng tốc và cạn kiệt của giá trong giai đoạn cuối cùng của xu hướng được Richard Wyckoff gọi là Hypodermic (hoặc dạng phân phối theo hình cây thông/kim tiêm).' Đây là dạng phân phối hiếm gặp nhưng các Wyckoffian cần biết để nhận diện."
+    },
+    {
+      "id": "ch17-q8",
+      "type": "multiple_choice",
+      "prompt": "Sách gán thuật ngữ 'Point of Excitement' (PoEx) cho hai thời điểm cụ thể trong Giai Đoạn Phân Phối. Đó là hai thời điểm nào?",
+      "options": [
+        "PoEx #1 tại BCLX (khi công chúng hưng phấn mua đuổi theo tin tốt) và PoEx #2 tại UTAD (khi công chúng hưng phấn mua theo cú phá vỡ đỉnh mới)",
+        "PoEx #1 và #2 đều xảy ra tại cùng một điểm duy nhất là SOW",
+        "PoEx chỉ xảy ra ở Giai Đoạn |E|, không xảy ra ở đâu khác",
+        "Sách không định nghĩa PoEx là gì cụ thể"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: BCLX là 'Point of Excitement - PoEx #1' khi công chúng mua vào mạnh mẽ dựa trên các tin tốt. Còn UTAD (khi giá phá vỡ lên trên mạnh, thu hút một lượng lớn công chúng tham gia mua) được gọi là 'Point of Excitement - PoEx #2'. Cả hai đều là những thời điểm CO tận dụng sự hưng phấn của đám đông để bán ra số lượng lớn.",
+      "chartImage": null
+    },
+    {
+      "id": "ch17-q9",
+      "type": "short_answer_selfgrade",
+      "prompt": "Trích lời Hank Pruden trong sách: đợt tăng giá kiểu 'Hypodermic' được ví như những 'mũi tiêm gây mê kích thích nhân tạo định kỳ' giúp thị trường 'gần như chết đứng trên chân của nó trong một thời gian dài hơn'. Bạn hiểu ẩn dụ 'mũi tiêm' này như thế nào trong bối cảnh thị trường?",
+      "sampleAnswer": "Ẩn dụ 'mũi tiêm' ám chỉ các đợt tin tức tốt, kỳ vọng lạc quan của giới phân tích, hay tin đồn tích cực liên tục xuất hiện để 'kích thích' đà tăng giá tiếp tục dù xu hướng thực chất đã kiệt sức — giống như dùng thuốc kích thích để giữ một cơ thể đã yếu vẫn đứng vững tạm thời. Khi các 'mũi tiêm' tin tức này ngừng phát huy tác dụng, giá sẽ sụp đổ đột ngột và nhanh chóng — vì bản chất sức khỏe thực sự của xu hướng đã suy yếu từ trước, chỉ là được che giấu tạm thời.",
+      "chartImage": null
+    },
+    {
+      "id": "ch17-q10",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ PCLN (Priceline, weekly) dưới đây có ghi chú 'PCLN is Distributing on the way up. This is a particularly difficult and dangerous condition as it appears to be in a healthy uptrend to the end.' Vì sao sách gọi tình huống này là 'đặc biệt khó khăn và nguy hiểm'?",
+      "chartImage": "/charts/part_17/p077_chart-278.jpg",
+      "options": [
+        "Vì cổ phiếu trông vẫn có vẻ 'khỏe mạnh' (đang trong xu hướng tăng) cho đến tận cuối cùng — khiến nhà đầu tư nhỏ lẻ tiếp tục tin tưởng và mua vào ngay trước khi giá sụp đổ mạnh",
+        "Vì PCLN không có bất kỳ dữ liệu khối lượng nào để phân tích",
+        "Vì đây là cổ phiếu duy nhất trong sách không bao giờ giảm giá",
+        "Vì SEC đã cấm giao dịch cổ phiếu PCLN vĩnh viễn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chính vì mô hình phân phối này diễn ra NGAY TRONG xu hướng tăng (chứ không phải sau khi xu hướng đã rõ ràng dừng lại ở một TR đi ngang), nó đánh lừa được cả những nhà đầu tư có kinh nghiệm — họ nhìn thấy xu hướng tăng 'khỏe mạnh' và tiếp tục mua vào, không nhận ra CO đã bắt đầu phân phối từ rất sớm."
+    }
+  ]
+}

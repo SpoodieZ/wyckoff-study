@@ -1,0 +1,84 @@
+{
+  "chapterId": 19,
+  "title": "Con Đường Đi Của Wyckoff",
+  "summary": "Tư duy như Composite Man/Operator — một 'chuyên gia Heuristic'. Kỹ thuật thực hành cốt lõi: tìm nhịp Automatic Reaction (AR) bất thường lớn ở cuối một xu hướng tăng và 'đi ngược lại' (work backwards) để xác định BCLX rồi PSY.",
+  "questions": [
+    {
+      "id": "ch19-q1",
+      "type": "multiple_choice",
+      "prompt": "Sách gọi Composite Man/Operator (CO) là một 'chuyên gia Heuristic'. 'Heuristic' được định nghĩa trong sách là gì?",
+      "options": [
+        "Một phương pháp/kỹ thuật giúp tìm ra giải pháp cho một vấn đề hoặc đưa ra quyết định một cách nhanh chóng và hiệu quả, thường dựa trên kinh nghiệm, kỹ năng, quy tắc chung hoặc quá trình thử nghiệm, đánh giá",
+        "Một loại hợp đồng phái sinh tài chính phức tạp",
+        "Một thuật toán trí tuệ nhân tạo do Wyckoff tự viết",
+        "Một chỉ báo kỹ thuật đo lường độ biến động giá"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Chúng ta có thể gọi CO là một chuyên gia Heuristic (Heuristic là một phương pháp hoặc kỹ thuật giúp tìm ra giải pháp cho một vấn đề hoặc đưa ra quyết định một cách nhanh chóng và hiệu quả, thường dựa trên kinh nghiệm, kỹ năng, quy tắc chung hoặc quá trình thử nghiệm, đánh giá).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch19-q2",
+      "type": "multiple_choice",
+      "prompt": "Sách nêu hai điều thực sự hữu ích khi suy nghĩ về động cơ và mục đích của CO. Đó là gì?",
+      "options": [
+        "(1) Đặt vị trí của chúng ta vào sự đồng bộ về tư duy với CO, kiên nhẫn chờ đợi đúng thời điểm (timing); (2) Cho phép chúng ta đặt mình vào vai trò 'smart money', dần loại bỏ các hành vi tâm lý nguy hiểm của đám đông",
+        "(1) Giúp dự đoán chính xác 100% giá cổ phiếu trong tương lai; (2) Giúp tránh hoàn toàn mọi khoản lỗ trong giao dịch",
+        "(1) Giúp biết trước ngày công ty công bố báo cáo tài chính; (2) Giúp liên hệ trực tiếp với CO",
+        "Sách không đề cập đến bất kỳ lợi ích cụ thể nào"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Thứ nhất, việc suy nghĩ về động cơ và mục đích của CO sẽ đặt vị trí của chúng ta vào sự đồng bộ về mặt tư duy với các tổ chức lớn này... Thứ hai, việc suy nghĩ như CO cho phép chúng ta đặt vị trí của mình vào vai trò của \"smart money\"... chúng ta sẽ dần dần loại bỏ được những hành vi tâm lý nguy hiểm của đám đông.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch19-q3",
+      "type": "multiple_choice",
+      "prompt": "Sách đưa ra một 'bí quyết nhỏ' (mẹo thực hành) để nhận diện Phân Phối: hãy tìm một thuộc tính nào của biểu đồ mà bạn nhận ra và làm ngược lại (work backwards) từ đó?",
+      "options": [
+        "Tìm một nhịp Automatic Reaction (AR) BẤT THƯỜNG LỚN — mạnh hơn hẳn các đợt điều chỉnh giảm giá trước đó trong xu hướng tăng — rồi truy ngược lại để xác định BCLX và sau đó là PSY",
+        "Tìm ngày công ty công bố cổ tức và xác định BCLX từ ngày đó",
+        "Tìm điểm giá cao nhất trong 52 tuần và mặc định đó luôn là BCLX",
+        "Không có mẹo thực hành nào được đề cập trong sách"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sách viết: 'Một dấu hiệu lớn trên biểu đồ là Automatic Reaction (AR) ở cuối một xu hướng tăng. Từ đó hãy làm ngược lại để tìm BCLX và sau đó là PSY. Lý do AR sẽ là một nhịp điều chỉnh giảm giá lớn hơn nhiều so với những đợt giảm giá đã xảy ra trước đó trong xu hướng tăng (CHOB - Change of Behavior).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch19-q4",
+      "type": "chart_identify",
+      "prompt": "Biểu đồ IBB (Biotech Shares) dưới đây có ghi chú 'Tip: Note the outsized price reaction to the AR. Sellers have arrived... The AR tends to stand out on the chart, if the BCLX does not. Work backwards.' Ghi chú này minh họa trực tiếp cho mẹo thực hành nào đã học ở câu trước?",
+      "chartImage": "/charts/part_19/p085_chart-303.jpg",
+      "options": [
+        "Việc tìm nhịp AR bất thường lớn trước, rồi truy ngược lại (work backwards) để xác định các sự kiện BCLX/PSY trước đó, ngay cả khi BCLX không thực sự nổi bật trên biểu đồ",
+        "Việc chỉ cần nhìn vào khối lượng giao dịch trung bình 200 ngày",
+        "Việc luôn phải đợi đủ 5 phiên liên tiếp giảm giá mới được kết luận",
+        "Việc không bao giờ nên sử dụng đường xu hướng đảo ngược (reverse trendline)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú xác nhận đúng kỹ thuật: đôi khi BCLX không rõ ràng/nổi bật trên biểu đồ, nhưng AR (do có mức giảm giá bất thường lớn) lại rất dễ nhận ra — nên chiến lược thực dụng là bắt đầu từ AR rồi 'đi ngược lại' để xác định các sự kiện còn lại."
+    },
+    {
+      "id": "ch19-q5",
+      "type": "multiple_choice",
+      "prompt": "Trên biểu đồ IBB, sau khi một UTAD thất bại (fail rally), một 'Major Sign of Weakness' (M-SOW) hình thành. Điều gì thiết lập nên một Đường Hỗ Trợ tiếp theo cho quá trình Phân Phối?",
+      "options": [
+        "Đợt phục hồi tăng giá thứ hai tạo LPSY (kém chất lượng, khối lượng giảm dần) cung cấp thêm một cơ hội tốt để bán cổ phiếu",
+        "Việc công ty tuyên bố sáp nhập với một công ty khác",
+        "Việc chỉ số VIX giảm xuống dưới 15",
+        "Không có Đường Hỗ Trợ nào được thiết lập trong ví dụ IBB"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ghi chú trên biểu đồ liệt kê: '*2nd LPSY is a rally of poor quality and diminishing volume. *Support holds for two days before returning to test lows.' — LPSY lần 2 cung cấp thêm cơ hội bán, và mức Hỗ trợ vẫn được tôn trọng thêm một khoảng thời gian ngắn trước khi giá quay lại kiểm tra đáy.",
+      "chartImage": null
+    },
+    {
+      "id": "ch19-q6",
+      "type": "short_answer_selfgrade",
+      "prompt": "Sách viết: 'chúng ta không cần chờ đợi có sự xuất hiện đầy đủ của tất cả các nhãn để rút ra kết luận.' Vì sao khả năng đưa ra kết luận sớm — dựa trên MỘT vài manh mối nổi bật (như AR bất thường) — lại là một kỹ năng quan trọng hơn là việc chờ đợi xác nhận đầy đủ mọi chi tiết?",
+      "sampleAnswer": "Vì thị trường luôn vận động và cơ hội giao dịch tốt nhất thường xuất hiện sớm, trước khi mọi tín hiệu xác nhận đầy đủ và rõ ràng cho tất cả mọi người thấy — nếu chờ đến khi có đủ 100% xác nhận (PSY, BCLX, ST, UT, SOW, LPSY... đầy đủ), giá thường đã di chuyển đáng kể và cơ hội tốt nhất đã trôi qua. Kỹ năng nhận diện sớm dựa trên một vài manh mối mạnh (như nhịp AR bất thường) đến từ kinh nghiệm luyện tập nhiều, giúp nhà phân tích hành động kịp thời hơn trong khi vẫn quản lý rủi ro hợp lý (đặt điểm dừng lỗ phù hợp).",
+      "chartImage": null
+    }
+  ]
+}
