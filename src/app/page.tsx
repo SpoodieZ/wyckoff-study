@@ -1,8 +1,10 @@
 import Link from "next/link";
-import { ArrowRight, BookText, LineChart, SpellCheck } from "lucide-react";
+import { BookText, LineChart, SpellCheck } from "lucide-react";
 import AppShell from "@/components/AppShell";
+import HeroCarousel from "@/components/HeroCarousel";
 import { CHAPTERS_META } from "@/lib/chapters-meta";
-import { hasChapterData, loadChapterData } from "@/lib/chapter-data";
+import { hasChapterData, loadChapterHeroData } from "@/lib/chapter-data";
+import type { ChapterHeroData } from "@/lib/chapter-data";
 
 const STUDY_SETS_PREVIEW = [
   {
@@ -31,43 +33,15 @@ export default function Home() {
     available: hasChapterData(c.id),
   }));
 
-  const firstAvailable = chapters.find((c) => c.available);
-  const heroChapter = firstAvailable ? loadChapterData(firstAvailable.id) : null;
+  const heroChapters = chapters
+    .filter((c) => c.available)
+    .map((c) => loadChapterHeroData(c.id))
+    .filter((c): c is ChapterHeroData => c !== null);
 
   return (
     <AppShell chapters={chapters}>
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 p-4 pb-16 md:p-6 lg:p-10">
-        {heroChapter && (
-          <section className="relative flex flex-col items-center justify-between gap-10 overflow-hidden rounded-frame border border-primary-fixed bg-light-chart-bg p-6 shadow-study lg:flex-row lg:p-10">
-            <div className="z-10 min-w-0 flex-1">
-              <p className="mb-2 text-label-sm font-medium uppercase tracking-wider text-primary">
-                Bắt đầu ôn tập
-              </p>
-              <h1 className="font-display text-[24px] leading-8 font-bold text-on-surface md:text-display-title">
-                Chương {heroChapter.chapterId} — {heroChapter.title}
-              </h1>
-              <p className="mb-6 mt-4 max-w-xl text-body-md text-on-surface-variant md:text-body-lg">
-                {heroChapter.summary}
-              </p>
-              <Link
-                href={`/chapters/${heroChapter.chapterId}`}
-                className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-btn font-semibold text-on-primary shadow-study transition-colors hover:bg-primary-strong"
-              >
-                Bắt đầu học
-                <ArrowRight size={18} />
-              </Link>
-            </div>
-            <div className="z-0 hidden w-64 shrink-0 justify-end opacity-90 lg:flex">
-              <div className="relative flex h-48 w-full items-end justify-around rounded-card bg-dark-chart p-3">
-                <div className="relative h-12 w-4 bg-crimson before:absolute before:-top-4 before:left-1/2 before:h-20 before:w-px before:-translate-x-1/2 before:bg-crimson before:content-['']" />
-                <div className="relative h-8 w-4 bg-sage before:absolute before:-top-2 before:left-1/2 before:h-16 before:w-px before:-translate-x-1/2 before:bg-sage before:content-['']" />
-                <div className="relative h-16 w-4 bg-crimson before:absolute before:-top-6 before:left-1/2 before:h-24 before:w-px before:-translate-x-1/2 before:bg-crimson before:content-['']" />
-                <div className="relative h-24 w-4 bg-sage before:absolute before:-bottom-4 before:left-1/2 before:h-32 before:w-px before:-translate-x-1/2 before:bg-sage before:content-['']" />
-                <div className="relative h-32 w-4 bg-sage before:absolute before:-bottom-8 before:left-1/2 before:h-48 before:w-px before:-translate-x-1/2 before:bg-sage before:content-['']" />
-              </div>
-            </div>
-          </section>
-        )}
+        {heroChapters.length > 0 && <HeroCarousel chapters={heroChapters} />}
 
         <section>
           <div className="mb-3 flex items-end justify-between">

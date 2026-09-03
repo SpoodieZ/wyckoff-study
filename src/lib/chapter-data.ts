@@ -18,3 +18,22 @@ export function loadChapterData(id: number): ChapterData | null {
   const raw = fs.readFileSync(filePath, "utf-8");
   return JSON.parse(raw) as ChapterData;
 }
+
+export interface ChapterHeroData {
+  id: number;
+  title: string;
+  summary: string;
+  chartImage: string | null;
+}
+
+export function loadChapterHeroData(id: number): ChapterHeroData | null {
+  const data = loadChapterData(id);
+  if (!data) return null;
+  const withImage = data.questions.find((q) => q.chartImage);
+  return {
+    id: data.chapterId,
+    title: data.title,
+    summary: data.summary,
+    chartImage: withImage?.chartImage ?? null,
+  };
+}
