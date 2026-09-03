@@ -1,12 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import type { ChapterHeroData } from "@/lib/chapter-data";
 
 const STORAGE_KEY = "wyckoff-hero-chapter";
-const WINDOW_SIZE = 5;
 
 function DecorativeCandles() {
   return (
@@ -21,7 +20,6 @@ function DecorativeCandles() {
 }
 
 export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[] }) {
-  const [windowStart, setWindowStart] = useState(0);
   const [index, setIndex] = useState(0);
   const [dragOffset, setDragOffset] = useState(0);
   const [dragging, setDragging] = useState(false);
@@ -36,24 +34,19 @@ export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[]
     const savedId = Number(window.localStorage.getItem(STORAGE_KEY));
     const savedIdx = chapters.findIndex((c) => c.id === savedId);
     // eslint-disable-next-line react-hooks/set-state-in-effect
-    if (savedIdx >= 0) setWindowStart(savedIdx);
+    if (savedIdx >= 0) setIndex(savedIdx);
     setHydrated(true);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const windowChapters = useMemo(
-    () => chapters.slice(windowStart, windowStart + WINDOW_SIZE),
-    [chapters, windowStart]
-  );
-
   useEffect(() => {
     if (!hydrated) return;
-    const current = windowChapters[index];
+    const current = chapters[index];
     if (current) window.localStorage.setItem(STORAGE_KEY, String(current.id));
-  }, [hydrated, windowStart, index, windowChapters]);
+  }, [hydrated, index, chapters]);
 
   function goTo(next: number) {
-    setIndex(Math.max(0, Math.min(windowChapters.length - 1, next)));
+    setIndex(Math.max(0, Math.min(chapters.length - 1, next)));
   }
 
   function handlePointerDown(e: React.PointerEvent) {
@@ -78,7 +71,7 @@ export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[]
     setDragOffset(0);
   }
 
-  if (windowChapters.length === 0) return null;
+  if (chapters.length === 0) return null;
 
   const translatePercent = -(index * 100) + dragOffset;
 
@@ -103,7 +96,7 @@ export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[]
             transition: dragging ? "none" : "transform 300ms ease",
           }}
         >
-          {windowChapters.map((chapter) => (
+          {chapters.map((chapter) => (
             <div key={chapter.id} className="flex w-full shrink-0 flex-col gap-10 px-6 pb-6 lg:flex-row lg:items-center lg:px-10 lg:pb-10">
               <div className="z-10 min-w-0 flex-1">
                 <h1 className="font-display text-[24px] leading-8 font-bold text-on-surface md:text-display-title">
@@ -128,6 +121,7 @@ export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[]
                       <img
                         src={chapter.chartImage}
                         alt={`Minh họa Chương ${chapter.id}`}
+                        loading="lazy"
                         className="h-44 w-full rounded object-cover"
                       />
                     </div>
@@ -141,7 +135,7 @@ export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[]
         </div>
       </div>
 
-      {windowChapters.length > 1 && (
+      {chapters.length > 1 && (
         <div className="flex items-center justify-between px-6 pb-6 lg:px-10 lg:pb-10">
           <button
             onClick={() => goTo(index - 1)}
@@ -152,22 +146,13 @@ export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[]
             <ChevronLeft size={18} />
           </button>
 
-          <div className="flex items-center gap-1.5">
-            {windowChapters.map((chapter, i) => (
-              <button
-                key={chapter.id}
-                onClick={() => goTo(i)}
-                aria-label={`Xem Chương ${chapter.id}`}
-                className={`h-1.5 rounded-full transition-all ${
-                  i === index ? "w-5 bg-primary" : "w-1.5 bg-outline-variant"
-                }`}
-              />
-            ))}
-          </div>
+          <span className="text-label-sm font-medium text-on-surface-variant">
+            Chương {index + 1} / {chapters.length}
+          </span>
 
           <button
             onClick={() => goTo(index + 1)}
-            disabled={index === windowChapters.length - 1}
+            disabled={index === chapters.length - 1}
             aria-label="Chương tiếp theo"
             className="flex h-9 w-9 items-center justify-center rounded-full border border-outline-variant bg-surface-container-lowest text-on-surface transition-colors hover:bg-surface-container disabled:pointer-events-none disabled:opacity-30"
           >
