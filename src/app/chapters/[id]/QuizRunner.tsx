@@ -2,15 +2,38 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, Check, X, Lightbulb, Trophy, RotateCcw } from "lucide-react";
+import { ArrowLeft, ArrowRight, Check, X, Lightbulb, Trophy, RotateCcw, Flame, Crown } from "lucide-react";
 import type { ChapterData, Question } from "@/lib/types";
+import { recordStudyActivity } from "@/lib/streak";
+
+type Confidence = "guess" | "medium" | "high";
 
 interface QuestionResult {
   questionId: string;
   correct: boolean;
+  confidence?: Confidence;
 }
 
 const OPTION_LETTERS = ["A", "B", "C", "D", "E", "F"];
+
+const CONFIDENCE_LEVELS: { value: Confidence; label: string }[] = [
+  { value: "guess", label: "Đoán bừa" },
+  { value: "medium", label: "Khá chắc" },
+  { value: "high", label: "Chắc chắn" },
+];
+
+function confidenceFeedback(correct: boolean, level: Confidence | null): string | null {
+  if (!level) return null;
+  if (level === "high") {
+    return correct ? "Chuẩn không cần chỉnh!" : "Sai dù rất tự tin — đây là dấu hiệu nên xem lại kỹ khái niệm này.";
+  }
+  if (level === "guess") {
+    return correct
+      ? "Đúng, nhưng có vẻ là may mắn — ôn lại khái niệm này cho chắc nhé."
+      : "Đoán sai cũng không sao, đây chính là lúc để học.";
+  }
+  return correct ? "Tốt, bạn đã đọc khá kỹ." : "Gần đúng rồi, xem lại phần giải thích bên dưới.";
+}
 
 export default function QuizRunner({
   chapter,
@@ -22,33 +45,45 @@ export default function QuizRunner({
   const [index, setIndex] = useState(0);
   const [results, setResults] = useState<QuestionResult[]>([]);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
+  const [confidence, setConfidence] = useState<Confidence | null>(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [revealedSample, setRevealedSample] = useState(false);
+  const [streak, setStreak] = useState(0);
 
   const questions = chapter.questions;
   const total = questions.length;
   const question: Question | undefined = questions[index];
   const finished = index >= total;
+  const isBossQuestion = total > 1 && index === total - 1;
 
   const correctCount = useMemo(() => results.filter((r) => r.correct).length, [results]);
 
-  function recordResult(correct: boolean) {
-    setResults((prev) => [...prev, { questionId: question!.id, correct }]);
+  function recordResult(correct: boolean, level?: Confidence) {
+    setResults((prev) => [...prev, { questionId: question!.id, correct, confidence: level }]);
+    setStreak((s) => (correct ? s + 1 : 0));
+    recordStudyActivity();
   }
 
   function goToNext() {
     setIndex((i) => i + 1);
     setSelectedOption(null);
+    setConfidence(null);
     setShowAnswer(false);
     setRevealedSample(false);
   }
 
   function handleChoiceClick(optionIndex: number) {
-    if (showAnswer) return;
+    if (showAnswer || selectedOption !== null) return;
     if (question!.type !== "multiple_choice" && question!.type !== "chart_identify") return;
     setSelectedOption(optionIndex);
+  }
+
+  function confirmConfidence(level: Confidence) {
+    if (selectedOption === null || showAnswer) return;
+    if (question!.type !== "multiple_choice" && question!.type !== "chart_identify") return;
+    setConfidence(level);
     setShowAnswer(true);
-    recordResult(optionIndex === question!.correctIndex);
+    recordResult(selectedOption === question!.correctIndex, level);
   }
 
   function handleSelfGrade(correct: boolean) {
@@ -60,8 +95,10 @@ export default function QuizRunner({
     setIndex(0);
     setResults([]);
     setSelectedOption(null);
+    setConfidence(null);
     setShowAnswer(false);
     setRevealedSample(false);
+    setStreak(0);
   }
 
   if (finished) {
@@ -79,6 +116,13 @@ export default function QuizRunner({
         <p className="mt-2 text-body-md text-on-surface-variant">
           Bạn đã hoàn thành {chapter.title} — {correctCount}/{total} câu đúng.
         </p>
+
+        {total > 1 && results[total - 1]?.correct && (
+          <span className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-primary-fixed px-3 py-1.5 text-label-sm font-bold text-primary">
+            <Crown size={16} />
+            Đã hạ Câu Boss!
+          </span>
+        )}
 
         <div className="relative mt-8 flex h-40 w-40 items-center justify-center">
           <svg className="h-full w-full -rotate-90" viewBox="0 0 144 144">
@@ -110,7 +154,8 @@ export default function QuizRunner({
               {questions.map((q, i) => (
                 <span
                   key={q.id}
-                  className={`mini-candlestick ${
+                  style={{ animationDelay: `${i * 60}ms` }}
+                  className={`mini-candlestick result-candle ${
                     results[i]?.correct ? "candlestick-sage" : "candlestick-crimson"
                   }`}
                 />
@@ -184,6 +229,15 @@ export default function QuizRunner({
           <span className="truncate text-body-md font-medium">{chapter.title}</span>
         </div>
         <div className="flex shrink-0 items-center gap-2">
+          {streak >= 2 && (
+            <span
+              key={streak}
+              className="streak-badge flex items-center gap-1 rounded-full bg-crimson-soft px-2.5 py-1 text-label-sm font-bold text-crimson"
+            >
+              <Flame size={14} />
+              {streak}
+            </span>
+          )}
           <span className="text-label-sm font-bold text-primary">
             Câu {index + 1} / {total}
           </span>
@@ -196,13 +250,23 @@ export default function QuizRunner({
         </div>
       </div>
 
+      {isBossQuestion && (
+        <div className="mb-4 flex items-center justify-center gap-2 rounded-full bg-primary-fixed px-4 py-2 text-label-sm font-bold text-primary">
+          <Crown size={16} />
+          Câu Quyết Định — Tổng Hợp Chương
+        </div>
+      )}
+
       <h2 className="mb-6 text-center font-display text-card-title font-bold text-on-surface">
         {question.prompt}
       </h2>
 
       {question.chartImage && (
-        <div className="mb-8 rounded-frame bg-light-chart-bg p-3 md:p-6">
-          <div className="relative overflow-hidden rounded-card bg-dark-chart p-2 shadow-sm">
+        <div
+          key={question.id}
+          className="mb-8 rounded-frame bg-light-chart-bg p-3 md:p-6"
+        >
+          <div className="chart-reveal relative overflow-hidden rounded-card bg-dark-chart p-2 shadow-sm">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={question.chartImage}
@@ -221,27 +285,35 @@ export default function QuizRunner({
             const isWrongSelected = showAnswer && isSelected && !isCorrect;
             const showCorrectHighlight = showAnswer && isCorrect;
 
+            const isLockedIn = isSelected && !showAnswer;
+
             let borderClasses = "border border-outline-variant hover:border-primary";
             let badgeClasses = "border border-outline-variant bg-surface text-on-surface-variant";
+            let badgeAnimClasses = "";
             if (showCorrectHighlight) {
               borderClasses = "border-2 border-sage";
               badgeClasses = "bg-sage text-on-primary";
+              badgeAnimClasses = "answer-badge-correct";
             } else if (isWrongSelected) {
               borderClasses = "border-2 border-crimson";
               badgeClasses = "bg-crimson text-on-primary";
+              badgeAnimClasses = "answer-badge-wrong";
             } else if (showAnswer) {
               borderClasses = "border border-outline-variant opacity-60";
+            } else if (isLockedIn) {
+              borderClasses = "border-2 border-primary";
+              badgeClasses = "bg-primary text-on-primary";
             }
 
             return (
               <div key={i} className={`rounded-card bg-surface-container-lowest p-4 shadow-study ${borderClasses}`}>
                 <button
                   onClick={() => handleChoiceClick(i)}
-                  disabled={showAnswer}
+                  disabled={showAnswer || selectedOption !== null}
                   className="flex w-full items-center gap-4 text-left disabled:cursor-default"
                 >
                   <span
-                    className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-body-md ${badgeClasses}`}
+                    className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-body-md ${badgeClasses} ${badgeAnimClasses}`}
                   >
                     {showCorrectHighlight ? (
                       <Check size={20} />
@@ -263,6 +335,11 @@ export default function QuizRunner({
                           className={`mb-1 text-label-sm font-bold ${isCorrect ? "text-sage" : "text-crimson"}`}
                         >
                           {isCorrect ? "Chính xác!" : "Chưa đúng"}
+                          {confidenceFeedback(isCorrect, confidence) && (
+                            <span className="ml-1 font-normal text-on-surface-variant">
+                              — {confidenceFeedback(isCorrect, confidence)}
+                            </span>
+                          )}
                         </h4>
                         <p className="text-body-md text-on-surface-variant">{question.explanation}</p>
                       </div>
@@ -272,6 +349,23 @@ export default function QuizRunner({
               </div>
             );
           })}
+
+          {selectedOption !== null && !showAnswer && (
+            <div className="rounded-card border border-outline-variant bg-surface-container-lowest p-4 shadow-study">
+              <p className="mb-3 text-body-md font-medium text-on-surface">Bạn tự tin bao nhiêu với lựa chọn này?</p>
+              <div className="flex flex-wrap gap-2">
+                {CONFIDENCE_LEVELS.map((level) => (
+                  <button
+                    key={level.value}
+                    onClick={() => confirmConfidence(level.value)}
+                    className="rounded-full border border-outline-variant bg-surface px-4 py-2 text-btn font-semibold text-on-surface transition-colors hover:border-primary hover:text-primary"
+                  >
+                    {level.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
 
           {showAnswer && (
             <div className="mt-4 flex justify-end">

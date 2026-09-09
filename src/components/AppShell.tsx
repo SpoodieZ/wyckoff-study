@@ -4,8 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Menu, X, BookOpen, Layers, RotateCcw, BarChart3, NotebookPen, User, LogOut, LogIn, UserCog } from "lucide-react";
+import { Menu, X, BookOpen, Layers, RotateCcw, BarChart3, NotebookPen, User, LogOut, LogIn, UserCog, Flame } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
+import { getStudyStreak } from "@/lib/streak";
 
 const NAV_ITEMS = [
   { href: "/", label: "Chương", icon: BookOpen, available: true },
@@ -178,6 +179,14 @@ export default function AppShell({
   const [isAdmin, setIsAdmin] = useState(false);
   // undefined = đang kiểm tra phiên đăng nhập, true/false = đã biết kết quả.
   const [isLoggedIn, setIsLoggedIn] = useState<boolean | undefined>(undefined);
+  const [studyStreak, setStudyStreak] = useState(0);
+
+  useEffect(() => {
+    // Đọc lại streak từ localStorage mỗi khi chuyển trang — không đọc được ở
+    // lần render server nên bắt buộc phải làm sau khi mount.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setStudyStreak(getStudyStreak());
+  }, [pathname]);
 
   useEffect(() => {
     let active = true;
@@ -218,8 +227,19 @@ export default function AppShell({
           <Image src="/logo-icon.png" alt="" width={677} height={442} className="h-8 w-auto object-contain" />
           <Image src="/logo-wordmark.png" alt="Wyckoff Study" width={812} height={335} className="h-7 w-auto object-contain" />
         </div>
-        {isLoggedIn && <UserMenu displayName={displayName} />}
-        {isLoggedIn === false && <LoginButton />}
+        <div className="flex items-center gap-2">
+          {studyStreak > 0 && (
+            <span
+              title={`${studyStreak} ngày học liên tục`}
+              className="flex items-center gap-1.5 rounded-full bg-crimson-soft px-3 py-2 text-label-sm font-bold text-crimson"
+            >
+              <Flame size={16} />
+              {studyStreak}
+            </span>
+          )}
+          {isLoggedIn && <UserMenu displayName={displayName} />}
+          {isLoggedIn === false && <LoginButton />}
+        </div>
       </header>
 
       <aside className="fixed left-0 top-16 hidden h-[calc(100vh-64px)] w-64 flex-col gap-1 overflow-y-auto border-r border-outline-variant bg-surface-bright py-3 md:flex">
