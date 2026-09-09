@@ -2,14 +2,15 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Menu, X, BookOpen, Layers, RotateCcw, BarChart3, User } from "lucide-react";
-import { USERS, CURRENT_USER_STORAGE_KEY } from "@/lib/users";
+import { Menu, X, BookOpen, Layers, RotateCcw, BarChart3, NotebookPen, User, LogOut, UserCog } from "lucide-react";
+import { createClient } from "@/lib/supabase/client";
 
 const NAV_ITEMS = [
   { href: "/", label: "Chương", icon: BookOpen, available: true },
   { href: "#", label: "Study Sets", icon: Layers, available: false },
+  { href: "/journal", label: "Nhật ký giao dịch", icon: NotebookPen, available: true },
   { href: "/review", label: "Ôn lại câu sai", icon: RotateCcw, available: true },
   { href: "/progress", label: "Tiến độ", icon: BarChart3, available: true },
 ];
@@ -20,39 +21,47 @@ export interface ChapterSummary {
   available: boolean;
 }
 
-function UserSwitcher() {
-  const [userIndex, setUserIndex] = useState(0);
+function UserMenu({ displayName }: { displayName: string | null }) {
+  const router = useRouter();
 
-  useEffect(() => {
-    // One-time hydration from localStorage: the server can't know this value,
-    // so syncing it after mount (rather than in the initial useState) is required.
-    const stored = window.localStorage.getItem(CURRENT_USER_STORAGE_KEY);
-    const parsed = stored ? Number(stored) : 0;
-    if (parsed === 0 || parsed === 1) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setUserIndex(parsed);
-    }
-  }, []);
-
-  function toggleUser() {
-    const next = userIndex === 0 ? 1 : 0;
-    setUserIndex(next);
-    window.localStorage.setItem(CURRENT_USER_STORAGE_KEY, String(next));
+  async function handleSignOut() {
+    const supabase = createClient();
+    await supabase.auth.signOut();
+    router.push("/login");
+    router.refresh();
   }
 
   return (
-    <button
-      onClick={toggleUser}
-      className="inline-flex items-center gap-2 rounded-full bg-primary px-3 py-2 text-label-sm font-semibold text-on-primary transition-colors hover:bg-primary-strong sm:px-4"
-      title="Bấm để đổi người dùng"
-    >
-      <User size={18} />
-      <span className="hidden sm:inline">{USERS[userIndex]}</span>
-    </button>
+    <div className="flex items-center gap-2">
+      <span className="hidden items-center gap-2 rounded-full bg-primary-fixed px-3 py-2 text-label-sm font-semibold text-primary sm:flex">
+        <User size={16} />
+        {displayName ?? "…"}
+      </span>
+      <button
+        onClick={handleSignOut}
+        className="inline-flex items-center gap-2 rounded-full border border-outline-variant bg-surface-container-lowest px-3 py-2 text-label-sm font-semibold text-on-surface-variant transition-colors hover:bg-surface-container sm:px-4"
+        title="Đăng xuất"
+      >
+        <LogOut size={16} />
+        <span className="hidden sm:inline">Đăng xuất</span>
+      </button>
+    </div>
   );
 }
 
-function SidebarContent({ pathname, chapters }: { pathname: string; chapters: ChapterSummary[] }) {
+function SidebarContent({
+  pathname,
+  chapters,
+  isAdmin,
+}: {
+  pathname: string;
+  chapters: ChapterSummary[];
+  isAdmin: boolean;
+}) {
+  const navItems = isAdmin
+    ? [...NAV_ITEMS, { href: "/journal/members", label: "Quản lý thành viên", icon: UserCog, available: true }]
+    : NAV_ITEMS;
+
   return (
     <>
       <div className="px-3 py-6">
@@ -60,7 +69,7 @@ function SidebarContent({ pathname, chapters }: { pathname: string; chapters: Ch
         <p className="mt-1 text-label-sm text-on-surface-variant">Wyckoff Power Charting</p>
       </div>
       <nav className="flex flex-col gap-1 px-2">
-        {NAV_ITEMS.map((item) => {
+        {navItems.map((item) => {
           const active = item.available && pathname === item.href;
           const Icon = item.icon;
           if (!item.available) {
@@ -153,6 +162,28 @@ export default function AppShell({
 }) {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [displayName, setDisplayName] = useState<string | null>(null);
+  const [isAdmin, setIsAdmin] = useState(false);
+
+  useEffect(() => {
+    let active = true;
+    const supabase = createClient();
+    supabase.auth.getUser().then(async ({ data: { user } }) => {
+      if (!user || !active) return;
+      const { data: profile } = await supabase
+        .from("profiles")
+        .select("display_name, role")
+        .eq("id", user.id)
+        .maybeSingle();
+      if (active) {
+        setDisplayName(profile?.display_name ?? user.email ?? "");
+        setIsAdmin(profile?.role === "admin");
+      }
+    });
+    return () => {
+      active = false;
+    };
+  }, []);
 
   return (
     <div className="min-h-screen">
@@ -168,11 +199,11 @@ export default function AppShell({
           <Image src="/logo-icon.png" alt="" width={677} height={442} className="h-8 w-auto object-contain" />
           <Image src="/logo-wordmark.png" alt="Wyckoff Study" width={812} height={335} className="h-7 w-auto object-contain" />
         </div>
-        <UserSwitcher />
+        <UserMenu displayName={displayName} />
       </header>
 
       <aside className="fixed left-0 top-16 hidden h-[calc(100vh-64px)] w-64 flex-col gap-1 overflow-y-auto border-r border-outline-variant bg-surface-bright py-3 md:flex">
-        <SidebarContent pathname={pathname} chapters={chapters} />
+        <SidebarContent pathname={pathname} chapters={chapters} isAdmin={isAdmin} />
       </aside>
 
       {mobileOpen && (
@@ -197,7 +228,7 @@ export default function AppShell({
               </button>
             </div>
             <div className="mt-2">
-              <SidebarContent pathname={pathname} chapters={chapters} />
+              <SidebarContent pathname={pathname} chapters={chapters} isAdmin={isAdmin} />
             </div>
           </aside>
         </div>
