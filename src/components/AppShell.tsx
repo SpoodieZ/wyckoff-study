@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Menu, X, BookOpen, Layers, RotateCcw, BarChart3, NotebookPen, User, LogOut, UserCog } from "lucide-react";
+import { Menu, X, BookOpen, Layers, RotateCcw, BarChart3, NotebookPen, User, LogOut, LogIn, UserCog } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 
 const NAV_ITEMS = [
@@ -46,6 +46,18 @@ function UserMenu({ displayName }: { displayName: string | null }) {
         <span className="hidden sm:inline">Đăng xuất</span>
       </button>
     </div>
+  );
+}
+
+function LoginButton() {
+  return (
+    <Link
+      href="/login"
+      className="inline-flex items-center gap-2 rounded-full bg-primary px-3 py-2 text-label-sm font-semibold text-on-primary shadow-study transition-colors hover:bg-primary-strong sm:px-4"
+    >
+      <LogIn size={16} />
+      Đăng nhập
+    </Link>
   );
 }
 
@@ -164,12 +176,18 @@ export default function AppShell({
   const [mobileOpen, setMobileOpen] = useState(false);
   const [displayName, setDisplayName] = useState<string | null>(null);
   const [isAdmin, setIsAdmin] = useState(false);
+  // undefined = đang kiểm tra phiên đăng nhập, true/false = đã biết kết quả.
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean | undefined>(undefined);
 
   useEffect(() => {
     let active = true;
     const supabase = createClient();
     supabase.auth.getUser().then(async ({ data: { user } }) => {
-      if (!user || !active) return;
+      if (!active) return;
+      if (!user) {
+        setIsLoggedIn(false);
+        return;
+      }
       const { data: profile } = await supabase
         .from("profiles")
         .select("display_name, role")
@@ -178,6 +196,7 @@ export default function AppShell({
       if (active) {
         setDisplayName(profile?.display_name ?? user.email ?? "");
         setIsAdmin(profile?.role === "admin");
+        setIsLoggedIn(true);
       }
     });
     return () => {
@@ -199,7 +218,8 @@ export default function AppShell({
           <Image src="/logo-icon.png" alt="" width={677} height={442} className="h-8 w-auto object-contain" />
           <Image src="/logo-wordmark.png" alt="Wyckoff Study" width={812} height={335} className="h-7 w-auto object-contain" />
         </div>
-        <UserMenu displayName={displayName} />
+        {isLoggedIn && <UserMenu displayName={displayName} />}
+        {isLoggedIn === false && <LoginButton />}
       </header>
 
       <aside className="fixed left-0 top-16 hidden h-[calc(100vh-64px)] w-64 flex-col gap-1 overflow-y-auto border-r border-outline-variant bg-surface-bright py-3 md:flex">
