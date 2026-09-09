@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { NotebookPen, Zap, ArrowRight } from "lucide-react";
+import { NotebookPen } from "lucide-react";
 import AppShell from "@/components/AppShell";
 import HeroCarousel from "@/components/HeroCarousel";
+import DailyChallengeCard from "@/components/DailyChallengeCard";
 import { CHAPTERS_META } from "@/lib/chapters-meta";
 import { hasChapterData, loadChapterHeroData } from "@/lib/chapter-data";
 import type { ChapterHeroData } from "@/lib/chapter-data";
@@ -33,21 +34,7 @@ export default async function Home() {
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 p-4 pb-16 md:p-6 lg:p-10">
         {heroChapters.length > 0 && <HeroCarousel chapters={heroChapters} />}
 
-        <Link
-          href="/daily"
-          className="group flex items-center justify-between gap-4 rounded-frame border border-primary-fixed bg-light-chart-bg px-5 py-4 shadow-study transition-colors hover:border-primary md:px-8"
-        >
-          <div className="flex items-center gap-4">
-            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-primary text-on-primary">
-              <Zap size={20} />
-            </div>
-            <div>
-              <h3 className="font-display text-body-lg font-bold text-on-surface">Thử Thách Hôm Nay</h3>
-              <p className="text-body-md text-on-surface-variant">5 câu ngẫu nhiên trộn từ mọi chương — đổi mới mỗi ngày.</p>
-            </div>
-          </div>
-          <ArrowRight size={20} className="shrink-0 text-primary transition-transform group-hover:translate-x-1" />
-        </Link>
+        <DailyChallengeCard />
 
         <section>
           <div className="mb-3 flex items-end justify-between">
