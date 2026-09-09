@@ -1,33 +1,18 @@
 import Link from "next/link";
-import { BookText, LineChart, SpellCheck } from "lucide-react";
+import { NotebookPen } from "lucide-react";
 import AppShell from "@/components/AppShell";
 import HeroCarousel from "@/components/HeroCarousel";
 import { CHAPTERS_META } from "@/lib/chapters-meta";
 import { hasChapterData, loadChapterHeroData } from "@/lib/chapter-data";
 import type { ChapterHeroData } from "@/lib/chapter-data";
+import { listProfileNames, listRecentJournalEntries } from "@/lib/journal";
 
-const STUDY_SETS_PREVIEW = [
-  {
-    tag: "Lý thuyết",
-    icon: BookText,
-    title: "Phân Tích Các Giai Đoạn",
-    description: "Nhận diện Phase A đến E trong Sơ Đồ Tích Lũy.",
-  },
-  {
-    tag: "Thực hành biểu đồ",
-    icon: LineChart,
-    title: "Phân Tích Khối Lượng - Biên Độ",
-    description: "Liên hệ hành động giá với tín hiệu khối lượng.",
-  },
-  {
-    tag: "Thuật ngữ",
-    icon: SpellCheck,
-    title: "Thuật Ngữ Cốt Lõi",
-    description: "PS, SC, AR, ST, SOS, LPS, BU... được định nghĩa.",
-  },
-];
+function formatTradeDate(dateStr: string) {
+  const [, month, day] = dateStr.split("-");
+  return `${day}/${month}`;
+}
 
-export default function Home() {
+export default async function Home() {
   const chapters = CHAPTERS_META.map((c) => ({
     ...c,
     available: hasChapterData(c.id),
@@ -38,6 +23,11 @@ export default function Home() {
     .map((c) => loadChapterHeroData(c.id))
     .filter((c): c is ChapterHeroData => c !== null);
 
+  const [recentEntries, profileNames] = await Promise.all([
+    listRecentJournalEntries(3),
+    listProfileNames(),
+  ]);
+
   return (
     <AppShell chapters={chapters}>
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 p-4 pb-16 md:p-6 lg:p-10">
@@ -45,33 +35,52 @@ export default function Home() {
 
         <section>
           <div className="mb-3 flex items-end justify-between">
-            <h2 className="font-display text-card-title font-bold text-on-surface">Study Sets</h2>
-            <span className="rounded-full bg-surface-container px-2.5 py-0.5 text-caption text-outline">
-              Sắp có
-            </span>
+            <h2 className="font-display text-card-title font-bold text-on-surface">Nhật Ký Giao Dịch</h2>
+            <Link
+              href="/journal"
+              className="text-label-sm font-medium text-primary hover:text-primary-strong"
+            >
+              Xem tất cả
+            </Link>
           </div>
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
-            {STUDY_SETS_PREVIEW.map((set) => {
-              const Icon = set.icon;
-              return (
-                <div
-                  key={set.title}
-                  className="flex cursor-not-allowed flex-col gap-3 rounded-card border border-outline-variant bg-surface-container-lowest p-4 opacity-60 shadow-study"
+          {recentEntries.length > 0 ? (
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+              {recentEntries.map((entry) => (
+                <Link
+                  key={entry.id}
+                  href={`/journal/${entry.id}`}
+                  className="group flex flex-col gap-3 rounded-card border border-outline-variant bg-surface-container-lowest p-4 shadow-study transition-colors hover:border-primary"
                 >
                   <div className="flex items-center justify-between">
-                    <span className="rounded-full bg-secondary-container px-2.5 py-1 text-caption font-semibold text-on-secondary-container">
-                      {set.tag}
+                    <span
+                      className={`rounded-full px-2.5 py-1 text-caption font-semibold ${
+                        entry.outcome === "win" ? "bg-sage-soft text-sage" : "bg-crimson-soft text-crimson"
+                      }`}
+                    >
+                      {entry.outcome === "win" ? "Thắng" : "Thua"}
                     </span>
-                    <Icon size={18} className="text-outline" strokeWidth={1.75} />
+                    <span className="text-caption text-outline">{formatTradeDate(entry.trade_date)}</span>
                   </div>
                   <div>
-                    <h3 className="font-display text-body-lg font-bold text-on-surface">{set.title}</h3>
-                    <p className="mt-1 text-body-md text-on-surface-variant">{set.description}</p>
+                    <h3 className="font-display text-body-lg font-bold text-on-surface group-hover:text-primary">
+                      {entry.symbol}
+                    </h3>
+                    <p className="mt-1 line-clamp-2 text-body-md text-on-surface-variant">
+                      {entry.lesson || "Chưa ghi bài học rút ra."}
+                    </p>
                   </div>
-                </div>
-              );
-            })}
-          </div>
+                  <span className="text-caption text-outline">
+                    {profileNames[entry.owner_id] ?? "Ẩn danh"}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <div className="flex flex-col items-center gap-2 rounded-card border border-dashed border-outline-variant bg-surface-container-lowest p-8 text-center">
+              <NotebookPen size={24} className="text-outline" strokeWidth={1.75} />
+              <p className="text-body-md text-on-surface-variant">Chưa có bài nhật ký giao dịch nào.</p>
+            </div>
+          )}
         </section>
 
         <section>

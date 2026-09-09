@@ -37,12 +37,35 @@ export async function listProfiles(): Promise<Profile[]> {
   return data ?? [];
 }
 
+/** Email đã được admin duyệt trước, đang chờ người đó đăng nhập lần đầu. */
+export async function listPendingInvites(): Promise<string[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("invited_members")
+    .select("email")
+    .order("created_at", { ascending: false });
+  if (error) throw new Error(error.message);
+  return (data ?? []).map((row) => row.email);
+}
+
 export async function listJournalEntries(): Promise<JournalEntry[]> {
   const supabase = await createClient();
   const { data, error } = await supabase
     .from("journal_entries")
     .select("*")
     .order("trade_date", { ascending: false });
+  if (error) throw new Error(error.message);
+  return data ?? [];
+}
+
+/** N bài đăng gần nhất (theo thời gian đăng), dùng cho preview ở trang chủ. */
+export async function listRecentJournalEntries(limit: number): Promise<JournalEntry[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from("journal_entries")
+    .select("*")
+    .order("created_at", { ascending: false })
+    .limit(limit);
   if (error) throw new Error(error.message);
   return data ?? [];
 }
