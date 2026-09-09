@@ -4,7 +4,21 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Menu, X, BookOpen, Layers, RotateCcw, BarChart3, NotebookPen, User, LogOut, LogIn, UserCog, Flame } from "lucide-react";
+import {
+  Menu,
+  X,
+  BookOpen,
+  Layers,
+  RotateCcw,
+  BarChart3,
+  NotebookPen,
+  User,
+  LogOut,
+  LogIn,
+  UserCog,
+  Flame,
+  Award,
+} from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { getStudyStreak } from "@/lib/streak";
 
@@ -14,6 +28,7 @@ const NAV_ITEMS = [
   { href: "/journal", label: "Nhật ký giao dịch", icon: NotebookPen, available: true },
   { href: "/review", label: "Ôn lại câu sai", icon: RotateCcw, available: true },
   { href: "/progress", label: "Tiến độ", icon: BarChart3, available: true },
+  { href: "/badges", label: "Huy hiệu", icon: Award, available: true },
 ];
 
 export interface ChapterSummary {

@@ -1,10 +1,20 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, Check, X, Lightbulb, Trophy, RotateCcw, Flame, Crown } from "lucide-react";
+import { ArrowLeft, ArrowRight, Check, X, Lightbulb, Trophy, RotateCcw, Flame, Crown, Award } from "lucide-react";
 import type { ChapterData, Question } from "@/lib/types";
-import { recordStudyActivity } from "@/lib/streak";
+import { recordStudyActivity, getStudyStreak } from "@/lib/streak";
+import {
+  BADGES,
+  type Badge,
+  getAchievementStats,
+  getUnlockedBadgeIds,
+  recordChapterCompleted,
+  recordChapterPerfect,
+  recordBossCleared,
+} from "@/lib/achievements";
+import { saveMistakeNote } from "@/lib/mistake-notes";
 
 type Confidence = "guess" | "medium" | "high";
 
@@ -49,6 +59,8 @@ export default function QuizRunner({
   const [showAnswer, setShowAnswer] = useState(false);
   const [revealedSample, setRevealedSample] = useState(false);
   const [streak, setStreak] = useState(0);
+  const [mistakeNote, setMistakeNote] = useState("");
+  const [newlyUnlocked, setNewlyUnlocked] = useState<Badge[]>([]);
 
   const questions = chapter.questions;
   const total = questions.length;
@@ -57,6 +69,20 @@ export default function QuizRunner({
   const isBossQuestion = total > 1 && index === total - 1;
 
   const correctCount = useMemo(() => results.filter((r) => r.correct).length, [results]);
+
+  useEffect(() => {
+    if (!finished || total === 0 || chapter.chapterId <= 0) return;
+    const before = getUnlockedBadgeIds(getAchievementStats(getStudyStreak()));
+
+    recordChapterCompleted(chapter.chapterId);
+    if (correctCount === total) recordChapterPerfect(chapter.chapterId);
+    if (results[total - 1]?.correct) recordBossCleared(chapter.chapterId);
+
+    const after = getUnlockedBadgeIds(getAchievementStats(getStudyStreak()));
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setNewlyUnlocked(BADGES.filter((b) => !before.has(b.id) && after.has(b.id)));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [finished]);
 
   function recordResult(correct: boolean, level?: Confidence) {
     setResults((prev) => [...prev, { questionId: question!.id, correct, confidence: level }]);
@@ -70,6 +96,7 @@ export default function QuizRunner({
     setConfidence(null);
     setShowAnswer(false);
     setRevealedSample(false);
+    setMistakeNote("");
   }
 
   function handleChoiceClick(optionIndex: number) {
@@ -99,6 +126,8 @@ export default function QuizRunner({
     setShowAnswer(false);
     setRevealedSample(false);
     setStreak(0);
+    setMistakeNote("");
+    setNewlyUnlocked([]);
   }
 
   if (finished) {
@@ -106,6 +135,18 @@ export default function QuizRunner({
     const radius = 64;
     const circumference = 2 * Math.PI * radius;
     const progress = total > 0 ? correctCount / total : 0;
+
+    const equityValues = results.reduce<number[]>((acc, r) => {
+      const prev = acc.length > 0 ? acc[acc.length - 1] : 0;
+      acc.push(prev + (r.correct ? 1 : -1));
+      return acc;
+    }, []);
+    const equityMin = Math.min(0, ...equityValues);
+    const equityMax = Math.max(0, ...equityValues);
+    const equityRange = equityMax - equityMin || 1;
+    const equityWidth = Math.max(1, total - 1) * 100;
+    const equityY = (v: number) => 90 - ((v - equityMin) / equityRange) * 80;
+    const equityPoints = equityValues.map((v, i) => `${i * 100},${equityY(v)}`).join(" ");
 
     return (
       <div className="mx-auto mt-6 flex max-w-lg flex-col items-center rounded-frame border border-outline-variant bg-surface-container-lowest p-6 text-center shadow-study md:p-10">
@@ -122,6 +163,25 @@ export default function QuizRunner({
             <Crown size={16} />
             Đã hạ Câu Boss!
           </span>
+        )}
+
+        {newlyUnlocked.length > 0 && (
+          <div className="mt-4 flex w-full flex-col items-center gap-2 rounded-card border border-primary-fixed bg-light-chart-bg p-4">
+            <p className="flex items-center gap-1.5 text-label-sm font-bold text-primary">
+              <Award size={16} />
+              Vừa mở khóa huy hiệu mới!
+            </p>
+            <div className="flex flex-wrap justify-center gap-2">
+              {newlyUnlocked.map((b) => (
+                <span
+                  key={b.id}
+                  className="rounded-full bg-primary px-3 py-1 text-label-sm font-semibold text-on-primary"
+                >
+                  {b.title}
+                </span>
+              ))}
+            </div>
+          </div>
         )}
 
         <div className="relative mt-8 flex h-40 w-40 items-center justify-center">
@@ -166,6 +226,44 @@ export default function QuizRunner({
               {total > 2 && <span>Q{Math.round(total / 2)}</span>}
               <span>Q{total}</span>
             </div>
+          </div>
+        )}
+
+        {total > 1 && (
+          <div className="mt-6 w-full max-w-xs">
+            <p className="mb-2 text-label-sm font-semibold uppercase tracking-wide text-outline">
+              Diễn biến điểm số
+            </p>
+            <svg viewBox={`0 0 ${equityWidth} 100`} preserveAspectRatio="none" className="h-20 w-full">
+              <line
+                x1="0"
+                y1={equityY(0)}
+                x2={equityWidth}
+                y2={equityY(0)}
+                stroke="var(--color-outline-variant)"
+                strokeWidth="1"
+                strokeDasharray="4 4"
+                vectorEffect="non-scaling-stroke"
+              />
+              <polyline
+                fill="none"
+                stroke="var(--color-primary)"
+                strokeWidth="2.5"
+                strokeLinejoin="round"
+                strokeLinecap="round"
+                vectorEffect="non-scaling-stroke"
+                points={equityPoints}
+              />
+              {equityValues.map((v, i) => (
+                <circle
+                  key={i}
+                  cx={i * 100}
+                  cy={equityY(v)}
+                  r="4"
+                  fill={results[i]?.correct ? "var(--color-sage)" : "var(--color-crimson)"}
+                />
+              ))}
+            </svg>
           </div>
         )}
 
@@ -344,6 +442,22 @@ export default function QuizRunner({
                         <p className="text-body-md text-on-surface-variant">{question.explanation}</p>
                       </div>
                     </div>
+
+                    {isWrongSelected && (
+                      <div className="mt-3">
+                        <label className="mb-1 block text-label-sm font-medium text-on-surface-variant">
+                          Bạn nghĩ vì sao mình chọn nhầm? (tuỳ chọn, riêng tư — chỉ lưu trên máy bạn)
+                        </label>
+                        <textarea
+                          value={mistakeNote}
+                          onChange={(e) => setMistakeNote(e.target.value)}
+                          onBlur={() => saveMistakeNote(question.id, mistakeNote)}
+                          rows={2}
+                          placeholder="Ví dụ: mình nhầm giữa Spring và Shakeout…"
+                          className="w-full rounded-control border border-outline-variant bg-surface-container-lowest p-2 text-body-md text-on-surface placeholder:text-outline focus:border-primary focus:outline-none"
+                        />
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
