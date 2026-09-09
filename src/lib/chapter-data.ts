@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import type { ChapterData, Question } from "./types";
 import { CHAPTERS_META } from "./chapters-meta";
+import type { StudySet } from "./study-sets";
 
 const CHAPTERS_DIR = path.join(process.cwd(), "data", "chapters");
 
@@ -64,19 +65,48 @@ function seededShuffle<T>(items: T[], seed: string): T[] {
   return copy;
 }
 
-/** Bộ 5 câu ngẫu nhiên (có seed theo ngày) trộn từ toàn bộ các chương đã có dữ liệu. */
-export function loadDailyChallenge(count: number): ChapterData {
-  const allQuestions: Question[] = [];
+function loadAllQuestions(): Question[] {
+  const all: Question[] = [];
   for (const meta of CHAPTERS_META) {
     const data = loadChapterData(meta.id);
-    if (data) allQuestions.push(...data.questions);
+    if (data) all.push(...data.questions);
   }
+  return all;
+}
+
+/** Bộ 5 câu ngẫu nhiên (có seed theo ngày) trộn từ toàn bộ các chương đã có dữ liệu. */
+export function loadDailyChallenge(count: number): ChapterData {
   const todaySeed = todayVnDateStr();
-  const picked = seededShuffle(allQuestions, todaySeed).slice(0, count);
+  const picked = seededShuffle(loadAllQuestions(), todaySeed).slice(0, count);
   return {
     chapterId: 0,
     title: "Thử Thách Hôm Nay",
     summary: `${count} câu hỏi ngẫu nhiên trộn từ tất cả các chương — đổi mới mỗi ngày.`,
     questions: picked,
+  };
+}
+
+function shuffle<T>(items: T[]): T[] {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+/** Số câu hỏi khớp với 1 Study Set, trên toàn bộ dữ liệu — dùng hiện số lượng ở trang danh sách. */
+export function countStudySetQuestions(set: StudySet): number {
+  return loadAllQuestions().filter(set.matcher).length;
+}
+
+/** count câu ngẫu nhiên (xáo lại mỗi lần gọi) khớp với 1 Study Set. */
+export function loadStudySetChapterData(set: StudySet, count: number): ChapterData {
+  const matched = loadAllQuestions().filter(set.matcher);
+  return {
+    chapterId: 0,
+    title: set.title,
+    summary: set.description,
+    questions: shuffle(matched).slice(0, count),
   };
 }

@@ -24,7 +24,7 @@ import { getStudyStreak } from "@/lib/streak";
 
 const NAV_ITEMS = [
   { href: "/", label: "Chương", icon: BookOpen, available: true },
-  { href: "#", label: "Study Sets", icon: Layers, available: false },
+  { href: "/study-sets", label: "Study Sets", icon: Layers, available: true },
   { href: "/journal", label: "Nhật ký giao dịch", icon: NotebookPen, available: true },
   { href: "/review", label: "Ôn lại câu sai", icon: RotateCcw, available: true },
   { href: "/progress", label: "Tiến độ", icon: BarChart3, available: true },
