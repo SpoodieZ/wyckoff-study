@@ -17,16 +17,11 @@ export default async function ChapterQuizPage({
     notFound();
   }
 
-  const chapters = CHAPTERS_META.map((c) => ({
-    ...c,
-    available: hasChapterData(c.id),
-  }));
-
   const chapterData = loadChapterData(chapterId);
 
   if (!chapterData) {
     return (
-      <AppShell chapters={chapters}>
+      <AppShell>
         <div className="mx-auto w-full max-w-5xl p-4 pb-16 md:p-6 lg:p-10">
           <Link href="/" className="text-btn text-primary hover:underline">
             ← Về trang chủ
@@ -40,7 +35,7 @@ export default async function ChapterQuizPage({
   const nextChapterHref = hasChapterData(chapterId + 1) ? `/chapters/${chapterId + 1}` : "/";
 
   return (
-    <AppShell chapters={chapters}>
+    <AppShell>
       <div className="mx-auto w-full max-w-5xl p-4 pb-24 md:p-6 lg:p-10">
         <QuizRunner chapter={chapterData} nextChapterHref={nextChapterHref} />
       </div>

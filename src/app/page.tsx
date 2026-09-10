@@ -30,7 +30,7 @@ export default async function Home() {
   ]);
 
   return (
-    <AppShell chapters={chapters}>
+    <AppShell>
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 p-4 pb-16 md:p-6 lg:p-10">
         {heroChapters.length > 0 && <HeroCarousel chapters={heroChapters} />}
 

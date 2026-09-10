@@ -1,8 +1,7 @@
 import Link from "next/link";
 import { LineChart, Tag, Users } from "lucide-react";
 import AppShell from "@/components/AppShell";
-import { CHAPTERS_META } from "@/lib/chapters-meta";
-import { countStudySetQuestions, hasChapterData } from "@/lib/chapter-data";
+import { countStudySetQuestions } from "@/lib/chapter-data";
 import { STUDY_SETS } from "@/lib/study-sets";
 
 const SET_ICONS: Record<string, typeof LineChart> = {
@@ -12,13 +11,8 @@ const SET_ICONS: Record<string, typeof LineChart> = {
 };
 
 export default function StudySetsPage() {
-  const chapters = CHAPTERS_META.map((c) => ({
-    ...c,
-    available: hasChapterData(c.id),
-  }));
-
   return (
-    <AppShell chapters={chapters}>
+    <AppShell>
       <div className="mx-auto w-full max-w-5xl p-4 pb-24 md:p-6 lg:p-10">
         <h1 className="font-display text-card-title font-bold text-on-surface">Study Sets</h1>
         <p className="mt-1 text-body-md text-on-surface-variant">

@@ -13,7 +13,7 @@ export default function ProgressPage() {
   const progressByChapterId = new Map(SAMPLE_CHAPTER_PROGRESS.map((p) => [p.chapterId, p]));
 
   return (
-    <AppShell chapters={chapters}>
+    <AppShell>
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 p-4 pb-16 md:p-6 lg:p-10">
         <div>
           <h1 className="font-display text-card-title font-bold text-on-surface">Tiến độ</h1>

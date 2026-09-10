@@ -1,7 +1,5 @@
 import { notFound, redirect } from "next/navigation";
 import AppShell from "@/components/AppShell";
-import { CHAPTERS_META } from "@/lib/chapters-meta";
-import { hasChapterData } from "@/lib/chapter-data";
 import { getCurrentProfile, getJournalEntry } from "@/lib/journal";
 import JournalForm from "../../JournalForm";
 
@@ -15,13 +13,8 @@ export default async function EditJournalEntryPage(props: PageProps<"/journal/[i
   if (!entry) notFound();
   if (entry.owner_id !== profile.id) redirect(`/journal/${id}`);
 
-  const chapters = CHAPTERS_META.map((c) => ({
-    ...c,
-    available: hasChapterData(c.id),
-  }));
-
   return (
-    <AppShell chapters={chapters}>
+    <AppShell>
       <JournalForm
         mode="edit"
         entryId={entry.id}

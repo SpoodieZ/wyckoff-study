@@ -31,12 +31,6 @@ const NAV_ITEMS = [
   { href: "/badges", label: "Huy hiệu", icon: Award, available: true },
 ];
 
-export interface ChapterSummary {
-  id: number;
-  title: string;
-  available: boolean;
-}
-
 function UserMenu({ displayName }: { displayName: string | null }) {
   const router = useRouter();
 
@@ -77,15 +71,7 @@ function LoginButton() {
   );
 }
 
-function SidebarContent({
-  pathname,
-  chapters,
-  isAdmin,
-}: {
-  pathname: string;
-  chapters: ChapterSummary[];
-  isAdmin: boolean;
-}) {
+function SidebarContent({ pathname, isAdmin }: { pathname: string; isAdmin: boolean }) {
   const navItems = isAdmin
     ? [...NAV_ITEMS, { href: "/journal/members", label: "Quản lý thành viên", icon: UserCog, available: true }]
     : NAV_ITEMS;
@@ -132,62 +118,11 @@ function SidebarContent({
           );
         })}
       </nav>
-
-      {chapters.length > 0 && (
-        <div className="mt-4 border-t border-outline-variant px-2 pt-4">
-          <p className="px-1 pb-2 text-caption font-bold uppercase tracking-wider text-outline">
-            Mục lục
-          </p>
-          <div className="flex flex-col gap-1.5">
-            {chapters.map((chapter) => {
-              const isActive = pathname === `/chapters/${chapter.id}`;
-              const content = (
-                <>
-                  <span className="truncate text-label-sm">
-                    Ch {chapter.id}: {chapter.title}
-                  </span>
-                  <span
-                    className={`mini-candlestick shrink-0 ${
-                      chapter.available ? "candlestick-sage" : "candlestick-grey"
-                    }`}
-                  />
-                </>
-              );
-              return chapter.available ? (
-                <Link
-                  key={chapter.id}
-                  href={`/chapters/${chapter.id}`}
-                  className={`flex items-center justify-between gap-2 rounded-card border px-2 py-2 transition-colors ${
-                    isActive
-                      ? "border-primary bg-surface-container-lowest"
-                      : "border-outline-variant bg-surface-container-lowest hover:border-primary"
-                  }`}
-                >
-                  {content}
-                </Link>
-              ) : (
-                <span
-                  key={chapter.id}
-                  className="flex cursor-not-allowed items-center justify-between gap-2 rounded-card border border-outline-variant bg-surface-container-lowest px-2 py-2 opacity-60"
-                >
-                  {content}
-                </span>
-              );
-            })}
-          </div>
-        </div>
-      )}
     </>
   );
 }
 
-export default function AppShell({
-  children,
-  chapters = [],
-}: {
-  children: React.ReactNode;
-  chapters?: ChapterSummary[];
-}) {
+export default function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [displayName, setDisplayName] = useState<string | null>(null);
@@ -258,7 +193,7 @@ export default function AppShell({
       </header>
 
       <aside className="fixed left-0 top-16 hidden h-[calc(100vh-64px)] w-64 flex-col gap-1 overflow-y-auto border-r border-outline-variant bg-surface-bright py-3 md:flex">
-        <SidebarContent pathname={pathname} chapters={chapters} isAdmin={isAdmin} />
+        <SidebarContent pathname={pathname} isAdmin={isAdmin} />
       </aside>
 
       {mobileOpen && (
@@ -283,7 +218,7 @@ export default function AppShell({
               </button>
             </div>
             <div className="mt-2">
-              <SidebarContent pathname={pathname} chapters={chapters} isAdmin={isAdmin} />
+              <SidebarContent pathname={pathname} isAdmin={isAdmin} />
             </div>
           </aside>
         </div>

@@ -2,8 +2,7 @@ import { notFound } from "next/navigation";
 import AppShell from "@/components/AppShell";
 import GlossarySection from "@/components/GlossarySection";
 import QuizRunner from "@/app/chapters/[id]/QuizRunner";
-import { CHAPTERS_META } from "@/lib/chapters-meta";
-import { hasChapterData, loadStudySetChapterData } from "@/lib/chapter-data";
+import { loadStudySetChapterData } from "@/lib/chapter-data";
 import { getStudySet } from "@/lib/study-sets";
 import { ACCUMULATION_GLOSSARY, DISTRIBUTION_GLOSSARY } from "@/lib/glossary";
 
@@ -18,15 +17,10 @@ export default async function StudySetPage({ params }: { params: Promise<{ id: s
   const set = getStudySet(id);
   if (!set) notFound();
 
-  const chapters = CHAPTERS_META.map((c) => ({
-    ...c,
-    available: hasChapterData(c.id),
-  }));
-
   const chapterData = loadStudySetChapterData(set, SET_SIZE);
 
   return (
-    <AppShell chapters={chapters}>
+    <AppShell>
       <div className="mx-auto w-full max-w-5xl p-4 pb-24 md:p-6 lg:p-10">
         {set.hasGlossary && (
           <GlossarySection accumulation={ACCUMULATION_GLOSSARY} distribution={DISTRIBUTION_GLOSSARY} />

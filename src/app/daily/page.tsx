@@ -1,5 +1,4 @@
-import { hasChapterData, loadDailyChallenge } from "@/lib/chapter-data";
-import { CHAPTERS_META } from "@/lib/chapters-meta";
+import { loadDailyChallenge } from "@/lib/chapter-data";
 import AppShell from "@/components/AppShell";
 import QuizRunner from "../chapters/[id]/QuizRunner";
 
@@ -11,15 +10,10 @@ export const dynamic = "force-dynamic";
 const DAILY_CHALLENGE_SIZE = 5;
 
 export default async function DailyChallengePage() {
-  const chapters = CHAPTERS_META.map((c) => ({
-    ...c,
-    available: hasChapterData(c.id),
-  }));
-
   const dailyChapter = loadDailyChallenge(DAILY_CHALLENGE_SIZE);
 
   return (
-    <AppShell chapters={chapters}>
+    <AppShell>
       <div className="mx-auto w-full max-w-5xl p-4 pb-24 md:p-6 lg:p-10">
         <QuizRunner chapter={dailyChapter} nextChapterHref="/" />
       </div>
