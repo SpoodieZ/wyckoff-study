@@ -135,7 +135,7 @@ function SidebarContent({
 
       {chapters.length > 0 && (
         <div className="mt-4 border-t border-outline-variant px-2 pt-4">
-          <p className="px-1 pb-2 text-caption font-medium uppercase tracking-wider text-outline">
+          <p className="px-1 pb-2 text-caption font-bold uppercase tracking-wider text-outline">
             Mục lục
           </p>
           <div className="flex flex-col gap-1.5">
@@ -143,7 +143,7 @@ function SidebarContent({
               const isActive = pathname === `/chapters/${chapter.id}`;
               const content = (
                 <>
-                  <span className="truncate text-label-sm font-semibold">
+                  <span className="truncate text-label-sm">
                     Ch {chapter.id}: {chapter.title}
                   </span>
                   <span
