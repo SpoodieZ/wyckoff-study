@@ -21,6 +21,7 @@ import {
 } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { getStudyStreak } from "@/lib/streak";
+import ContinueLearningCard from "./ContinueLearningCard";
 
 const NAV_ITEMS = [
   { href: "/", label: "Chương", icon: BookOpen, available: true },
@@ -118,6 +119,8 @@ function SidebarContent({ pathname, isAdmin }: { pathname: string; isAdmin: bool
           );
         })}
       </nav>
+
+      <ContinueLearningCard />
     </>
   );
 }

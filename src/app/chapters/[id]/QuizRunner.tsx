@@ -15,6 +15,7 @@ import {
   recordBossCleared,
 } from "@/lib/achievements";
 import { saveMistakeNote } from "@/lib/mistake-notes";
+import { saveQuizProgress, getQuizProgress, clearQuizProgress } from "@/lib/quiz-progress";
 
 type Confidence = "guess" | "medium" | "high";
 
@@ -61,6 +62,7 @@ export default function QuizRunner({
   const [streak, setStreak] = useState(0);
   const [mistakeNote, setMistakeNote] = useState("");
   const [newlyUnlocked, setNewlyUnlocked] = useState<Badge[]>([]);
+  const [hydrated, setHydrated] = useState(false);
 
   const questions = chapter.questions;
   const total = questions.length;
@@ -71,7 +73,34 @@ export default function QuizRunner({
   const correctCount = useMemo(() => results.filter((r) => r.correct).length, [results]);
 
   useEffect(() => {
+    // Khôi phục lượt làm bài dang dở (nếu có) đúng chương này — chỉ áp dụng
+    // cho chương thật, không phải bộ câu hỏi ngẫu nhiên (Thử thách/Study Set).
+    if (chapter.chapterId > 0) {
+      const saved = getQuizProgress();
+      if (saved && saved.chapterId === chapter.chapterId && saved.total === total && saved.results.length < total) {
+        let trailingStreak = 0;
+        for (let i = saved.results.length - 1; i >= 0; i--) {
+          if (saved.results[i].correct) trailingStreak++;
+          else break;
+        }
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        setIndex(saved.results.length);
+        setResults(saved.results as QuestionResult[]);
+        setStreak(trailingStreak);
+      }
+    }
+    setHydrated(true);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    if (!hydrated || chapter.chapterId <= 0 || finished) return;
+    saveQuizProgress({ chapterId: chapter.chapterId, total, results });
+  }, [hydrated, chapter.chapterId, total, results, finished]);
+
+  useEffect(() => {
     if (!finished || total === 0 || chapter.chapterId <= 0) return;
+    clearQuizProgress();
     const before = getUnlockedBadgeIds(getAchievementStats(getStudyStreak()));
 
     recordChapterCompleted(chapter.chapterId);
@@ -119,6 +148,7 @@ export default function QuizRunner({
   }
 
   function restart() {
+    if (chapter.chapterId > 0) clearQuizProgress();
     setIndex(0);
     setResults([]);
     setSelectedOption(null);
