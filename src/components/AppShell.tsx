@@ -143,7 +143,7 @@ function SidebarContent({
               const isActive = pathname === `/chapters/${chapter.id}`;
               const content = (
                 <>
-                  <span className="truncate text-label-sm">
+                  <span className="truncate text-label-sm font-semibold">
                     Ch {chapter.id}: {chapter.title}
                   </span>
                   <span
