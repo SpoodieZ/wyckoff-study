@@ -120,13 +120,13 @@ function SidebarContent({
             <Link
               key={item.label}
               href={item.href}
-              className={`flex items-center gap-3 rounded-card px-3 py-3 text-label-sm font-semibold transition-colors ${
+              className={`flex items-center gap-3 rounded-card px-3 py-3 text-label-sm transition-colors ${
                 active
-                  ? "bg-secondary-container text-on-secondary-container"
-                  : "text-on-surface-variant hover:bg-surface-container-high"
+                  ? "bg-secondary-container font-bold text-primary"
+                  : "font-medium text-on-surface-variant hover:bg-surface-container-high"
               }`}
             >
-              <Icon size={20} strokeWidth={1.75} />
+              <Icon size={20} strokeWidth={active ? 2 : 1.75} />
               {item.label}
             </Link>
           );
