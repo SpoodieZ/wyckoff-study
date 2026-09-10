@@ -104,7 +104,7 @@ function SidebarContent({
             return (
               <span
                 key={item.label}
-                className="flex cursor-not-allowed items-center justify-between gap-3 rounded-card px-3 py-3 text-label-sm text-outline"
+                className="flex cursor-not-allowed items-center justify-between gap-3 rounded-card px-3 py-3 text-label-sm font-semibold text-outline"
               >
                 <span className="flex items-center gap-3">
                   <Icon size={20} strokeWidth={1.75} />
@@ -120,9 +120,9 @@ function SidebarContent({
             <Link
               key={item.label}
               href={item.href}
-              className={`flex items-center gap-3 rounded-card px-3 py-3 text-label-sm transition-colors ${
+              className={`flex items-center gap-3 rounded-card px-3 py-3 text-label-sm font-semibold transition-colors ${
                 active
-                  ? "bg-secondary-container font-semibold text-on-secondary-container"
+                  ? "bg-secondary-container text-on-secondary-container"
                   : "text-on-surface-variant hover:bg-surface-container-high"
               }`}
             >
