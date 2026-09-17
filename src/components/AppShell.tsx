@@ -160,6 +160,10 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
         setIsAdmin(profile?.role === "admin");
         setIsLoggedIn(true);
       }
+    }).catch(() => {
+      // Supabase không kết nối được — coi như chưa đăng nhập thay vì treo
+      // mãi ở trạng thái "đang kiểm tra".
+      if (active) setIsLoggedIn(false);
     });
     return () => {
       active = false;

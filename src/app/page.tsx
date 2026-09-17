@@ -24,10 +24,16 @@ export default async function Home() {
     .map((c) => loadChapterHeroData(c.id))
     .filter((c): c is ChapterHeroData => c !== null);
 
-  const [recentEntries, profileNames] = await Promise.all([
-    listRecentJournalEntries(3),
-    listProfileNames(),
-  ]);
+  // Trang chủ phải luôn hiển thị được kể cả khi Supabase gặp sự cố (mất
+  // mạng, project bị tạm dừng/xóa...) — phần Nhật Ký chỉ là preview, không
+  // đáng để kéo sập cả trang.
+  let recentEntries: Awaited<ReturnType<typeof listRecentJournalEntries>> = [];
+  let profileNames: Awaited<ReturnType<typeof listProfileNames>> = {};
+  try {
+    [recentEntries, profileNames] = await Promise.all([listRecentJournalEntries(3), listProfileNames()]);
+  } catch {
+    // Bỏ qua — phần Nhật Ký sẽ hiện trạng thái rỗng thay vì làm sập trang.
+  }
 
   return (
     <AppShell>
