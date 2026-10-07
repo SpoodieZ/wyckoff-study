@@ -138,6 +138,12 @@ create policy "profiles: read all"
   to public
   using (true);
 
+-- Khách chưa đăng nhập (anon) chỉ được đọc id + tên hiển thị — KHÔNG đọc được
+-- email và vai trò (anon key nằm công khai trong mã trang web). Người đã đăng
+-- nhập (authenticated) vẫn đọc đủ cột như trước.
+revoke select on public.profiles from anon;
+grant select (id, display_name) on public.profiles to anon;
+
 -- Chỉ admin mới đổi được role của người khác (và của chính mình) — chặn tự nâng quyền.
 drop policy if exists "profiles: admin can update roles" on public.profiles;
 create policy "profiles: admin can update roles"
