@@ -9,7 +9,7 @@ export default async function JournalPage() {
   const [entries, profileNames, commentCounts] = await Promise.all([
     listJournalEntries(),
     listProfileNames(),
-    listCommentCounts(),
+    profile ? listCommentCounts() : Promise.resolve<Record<string, number>>({}),
   ]);
 
   return (

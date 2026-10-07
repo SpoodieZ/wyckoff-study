@@ -205,12 +205,14 @@ export default function JournalListView({
                   {entry.lesson || "Chưa ghi bài học."}
                 </p>
               </div>
-              <div className="mt-4 flex items-center justify-between border-t border-outline-variant pt-3 text-caption text-outline">
-                <span className="flex items-center gap-1.5">
-                  <MessageSquare size={14} />
-                  {commentCounts[entry.id] ?? 0} bình luận
-                </span>
-              </div>
+              {!isAnonymous && (
+                <div className="mt-4 flex items-center justify-between border-t border-outline-variant pt-3 text-caption text-outline">
+                  <span className="flex items-center gap-1.5">
+                    <MessageSquare size={14} />
+                    {commentCounts[entry.id] ?? 0} bình luận
+                  </span>
+                </div>
+              )}
             </Link>
           ))}
         </div>

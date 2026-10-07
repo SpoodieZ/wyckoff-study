@@ -10,7 +10,11 @@ export default async function JournalEntryPage(props: PageProps<"/journal/[id]">
   const entry = await getJournalEntry(id);
   if (!entry) notFound();
 
-  const [comments, profileNames] = await Promise.all([listComments(id), listProfileNames()]);
+  // Khách chưa đăng nhập chỉ xem bài, không xem bình luận.
+  const [comments, profileNames] = await Promise.all([
+    profile ? listComments(id) : Promise.resolve([]),
+    listProfileNames(),
+  ]);
 
   return (
     <AppShell>

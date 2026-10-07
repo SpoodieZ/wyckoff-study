@@ -163,6 +163,14 @@ export default function JournalDetailView({
         <p className="text-body-lg text-on-surface">{entry.lesson || "Chưa ghi bài học."}</p>
       </div>
 
+      {currentUserId === null ? (
+        <p className="rounded-card border border-outline-variant bg-surface-container-lowest p-4 text-body-md text-on-surface-variant shadow-study">
+          <Link href="/login" className="font-semibold text-primary hover:underline">
+            Đăng nhập
+          </Link>{" "}
+          để xem và tham gia thảo luận về bài học này.
+        </p>
+      ) : (
       <div className="rounded-card border border-outline-variant bg-surface-container-lowest p-4 shadow-study">
         <h2 className="mb-4 flex items-center gap-2 font-display text-headline-md font-bold text-on-surface">
           <MessageSquare size={18} />
@@ -190,13 +198,6 @@ export default function JournalDetailView({
           <p className="mt-4 rounded-control bg-surface-container px-3 py-2 text-caption text-outline">
             Đây là bài học của bạn — chỉ đồng đội mới có thể bình luận vào đây.
           </p>
-        ) : currentUserId === null ? (
-          <p className="mt-4 rounded-control bg-surface-container px-3 py-2 text-caption text-outline">
-            <Link href="/login" className="font-semibold text-primary hover:underline">
-              Đăng nhập
-            </Link>{" "}
-            để tham gia bình luận.
-          </p>
         ) : !canWrite ? (
           <p className="mt-4 rounded-control bg-surface-container px-3 py-2 text-caption text-outline">
             Bạn đang ở chế độ chỉ xem — liên hệ quản trị viên để được cấp quyền bình luận.
@@ -220,6 +221,7 @@ export default function JournalDetailView({
           </form>
         )}
       </div>
+      )}
     </div>
   );
 }
