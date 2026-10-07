@@ -15,7 +15,6 @@ import {
   Target,
   Trash2,
 } from "lucide-react";
-import ZoomableImage from "@/components/ZoomableImage";
 import type { JournalComment, JournalEntry } from "@/lib/journal-types";
 import { addJournalComment, deleteJournalEntry } from "../actions";
 
@@ -138,9 +137,15 @@ export default function JournalDetailView({
 
       {entry.image_urls.length > 0 && (
         <div className="rounded-frame bg-light-chart-bg p-4">
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          <div className="flex flex-col gap-4">
             {entry.image_urls.map((url, i) => (
-              <ZoomableImage key={url + i} src={url} alt={`Biểu đồ ${entry.symbol} ${i + 1}`} />
+              // eslint-disable-next-line @next/next/no-img-element -- external Supabase Storage / user-provided URL
+              <img
+                key={url + i}
+                src={url}
+                alt={`Biểu đồ ${entry.symbol} ${i + 1}`}
+                className="mx-auto block h-auto max-h-[80vh] w-full rounded-card bg-dark-chart object-contain"
+              />
             ))}
           </div>
         </div>
