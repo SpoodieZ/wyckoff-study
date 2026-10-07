@@ -27,11 +27,11 @@ export default function JournalDetailView({
   entry: JournalEntry;
   comments: JournalComment[];
   profileNames: Record<string, string>;
-  currentUserId: string;
+  currentUserId: string | null;
   canWrite: boolean;
 }) {
   const router = useRouter();
-  const isOwner = entry.owner_id === currentUserId;
+  const isOwner = currentUserId !== null && entry.owner_id === currentUserId;
   const [comments, setComments] = useState(initialComments);
   const [commentBody, setCommentBody] = useState("");
   const [posting, setPosting] = useState(false);
@@ -40,7 +40,7 @@ export default function JournalDetailView({
 
   async function handleAddComment(e: React.FormEvent) {
     e.preventDefault();
-    if (!commentBody.trim()) return;
+    if (!currentUserId || !commentBody.trim()) return;
     setPosting(true);
     setError(null);
     const result = await addJournalComment(entry.id, commentBody);
@@ -189,6 +189,13 @@ export default function JournalDetailView({
         {isOwner ? (
           <p className="mt-4 rounded-control bg-surface-container px-3 py-2 text-caption text-outline">
             Đây là bài học của bạn — chỉ đồng đội mới có thể bình luận vào đây.
+          </p>
+        ) : currentUserId === null ? (
+          <p className="mt-4 rounded-control bg-surface-container px-3 py-2 text-caption text-outline">
+            <Link href="/login" className="font-semibold text-primary hover:underline">
+              Đăng nhập
+            </Link>{" "}
+            để tham gia bình luận.
           </p>
         ) : !canWrite ? (
           <p className="mt-4 rounded-control bg-surface-container px-3 py-2 text-caption text-outline">

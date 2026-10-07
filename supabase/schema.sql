@@ -180,10 +180,11 @@ create policy "journal_entries: delete own"
   to authenticated
   using (owner_id = auth.uid() and public.has_write_access());
 
+-- Bình luận cũng đọc được công khai (cùng với bài nhật ký) — chỉ viết mới cần đăng nhập.
 drop policy if exists "journal_comments: read all" on public.journal_comments;
 create policy "journal_comments: read all"
   on public.journal_comments for select
-  to authenticated
+  to public
   using (true);
 
 -- Chỉ member/admin mới bình luận được, và chỉ vào bài của NGƯỜI KHÁC.

@@ -5,14 +5,18 @@ import { NextResponse, type NextRequest } from "next/server";
 // thay vì "middleware"), hành vi giữ nguyên. Đây là chỗ làm mới session cookie
 // của Supabase trên mỗi request, và chặn truy cập khi chưa đăng nhập.
 export async function proxy(request: NextRequest) {
-  // Chỉ khu vực Nhật Ký Giao Dịch (thêm/sửa nội dung) cần đăng nhập; làm bài
-  // kiểm tra và xem tiến độ vẫn công khai cho ai có link. Bỏ qua Supabase
-  // hoàn toàn ở các trang công khai — sự cố Supabase (mất mạng, project bị
-  // tạm dừng/xóa...) không được phép kéo sập những trang không liên quan.
-  const isProtectedPath = request.nextUrl.pathname.startsWith("/journal");
-  if (!isProtectedPath) {
+  const path = request.nextUrl.pathname;
+
+  // Nhật Ký Giao Dịch: ai cũng XEM được (danh sách + từng bài); chỉ các trang
+  // viết/sửa/quản trị mới bắt đăng nhập. Mọi trang ngoài /journal bỏ qua
+  // Supabase hoàn toàn — sự cố Supabase (mất mạng, project bị tạm dừng/xóa...)
+  // không được phép kéo sập những trang không liên quan.
+  if (!path.startsWith("/journal")) {
     return NextResponse.next({ request });
   }
+
+  const requiresLogin =
+    path === "/journal/new" || path === "/journal/members" || /^\/journal\/[^/]+\/edit$/.test(path);
 
   let supabaseResponse = NextResponse.next({ request });
 
@@ -36,11 +40,12 @@ export async function proxy(request: NextRequest) {
       }
     );
 
+    // Luôn gọi để làm mới session cookie cho người đã đăng nhập đang xem nhật ký.
     const {
       data: { user },
     } = await supabase.auth.getUser();
 
-    if (!user) {
+    if (!user && requiresLogin) {
       const url = request.nextUrl.clone();
       url.pathname = "/login";
       return NextResponse.redirect(url);
@@ -48,11 +53,14 @@ export async function proxy(request: NextRequest) {
 
     return supabaseResponse;
   } catch {
-    // Không kết nối được Supabase — không xác thực được nên coi như chưa
-    // đăng nhập, đưa về trang login thay vì làm sập cả trang.
-    const url = request.nextUrl.clone();
-    url.pathname = "/login";
-    return NextResponse.redirect(url);
+    // Không kết nối được Supabase: trang cần đăng nhập thì đưa về login, trang
+    // chỉ-xem cứ để chạy tiếp (tự nó sẽ xử lý khi không lấy được dữ liệu).
+    if (requiresLogin) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/login";
+      return NextResponse.redirect(url);
+    }
+    return NextResponse.next({ request });
   }
 }
 

@@ -34,9 +34,11 @@ export default function JournalListView({
   entries: JournalEntry[];
   profileNames: Record<string, string>;
   commentCounts: Record<string, number>;
-  currentUserId: string;
+  currentUserId: string | null;
   canWrite: boolean;
 }) {
+  // Khách chưa đăng nhập xem được toàn bộ nhật ký chung nhưng không có "của tôi".
+  const isAnonymous = currentUserId === null;
   const [tab, setTab] = useState<"mine" | "teammate">("mine");
   const [search, setSearch] = useState("");
   const [outcomeFilter, setOutcomeFilter] = useState<"all" | TradeOutcome>("all");
@@ -47,7 +49,7 @@ export default function JournalListView({
     [entries, currentUserId]
   );
 
-  const activeList = tab === "mine" ? mine : teammate;
+  const activeList = isAnonymous ? entries : tab === "mine" ? mine : teammate;
 
   const filtered = useMemo(
     () =>
@@ -78,6 +80,13 @@ export default function JournalListView({
             <Plus size={18} />
             Thêm bài học mới
           </Link>
+        ) : isAnonymous ? (
+          <Link
+            href="/login"
+            className="inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-btn font-semibold text-on-primary transition-colors hover:bg-primary-strong"
+          >
+            Đăng nhập để viết bài
+          </Link>
         ) : (
           <span className="inline-flex shrink-0 items-center gap-2 rounded-full bg-surface-container px-4 py-2 text-label-sm text-on-surface-variant">
             Chế độ chỉ xem — liên hệ quản trị viên để được cấp quyền
@@ -86,6 +95,14 @@ export default function JournalListView({
       </div>
 
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        {isAnonymous ? (
+          <span className="inline-flex w-fit items-center rounded-full border border-outline-variant bg-surface-container-lowest px-4 py-2 text-label-sm font-semibold text-primary">
+            Tất cả bài đăng
+            <span className="ml-2 rounded-full bg-surface-container-high px-2 py-0.5 text-caption">
+              {entries.length}
+            </span>
+          </span>
+        ) : (
         <div className="flex items-center gap-1 rounded-full border border-outline-variant bg-surface-container-lowest p-1">
           <button
             onClick={() => setTab("mine")}
@@ -112,6 +129,7 @@ export default function JournalListView({
             </span>
           </button>
         </div>
+        )}
 
         <div className="flex items-center gap-2">
           <div className="relative">
@@ -144,7 +162,11 @@ export default function JournalListView({
       {filtered.length === 0 ? (
         <div className="rounded-frame border border-outline-variant bg-surface-container-lowest p-10 text-center shadow-study">
           <p className="text-body-lg text-on-surface-variant">
-            {tab === "mine" ? "Bạn chưa có bài học nào." : `${teammateName} chưa có bài học nào.`}
+            {isAnonymous
+              ? "Chưa có bài nhật ký nào."
+              : tab === "mine"
+                ? "Bạn chưa có bài học nào."
+                : `${teammateName} chưa có bài học nào.`}
           </p>
         </div>
       ) : (
