@@ -3,7 +3,19 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, Calendar, Lightbulb, Loader2, MessageSquare, Pencil, Trash2 } from "lucide-react";
+import {
+  ArrowLeft,
+  Calendar,
+  ChartCandlestick,
+  HeartPulse,
+  Lightbulb,
+  Loader2,
+  MessageSquare,
+  Pencil,
+  Target,
+  Trash2,
+} from "lucide-react";
+import ZoomableImage from "@/components/ZoomableImage";
 import type { JournalComment, JournalEntry } from "@/lib/journal-types";
 import { addJournalComment, deleteJournalEntry } from "../actions";
 
@@ -128,29 +140,38 @@ export default function JournalDetailView({
         <div className="rounded-frame bg-light-chart-bg p-4">
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             {entry.image_urls.map((url, i) => (
-              // eslint-disable-next-line @next/next/no-img-element -- external Supabase Storage / user-provided URL
-              <img
-                key={url + i}
-                src={url}
-                alt={`Biểu đồ ${entry.symbol} ${i + 1}`}
-                className="w-full rounded-card bg-dark-chart object-contain"
-              />
+              <ZoomableImage key={url + i} src={url} alt={`Biểu đồ ${entry.symbol} ${i + 1}`} />
             ))}
           </div>
         </div>
       )}
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-        <div className="rounded-card border border-outline-variant bg-surface-container-lowest p-4 shadow-study">
-          <p className="mb-1 text-caption font-semibold uppercase tracking-wide text-outline">Vùng giá vào lệnh</p>
+        <div className="rounded-card border border-t-4 border-outline-variant border-t-primary bg-surface-container-lowest p-4 shadow-study">
+          <p className="mb-3 flex items-center gap-3 text-label-sm font-bold uppercase tracking-wide text-on-surface">
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-on-primary shadow-study">
+              <Target size={20} />
+            </span>
+            Vùng giá vào lệnh
+          </p>
           <p className="text-body-md text-on-surface">{entry.entry_zone || "—"}</p>
         </div>
-        <div className="rounded-card border border-outline-variant bg-surface-container-lowest p-4 shadow-study">
-          <p className="mb-1 text-caption font-semibold uppercase tracking-wide text-outline">Vì sao vào lệnh</p>
+        <div className="rounded-card border border-t-4 border-outline-variant border-t-sage bg-surface-container-lowest p-4 shadow-study">
+          <p className="mb-3 flex items-center gap-3 text-label-sm font-bold uppercase tracking-wide text-on-surface">
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-sage text-on-primary shadow-study">
+              <ChartCandlestick size={20} />
+            </span>
+            Vì sao vào lệnh
+          </p>
           <p className="text-body-md text-on-surface">{entry.entry_reason || "—"}</p>
         </div>
-        <div className="rounded-card border border-outline-variant bg-surface-container-lowest p-4 shadow-study">
-          <p className="mb-1 text-caption font-semibold uppercase tracking-wide text-outline">Cảm xúc & Tâm lý</p>
+        <div className="rounded-card border border-t-4 border-outline-variant border-t-crimson bg-surface-container-lowest p-4 shadow-study">
+          <p className="mb-3 flex items-center gap-3 text-label-sm font-bold uppercase tracking-wide text-on-surface">
+            <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-crimson text-on-primary shadow-study">
+              <HeartPulse size={20} />
+            </span>
+            Cảm xúc & Tâm lý
+          </p>
           <p className="text-body-md text-on-surface">{entry.emotions || "—"}</p>
         </div>
       </div>
