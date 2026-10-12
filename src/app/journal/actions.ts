@@ -7,11 +7,11 @@ import type { JournalEntryFormValues } from "@/lib/journal-types";
 type ActionResult<T = { ok: true }> = T | { error: string };
 type SupabaseServerClient = Awaited<ReturnType<typeof createClient>>;
 
-const NO_PROFILE_ERROR = "Không tìm thấy hồ sơ của bạn — hãy đăng xuất rồi đăng nhập lại.";
+const VIEWER_ERROR = "Bạn đang ở chế độ chỉ xem — liên hệ quản trị viên để được cấp quyền.";
 
 async function hasWriteAccess(supabase: SupabaseServerClient, userId: string): Promise<boolean> {
   const { data } = await supabase.from("profiles").select("role").eq("id", userId).maybeSingle();
-  return data !== null;
+  return data?.role === "member" || data?.role === "admin";
 }
 
 function validate(values: JournalEntryFormValues): string | null {
@@ -30,7 +30,7 @@ export async function createJournalEntry(
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) return { error: "Bạn cần đăng nhập lại." };
-  if (!(await hasWriteAccess(supabase, user.id))) return { error: NO_PROFILE_ERROR };
+  if (!(await hasWriteAccess(supabase, user.id))) return { error: VIEWER_ERROR };
 
   const invalidReason = validate(values);
   if (invalidReason) return { error: invalidReason };
@@ -55,7 +55,7 @@ export async function updateJournalEntry(
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) return { error: "Bạn cần đăng nhập lại." };
-  if (!(await hasWriteAccess(supabase, user.id))) return { error: NO_PROFILE_ERROR };
+  if (!(await hasWriteAccess(supabase, user.id))) return { error: VIEWER_ERROR };
 
   const invalidReason = validate(values);
   if (invalidReason) return { error: invalidReason };
@@ -85,7 +85,7 @@ export async function deleteJournalEntry(id: string): Promise<ActionResult> {
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) return { error: "Bạn cần đăng nhập lại." };
-  if (!(await hasWriteAccess(supabase, user.id))) return { error: NO_PROFILE_ERROR };
+  if (!(await hasWriteAccess(supabase, user.id))) return { error: VIEWER_ERROR };
 
   const { data: entry } = await supabase
     .from("journal_entries")
@@ -110,7 +110,7 @@ export async function addJournalComment(entryId: string, body: string): Promise<
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) return { error: "Bạn cần đăng nhập lại." };
-  if (!(await hasWriteAccess(supabase, user.id))) return { error: NO_PROFILE_ERROR };
+  if (!(await hasWriteAccess(supabase, user.id))) return { error: VIEWER_ERROR };
 
   const { data: entry } = await supabase
     .from("journal_entries")
