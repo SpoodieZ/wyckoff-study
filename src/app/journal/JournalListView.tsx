@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Calendar, MessageSquare, Plus, Search } from "lucide-react";
 import type { JournalEntry, TradeOutcome } from "@/lib/journal-types";
+import { useT } from "@/lib/i18n/client";
 
 function formatDate(iso: string) {
   const [y, m, d] = iso.split("-");
@@ -11,15 +12,16 @@ function formatDate(iso: string) {
 }
 
 function OutcomeBadge({ outcome }: { outcome: TradeOutcome }) {
+  const t = useT();
   return outcome === "win" ? (
     <span className="inline-flex items-center gap-1.5 rounded-full bg-sage-soft px-2.5 py-1 text-caption font-bold text-sage">
       <span className="mini-candlestick candlestick-sage" />
-      Lãi
+      {t("common.win")}
     </span>
   ) : (
     <span className="inline-flex items-center gap-1.5 rounded-full bg-crimson-soft px-2.5 py-1 text-caption font-bold text-crimson">
       <span className="mini-candlestick candlestick-crimson" />
-      Lỗ
+      {t("common.loss")}
     </span>
   );
 }
@@ -39,6 +41,7 @@ export default function JournalListView({
 }) {
   // Khách chưa đăng nhập xem được toàn bộ nhật ký chung nhưng không có "của tôi".
   const isAnonymous = currentUserId === null;
+  const t = useT();
   const [tab, setTab] = useState<"mine" | "teammate">("mine");
   const [search, setSearch] = useState("");
   const [outcomeFilter, setOutcomeFilter] = useState<"all" | TradeOutcome>("all");
@@ -61,15 +64,15 @@ export default function JournalListView({
     [activeList, search, outcomeFilter]
   );
 
-  const teammateName = teammate[0] ? profileNames[teammate[0].owner_id] : "đồng đội";
+  const teammateName = teammate[0] ? profileNames[teammate[0].owner_id] : t("journal.teammateFallback");
 
   return (
     <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 p-4 pb-16 md:p-6 lg:p-10">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <h1 className="font-display text-card-title font-bold text-on-surface">Nhật ký giao dịch</h1>
+          <h1 className="font-display text-card-title font-bold text-on-surface">{t("journal.title")}</h1>
           <p className="mt-1 text-body-md text-on-surface-variant">
-            Không gian đúc kết bài học thực chiến giữa 2 thành viên.
+            {t("journal.subtitle")}
           </p>
         </div>
         {canWrite ? (
@@ -78,18 +81,18 @@ export default function JournalListView({
             className="inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-btn font-semibold text-on-primary transition-colors hover:bg-primary-strong"
           >
             <Plus size={18} />
-            Thêm bài học mới
+            {t("journal.add")}
           </Link>
         ) : isAnonymous ? (
           <Link
             href="/login"
             className="inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-btn font-semibold text-on-primary transition-colors hover:bg-primary-strong"
           >
-            Đăng nhập để viết bài
+            {t("journal.signInToWrite")}
           </Link>
         ) : (
           <span className="inline-flex shrink-0 items-center gap-2 rounded-full bg-surface-container px-4 py-2 text-label-sm text-on-surface-variant">
-            Chế độ chỉ xem — liên hệ quản trị viên để được cấp quyền
+            {t("journal.viewOnly")}
           </span>
         )}
       </div>
@@ -97,7 +100,7 @@ export default function JournalListView({
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         {isAnonymous ? (
           <span className="inline-flex w-fit items-center rounded-full border border-outline-variant bg-surface-container-lowest px-4 py-2 text-label-sm font-semibold text-primary">
-            Tất cả bài đăng
+            {t("journal.allPosts")}
             <span className="ml-2 rounded-full bg-surface-container-high px-2 py-0.5 text-caption">
               {entries.length}
             </span>
@@ -110,7 +113,7 @@ export default function JournalListView({
               tab === "mine" ? "bg-primary-fixed text-primary" : "text-on-surface-variant hover:bg-surface-container"
             }`}
           >
-            Nhật ký của tôi
+            {t("journal.mine")}
             <span className="ml-2 rounded-full bg-surface-container-high px-2 py-0.5 text-caption">
               {mine.length}
             </span>
@@ -123,7 +126,7 @@ export default function JournalListView({
                 : "text-on-surface-variant hover:bg-surface-container"
             }`}
           >
-            Nhật ký đồng đội
+            {t("journal.teammate")}
             <span className="ml-2 rounded-full bg-surface-container-high px-2 py-0.5 text-caption">
               {teammate.length}
             </span>
@@ -137,7 +140,7 @@ export default function JournalListView({
             <input
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="Tìm mã (BTC, EURUSD...)"
+              placeholder={t("journal.searchPlaceholder")}
               className="rounded-control border border-outline-variant bg-surface-container-lowest py-2 pl-9 pr-3 text-label-sm text-on-surface focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
             />
           </div>
@@ -152,7 +155,7 @@ export default function JournalListView({
                     : "text-on-surface-variant hover:bg-surface-container"
                 }`}
               >
-                {value === "all" ? "Tất cả" : value === "win" ? "Lãi" : "Lỗ"}
+                {value === "all" ? t("journal.filterAll") : value === "win" ? t("common.win") : t("common.loss")}
               </button>
             ))}
           </div>
@@ -163,10 +166,10 @@ export default function JournalListView({
         <div className="rounded-frame border border-outline-variant bg-surface-container-lowest p-10 text-center shadow-study">
           <p className="text-body-lg text-on-surface-variant">
             {isAnonymous
-              ? "Chưa có bài nhật ký nào."
+              ? t("journal.emptyAnon")
               : tab === "mine"
-                ? "Bạn chưa có bài học nào."
-                : `${teammateName} chưa có bài học nào.`}
+                ? t("journal.emptyMine")
+                : t("journal.emptyTeammate", { name: teammateName })}
           </p>
         </div>
       ) : (
@@ -193,23 +196,23 @@ export default function JournalListView({
                       {/* eslint-disable-next-line @next/next/no-img-element -- external Supabase Storage URL, unknown at build time */}
                       <img
                         src={entry.image_urls[0]}
-                        alt={`Biểu đồ ${entry.symbol}`}
+                        alt={t("journal.chartAlt", { symbol: entry.symbol })}
                         className="h-40 w-full object-cover"
                       />
                     </div>
                   </div>
                 )}
 
-                <p className="text-caption font-semibold uppercase tracking-wide text-primary">Đúc kết bài học:</p>
+                <p className="text-caption font-semibold uppercase tracking-wide text-primary">{t("journal.lessonLabel")}</p>
                 <p className="line-clamp-2 text-body-md text-on-surface-variant">
-                  {entry.lesson || "Chưa ghi bài học."}
+                  {entry.lesson || t("journal.noLesson")}
                 </p>
               </div>
               {!isAnonymous && (
                 <div className="mt-4 flex items-center justify-between border-t border-outline-variant pt-3 text-caption text-outline">
                   <span className="flex items-center gap-1.5">
                     <MessageSquare size={14} />
-                    {commentCounts[entry.id] ?? 0} bình luận
+                    {t("journal.comments", { n: commentCounts[entry.id] ?? 0 })}
                   </span>
                 </div>
               )}

@@ -1,11 +1,13 @@
+import type { MessageKey } from "./i18n/messages";
+
 const COMPLETED_KEY = "wyckoff-completed-chapters";
 const PERFECT_KEY = "wyckoff-perfect-chapters";
 const BOSS_KEY = "wyckoff-boss-cleared-chapters";
 
 export interface Badge {
   id: string;
-  title: string;
-  description: string;
+  titleKey: MessageKey;
+  descriptionKey: MessageKey;
   isUnlocked: (stats: AchievementStats) => boolean;
 }
 
@@ -19,38 +21,38 @@ export interface AchievementStats {
 export const BADGES: Badge[] = [
   {
     id: "first-chapter",
-    title: "Chương Đầu Tiên",
-    description: "Hoàn thành chương đầu tiên.",
+    titleKey: "badge.first.title",
+    descriptionKey: "badge.first.desc",
     isUnlocked: (s) => s.completedCount >= 1,
   },
   {
     id: "ten-chapters",
-    title: "Kiên Trì",
-    description: "Hoàn thành 10 chương.",
+    titleKey: "badge.ten.title",
+    descriptionKey: "badge.ten.desc",
     isUnlocked: (s) => s.completedCount >= 10,
   },
   {
     id: "all-chapters",
-    title: "Học Giả Wyckoff",
-    description: "Hoàn thành cả 42 chương.",
+    titleKey: "badge.all.title",
+    descriptionKey: "badge.all.desc",
     isUnlocked: (s) => s.completedCount >= 42,
   },
   {
     id: "perfect-chapter",
-    title: "Không Tì Vết",
-    description: "Đạt điểm tuyệt đối trong một chương.",
+    titleKey: "badge.perfect.title",
+    descriptionKey: "badge.perfect.desc",
     isUnlocked: (s) => s.perfectCount >= 1,
   },
   {
     id: "boss-slayer",
-    title: "Cao Thủ Boss",
-    description: "Hạ gục 5 Câu Quyết Định cuối chương.",
+    titleKey: "badge.boss.title",
+    descriptionKey: "badge.boss.desc",
     isUnlocked: (s) => s.bossClearedCount >= 5,
   },
   {
     id: "week-streak",
-    title: "7 Ngày Bền Bỉ",
-    description: "Học liên tục 7 ngày.",
+    titleKey: "badge.week.title",
+    descriptionKey: "badge.week.desc",
     isUnlocked: (s) => s.dailyStreak >= 7,
   },
 ];

@@ -6,6 +6,7 @@ import { Lightbulb, Link2, Loader2, Upload, X } from "lucide-react";
 import { createClient } from "@/lib/supabase/client";
 import { createJournalEntry, updateJournalEntry } from "./actions";
 import type { JournalEntryFormValues, TradeOutcome } from "@/lib/journal-types";
+import { useT } from "@/lib/i18n/client";
 
 const CHART_BUCKET = "journal-charts";
 
@@ -37,6 +38,7 @@ export default function JournalForm({
   initialValues?: JournalEntryFormValues;
 }) {
   const router = useRouter();
+  const t = useT();
   const [values, setValues] = useState<JournalEntryFormValues>(initialValues ?? emptyValues);
   const [urlInput, setUrlInput] = useState("");
   const [uploading, setUploading] = useState(false);
@@ -71,7 +73,7 @@ export default function JournalForm({
       const { data } = supabase.storage.from(CHART_BUCKET).getPublicUrl(path);
       addImageUrl(data.publicUrl);
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Tải ảnh lên thất bại.");
+      setError(err instanceof Error ? err.message : t("form.uploadFailed"));
     } finally {
       setUploading(false);
     }
@@ -98,24 +100,24 @@ export default function JournalForm({
     <form onSubmit={handleSubmit} className="mx-auto flex w-full max-w-4xl flex-col gap-6 p-4 pb-16 md:p-6 lg:p-10">
       <div>
         <h1 className="font-display text-card-title font-bold text-on-surface">
-          {mode === "create" ? "Ghi lại bài học giao dịch mới" : "Sửa bài học giao dịch"}
+          {mode === "create" ? t("form.createTitle") : t("form.editTitle")}
         </h1>
         <p className="mt-1 text-body-md text-on-surface-variant">
-          Mỗi lệnh trade là một bài học quý báu — ghi chép chân thật để cùng hoàn thiện mỗi ngày.
+          {t("form.intro")}
         </p>
       </div>
 
       {error && <p className="rounded-control bg-crimson-soft px-3 py-2 text-label-sm text-crimson">{error}</p>}
 
       <div className="flex flex-col gap-2">
-        <FieldLabel>Ảnh biểu đồ giao dịch *</FieldLabel>
+        <FieldLabel>{t("form.charts")}</FieldLabel>
         <div className="rounded-frame border-2 border-dashed border-outline-variant bg-light-chart-bg p-6">
           <label className="flex cursor-pointer flex-col items-center gap-2 text-center">
             <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-fixed text-primary">
               <Upload size={20} />
             </span>
             <span className="text-label-sm font-semibold text-on-surface">
-              {uploading ? "Đang tải ảnh lên…" : "Kéo thả ảnh chart vào đây hoặc bấm để chọn từ máy tính"}
+              {uploading ? t("form.uploading") : t("form.dropHint")}
             </span>
             <input
               type="file"
@@ -135,7 +137,7 @@ export default function JournalForm({
               <input
                 value={urlInput}
                 onChange={(e) => setUrlInput(e.target.value)}
-                placeholder="Hoặc dán URL ảnh (TradingView, Imgur...)"
+                placeholder={t("form.urlPlaceholder")}
                 className="w-full rounded-control border border-outline-variant bg-surface-container-lowest py-2 pl-9 pr-3 text-label-sm text-on-surface focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
               />
             </div>
@@ -147,7 +149,7 @@ export default function JournalForm({
               }}
               className="shrink-0 rounded-full border border-outline-variant bg-surface-container-lowest px-4 py-2 text-label-sm font-semibold text-primary transition-colors hover:bg-surface-container"
             >
-              Thêm liên kết
+              {t("form.addLink")}
             </button>
           </div>
 
@@ -161,7 +163,7 @@ export default function JournalForm({
                     type="button"
                     onClick={() => removeImageUrl(i)}
                     className="absolute right-1 top-1 rounded-full bg-black/60 p-1 text-white transition-opacity"
-                    aria-label="Xóa ảnh"
+                    aria-label={t("form.removeImage")}
                   >
                     <X size={14} />
                   </button>
@@ -174,17 +176,17 @@ export default function JournalForm({
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         <label className="flex flex-col gap-2">
-          <FieldLabel>Mã / Cặp tài sản *</FieldLabel>
+          <FieldLabel>{t("form.symbol")}</FieldLabel>
           <input
             value={values.symbol}
             onChange={(e) => update("symbol", e.target.value)}
-            placeholder="BTC/USDT, EURUSD, HPG..."
+            placeholder={t("form.symbolPlaceholder")}
             required
             className={textAreaClass}
           />
         </label>
         <label className="flex flex-col gap-2">
-          <FieldLabel>Ngày vào lệnh *</FieldLabel>
+          <FieldLabel>{t("form.date")}</FieldLabel>
           <input
             type="date"
             value={values.trade_date}
@@ -196,7 +198,7 @@ export default function JournalForm({
       </div>
 
       <div className="flex flex-col gap-2">
-        <FieldLabel>Kết quả lệnh giao dịch *</FieldLabel>
+        <FieldLabel>{t("form.outcome")}</FieldLabel>
         <div className="flex gap-3">
           {(["win", "loss"] as TradeOutcome[]).map((option) => (
             <button
@@ -211,25 +213,25 @@ export default function JournalForm({
                   : "border-outline-variant bg-surface-container-lowest text-on-surface-variant"
               }`}
             >
-              {option === "win" ? "🎉 Lãi (Thành công)" : "🌱 Lỗ (Bài học tích lũy)"}
+              {option === "win" ? t("form.win") : t("form.loss")}
             </button>
           ))}
         </div>
       </div>
 
       <label className="flex flex-col gap-2">
-        <FieldLabel>Vào lệnh ở vùng giá / điểm kỹ thuật nào</FieldLabel>
+        <FieldLabel>{t("form.zone")}</FieldLabel>
         <textarea
           value={values.entry_zone}
           onChange={(e) => update("entry_zone", e.target.value)}
           rows={2}
-          placeholder="Vùng 62,400$, ngay sau khi nến Spring rút bấc test lại hỗ trợ Creek (Phase C Wyckoff)"
+          placeholder={t("form.zonePlaceholder")}
           className={textAreaClass}
         />
       </label>
 
       <label className="flex flex-col gap-2">
-        <FieldLabel>Vì sao vào lệnh? (Lý do kỹ thuật)</FieldLabel>
+        <FieldLabel>{t("form.reason")}</FieldLabel>
         <textarea
           value={values.entry_reason}
           onChange={(e) => update("entry_reason", e.target.value)}
@@ -239,7 +241,7 @@ export default function JournalForm({
       </label>
 
       <label className="flex flex-col gap-2">
-        <FieldLabel>Cảm xúc, hành vi, tâm lý lúc đó</FieldLabel>
+        <FieldLabel>{t("form.emotions")}</FieldLabel>
         <textarea
           value={values.emotions}
           onChange={(e) => update("emotions", e.target.value)}
@@ -251,13 +253,13 @@ export default function JournalForm({
       <div className="rounded-panel border-2 border-primary bg-primary-fixed/40 p-4">
         <p className="mb-2 flex items-center gap-2 text-label-sm font-bold uppercase tracking-wide text-primary">
           <Lightbulb size={16} />
-          Bài học rút ra (quan trọng nhất)
+          {t("form.lesson")}
         </p>
         <textarea
           value={values.lesson}
           onChange={(e) => update("lesson", e.target.value)}
           rows={4}
-          placeholder="Nếu gặp lại tình huống này trong tương lai, mình sẽ giữ nguyên điều gì hoặc cải thiện bước nào?"
+          placeholder={t("form.lessonPlaceholder")}
           className="w-full rounded-control border border-outline-variant bg-surface-container-lowest px-3 py-2 text-body-md text-on-surface focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
         />
       </div>
@@ -268,7 +270,7 @@ export default function JournalForm({
           onClick={() => router.back()}
           className="rounded-full border border-outline-variant bg-surface-container-lowest px-5 py-2.5 text-btn font-semibold text-on-surface-variant transition-colors hover:bg-surface-container"
         >
-          Hủy bỏ
+          {t("form.cancel")}
         </button>
         <button
           type="submit"
@@ -276,7 +278,7 @@ export default function JournalForm({
           className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-btn font-semibold text-on-primary transition-colors hover:bg-primary-strong disabled:opacity-60"
         >
           {submitting && <Loader2 size={16} className="animate-spin" />}
-          Lưu bài học
+          {t("form.save")}
         </button>
       </div>
     </form>

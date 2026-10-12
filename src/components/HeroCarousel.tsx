@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import type { ChapterHeroData } from "@/lib/chapter-data";
+import { useT } from "@/lib/i18n/client";
 
 const STORAGE_KEY = "wyckoff-hero-chapter";
 
@@ -20,6 +21,7 @@ function DecorativeCandles() {
 }
 
 export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[] }) {
+  const t = useT();
   const [index, setIndex] = useState(0);
   const [dragOffset, setDragOffset] = useState(0);
   const [dragging, setDragging] = useState(false);
@@ -78,7 +80,7 @@ export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[]
   return (
     <section className="relative overflow-hidden rounded-frame border border-primary-fixed bg-light-chart-bg shadow-study">
       <p className="mb-2 mt-6 px-6 text-label-sm font-medium uppercase tracking-wider text-primary lg:px-10">
-        Bắt đầu ôn tập
+        {t("hero.eyebrow")}
       </p>
 
       <div
@@ -100,7 +102,7 @@ export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[]
             <div key={chapter.id} className="flex w-full shrink-0 flex-col gap-10 px-6 pb-6 lg:flex-row lg:items-center lg:px-10 lg:pb-10">
               <div className="z-10 min-w-0 flex-1">
                 <h1 className="font-display text-[24px] leading-8 font-bold text-on-surface md:text-display-title">
-                  Chương {chapter.id} — {chapter.title}
+                  {t("common.chapterN", { n: chapter.id })} — {chapter.title}
                 </h1>
                 <p className="mb-6 mt-4 max-w-xl text-body-md text-on-surface-variant md:text-body-lg">
                   {chapter.summary}
@@ -109,7 +111,7 @@ export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[]
                   href={`/chapters/${chapter.id}`}
                   className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-btn font-semibold text-on-primary shadow-study transition-colors hover:bg-primary-strong"
                 >
-                  Bắt đầu học
+                  {t("hero.start")}
                   <ArrowRight size={18} />
                 </Link>
               </div>
@@ -120,7 +122,7 @@ export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[]
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={chapter.chartImage}
-                        alt={`Minh họa Chương ${chapter.id}`}
+                        alt={t("hero.illustration", { n: chapter.id })}
                         loading="lazy"
                         className="h-44 w-full rounded object-cover"
                       />
@@ -140,20 +142,20 @@ export default function HeroCarousel({ chapters }: { chapters: ChapterHeroData[]
           <button
             onClick={() => goTo(index - 1)}
             disabled={index === 0}
-            aria-label="Chương trước"
+            aria-label={t("hero.prev")}
             className="flex h-9 w-9 items-center justify-center rounded-full border border-outline-variant bg-surface-container-lowest text-on-surface transition-colors hover:bg-surface-container disabled:pointer-events-none disabled:opacity-30"
           >
             <ChevronLeft size={18} />
           </button>
 
           <span className="text-label-sm font-medium text-on-surface-variant">
-            Chương {index + 1} / {chapters.length}
+            {t("common.chapterN", { n: index + 1 })} / {chapters.length}
           </span>
 
           <button
             onClick={() => goTo(index + 1)}
             disabled={index === chapters.length - 1}
-            aria-label="Chương tiếp theo"
+            aria-label={t("hero.next")}
             className="flex h-9 w-9 items-center justify-center rounded-full border border-outline-variant bg-surface-container-lowest text-on-surface transition-colors hover:bg-surface-container disabled:pointer-events-none disabled:opacity-30"
           >
             <ChevronRight size={18} />

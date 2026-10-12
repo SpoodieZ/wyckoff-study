@@ -3,13 +3,16 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
-import { CHAPTERS_META } from "@/lib/chapters-meta";
+import { CHAPTERS_META, chapterTitle } from "@/lib/chapters-meta";
+import { useLocale, useT } from "@/lib/i18n/client";
 import { getAchievementStats } from "@/lib/achievements";
 import { getQuizProgress } from "@/lib/quiz-progress";
 
 const HERO_STORAGE_KEY = "wyckoff-hero-chapter";
 
 export default function ContinueLearningCard() {
+  const t = useT();
+  const locale = useLocale();
   const [chapterId, setChapterId] = useState<number | null>(null);
   const [inProgress, setInProgress] = useState<{ answered: number; total: number } | null>(null);
   const [completedCount, setCompletedCount] = useState(0);
@@ -42,25 +45,25 @@ export default function ContinueLearningCard() {
   return (
     <div className="mx-2 mt-4 rounded-card border border-outline-variant bg-surface-container-lowest p-3 shadow-study">
       <p className="mb-1 text-caption font-bold uppercase tracking-wider text-outline">
-        {inProgress ? "Đang làm dở" : "Tiếp tục học"}
+        {inProgress ? t("continue.inProgress") : t("continue.label")}
       </p>
       <p className={`truncate text-label-sm font-semibold text-on-surface ${inProgress ? "" : "mb-2"}`}>
-        Chương {chapter.id}: {chapter.title}
+        {t("common.chapterN", { n: chapter.id })}: {chapterTitle(chapter, locale)}
       </p>
       {inProgress && (
         <p className="mb-2 text-label-sm text-on-surface-variant">
-          Câu {inProgress.answered + 1}/{inProgress.total}
+          {t("common.questionOf", { n: inProgress.answered + 1, total: inProgress.total })}
         </p>
       )}
       <Link
         href={`/chapters/${chapter.id}`}
         className="inline-flex items-center gap-1.5 text-label-sm font-semibold text-primary hover:text-primary-strong"
       >
-        {inProgress ? "Tiếp tục làm bài" : "Tiếp tục"}
+        {inProgress ? t("continue.resumeQuiz") : t("continue.resume")}
         <ArrowRight size={14} />
       </Link>
       <p className="mt-3 border-t border-outline-variant pt-2 text-caption text-outline">
-        {completedCount}/{CHAPTERS_META.length} chương hoàn thành
+        {t("continue.completed", { done: completedCount, total: CHAPTERS_META.length })}
       </p>
     </div>
   );

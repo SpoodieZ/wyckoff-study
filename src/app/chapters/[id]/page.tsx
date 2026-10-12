@@ -4,6 +4,8 @@ import { loadChapterData, hasChapterData } from "@/lib/chapter-data";
 import { CHAPTERS_META } from "@/lib/chapters-meta";
 import AppShell from "@/components/AppShell";
 import QuizRunner from "./QuizRunner";
+import { getLocale } from "@/lib/i18n/server";
+import { makeT } from "@/lib/i18n/translate";
 
 export default async function ChapterQuizPage({
   params,
@@ -17,16 +19,18 @@ export default async function ChapterQuizPage({
     notFound();
   }
 
-  const chapterData = loadChapterData(chapterId);
+  const locale = await getLocale();
+  const t = makeT(locale);
+  const chapterData = loadChapterData(chapterId, locale);
 
   if (!chapterData) {
     return (
       <AppShell>
         <div className="mx-auto w-full max-w-5xl p-4 pb-16 md:p-6 lg:p-10">
           <Link href="/" className="text-btn text-primary hover:underline">
-            ← Về trang chủ
+            ← {t("quiz.backHome")}
           </Link>
-          <p className="mt-6 text-on-surface-variant">Chương này chưa có dữ liệu câu hỏi.</p>
+          <p className="mt-6 text-on-surface-variant">{t("common.noData")}</p>
         </div>
       </AppShell>
     );

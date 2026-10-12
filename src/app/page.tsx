@@ -3,7 +3,9 @@ import { NotebookPen } from "lucide-react";
 import AppShell from "@/components/AppShell";
 import HeroCarousel from "@/components/HeroCarousel";
 import DailyChallengeCard from "@/components/DailyChallengeCard";
-import { CHAPTERS_META } from "@/lib/chapters-meta";
+import { CHAPTERS_META, chapterTitle } from "@/lib/chapters-meta";
+import { getLocale } from "@/lib/i18n/server";
+import { makeT } from "@/lib/i18n/translate";
 import { hasChapterData, loadChapterHeroData } from "@/lib/chapter-data";
 import type { ChapterHeroData } from "@/lib/chapter-data";
 import { listProfileNames, listRecentJournalEntries } from "@/lib/journal";
@@ -14,6 +16,8 @@ function formatTradeDate(dateStr: string) {
 }
 
 export default async function Home() {
+  const locale = await getLocale();
+  const t = makeT(locale);
   const chapters = CHAPTERS_META.map((c) => ({
     ...c,
     available: hasChapterData(c.id),
@@ -21,7 +25,7 @@ export default async function Home() {
 
   const heroChapters = chapters
     .filter((c) => c.available)
-    .map((c) => loadChapterHeroData(c.id))
+    .map((c) => loadChapterHeroData(c.id, locale))
     .filter((c): c is ChapterHeroData => c !== null);
 
   // Trang chủ phải luôn hiển thị được kể cả khi Supabase gặp sự cố (mất
@@ -44,12 +48,12 @@ export default async function Home() {
 
         <section>
           <div className="mb-3 flex items-end justify-between">
-            <h2 className="font-display text-card-title font-bold text-on-surface">Nhật Ký Giao Dịch</h2>
+            <h2 className="font-display text-card-title font-bold text-on-surface">{t("home.journalTitle")}</h2>
             <Link
               href="/journal"
               className="text-label-sm font-medium text-primary hover:text-primary-strong"
             >
-              Xem tất cả
+              {t("common.viewAll")}
             </Link>
           </div>
           {recentEntries.length > 0 ? (
@@ -66,7 +70,7 @@ export default async function Home() {
                         entry.outcome === "win" ? "bg-sage-soft text-sage" : "bg-crimson-soft text-crimson"
                       }`}
                     >
-                      {entry.outcome === "win" ? "Thắng" : "Thua"}
+                      {entry.outcome === "win" ? t("common.win") : t("common.loss")}
                     </span>
                     <span className="text-caption text-outline">{formatTradeDate(entry.trade_date)}</span>
                   </div>
@@ -75,11 +79,11 @@ export default async function Home() {
                       {entry.symbol}
                     </h3>
                     <p className="mt-1 line-clamp-2 text-body-md text-on-surface-variant">
-                      {entry.lesson || "Chưa ghi bài học rút ra."}
+                      {entry.lesson || t("home.noLesson")}
                     </p>
                   </div>
                   <span className="text-caption text-outline">
-                    {profileNames[entry.owner_id] ?? "Ẩn danh"}
+                    {profileNames[entry.owner_id] ?? t("home.anonymous")}
                   </span>
                 </Link>
               ))}
@@ -87,15 +91,15 @@ export default async function Home() {
           ) : (
             <div className="flex flex-col items-center gap-2 rounded-card border border-dashed border-outline-variant bg-surface-container-lowest p-8 text-center">
               <NotebookPen size={24} className="text-outline" strokeWidth={1.75} />
-              <p className="text-body-md text-on-surface-variant">Chưa có bài nhật ký giao dịch nào.</p>
+              <p className="text-body-md text-on-surface-variant">{t("home.journalEmpty")}</p>
             </div>
           )}
         </section>
 
         <section>
           <div className="mb-3 flex items-end justify-between">
-            <h2 className="font-display text-card-title font-bold text-on-surface">Mục lục</h2>
-            <p className="text-caption text-outline">42 chương · Phần 1–42</p>
+            <h2 className="font-display text-card-title font-bold text-on-surface">{t("home.tocTitle")}</h2>
+            <p className="text-caption text-outline">{t("home.tocCount")}</p>
           </div>
 
           <ul className="flex flex-col gap-2">
@@ -111,7 +115,7 @@ export default async function Home() {
                         {chapter.id}
                       </span>
                       <span className="truncate font-medium text-on-surface group-hover:text-primary">
-                        {chapter.title}
+                        {chapterTitle(chapter, locale)}
                       </span>
                     </span>
                     <span className="mini-candlestick candlestick-sage shrink-0" />
@@ -122,9 +126,9 @@ export default async function Home() {
                       <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-surface-container-highest text-label-sm font-semibold text-on-surface-variant">
                         {chapter.id}
                       </span>
-                      <span className="truncate font-medium text-on-surface-variant">{chapter.title}</span>
+                      <span className="truncate font-medium text-on-surface-variant">{chapterTitle(chapter, locale)}</span>
                     </span>
-                    <span className="shrink-0 text-caption text-outline">Chưa có dữ liệu</span>
+                    <span className="shrink-0 text-caption text-outline">{t("common.noData")}</span>
                   </div>
                 )}
               </li>

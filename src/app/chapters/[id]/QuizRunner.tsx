@@ -14,6 +14,8 @@ import {
   recordChapterPerfect,
   recordBossCleared,
 } from "@/lib/achievements";
+import { useT } from "@/lib/i18n/client";
+import type { TFunction } from "@/lib/i18n/translate";
 import { saveMistakeNote } from "@/lib/mistake-notes";
 import { saveQuizProgress, getQuizProgress, clearQuizProgress } from "@/lib/quiz-progress";
 
@@ -27,23 +29,13 @@ interface QuestionResult {
 
 const OPTION_LETTERS = ["A", "B", "C", "D", "E", "F"];
 
-const CONFIDENCE_LEVELS: { value: Confidence; label: string }[] = [
-  { value: "guess", label: "Đoán bừa" },
-  { value: "medium", label: "Khá chắc" },
-  { value: "high", label: "Chắc chắn" },
-];
+const CONFIDENCE_LEVELS: Confidence[] = ["guess", "medium", "high"];
 
-function confidenceFeedback(correct: boolean, level: Confidence | null): string | null {
+function confidenceFeedback(t: TFunction, correct: boolean, level: Confidence | null): string | null {
   if (!level) return null;
-  if (level === "high") {
-    return correct ? "Chuẩn không cần chỉnh!" : "Sai dù rất tự tin — đây là dấu hiệu nên xem lại kỹ khái niệm này.";
-  }
-  if (level === "guess") {
-    return correct
-      ? "Đúng, nhưng có vẻ là may mắn — ôn lại khái niệm này cho chắc nhé."
-      : "Đoán sai cũng không sao, đây chính là lúc để học.";
-  }
-  return correct ? "Tốt, bạn đã đọc khá kỹ." : "Gần đúng rồi, xem lại phần giải thích bên dưới.";
+  if (level === "high") return t(correct ? "quiz.fb.highRight" : "quiz.fb.highWrong");
+  if (level === "guess") return t(correct ? "quiz.fb.guessRight" : "quiz.fb.guessWrong");
+  return t(correct ? "quiz.fb.medRight" : "quiz.fb.medWrong");
 }
 
 export default function QuizRunner({
@@ -53,6 +45,7 @@ export default function QuizRunner({
   chapter: ChapterData;
   nextChapterHref?: string;
 }) {
+  const t = useT();
   const [index, setIndex] = useState(0);
   const [results, setResults] = useState<QuestionResult[]>([]);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
@@ -183,15 +176,15 @@ export default function QuizRunner({
         <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary-fixed">
           <Trophy className="text-primary" size={32} />
         </div>
-        <h1 className="mt-4 font-display text-card-title font-bold text-on-surface">Quiz Hoàn Thành</h1>
+        <h1 className="mt-4 font-display text-card-title font-bold text-on-surface">{t("quiz.done")}</h1>
         <p className="mt-2 text-body-md text-on-surface-variant">
-          Bạn đã hoàn thành {chapter.title} — {correctCount}/{total} câu đúng.
+          {t("quiz.doneSummary", { title: chapter.title, correct: correctCount, total })}
         </p>
 
         {total > 1 && results[total - 1]?.correct && (
           <span className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-primary-fixed px-3 py-1.5 text-label-sm font-bold text-primary">
             <Crown size={16} />
-            Đã hạ Câu Boss!
+            {t("quiz.bossCleared")}
           </span>
         )}
 
@@ -199,7 +192,7 @@ export default function QuizRunner({
           <div className="mt-4 flex w-full flex-col items-center gap-2 rounded-card border border-primary-fixed bg-light-chart-bg p-4">
             <p className="flex items-center gap-1.5 text-label-sm font-bold text-primary">
               <Award size={16} />
-              Vừa mở khóa huy hiệu mới!
+              {t("quiz.badgeUnlocked")}
             </p>
             <div className="flex flex-wrap justify-center gap-2">
               {newlyUnlocked.map((b) => (
@@ -207,7 +200,7 @@ export default function QuizRunner({
                   key={b.id}
                   className="rounded-full bg-primary px-3 py-1 text-label-sm font-semibold text-on-primary"
                 >
-                  {b.title}
+                  {t(b.titleKey)}
                 </span>
               ))}
             </div>
@@ -234,7 +227,7 @@ export default function QuizRunner({
               {correctCount}
               <span className="text-lg text-on-surface-variant">/{total}</span>
             </span>
-            <span className="text-caption uppercase tracking-wide text-outline">Điểm số</span>
+            <span className="text-caption uppercase tracking-wide text-outline">{t("quiz.score")}</span>
           </div>
         </div>
 
@@ -262,7 +255,7 @@ export default function QuizRunner({
         {total > 1 && (
           <div className="mt-6 w-full max-w-xs">
             <p className="mb-2 text-label-sm font-semibold uppercase tracking-wide text-outline">
-              Diễn biến điểm số
+              {t("quiz.scoreTrend")}
             </p>
             <svg viewBox={`0 0 ${equityWidth} 100`} preserveAspectRatio="none" className="h-20 w-full">
               <line
@@ -300,7 +293,7 @@ export default function QuizRunner({
         {wrongOnes.length > 0 && (
           <div className="mt-8 w-full text-left">
             <h2 className="mb-2 text-label-sm font-semibold uppercase tracking-wide text-outline">
-              Câu cần ôn lại
+              {t("quiz.toReview")}
             </h2>
             <ul className="flex flex-col gap-2">
               {wrongOnes.map((q) => (
@@ -321,13 +314,13 @@ export default function QuizRunner({
             className="inline-flex items-center justify-center gap-2 rounded-full border border-outline-variant bg-surface-container-lowest px-6 py-3 text-btn font-semibold text-on-surface transition-colors hover:bg-surface-container"
           >
             <RotateCcw size={18} />
-            Ôn lại câu sai
+            {t("quiz.reviewWrong")}
           </Link>
           <Link
             href={nextChapterHref}
             className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-btn font-semibold text-on-primary shadow-study transition-colors hover:bg-primary-strong"
           >
-            Chương tiếp theo
+            {t("quiz.nextChapter")}
             <ArrowRight size={18} />
           </Link>
         </div>
@@ -335,7 +328,7 @@ export default function QuizRunner({
           onClick={restart}
           className="mt-4 text-label-sm font-medium text-on-surface-variant hover:text-primary hover:underline"
         >
-          Làm lại chương này
+          {t("quiz.restart")}
         </button>
       </div>
     );
@@ -350,7 +343,7 @@ export default function QuizRunner({
           <Link
             href="/"
             className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full transition-colors hover:bg-surface-container"
-            aria-label="Về trang chủ"
+            aria-label={t("quiz.backHome")}
           >
             <ArrowLeft size={20} />
           </Link>
@@ -367,7 +360,7 @@ export default function QuizRunner({
             </span>
           )}
           <span className="text-label-sm font-bold text-primary">
-            Câu {index + 1} / {total}
+            {t("common.questionOf", { n: index + 1, total })}
           </span>
           <div className="h-2 w-24 overflow-hidden rounded-full bg-surface-container sm:w-32">
             <div
@@ -381,7 +374,7 @@ export default function QuizRunner({
       {isBossQuestion && (
         <div className="mb-4 flex items-center justify-center gap-2 rounded-full bg-primary-fixed px-4 py-2 text-label-sm font-bold text-primary">
           <Crown size={16} />
-          Câu Quyết Định — Tổng Hợp Chương
+          {t("quiz.boss")}
         </div>
       )}
 
@@ -398,7 +391,7 @@ export default function QuizRunner({
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={question.chartImage}
-              alt="Biểu đồ minh họa"
+              alt={t("quiz.chartAlt")}
               className="w-full rounded border border-outline-variant/20"
             />
           </div>
@@ -462,10 +455,10 @@ export default function QuizRunner({
                         <h4
                           className={`mb-1 text-label-sm font-bold ${isCorrect ? "text-sage" : "text-crimson"}`}
                         >
-                          {isCorrect ? "Chính xác!" : "Chưa đúng"}
-                          {confidenceFeedback(isCorrect, confidence) && (
+                          {isCorrect ? t("quiz.correct") : t("quiz.incorrect")}
+                          {confidenceFeedback(t, isCorrect, confidence) && (
                             <span className="ml-1 font-normal text-on-surface-variant">
-                              — {confidenceFeedback(isCorrect, confidence)}
+                              — {confidenceFeedback(t, isCorrect, confidence)}
                             </span>
                           )}
                         </h4>
@@ -476,14 +469,14 @@ export default function QuizRunner({
                     {isWrongSelected && (
                       <div className="mt-3">
                         <label className="mb-1 block text-label-sm font-medium text-on-surface-variant">
-                          Bạn nghĩ vì sao mình chọn nhầm? (tuỳ chọn, riêng tư — chỉ lưu trên máy bạn)
+                          {t("quiz.mistakeLabel")}
                         </label>
                         <textarea
                           value={mistakeNote}
                           onChange={(e) => setMistakeNote(e.target.value)}
                           onBlur={() => saveMistakeNote(question.id, mistakeNote)}
                           rows={2}
-                          placeholder="Ví dụ: mình nhầm giữa Spring và Shakeout…"
+                          placeholder={t("quiz.mistakePlaceholder")}
                           className="w-full rounded-control border border-outline-variant bg-surface-container-lowest p-2 text-body-md text-on-surface placeholder:text-outline focus:border-primary focus:outline-none"
                         />
                       </div>
@@ -496,15 +489,15 @@ export default function QuizRunner({
 
           {selectedOption !== null && !showAnswer && (
             <div className="rounded-card border border-outline-variant bg-surface-container-lowest p-4 shadow-study">
-              <p className="mb-3 text-body-md font-medium text-on-surface">Bạn tự tin bao nhiêu với lựa chọn này?</p>
+              <p className="mb-3 text-body-md font-medium text-on-surface">{t("quiz.confidenceAsk")}</p>
               <div className="flex flex-wrap gap-2">
                 {CONFIDENCE_LEVELS.map((level) => (
                   <button
-                    key={level.value}
-                    onClick={() => confirmConfidence(level.value)}
+                    key={level}
+                    onClick={() => confirmConfidence(level)}
                     className="rounded-full border border-outline-variant bg-surface px-4 py-2 text-btn font-semibold text-on-surface transition-colors hover:border-primary hover:text-primary"
                   >
-                    {level.label}
+                    {t(`quiz.${level}`)}
                   </button>
                 ))}
               </div>
@@ -517,7 +510,7 @@ export default function QuizRunner({
                 onClick={goToNext}
                 className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-3 text-btn font-semibold text-on-primary shadow-study transition-colors hover:bg-primary-strong"
               >
-                {index + 1 === total ? "Xem kết quả" : "Câu tiếp theo"}
+                {index + 1 === total ? t("quiz.viewResult") : t("quiz.nextQuestion")}
                 <ArrowRight size={18} />
               </button>
             </div>
@@ -528,7 +521,7 @@ export default function QuizRunner({
       {question.type === "short_answer_selfgrade" && (
         <div className="rounded-card border border-outline-variant bg-surface-container-lowest p-6 shadow-study">
           <p className="text-body-md text-on-surface-variant">
-            Tự trả lời trong đầu (hoặc viết ra giấy), sau đó bấm để xem gợi ý đáp án.
+            {t("quiz.selfIntro")}
           </p>
 
           {!revealedSample ? (
@@ -536,7 +529,7 @@ export default function QuizRunner({
               onClick={() => setRevealedSample(true)}
               className="mt-4 rounded-full border border-outline-variant bg-surface-container-lowest px-6 py-3 text-btn font-semibold text-on-surface transition-colors hover:bg-surface-container"
             >
-              Xem gợi ý đáp án
+              {t("quiz.showSample")}
             </button>
           ) : (
             <>
@@ -544,26 +537,26 @@ export default function QuizRunner({
                 <div className="flex items-start gap-2">
                   <Lightbulb className="mt-1 shrink-0 text-primary" size={20} />
                   <div>
-                    <h4 className="mb-1 text-label-sm font-bold text-primary">Gợi ý đáp án</h4>
+                    <h4 className="mb-1 text-label-sm font-bold text-primary">{t("quiz.sampleTitle")}</h4>
                     <p className="text-body-md text-on-surface-variant">{question.sampleAnswer}</p>
                   </div>
                 </div>
               </div>
-              <p className="mt-4 text-body-md text-on-surface-variant">Bạn tự đánh giá câu trả lời của mình:</p>
+              <p className="mt-4 text-body-md text-on-surface-variant">{t("quiz.selfGradeAsk")}</p>
               <div className="mt-3 flex flex-wrap gap-3">
                 <button
                   onClick={() => handleSelfGrade(true)}
                   className="inline-flex items-center gap-2 rounded-full border border-sage bg-sage-soft px-5 py-2.5 text-btn font-semibold text-sage transition-colors hover:brightness-95"
                 >
                   <Check size={18} />
-                  Tôi trả lời đúng
+                  {t("quiz.selfRight")}
                 </button>
                 <button
                   onClick={() => handleSelfGrade(false)}
                   className="inline-flex items-center gap-2 rounded-full border border-crimson bg-crimson-soft px-5 py-2.5 text-btn font-semibold text-crimson transition-colors hover:brightness-95"
                 >
                   <X size={18} />
-                  Tôi trả lời chưa đúng
+                  {t("quiz.selfWrong")}
                 </button>
               </div>
             </>

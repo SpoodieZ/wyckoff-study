@@ -22,18 +22,22 @@ import {
 import { createClient } from "@/lib/supabase/client";
 import { getStudyStreak } from "@/lib/streak";
 import ContinueLearningCard from "./ContinueLearningCard";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useT } from "@/lib/i18n/client";
+import type { MessageKey } from "@/lib/i18n/messages";
 
-const NAV_ITEMS = [
-  { href: "/", label: "Chương", icon: BookOpen, available: true },
-  { href: "/study-sets", label: "Study Sets", icon: Layers, available: true },
-  { href: "/journal", label: "Nhật ký giao dịch", icon: NotebookPen, available: true },
-  { href: "/review", label: "Ôn lại câu sai", icon: RotateCcw, available: true },
-  { href: "/progress", label: "Tiến độ", icon: BarChart3, available: true },
-  { href: "/badges", label: "Huy hiệu", icon: Award, available: true },
+const NAV_ITEMS: { href: string; labelKey: MessageKey; icon: typeof BookOpen; available: boolean }[] = [
+  { href: "/", labelKey: "nav.chapters", icon: BookOpen, available: true },
+  { href: "/study-sets", labelKey: "nav.studySets", icon: Layers, available: true },
+  { href: "/journal", labelKey: "nav.journal", icon: NotebookPen, available: true },
+  { href: "/review", labelKey: "nav.review", icon: RotateCcw, available: true },
+  { href: "/progress", labelKey: "nav.progress", icon: BarChart3, available: true },
+  { href: "/badges", labelKey: "nav.badges", icon: Award, available: true },
 ];
 
 function UserMenu({ displayName }: { displayName: string | null }) {
   const router = useRouter();
+  const t = useT();
 
   async function handleSignOut() {
     const supabase = createClient();
@@ -51,30 +55,32 @@ function UserMenu({ displayName }: { displayName: string | null }) {
       <button
         onClick={handleSignOut}
         className="inline-flex items-center gap-2 rounded-full border border-outline-variant bg-surface-container-lowest px-3 py-2 text-label-sm font-semibold text-on-surface-variant transition-colors hover:bg-surface-container sm:px-4"
-        title="Đăng xuất"
+        title={t("shell.signOut")}
       >
         <LogOut size={16} />
-        <span className="hidden sm:inline">Đăng xuất</span>
+        <span className="hidden sm:inline">{t("shell.signOut")}</span>
       </button>
     </div>
   );
 }
 
 function LoginButton() {
+  const t = useT();
   return (
     <Link
       href="/login"
       className="inline-flex items-center gap-2 rounded-full bg-primary px-3 py-2 text-label-sm font-semibold text-on-primary shadow-study transition-colors hover:bg-primary-strong sm:px-4"
     >
       <LogIn size={16} />
-      Đăng nhập
+      {t("shell.signIn")}
     </Link>
   );
 }
 
 function SidebarContent({ pathname, isAdmin }: { pathname: string; isAdmin: boolean }) {
+  const t = useT();
   const navItems = isAdmin
-    ? [...NAV_ITEMS, { href: "/journal/members", label: "Quản lý thành viên", icon: UserCog, available: true }]
+    ? [...NAV_ITEMS, { href: "/journal/members", labelKey: "nav.members" as MessageKey, icon: UserCog, available: true }]
     : NAV_ITEMS;
 
   return (
@@ -90,22 +96,22 @@ function SidebarContent({ pathname, isAdmin }: { pathname: string; isAdmin: bool
           if (!item.available) {
             return (
               <span
-                key={item.label}
+                key={item.labelKey}
                 className="flex cursor-not-allowed items-center justify-between gap-3 rounded-card px-3 py-3 text-label-sm font-semibold text-outline"
               >
                 <span className="flex items-center gap-3">
                   <Icon size={20} strokeWidth={1.75} />
-                  {item.label}
+                  {t(item.labelKey)}
                 </span>
                 <span className="rounded-full bg-surface-container px-2 py-0.5 text-[11px] text-outline">
-                  Sắp có
+                  {t("nav.comingSoon")}
                 </span>
               </span>
             );
           }
           return (
             <Link
-              key={item.label}
+              key={item.labelKey}
               href={item.href}
               className={`flex items-center gap-3 rounded-card px-3 py-3 text-label-sm transition-colors ${
                 active
@@ -114,7 +120,7 @@ function SidebarContent({ pathname, isAdmin }: { pathname: string; isAdmin: bool
               }`}
             >
               <Icon size={20} strokeWidth={active ? 2 : 1.75} />
-              {item.label}
+              {t(item.labelKey)}
             </Link>
           );
         })}
@@ -127,6 +133,7 @@ function SidebarContent({ pathname, isAdmin }: { pathname: string; isAdmin: bool
 
 export default function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
+  const t = useT();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [displayName, setDisplayName] = useState<string | null>(null);
   const [isAdmin, setIsAdmin] = useState(false);
@@ -177,7 +184,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
           <button
             onClick={() => setMobileOpen(true)}
             className="rounded-full p-2 text-on-surface transition-colors hover:bg-surface-container md:hidden"
-            aria-label="Mở menu"
+            aria-label={t("shell.openMenu")}
           >
             <Menu size={22} />
           </button>
@@ -185,9 +192,10 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
           <Image src="/logo-wordmark.png" alt="Wyckoff Study" width={812} height={335} className="h-7 w-auto object-contain" />
         </div>
         <div className="flex items-center gap-2">
+          <LanguageSwitcher />
           {studyStreak > 0 && (
             <span
-              title={`${studyStreak} ngày học liên tục`}
+              title={t("shell.streakTitle", { n: studyStreak })}
               className="flex items-center gap-1.5 rounded-full bg-crimson-soft px-3 py-2 text-label-sm font-bold text-crimson"
             >
               <Flame size={16} />
@@ -206,7 +214,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
       {mobileOpen && (
         <div className="fixed inset-0 z-50 md:hidden">
           <button
-            aria-label="Đóng menu"
+            aria-label={t("shell.closeMenu")}
             onClick={() => setMobileOpen(false)}
             className="absolute inset-0 bg-black/40"
           />
@@ -219,7 +227,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
               <button
                 onClick={() => setMobileOpen(false)}
                 className="rounded-full p-2 text-on-surface-variant hover:bg-surface-container"
-                aria-label="Đóng menu"
+                aria-label={t("shell.closeMenu")}
               >
                 <X size={20} />
               </button>

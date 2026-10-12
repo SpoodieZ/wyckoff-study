@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { DM_Sans, Inter } from "next/font/google";
 import "./globals.css";
+import { getLocale } from "@/lib/i18n/server";
+import { LocaleProvider } from "@/lib/i18n/client";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -14,15 +16,20 @@ const inter = Inter({
   weight: ["400", "500", "600"],
 });
 
-export const metadata: Metadata = {
-  title: "Ôn Tập Wyckoff",
-  description: "Website ôn tập kiến thức Wyckoff Power Charting",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getLocale();
+  return locale === "en"
+    ? { title: "Wyckoff Study", description: "A practice app for the Wyckoff Power Charting method" }
+    : { title: "Ôn Tập Wyckoff", description: "Website ôn tập kiến thức Wyckoff Power Charting" };
+}
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default async function RootLayout({ children }: LayoutProps<"/">) {
+  const locale = await getLocale();
   return (
-    <html lang="vi" className={`${dmSans.variable} ${inter.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col font-body bg-surface text-on-surface">{children}</body>
+    <html lang={locale} className={`${dmSans.variable} ${inter.variable} h-full antialiased`}>
+      <body className="min-h-full flex flex-col font-body bg-surface text-on-surface">
+        <LocaleProvider locale={locale}>{children}</LocaleProvider>
+      </body>
     </html>
   );
 }

@@ -1,4 +1,6 @@
-import type { GlossaryTerm } from "@/lib/glossary";
+import { getGlossary, type GlossaryTerm } from "@/lib/glossary";
+import type { Locale } from "@/lib/i18n/config";
+import { makeT } from "@/lib/i18n/translate";
 
 function GlossaryGroup({ title, terms, accent }: { title: string; terms: GlossaryTerm[]; accent: "sage" | "crimson" }) {
   return (
@@ -34,22 +36,18 @@ function GlossaryGroup({ title, terms, accent }: { title: string; terms: Glossar
   );
 }
 
-export default function GlossarySection({
-  accumulation,
-  distribution,
-}: {
-  accumulation: GlossaryTerm[];
-  distribution: GlossaryTerm[];
-}) {
+export default function GlossarySection({ locale }: { locale: Locale }) {
+  const t = makeT(locale);
+  const { accumulation, distribution } = getGlossary(locale);
   return (
     <section className="mb-8 rounded-frame border border-outline-variant bg-surface-container-lowest p-4 shadow-study md:p-6">
-      <h2 className="font-display text-card-title font-bold text-on-surface">Bảng Thuật Ngữ</h2>
+      <h2 className="font-display text-card-title font-bold text-on-surface">{t("glossary.title")}</h2>
       <p className="mt-1 mb-5 text-body-md text-on-surface-variant">
-        Đọc qua trước khi luyện tập — mỗi cấu trúc dưới đây đều xuất hiện trực tiếp trong các câu hỏi.
+        {t("glossary.intro")}
       </p>
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-        <GlossaryGroup title="Tích Lũy (Accumulation)" terms={accumulation} accent="sage" />
-        <GlossaryGroup title="Phân Phối (Distribution)" terms={distribution} accent="crimson" />
+        <GlossaryGroup title={t("glossary.accumulation")} terms={accumulation} accent="sage" />
+        <GlossaryGroup title={t("glossary.distribution")} terms={distribution} accent="crimson" />
       </div>
     </section>
   );

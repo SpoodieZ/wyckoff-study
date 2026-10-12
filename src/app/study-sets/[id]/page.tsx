@@ -4,7 +4,8 @@ import GlossarySection from "@/components/GlossarySection";
 import QuizRunner from "@/app/chapters/[id]/QuizRunner";
 import { loadStudySetChapterData } from "@/lib/chapter-data";
 import { getStudySet } from "@/lib/study-sets";
-import { ACCUMULATION_GLOSSARY, DISTRIBUTION_GLOSSARY } from "@/lib/glossary";
+import { getLocale } from "@/lib/i18n/server";
+import { makeT } from "@/lib/i18n/translate";
 
 // Mỗi lượt vào trang sẽ random lại 15 câu — bắt buộc render động, nếu không
 // Next sẽ tĩnh hóa và "random" chỉ chạy đúng 1 lần lúc build.
@@ -17,18 +18,20 @@ export default async function StudySetPage({ params }: { params: Promise<{ id: s
   const set = getStudySet(id);
   if (!set) notFound();
 
-  const chapterData = loadStudySetChapterData(set, SET_SIZE);
+  const locale = await getLocale();
+  const t = makeT(locale);
+  const chapterData = loadStudySetChapterData(set, SET_SIZE, locale);
 
   return (
     <AppShell>
       <div className="mx-auto w-full max-w-5xl p-4 pb-24 md:p-6 lg:p-10">
         {set.hasGlossary && (
-          <GlossarySection accumulation={ACCUMULATION_GLOSSARY} distribution={DISTRIBUTION_GLOSSARY} />
+          <GlossarySection locale={locale} />
         )}
         {chapterData.questions.length > 0 ? (
           <QuizRunner chapter={chapterData} nextChapterHref="/study-sets" />
         ) : (
-          <p className="text-body-md text-on-surface-variant">Chưa tìm được câu hỏi nào cho bộ này.</p>
+          <p className="text-body-md text-on-surface-variant">{t("sets.empty")}</p>
         )}
       </div>
     </AppShell>

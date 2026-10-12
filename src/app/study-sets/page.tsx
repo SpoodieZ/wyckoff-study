@@ -3,6 +3,8 @@ import { LineChart, Tag, Users } from "lucide-react";
 import AppShell from "@/components/AppShell";
 import { countStudySetQuestions } from "@/lib/chapter-data";
 import { STUDY_SETS } from "@/lib/study-sets";
+import { getLocale } from "@/lib/i18n/server";
+import { makeT } from "@/lib/i18n/translate";
 
 const SET_ICONS: Record<string, typeof LineChart> = {
   "thuc-hanh-bieu-do": LineChart,
@@ -10,13 +12,14 @@ const SET_ICONS: Record<string, typeof LineChart> = {
   "tu-duy-composite-man": Users,
 };
 
-export default function StudySetsPage() {
+export default async function StudySetsPage() {
+  const t = makeT(await getLocale());
   return (
     <AppShell>
       <div className="mx-auto w-full max-w-5xl p-4 pb-24 md:p-6 lg:p-10">
-        <h1 className="font-display text-card-title font-bold text-on-surface">Study Sets</h1>
+        <h1 className="font-display text-card-title font-bold text-on-surface">{t("sets.title")}</h1>
         <p className="mt-1 text-body-md text-on-surface-variant">
-          Ôn nhanh theo chủ đề, trộn câu hỏi từ mọi chương — mỗi lần bấm vào là một bộ 15 câu ngẫu nhiên mới.
+          {t("sets.intro")}
         </p>
 
         <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-3">
@@ -31,17 +34,17 @@ export default function StudySetsPage() {
               >
                 <div className="flex items-center justify-between">
                   <span className="rounded-full bg-secondary-container px-2.5 py-1 text-caption font-semibold text-on-secondary-container">
-                    {set.tag}
+                    {t(set.tagKey)}
                   </span>
                   <Icon size={18} className="text-outline" strokeWidth={1.75} />
                 </div>
                 <div>
                   <h3 className="font-display text-body-lg font-bold text-on-surface group-hover:text-primary">
-                    {set.title}
+                    {t(set.titleKey)}
                   </h3>
-                  <p className="mt-1 text-body-md text-on-surface-variant">{set.description}</p>
+                  <p className="mt-1 text-body-md text-on-surface-variant">{t(set.descriptionKey)}</p>
                 </div>
-                <span className="text-caption text-outline">{count} câu hỏi</span>
+                <span className="text-caption text-outline">{t("common.questionsCount", { n: count })}</span>
               </Link>
             );
           })}

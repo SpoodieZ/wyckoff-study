@@ -1,10 +1,12 @@
+import type { Locale } from "./i18n/config";
+
 export interface GlossaryTerm {
   abbr: string;
   name: string;
   meaning: string;
 }
 
-export const ACCUMULATION_GLOSSARY: GlossaryTerm[] = [
+const ACCUMULATION_GLOSSARY_VI: GlossaryTerm[] = [
   {
     abbr: "PS",
     name: "Preliminary Support — Hỗ Trợ Sơ Bộ",
@@ -55,7 +57,7 @@ export const ACCUMULATION_GLOSSARY: GlossaryTerm[] = [
   },
 ];
 
-export const DISTRIBUTION_GLOSSARY: GlossaryTerm[] = [
+const DISTRIBUTION_GLOSSARY_VI: GlossaryTerm[] = [
   {
     abbr: "PSY",
     name: "Preliminary Supply — Cung Sơ Bộ",
@@ -97,3 +99,104 @@ export const DISTRIBUTION_GLOSSARY: GlossaryTerm[] = [
       "Nhịp hồi phục yếu ớt, khối lượng thấp, ngay sau SOW — thường là điểm bán an toàn cuối cùng trước khi downtrend chính thức tăng tốc.",
   },
 ];
+
+const ACCUMULATION_GLOSSARY_EN: GlossaryTerm[] = [
+  {
+    abbr: "PS",
+    name: "Preliminary Support",
+    meaning:
+      "The first notable buying after a long downtrend: volume rises and the price spread narrows. It isn't enough to stop the decline, but it's the first sign that the Composite Man is taking an interest.",
+  },
+  {
+    abbr: "SC",
+    name: "Selling Climax",
+    meaning:
+      "A panic-selling session with a huge price spread and volume. The price often closes far from the session low because hidden buying has absorbed most of the panic supply.",
+  },
+  {
+    abbr: "AR",
+    name: "Automatic Rally",
+    meaning:
+      "Right after the SC, selling pressure is exhausted and price bounces sharply with no news needed. The top of the AR sets the temporary upper boundary of the Trading Range.",
+  },
+  {
+    abbr: "ST",
+    name: "Secondary Test",
+    meaning:
+      "Price returns to the SC area to 'test' whether supply is gone, with markedly narrower spread and lower volume than the SC.",
+  },
+  {
+    abbr: "Spring",
+    name: "Spring",
+    meaning:
+      "A break below the Trading Range low in Phase C that quickly reverses upward — a trap that shakes out weak hands before the real uptrend begins.",
+  },
+  {
+    abbr: "SOS",
+    name: "Sign of Strength",
+    meaning:
+      "A strong advance with widening spread and heavy volume that breaks resistance inside the Trading Range — confirming demand now overpowers supply.",
+  },
+  {
+    abbr: "LPS",
+    name: "Last Point of Support",
+    meaning:
+      "A shallow, low-volume pullback right after the SOS — typically the last safe place to buy before the uptrend accelerates.",
+  },
+  {
+    abbr: "JAC / BU",
+    name: "Jump Across the Creek / Backup",
+    meaning:
+      "The 'jump over the creek' metaphor: price breaks through the supply zone above (the Creek), then 'backs up' to test it before continuing higher — interchangeable with the SOS/LPS pair.",
+  },
+];
+
+const DISTRIBUTION_GLOSSARY_EN: GlossaryTerm[] = [
+  {
+    abbr: "PSY",
+    name: "Preliminary Supply",
+    meaning: "The first notable selling after a long uptrend — the mirror image of PS in Accumulation.",
+  },
+  {
+    abbr: "BC",
+    name: "Buying Climax",
+    meaning:
+      "An extreme FOMO buying session with a huge spread and volume but a weak close — the Composite Man quietly sells to the excited crowd.",
+  },
+  {
+    abbr: "AR",
+    name: "Automatic Reaction",
+    meaning:
+      "Right after the BC, price falls sharply on its own for lack of buying support — the bottom of the AR sets the temporary lower boundary of the Trading Range.",
+  },
+  {
+    abbr: "ST",
+    name: "Secondary Test",
+    meaning:
+      "Price returns to test the BC area; failing to push through on low volume confirms supply is taking control.",
+  },
+  {
+    abbr: "UTAD",
+    name: "Upthrust After Distribution",
+    meaning:
+      "A break above the Trading Range high in Phase C that quickly reverses down — the mirror of the Spring, shaking out late buyers chasing price.",
+  },
+  {
+    abbr: "SOW",
+    name: "Sign of Weakness",
+    meaning:
+      "A sharp decline on heavy volume that breaks support inside the Trading Range — confirming supply now overpowers demand.",
+  },
+  {
+    abbr: "LPSY",
+    name: "Last Point of Supply",
+    meaning:
+      "A weak, low-volume rally right after the SOW — typically the last safe place to sell before the downtrend accelerates.",
+  },
+];
+
+export function getGlossary(locale: Locale): { accumulation: GlossaryTerm[]; distribution: GlossaryTerm[] } {
+  return locale === "en"
+    ? { accumulation: ACCUMULATION_GLOSSARY_EN, distribution: DISTRIBUTION_GLOSSARY_EN }
+    : { accumulation: ACCUMULATION_GLOSSARY_VI, distribution: DISTRIBUTION_GLOSSARY_VI };
+}

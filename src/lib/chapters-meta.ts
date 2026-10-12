@@ -1,4 +1,5 @@
 import type { ChapterMeta } from "./types";
+import type { Locale } from "./i18n/config";
 
 // 42 chương = Phần 1-42, đúng mục lục sách Wyckoff Power Charting.
 export const CHAPTERS_META: ChapterMeta[] = [
@@ -45,3 +46,53 @@ export const CHAPTERS_META: ChapterMeta[] = [
   { id: 41, title: "Trò Chơi Nội Tâm" },
   { id: 42, title: "Kết Hợp Tất Cả Lại" },
 ];
+
+const TITLES_EN: Record<number, string> = {
+  1: "The Market Cycle",
+  2: "Richard D. Wyckoff – The Real Rules of the Game",
+  3: "Stopping Action in a Downtrend",
+  4: "The Accumulation Phase: Absorbing Stock Like a Sponge",
+  5: "Getting Comfortable with Modern Wyckoff-Style Charts",
+  6: "Francis Bacon – Revealing the Nature of Market Trends",
+  7: "Jumping the Creek",
+  8: "Wyckoff Accumulation",
+  9: "Wyckoff Uptrend",
+  10: "Trend Channels",
+  11: "Wyckoff Re-accumulation",
+  12: "Re-accumulation Analysis Review",
+  13: "When Termites Invade an Uptrend",
+  14: "The Fork in the Road – Re-accumulation or Distribution",
+  15: "Watching the Bouncing Rubber Ball",
+  16: "Just Read and Analyze the Chart",
+  17: "Context is King",
+  18: "Wyckoff Distribution",
+  19: "The Wyckoff Path",
+  20: "Warning Signs of a Turbulent Trend",
+  21: "The Story Behind Trend Lines",
+  22: "Wyckoff Re-distribution",
+  23: "The Laws of the Wyckoff Method",
+  24: "Composite Man/Operator – CO",
+  25: "The Five-Step Approach to the Market",
+  26: "The 9 Buying and Selling Tests",
+  27: "The POE Entry and EXIT Point System",
+  28: "Actions and Tests",
+  29: "The Law of Cause and Effect in Action",
+  30: "Break the Ice",
+  31: "Tracking Bigfoot and Setting Up a Campaign",
+  32: "Introduction to Point and Figure (PnF)",
+  33: "Using PnF Effectively",
+  34: "Why PnF Charts Work",
+  35: "Relative Strength Analysis",
+  36: "Evaluating Strength Through Waves",
+  37: "Sector and Industry Group Analysis",
+  38: "PnF Tricks of the Trade",
+  39: "Case Studies",
+  40: "Building Your Skills",
+  41: "The Inner Game",
+  42: "Putting It All Together",
+};
+
+/** Tiêu đề chương theo ngôn ngữ; thiếu bản dịch thì dùng tiếng Việt. */
+export function chapterTitle(meta: ChapterMeta, locale: Locale): string {
+  return locale === "en" ? (TITLES_EN[meta.id] ?? meta.title) : meta.title;
+}

@@ -1,10 +1,14 @@
 import { Sparkles } from "lucide-react";
 import AppShell from "@/components/AppShell";
-import { CHAPTERS_META } from "@/lib/chapters-meta";
+import { CHAPTERS_META, chapterTitle } from "@/lib/chapters-meta";
+import { getLocale } from "@/lib/i18n/server";
+import { makeT } from "@/lib/i18n/translate";
 import { hasChapterData } from "@/lib/chapter-data";
 import { SAMPLE_CHAPTER_PROGRESS, SAMPLE_OVERVIEW } from "@/lib/sample-progress";
 
-export default function ProgressPage() {
+export default async function ProgressPage() {
+  const locale = await getLocale();
+  const t = makeT(locale);
   const chapters = CHAPTERS_META.map((c) => ({
     ...c,
     available: hasChapterData(c.id),
@@ -16,31 +20,31 @@ export default function ProgressPage() {
     <AppShell>
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-6 p-4 pb-16 md:p-6 lg:p-10">
         <div>
-          <h1 className="font-display text-card-title font-bold text-on-surface">Tiến độ</h1>
+          <h1 className="font-display text-card-title font-bold text-on-surface">{t("progress.title")}</h1>
           <p className="mt-1 text-body-md text-on-surface-variant">
-            Theo dõi mức độ nắm vững từng chương.
+            {t("progress.subtitle")}
           </p>
         </div>
 
         <p className="flex items-center gap-1.5 text-caption text-outline">
           <Sparkles size={14} />
-          Dữ liệu mẫu để xem trước giao diện — lưu trữ tiến độ thật sẽ dùng Supabase (sắp có).
+          {t("progress.sample")}
         </p>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
           <div className="rounded-card border border-outline-variant bg-surface-container-lowest p-4 shadow-study">
-            <p className="text-caption uppercase tracking-wide text-outline">Chương đã bắt đầu</p>
+            <p className="text-caption uppercase tracking-wide text-outline">{t("progress.started")}</p>
             <p className="mt-1 font-display text-3xl font-bold text-on-surface">
               {SAMPLE_OVERVIEW.chaptersStarted}
               <span className="text-lg text-on-surface-variant">/{CHAPTERS_META.length}</span>
             </p>
           </div>
           <div className="rounded-card border border-outline-variant bg-surface-container-lowest p-4 shadow-study">
-            <p className="text-caption uppercase tracking-wide text-outline">Mức nắm vững trung bình</p>
+            <p className="text-caption uppercase tracking-wide text-outline">{t("progress.avg")}</p>
             <p className="mt-1 font-display text-3xl font-bold text-primary">{SAMPLE_OVERVIEW.averageMastery}%</p>
           </div>
           <div className="rounded-card border border-outline-variant bg-surface-container-lowest p-4 shadow-study">
-            <p className="text-caption uppercase tracking-wide text-outline">Câu đã trả lời</p>
+            <p className="text-caption uppercase tracking-wide text-outline">{t("progress.answered")}</p>
             <p className="mt-1 font-display text-3xl font-bold text-on-surface">{SAMPLE_OVERVIEW.questionsAnswered}</p>
           </div>
         </div>
@@ -59,7 +63,7 @@ export default function ProgressPage() {
                   <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-surface-container-highest text-label-sm font-semibold text-on-surface-variant">
                     {chapter.id}
                   </span>
-                  <span className="truncate font-medium text-on-surface">{chapter.title}</span>
+                  <span className="truncate font-medium text-on-surface">{chapterTitle(chapter, locale)}</span>
                 </div>
 
                 {chapter.available && progress ? (
@@ -75,7 +79,7 @@ export default function ProgressPage() {
                     </span>
                   </div>
                 ) : (
-                  <span className="shrink-0 text-caption text-outline">Chưa có dữ liệu</span>
+                  <span className="shrink-0 text-caption text-outline">{t("common.noData")}</span>
                 )}
               </div>
             );

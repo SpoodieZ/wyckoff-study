@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { createClient } from "@/lib/supabase/client";
+import { useT } from "@/lib/i18n/client";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 function GoogleIcon() {
   return (
@@ -28,6 +30,7 @@ function GoogleIcon() {
 }
 
 export default function LoginPage() {
+  const t = useT();
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -46,7 +49,10 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-surface px-4">
+    <div className="relative flex min-h-screen items-center justify-center bg-surface px-4">
+      <div className="absolute right-4 top-4">
+        <LanguageSwitcher />
+      </div>
       <div className="w-full max-w-sm rounded-card border border-outline-variant bg-surface-container-lowest p-6 shadow-study">
         <div className="mb-6 flex flex-col items-center gap-3 text-center">
           <Image src="/logo-icon.png" alt="" width={677} height={442} className="h-10 w-auto object-contain" />
@@ -57,7 +63,7 @@ export default function LoginPage() {
             height={335}
             className="h-8 w-auto object-contain"
           />
-          <p className="text-body-md text-on-surface-variant">Đăng nhập để tiếp tục ôn tập</p>
+          <p className="text-body-md text-on-surface-variant">{t("login.subtitle")}</p>
         </div>
 
         {error && <p className="mb-4 rounded-control bg-crimson-soft px-3 py-2 text-label-sm text-crimson">{error}</p>}
@@ -68,11 +74,11 @@ export default function LoginPage() {
           className="inline-flex w-full items-center justify-center gap-3 rounded-full border border-outline-variant bg-surface-container-lowest px-4 py-2.5 text-btn font-semibold text-on-surface transition-colors hover:bg-surface-container disabled:opacity-60"
         >
           <GoogleIcon />
-          {loading ? "Đang chuyển hướng…" : "Đăng nhập bằng Google"}
+          {loading ? t("login.redirecting") : t("login.google")}
         </button>
 
         <p className="mt-4 text-center text-caption text-outline">
-          Đăng nhập được nhưng chỉ xem được nội dung — cần quản trị viên cấp quyền mới thêm/sửa được.
+          {t("login.note")}
         </p>
       </div>
     </div>

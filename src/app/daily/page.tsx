@@ -1,4 +1,5 @@
 import { loadDailyChallenge } from "@/lib/chapter-data";
+import { getLocale } from "@/lib/i18n/server";
 import AppShell from "@/components/AppShell";
 import QuizRunner from "../chapters/[id]/QuizRunner";
 
@@ -10,7 +11,7 @@ export const dynamic = "force-dynamic";
 const DAILY_CHALLENGE_SIZE = 5;
 
 export default async function DailyChallengePage() {
-  const dailyChapter = loadDailyChallenge(DAILY_CHALLENGE_SIZE);
+  const dailyChapter = loadDailyChallenge(DAILY_CHALLENGE_SIZE, await getLocale());
 
   return (
     <AppShell>

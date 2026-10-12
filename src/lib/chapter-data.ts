@@ -3,8 +3,11 @@ import path from "node:path";
 import type { ChapterData, Question } from "./types";
 import { CHAPTERS_META } from "./chapters-meta";
 import type { StudySet } from "./study-sets";
+import type { Locale } from "./i18n/config";
+import { translate } from "./i18n/translate";
 
 const CHAPTERS_DIR = path.join(process.cwd(), "data", "chapters");
+const CHAPTERS_DIR_EN = path.join(process.cwd(), "data", "chapters-en");
 
 function paddedId(id: number): string {
   return String(id).padStart(2, "0");
@@ -14,11 +17,15 @@ export function hasChapterData(id: number): boolean {
   return fs.existsSync(path.join(CHAPTERS_DIR, `${paddedId(id)}.json`));
 }
 
-export function loadChapterData(id: number): ChapterData | null {
+/** Đọc 1 chương theo ngôn ngữ; chương chưa có bản dịch thì dùng tiếng Việt. */
+export function loadChapterData(id: number, locale: Locale = "vi"): ChapterData | null {
+  if (locale === "en") {
+    const enPath = path.join(CHAPTERS_DIR_EN, `${paddedId(id)}.json`);
+    if (fs.existsSync(enPath)) return JSON.parse(fs.readFileSync(enPath, "utf-8")) as ChapterData;
+  }
   const filePath = path.join(CHAPTERS_DIR, `${paddedId(id)}.json`);
   if (!fs.existsSync(filePath)) return null;
-  const raw = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(raw) as ChapterData;
+  return JSON.parse(fs.readFileSync(filePath, "utf-8")) as ChapterData;
 }
 
 export interface ChapterHeroData {
@@ -28,8 +35,8 @@ export interface ChapterHeroData {
   chartImage: string | null;
 }
 
-export function loadChapterHeroData(id: number): ChapterHeroData | null {
-  const data = loadChapterData(id);
+export function loadChapterHeroData(id: number, locale: Locale = "vi"): ChapterHeroData | null {
+  const data = loadChapterData(id, locale);
   if (!data) return null;
   const withImage = data.questions.find((q) => q.chartImage);
   return {
@@ -74,15 +81,27 @@ function loadAllQuestions(): Question[] {
   return all;
 }
 
+/** Thay các câu hỏi tiếng Việt đã chọn bằng bản dịch cùng id (nếu có). Việc chọn câu luôn
+ * làm trên bản gốc tiếng Việt để bộ câu hỏi hằng ngày/Study Set giống nhau ở mọi ngôn ngữ. */
+function localizeQuestions(questions: Question[], locale: Locale): Question[] {
+  if (locale === "vi") return questions;
+  const byId = new Map<string, Question>();
+  for (const meta of CHAPTERS_META) {
+    const data = loadChapterData(meta.id, locale);
+    if (data) for (const q of data.questions) byId.set(q.id, q);
+  }
+  return questions.map((q) => byId.get(q.id) ?? q);
+}
+
 /** Bộ 5 câu ngẫu nhiên (có seed theo ngày) trộn từ toàn bộ các chương đã có dữ liệu. */
-export function loadDailyChallenge(count: number): ChapterData {
+export function loadDailyChallenge(count: number, locale: Locale = "vi"): ChapterData {
   const todaySeed = todayVnDateStr();
   const picked = seededShuffle(loadAllQuestions(), todaySeed).slice(0, count);
   return {
     chapterId: 0,
-    title: "Thử Thách Hôm Nay",
-    summary: `${count} câu hỏi ngẫu nhiên trộn từ tất cả các chương — đổi mới mỗi ngày.`,
-    questions: picked,
+    title: translate(locale, "daily.chapterTitle"),
+    summary: translate(locale, "daily.chapterSummary", { n: count }),
+    questions: localizeQuestions(picked, locale),
   };
 }
 
@@ -101,12 +120,16 @@ export function countStudySetQuestions(set: StudySet): number {
 }
 
 /** count câu ngẫu nhiên (xáo lại mỗi lần gọi) khớp với 1 Study Set. */
-export function loadStudySetChapterData(set: StudySet, count: number): ChapterData {
+export function loadStudySetChapterData(
+  set: StudySet,
+  count: number,
+  locale: Locale = "vi"
+): ChapterData {
   const matched = loadAllQuestions().filter(set.matcher);
   return {
     chapterId: 0,
-    title: set.title,
-    summary: set.description,
-    questions: shuffle(matched).slice(0, count),
+    title: translate(locale, set.titleKey),
+    summary: translate(locale, set.descriptionKey),
+    questions: localizeQuestions(shuffle(matched).slice(0, count), locale),
   };
 }

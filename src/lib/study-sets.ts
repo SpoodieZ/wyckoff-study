@@ -1,10 +1,11 @@
 import type { Question } from "./types";
+import type { MessageKey } from "./i18n/messages";
 
 export interface StudySet {
   id: string;
-  tag: string;
-  title: string;
-  description: string;
+  tagKey: MessageKey;
+  titleKey: MessageKey;
+  descriptionKey: MessageKey;
   matcher: (q: Question) => boolean;
   hasGlossary?: boolean;
 }
@@ -41,24 +42,24 @@ function textOf(q: Question): string {
 export const STUDY_SETS: StudySet[] = [
   {
     id: "thuc-hanh-bieu-do",
-    tag: "Thực hành biểu đồ",
-    title: "Thực Hành Biểu Đồ",
-    description: "Chỉ các câu đọc biểu đồ thật, trộn ngẫu nhiên từ mọi chương.",
+    tagKey: "set.chart.tag",
+    titleKey: "set.chart.title",
+    descriptionKey: "set.chart.desc",
     matcher: (q) => q.type === "chart_identify",
   },
   {
     id: "cau-truc-thuat-ngu",
-    tag: "Thuật ngữ",
-    title: "Cấu Trúc & Thuật Ngữ Cốt Lõi",
-    description: "PS, SC, AR, ST, Spring, SOS, LPS, BCLX, UTAD, SOW, LPSY... và ý nghĩa của từng cấu trúc.",
+    tagKey: "set.terms.tag",
+    titleKey: "set.terms.title",
+    descriptionKey: "set.terms.desc",
     matcher: (q) => STRUCTURE_TERMS.some((term) => textOf(q).includes(term)),
     hasGlossary: true,
   },
   {
     id: "tu-duy-composite-man",
-    tag: "Tư duy CO",
-    title: "Tư Duy Composite Man",
-    description: "Các câu xoay quanh Composite Man/Operator — nhân vật trung tâm xuyên suốt cả cuốn sách.",
+    tagKey: "set.co.tag",
+    titleKey: "set.co.title",
+    descriptionKey: "set.co.desc",
     matcher: (q) => /Composite Man|\bCO\b/.test(textOf(q)),
   },
 ];

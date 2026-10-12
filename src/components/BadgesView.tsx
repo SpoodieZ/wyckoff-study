@@ -4,8 +4,10 @@ import { useEffect, useState } from "react";
 import { Award, Lock } from "lucide-react";
 import { BADGES, getAchievementStats, getUnlockedBadgeIds } from "@/lib/achievements";
 import { getStudyStreak } from "@/lib/streak";
+import { useT } from "@/lib/i18n/client";
 
 export default function BadgesView() {
+  const t = useT();
   const [unlocked, setUnlocked] = useState<Set<string>>(new Set());
   const [hydrated, setHydrated] = useState(false);
 
@@ -18,9 +20,9 @@ export default function BadgesView() {
 
   return (
     <div>
-      <h1 className="font-display text-card-title font-bold text-on-surface">Huy Hiệu</h1>
+      <h1 className="font-display text-card-title font-bold text-on-surface">{t("badges.title")}</h1>
       <p className="mt-1 text-body-md text-on-surface-variant">
-        {hydrated ? `Đã mở khóa ${unlocked.size}/${BADGES.length} huy hiệu.` : "Đang tải…"}
+        {hydrated ? t("badges.unlocked", { n: unlocked.size, total: BADGES.length }) : t("common.loading")}
       </p>
 
       <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -42,8 +44,8 @@ export default function BadgesView() {
               >
                 {isUnlocked ? <Award size={26} /> : <Lock size={22} />}
               </div>
-              <h3 className="font-display text-body-lg font-bold text-on-surface">{badge.title}</h3>
-              <p className="text-body-md text-on-surface-variant">{badge.description}</p>
+              <h3 className="font-display text-body-lg font-bold text-on-surface">{t(badge.titleKey)}</h3>
+              <p className="text-body-md text-on-surface-variant">{t(badge.descriptionKey)}</p>
             </div>
           );
         })}

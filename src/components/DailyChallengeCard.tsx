@@ -4,8 +4,10 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Zap, ArrowRight } from "lucide-react";
 import { getStudyStreak } from "@/lib/streak";
+import { useT } from "@/lib/i18n/client";
 
 export default function DailyChallengeCard() {
+  const t = useT();
   const [streak, setStreak] = useState(0);
 
   useEffect(() => {
@@ -27,14 +29,14 @@ export default function DailyChallengeCard() {
         </div>
         <div className="min-w-0">
           <div className="flex flex-wrap items-center gap-2">
-            <h3 className="font-display text-body-lg font-bold text-on-primary">Thử Thách Hôm Nay</h3>
+            <h3 className="font-display text-body-lg font-bold text-on-primary">{t("daily.title")}</h3>
             <span className="rounded-full bg-crimson px-2.5 py-0.5 text-caption font-bold uppercase tracking-wide text-on-primary">
-              Hôm nay
+              {t("daily.badge")}
             </span>
           </div>
           <p className="text-body-md text-on-primary/80">
-            5 câu ngẫu nhiên trộn từ mọi chương
-            {streak > 0 ? ` — làm để giữ chuỗi ${streak} ngày!` : " — đổi mới mỗi ngày."}
+            {t("daily.subtitle")}
+            {streak > 0 ? t("daily.streak", { n: streak }) : t("daily.fresh")}
           </p>
         </div>
       </div>

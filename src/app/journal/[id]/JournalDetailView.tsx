@@ -17,15 +17,16 @@ import {
 } from "lucide-react";
 import type { JournalComment, JournalEntry } from "@/lib/journal-types";
 import { addJournalComment, deleteJournalEntry } from "../actions";
+import { useLocale, useT } from "@/lib/i18n/client";
 
 function formatDate(iso: string) {
   const [y, m, d] = iso.split("-");
   return `${d}/${m}/${y}`;
 }
 
-function formatDateTime(iso: string) {
+function formatDateTime(iso: string, locale: string) {
   const date = new Date(iso);
-  return date.toLocaleString("vi-VN", { dateStyle: "short", timeStyle: "short" });
+  return date.toLocaleString(locale === "en" ? "en-US" : "vi-VN", { dateStyle: "short", timeStyle: "short" });
 }
 
 export default function JournalDetailView({
@@ -42,6 +43,8 @@ export default function JournalDetailView({
   canWrite: boolean;
 }) {
   const router = useRouter();
+  const t = useT();
+  const locale = useLocale();
   const isOwner = currentUserId !== null && entry.owner_id === currentUserId;
   const [comments, setComments] = useState(initialComments);
   const [commentBody, setCommentBody] = useState("");
@@ -75,7 +78,7 @@ export default function JournalDetailView({
   }
 
   async function handleDelete() {
-    if (!window.confirm("Xóa bài học này? Không thể hoàn tác.")) return;
+    if (!window.confirm(t("journal.confirmDelete"))) return;
     setDeleting(true);
     const result = await deleteJournalEntry(entry.id);
     if ("error" in result) {
@@ -91,7 +94,7 @@ export default function JournalDetailView({
     <div className="mx-auto flex w-full max-w-5xl flex-col gap-6 p-4 pb-16 md:p-6 lg:p-10">
       <Link href="/journal" className="flex items-center gap-1.5 text-label-sm font-semibold text-primary hover:underline">
         <ArrowLeft size={16} />
-        Quay lại danh sách nhật ký
+        {t("journal.back")}
       </Link>
 
       <div className="flex flex-col gap-3 border-b border-outline-variant pb-6 sm:flex-row sm:items-start sm:justify-between">
@@ -103,12 +106,12 @@ export default function JournalDetailView({
                 entry.outcome === "win" ? "bg-sage-soft text-sage" : "bg-crimson-soft text-crimson"
               }`}
             >
-              {entry.outcome === "win" ? "Lãi" : "Lỗ"}
+              {entry.outcome === "win" ? t("common.win") : t("common.loss")}
             </span>
           </div>
           <p className="mt-1 flex items-center gap-1.5 text-caption text-outline">
             <Calendar size={14} />
-            {formatDate(entry.trade_date)} · Đăng bởi {profileNames[entry.owner_id] ?? "Ẩn danh"}
+            {formatDate(entry.trade_date)} · {t("journal.postedBy", { name: profileNames[entry.owner_id] ?? t("home.anonymous") })}
           </p>
         </div>
 
@@ -119,7 +122,7 @@ export default function JournalDetailView({
               className="inline-flex items-center gap-2 rounded-full border border-outline-variant bg-surface-container-lowest px-4 py-2 text-label-sm font-semibold text-primary transition-colors hover:bg-surface-container"
             >
               <Pencil size={16} />
-              Sửa bài học
+              {t("journal.edit")}
             </Link>
             <button
               onClick={handleDelete}
@@ -127,7 +130,7 @@ export default function JournalDetailView({
               className="inline-flex items-center gap-2 rounded-full border border-outline-variant bg-surface-container-lowest px-4 py-2 text-label-sm font-semibold text-crimson transition-colors hover:bg-crimson-soft disabled:opacity-60"
             >
               {deleting ? <Loader2 size={16} className="animate-spin" /> : <Trash2 size={16} />}
-              Xóa
+              {t("journal.delete")}
             </button>
           </div>
         )}
@@ -143,7 +146,7 @@ export default function JournalDetailView({
               <img
                 key={url + i}
                 src={url}
-                alt={`Biểu đồ ${entry.symbol} ${i + 1}`}
+                alt={`${t("journal.chartAlt", { symbol: entry.symbol })} ${i + 1}`}
                 className="mx-auto block h-auto max-h-[80vh] w-full rounded-card bg-dark-chart object-contain"
               />
             ))}
@@ -157,7 +160,7 @@ export default function JournalDetailView({
             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-on-primary shadow-study">
               <Target size={20} />
             </span>
-            Vùng giá vào lệnh
+            {t("journal.entryZone")}
           </p>
           <p className="text-body-md text-on-surface">{entry.entry_zone || "—"}</p>
         </div>
@@ -166,7 +169,7 @@ export default function JournalDetailView({
             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-sage text-on-primary shadow-study">
               <ChartCandlestick size={20} />
             </span>
-            Vì sao vào lệnh
+            {t("journal.reason")}
           </p>
           <p className="text-body-md text-on-surface">{entry.entry_reason || "—"}</p>
         </div>
@@ -175,7 +178,7 @@ export default function JournalDetailView({
             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-crimson text-on-primary shadow-study">
               <HeartPulse size={20} />
             </span>
-            Cảm xúc & Tâm lý
+            {t("journal.emotions")}
           </p>
           <p className="text-body-md text-on-surface">{entry.emotions || "—"}</p>
         </div>
@@ -184,36 +187,36 @@ export default function JournalDetailView({
       <div className="rounded-panel border-2 border-primary bg-primary-fixed/40 p-4">
         <p className="mb-2 flex items-center gap-2 text-label-sm font-bold uppercase tracking-wide text-primary">
           <Lightbulb size={16} />
-          Bài học rút ra
+          {t("journal.lesson")}
         </p>
-        <p className="text-body-lg text-on-surface">{entry.lesson || "Chưa ghi bài học."}</p>
+        <p className="text-body-lg text-on-surface">{entry.lesson || t("journal.noLesson")}</p>
       </div>
 
       {currentUserId === null ? (
         <p className="rounded-card border border-outline-variant bg-surface-container-lowest p-4 text-body-md text-on-surface-variant shadow-study">
           <Link href="/login" className="font-semibold text-primary hover:underline">
-            Đăng nhập
+            {t("shell.signIn")}
           </Link>{" "}
-          để xem và tham gia thảo luận về bài học này.
+          {t("journal.signInToDiscuss")}
         </p>
       ) : (
       <div className="rounded-card border border-outline-variant bg-surface-container-lowest p-4 shadow-study">
         <h2 className="mb-4 flex items-center gap-2 font-display text-headline-md font-bold text-on-surface">
           <MessageSquare size={18} />
-          Góc phản biện & thảo luận ({comments.length})
+          {t("journal.discussion", { n: comments.length })}
         </h2>
 
         <div className="flex flex-col gap-3">
           {comments.length === 0 && (
-            <p className="text-body-md text-on-surface-variant">Chưa có bình luận nào.</p>
+            <p className="text-body-md text-on-surface-variant">{t("journal.noComments")}</p>
           )}
           {comments.map((comment) => (
             <div key={comment.id} className="rounded-card bg-surface-container p-3">
               <div className="mb-1 flex items-center justify-between gap-2">
                 <span className="text-label-sm font-semibold text-on-surface">
-                  {profileNames[comment.author_id] ?? "Ẩn danh"}
+                  {profileNames[comment.author_id] ?? t("home.anonymous")}
                 </span>
-                <span className="text-caption text-outline">{formatDateTime(comment.created_at)}</span>
+                <span className="text-caption text-outline">{formatDateTime(comment.created_at, locale)}</span>
               </div>
               <p className="text-body-md text-on-surface-variant">{comment.body}</p>
             </div>
@@ -222,18 +225,18 @@ export default function JournalDetailView({
 
         {isOwner ? (
           <p className="mt-4 rounded-control bg-surface-container px-3 py-2 text-caption text-outline">
-            Đây là bài học của bạn — chỉ đồng đội mới có thể bình luận vào đây.
+            {t("journal.ownEntryNote")}
           </p>
         ) : !canWrite ? (
           <p className="mt-4 rounded-control bg-surface-container px-3 py-2 text-caption text-outline">
-            Bạn đang ở chế độ chỉ xem — liên hệ quản trị viên để được cấp quyền bình luận.
+            {t("journal.viewerCommentNote")}
           </p>
         ) : (
           <form onSubmit={handleAddComment} className="mt-4 flex flex-col gap-2 sm:flex-row">
             <input
               value={commentBody}
               onChange={(e) => setCommentBody(e.target.value)}
-              placeholder="Để lại nhận xét hoặc phản biện..."
+              placeholder={t("journal.commentPlaceholder")}
               className="flex-1 rounded-control border border-outline-variant bg-surface-container-lowest px-3 py-2 text-body-md text-on-surface focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
             />
             <button
@@ -242,7 +245,7 @@ export default function JournalDetailView({
               className="inline-flex shrink-0 items-center justify-center gap-2 rounded-full bg-primary px-5 py-2.5 text-btn font-semibold text-on-primary transition-colors hover:bg-primary-strong disabled:opacity-60"
             >
               {posting && <Loader2 size={16} className="animate-spin" />}
-              Gửi
+              {t("journal.send")}
             </button>
           </form>
         )}
