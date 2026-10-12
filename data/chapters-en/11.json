@@ -1,0 +1,98 @@
+{
+  "chapterId": 11,
+  "title": "Wyckoff Re-accumulation",
+  "summary": "The Reaccumulation phase — a pause within a long-term Uptrend. How to tell it apart from Distribution early through absorption characteristics (shrinking spread/volume), and real examples showing a stock can go through several Reaccumulations during one major advance.",
+  "questions": [
+    {
+      "id": "ch11-q1",
+      "type": "multiple_choice",
+      "prompt": "Both the Reaccumulation Phase and the Distribution Phase BEGIN with the same kind of action. What is it?",
+      "options": [
+        "An action that stops a prior uptrend (stopping action) — they differ only in which direction the Trading Range (TR) that forms afterward develops",
+        "A new IPO by a related company",
+        "A Selling Climax (SCLX) identical to the one at the bottom of a downtrend",
+        "The company declaring a special dividend"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Both the Reaccumulation and Distribution phases begin with the same action and in the same way. We call it the action of stopping a prior uptrend. What happens next is that a trading range TR forms, and it takes some time to know exactly whether it is a Reaccumulation or a Distribution phase.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch11-q2",
+      "type": "multiple_choice",
+      "prompt": "After a Buying Climax (BCLX), a strong Automatic Reaction (AR) appears, called a 'Change of Behavior - CHOB'. What role does the BCLX and AR pair play?",
+      "options": [
+        "They set the initial boundaries — the BCLX forms the Resistance (top) boundary and the AR forms the Support (bottom) boundary of the new Trading Range, just as the SC and AR define the TR at the bottom in Accumulation",
+        "They define no boundaries; they are merely statistical",
+        "The BCLX forms the Support boundary and the AR forms the Resistance boundary (the exact opposite)",
+        "They appear only in the Downtrend phase, unrelated to Reaccumulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'You can mark the identified BCLX and AR to draw a Resistance line at the top of the BCLX and a Support line at the bottom of the AR - defining the TR... If this sounds familiar, it is because we applied the same technique after a Selling Climax (CLX) and an Automatic Rally (AR) to use as the price action boundaries in the Accumulation phase.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch11-q3",
+      "type": "multiple_choice",
+      "prompt": "While the TR is developing, which characteristic of price spread and volume on the downward corrections gives an early hint that this is Reaccumulation (not Distribution)?",
+      "options": [
+        "The spread and volume of the corrective declines DWINDLE over time (an 'absorption nature') — conversely, if they RISE ('distributive nature'), Distribution is probably forming",
+        "Spread and volume stay constant in both cases, so they cannot be distinguished",
+        "Just looking at green/red candle color is enough to tell, no need to care about volume",
+        "Reaccumulation always has higher volume than Distribution at all times"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'In the Distribution phase, the price range decreases and selling volume (progressively increasing supply) rises as the TR is established (distributive nature), preparing for a Downtrend phase. In contrast, in the Reaccumulation phase, the opposite happens due to the principle of Absorption of supply (absorptive nature).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch11-q4",
+      "type": "chart_identify",
+      "prompt": "The diagram 'Conventional labeling of Wyckoff Reaccumulation Trading Range' (source: Prof. Hank Pruden) below lists the sequence of events PSY, AR, ST, Creek, Jump across the creek, SoS, LPS. At what stage of this sequence does the 'Jump across the creek' (JAC) event take place?",
+      "chartImage": "/charts/part_11/p041_chart-162.jpg",
+      "options": [
+        "After price has tested several times around the Support area (5,7,8 Support) and the Creek line (meandering resistance) — the JAC is the decisive breakout across that Creek line, right before the subsequent SoS/LPS events",
+        "The JAC is always the very first event, even before the BCLX",
+        "The JAC does not appear in the Reaccumulation diagram, only in the Accumulation diagram",
+        "The JAC occurs simultaneously with the PSY at the very start of the trading range"
+      ],
+      "correctIndex": 0,
+      "explanation": "Following the exact sequence on the diagram: BCLX → ST → PSY/AR (define the TR) → several Support tests (5,7,8) around the Creek (6) → Jump across the creek (9) → SoS (10,12) → LPS (11,13), signaling the resumption of the advance."
+    },
+    {
+      "id": "ch11-q5",
+      "type": "multiple_choice",
+      "prompt": "According to the book, what is the difference between the 'Accumulation Phase' and the 'Reaccumulation Phase' in terms of FREQUENCY within the life of a long-term uptrend?",
+      "options": [
+        "There is only ONE Accumulation Phase at the start of a long-term uptrend, but there can be MANY Reaccumulation Phases appearing throughout that Uptrend",
+        "There are many Accumulation Phases but only a single Reaccumulation Phase in a trend",
+        "The number of both phase types is always equal in every trend",
+        "There is no limit to the number of Accumulation Phases, while Reaccumulation has no limit at all in theory or practice"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'There is only one Accumulation Phase at the start of a long-term uptrend, whereas the advance during the Uptrend phase has multiple Reaccumulation Phases for us to analyze and exploit optimally during the Uptrend.' For example, the DJIA has four major Reaccumulation Phases within one bull market.",
+      "chartImage": null
+    },
+    {
+      "id": "ch11-q6",
+      "type": "chart_identify",
+      "prompt": "The DJIA (weekly, 2009 to present) chart below has 4 Reaccumulation Phases outlined in green. According to the note on the chart, what do all 4 phases have in common even though each has its own unique 'profile'?",
+      "chartImage": "/charts/part_11/p043_chart-173.jpg",
+      "options": [
+        "All conclude with a resumption of the uptrend — Wyckoff traders try to properly time the conclusion of the trading range and the start of a new advance campaign",
+        "All 4 phases lasted exactly the same length of time",
+        "All 4 phases ended with a sharp decline (Downtrend)",
+        "All 4 phases happened in the same month of the year"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Reaccumulations in a bull market campaign. Each has a unique profile. What they have in common is that all conclude with a resumption of the uptrend. Wyckoffians attempt to properly time the conclusion of the trading range and the resumption of the markup and the beginning of a new campaign.'"
+    },
+    {
+      "id": "ch11-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book points out that the Reaccumulation Phase is 'present in all trading markets including: stocks, commodities, bonds, currencies...' and on every timeframe. Why is this concept so universal, not limited to the stock market?",
+      "sampleAnswer": "Because the nature of Reaccumulation does not depend on a specific asset type but on the universal principle of supply-demand behavior and crowd psychology: any asset being accumulated long-term by large buyers/institutions (the CO) needs pauses to absorb more supply and shake out impatient short-term investors before continuing the trend. This supply-demand-psychology principle applies equally to commodities, bonds, currencies, or any free market with enough liquidity.",
+      "chartImage": null
+    }
+  ]
+}

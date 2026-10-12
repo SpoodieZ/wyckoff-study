@@ -1,0 +1,112 @@
+{
+  "chapterId": 40,
+  "title": "Building Skills",
+  "summary": "Sharpening observation and analysis skills through examples of a Downtrend bottom (LVS - Las Vegas Sands), Stepping Stone Reaccumulation (AHS), and the commodity market ($CORN) — emphasizing waiting for Test/Spring evidence rather than concluding hastily when signals are unclear (as with the failed $CORN Spring).",
+  "questions": [
+    {
+      "id": "ch40-q1",
+      "type": "multiple_choice",
+      "prompt": "The book opens the chapter with the observation: 'Nothing is absolute in financial market trading. The best market operators (CO) are usually those who manage what most excellently?'",
+      "options": [
+        "They manage RISK most excellently",
+        "They manage the largest staff",
+        "They manage media relations best",
+        "They manage the greatest number of branch offices"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Nothing is absolute in financial market trading. The best market operators (CO) are usually the best risk managers.' This is a final reminder of the importance of risk management, consistent with the '40% risk control' principle learned in Part 27.",
+      "chartImage": null
+    },
+    {
+      "id": "ch40-q2",
+      "type": "chart_identify",
+      "prompt": "The LVS (Las Vegas Sands) chart below shows a two-year downtrend. The note 'Stride of the downtrend is set very early in the decline' reconfirms which learned principle?",
+      "chartImage": "/charts/part_40/p296_chart-1019.jpg",
+      "options": [
+        "The principle that the 'Stride' of a trend (up or down) is usually set VERY EARLY in its movement — learned in Parts 9/10 for Uptrends, now similarly confirmed for Downtrends",
+        "This is a completely new principle never appearing in any earlier chapter",
+        "The downward Stride is always set in the LATE stage of the trend, not the early stage",
+        "This principle applies only to the casino/entertainment sector"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a repeated application of the 'Stride' principle learned in Part 9 (for Uptrends): 'The Stride of an Uptrend phase is usually established early.' The LVS chart confirms the same principle applies to Downtrends — the Supply Line and Oversold Line are clearly defined from the start (three red circles define the future path of price)."
+    },
+    {
+      "id": "ch40-q3",
+      "type": "chart_identify",
+      "prompt": "The LVS PnF chart below notes 'Down count is fulfilled. The base built a Cause to 74/78 which is the area of the prior peak.' What is interesting about this price target?",
+      "chartImage": "/charts/part_40/p297_chart-1022.jpg",
+      "options": [
+        "The decline's price target (74/78) coincides with the area of the PRIOR PEAK — an interesting coincidence showing that important past price levels often repeat their support/resistance role in the future",
+        "The price target has no historical significance whatsoever",
+        "The price target is always zero in every Downtrend case",
+        "LVS was delisted before reaching the price target"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Down count is fulfilled. The base built a Cause to 74/78 which is the area of the prior peak.' This illustrates the general principle that important historical price zones (like an old peak) often play meaningful support/resistance roles in the future."
+    },
+    {
+      "id": "ch40-q4",
+      "type": "chart_identify",
+      "prompt": "The LVS (daily) chart below notes 'Spring #2 needs to be tested and it is twice. Either, or both, can be bought.' What flexibility in applying the POE entry system does this illustrate?",
+      "chartImage": "/charts/part_40/p297_chart-1023.jpg",
+      "options": [
+        "A Spring may need to be tested MULTIPLE times before price truly reverses — the trader can choose to buy at the first test, the second test, or both, depending on the desired level of caution",
+        "A Spring can be tested only one single time, with no exceptions",
+        "One should never buy after a Spring no matter how many times it is tested",
+        "Spring #2 always fails; do not buy at any test"
+      ],
+      "correctIndex": 0,
+      "explanation": "The note on the chart confirms the flexibility of the system: a Spring can be retested multiple times, and each successful test is a valid entry opportunity — you need not rigidly accept only one single entry point."
+    },
+    {
+      "id": "ch40-q5",
+      "type": "chart_identify",
+      "prompt": "The AHS (AMN Healthcare) chart below is a Stepping Stone Reaccumulation. The note 'Series of lower peaks suggests a Spring is ahead' derives from a principle learned in which earlier chapter?",
+      "chartImage": "/charts/part_40/p298_chart-1026.jpg",
+      "options": [
+        "The principle learned in Part 39 (the SCHW case study): LOWER highs in an SSR warn of a possible return to the Support area, predicting the possibility of a Spring",
+        "This is a completely new principle never seen before",
+        "Lower highs are always a 100% certain sign of a Distribution Phase",
+        "This principle applies only to the health care sector"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a repetition and reinforcement of the principle learned in the SCHW case study (Part 39): a series of Lower Highs in an SSR is an early warning sign of a possible Spring/Shakeout before price truly reverses upward."
+    },
+    {
+      "id": "ch40-q6",
+      "type": "chart_identify",
+      "prompt": "The $CORN chart below notes an attempt at a Spring in January: 'Qualities of a Spring but the rally stalls quickly and turns back to Support.' In the cautious Wyckoff spirit, how should a trader react to this 'Spring-like but uncertain' signal?",
+      "chartImage": "/charts/part_40/p299_chart-1029.jpg",
+      "options": [
+        "Assess the subsequent price action further before acting — don't rush to conclude it's an SOS just because price has Spring-like qualities; wait until there is clearer confirmation (such as a genuine CHOCH) before acting",
+        "Buy immediately regardless of what follows",
+        "Sell short immediately because this is surely a bearish signal",
+        "Ignore the commodity market entirely from here on"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Note the attempt at a Spring in January. Price stalled and then reversed back down to Support without making any Sign of Strength (SOS) by exceeding the prior highs, so this price action needs further evaluation.' This demonstrates the Wyckoff Method's cautious spirit of not concluding hastily."
+    },
+    {
+      "id": "ch40-q7",
+      "type": "multiple_choice",
+      "prompt": "On the $CORN chart, a very large down bar in April on extremely high volume is called what, and what does it lead to?",
+      "options": [
+        "It is called a 'Terminal Shakeout' — characterized by very high volume and a large downward spread; afterward a true Spring appears and a CHOCH sends $CORN rapidly up to Resistance",
+        "It is called a 'Buying Climax', leading to a multi-year decline",
+        "There is no specific name for this action",
+        "It is a sign the CORN commodity market will stop trading permanently"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A very large down bar in April breaking the prior low with a wide price spread and a spike in selling volume creates a true Spring (Terminal Shakeout).' Afterward a Change of Character (CHOCH) sent $CORN rapidly up to Resistance.",
+      "chartImage": null
+    },
+    {
+      "id": "ch40-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "Throughout the LVS, AHS and $CORN examples in this chapter, the book keeps emphasizing WAITING for confirmation (Test, CHOCH) rather than acting right at the first Spring-like or SOS-like sign. Why is this patience in waiting for confirmation a 'skill' to be trained, not merely theoretical knowledge?",
+      "sampleAnswer": "Because in theory, 'wait for confirmation before acting' sounds simple, but in real trading the investor always feels psychological pressure to act immediately (fear of missing out - FOMO) when the first sign appears. The real skill lies in TRAINING the discipline to distinguish between a signal that is TRULY fully confirmed (such as a clear CHOCH) and one that ONLY LOOKS LIKE the desired pattern (as in the $CORN January case that 'had Spring-like qualities but wasn't confirmed'). Only through repeated practice does the trader build the instinct to tell them apart without conscious deliberation each time — in keeping with the 'turn skills into instinct' spirit stressed throughout the book.",
+      "chartImage": null
+    }
+  ]
+}

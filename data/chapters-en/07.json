@@ -1,0 +1,98 @@
+{
+  "chapterId": 7,
+  "title": "Jumping the Creek",
+  "summary": "Robert Evans' metaphorical story of the 'creek' (excess supply) that blocks price advances inside the Accumulation Range, and how to recognize the 'Jump Across the Creek' (JAC) and the 'Backup to the Edge of the Creek' (BUEC) that signal a real uptrend is beginning.",
+  "questions": [
+    {
+      "id": "ch7-q1",
+      "type": "multiple_choice",
+      "prompt": "In Robert Evans' metaphorical story of the boy and the stream, what does the image of the 'creek' represent in the Accumulation Range (TR)?",
+      "options": [
+        "Excess supply still present that prevents the stock price from starting an uptrend — every time price tries to climb, it meets this supply and is pushed back",
+        "The stock's 200-day moving average",
+        "The support level at the bottom of the Trading Range",
+        "The number of institutional shareholders holding the stock"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The story of the creek conveys the nature of excess supply in a TR.' The wider or faster-flowing the creek in places, the more supply remains, causing price to be 'blocked' and fall back to support each time it tries to rise.",
+      "chartImage": null
+    },
+    {
+      "id": "ch7-q2",
+      "type": "multiple_choice",
+      "prompt": "Robert Evans describes the 'Jump' across the creek as having what price and volume characteristics — called a 'Significant Bar' or 'SOS Bar'?",
+      "options": [
+        "Wide-spread price bars accompanied by a surge in trading volume — showing the strength needed to overcome the remaining supply",
+        "Narrow-spread bars with extremely low volume, hardly any trading",
+        "A large gap-down appearing suddenly between two sessions",
+        "Price moving completely sideways without volatility for many consecutive weeks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'This Jump, as Evans calls it, is characterized by widening price bars and a surge in trading volume (Significant Bar or SOS Bar - Sbar - the strength needed to overcome the remaining supply).' This is the moment to act, according to the Wyckoffian analyst.",
+      "chartImage": null
+    },
+    {
+      "id": "ch7-q3",
+      "type": "multiple_choice",
+      "prompt": "According to the book, how many 'creeks' (supply/resistance zones) does a typical Accumulation Range (TR) have that price must clear before fully leaving the accumulation base?",
+      "options": [
+        "Usually two (two banks of the stream / two Supply zones to clear)",
+        "Only one, never more",
+        "Always exactly three in every case",
+        "An undetermined number, varying with the company's market capitalization"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Often a creek divides into two banks, a low one and a high one. Accumulation TRs often have two Supply zones (two banks of the stream) that must be cleared.' The Resistance line (R) is the price area where another wave of selling appears and stops price's advance.",
+      "chartImage": null
+    },
+    {
+      "id": "ch7-q4",
+      "type": "multiple_choice",
+      "prompt": "The book says JAC (Jump Across the Creek) and BUEC (Backup to the Edge of the Creek) can be 'used interchangeably' with which two classic Wyckoff terms?",
+      "options": [
+        "JAC corresponds to mSOS (Minor Sign of Strength), BUEC corresponds to LPS (Last Point of Support)",
+        "JAC corresponds to Selling Climax, BUEC corresponds to Automatic Rally",
+        "JAC corresponds to UTAD, BUEC corresponds to BCLX",
+        "JAC and BUEC do not correspond to any other term in the book"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'JAC corresponds to the minor sign of strength (mSOS) and BUEC to the last point of support (LPS). They can be used interchangeably.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch7-q5",
+      "type": "chart_identify",
+      "prompt": "On the KBH chart below, a 'Meandering Creek of supply' line is drawn to 'check the advance of price'. Where do the JAC labels appear on the chart relative to this Creek line?",
+      "chartImage": "/charts/part_07/p024_chart-108.jpg",
+      "options": [
+        "The JAC labels appear exactly where price breaks through (jumps across) the Creek line on strong volume, annotated 'Price Jumps on strong Vol. with successful Tests'",
+        "The JAC appears at the deepest low of the chart, unrelated to the Creek line",
+        "No JAC appears on this chart, only BUEC labels",
+        "The JAC appears before the Accumulation Range even begins to form"
+      ],
+      "correctIndex": 0,
+      "explanation": "The KBH chart notes: 'Meandering Creek of supply checks the advance of price' and the JAC points are marked right where price breaks strongly through that meandering Creek with 'Price Jumps on strong Vol. with successful Tests' — confirming the supply was successfully overcome."
+    },
+    {
+      "id": "ch7-q6",
+      "type": "chart_identify",
+      "prompt": "The eBay (2008-09) chart below carries the note 'Note the good jumping action from the Spring to the Sign of Strength (SOS)'. According to this note, what has happened to eBay?",
+      "chartImage": "/charts/part_07/p025_chart-111.jpg",
+      "options": [
+        "A change of character — eBay is being aggressively bought and pushed out of the Accumulation Range (markup begins)",
+        "eBay is about to enter a major Distribution soon after",
+        "eBay's trading volume dwindled to zero throughout this period",
+        "This is a sign the company is about to be delisted"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'This represents a change of character as EBAY is aggressively being bought out of the Accumulation range' — the good jump from the Spring up to the Sign of Strength (SOS) confirms the stock has changed character and begun the Markup phase."
+    },
+    {
+      "id": "ch7-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "After the JAC event (jumping the creek), the book describes a mild pullback called the BUEC. Why is a pullback (retreat) after the jump considered 'a GOOD sign' rather than a bad signal?",
+      "sampleAnswer": "Because the BUEC is not a real reversal downward, just a gentle low-volume test showing the supply above (the creek) has truly been absorbed — if price holds above the old Creek/resistance during this pullback (turning old resistance into new support), that is evidence confirming the change of character and reinforcing the coming uptrend, not negating it.",
+      "chartImage": null
+    }
+  ]
+}

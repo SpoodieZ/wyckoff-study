@@ -3,7 +3,7 @@ import { DEFAULT_LOCALE, LOCALE_COOKIE, localeFromAcceptLanguage, parseLocale, t
 
 /** Bật khi nội dung học (data/chapters-en) đã dịch đủ 42 chương: lúc đó khách có trình duyệt
  * không phải tiếng Việt sẽ tự vào bản tiếng Anh. Trước đó chỉ đổi khi người dùng bấm nút EN. */
-const AUTO_DETECT_FROM_BROWSER = false;
+const AUTO_DETECT_FROM_BROWSER = true;
 
 /** Thứ tự ưu tiên: cookie người dùng đã chọn > ngôn ngữ trình duyệt > tiếng Việt. */
 export async function getLocale(): Promise<Locale> {

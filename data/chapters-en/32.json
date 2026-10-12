@@ -1,0 +1,105 @@
+{
+  "chapterId": 32,
+  "title": "Introduction to Point and Figure (PnF)",
+  "summary": "The technical foundation of the Point and Figure (PnF) chart — no time axis, recording price movement only with X (Demand) and O (Supply). The '3-box reversal' and '1-box reversal' rules, how to choose a box size, and its central role in Wyckoff's Law of Cause and Effect.",
+  "questions": [
+    {
+      "id": "ch32-q1",
+      "type": "multiple_choice",
+      "prompt": "What is the most fundamental difference between the Point and Figure (PnF) chart and other chart types (candlestick, bar, line)?",
+      "options": [
+        "The horizontal axis of a PnF does NOT represent time — only a change in price creates new points/columns on the chart",
+        "PnF always displays trading volume on every box, while other charts do not",
+        "PnF can only be used for the forex market, not stocks",
+        "PnF has no symbols to distinguish rising from falling prices"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The horizontal axis is not used to represent time: Unlike Japanese candlestick or Line charts, PnF has no time axis (horizontal axis); only a change in price creates additional points on the chart.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch32-q2",
+      "type": "multiple_choice",
+      "prompt": "On a PnF chart, what do the symbols X and O represent?",
+      "options": [
+        "X represents Demand (price rising), O represents Supply (price falling)",
+        "X represents high volume, O represents low volume",
+        "X represents holidays, O represents normal trading days",
+        "X and O have no meaning at all, merely decorating the chart"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The two characters we use in the Point and Figure (PnF) chart are X and O. X represents demand and O represents supply.' Like tic-tac-toe, the symbol X is rising price, the symbol O is falling price.",
+      "chartImage": null
+    },
+    {
+      "id": "ch32-q3",
+      "type": "multiple_choice",
+      "prompt": "According to the PnF 'X-box reversal' rule (for example '3-box reversal'), what must happen to start a new column going opposite to the current column?",
+      "options": [
+        "Price must move in the opposite direction by at least the specified number of boxes (for example 3 boxes for a '3-box reversal') before a new column in the opposite direction may be drawn",
+        "Price moving just 1 cent in the opposite direction is enough to create a new column regardless of settings",
+        "No condition is needed; every trading day automatically creates a new column",
+        "A new column is created only when the company releases news"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'PnF does not change its direction (from X to O or vice versa) unless price moves 3 boxes (or 3 units) or 1 box (or 1 unit) in the opposite direction.' This feature helps PnF 'filter out' small noisy movements and focus only on important reversal points.",
+      "chartImage": null
+    },
+    {
+      "id": "ch32-q4",
+      "type": "chart_identify",
+      "prompt": "The BA (Boeing) chart below illustrates the '1 Box Reversal' method. What does the note 'One box method requires at least two entries in each column' mean?",
+      "chartImage": "/charts/part_32/p165_chart-612.jpg",
+      "options": [
+        "With the '1-box reversal' method, each column (before a new column can start) needs a MINIMUM of 2 boxes marked — many charting tools implement this principle WRONGLY",
+        "Each column must always have exactly 100 boxes to be considered valid",
+        "The first column on every PnF chart must always be empty, with no boxes",
+        "This rule applies only to Boeing stock, not to other stocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'What to note with the \"1 box reversal\" method is that a column must have at least 2 boxes before a new column can start. Many charting tools get this wrong whereas Stock Charts automatically does this drawing and confirmation correctly.'"
+    },
+    {
+      "id": "ch32-q5",
+      "type": "multiple_choice",
+      "prompt": "According to the traditional box-size table cited in the book, what box size is typically used for prices ABOVE $100?",
+      "options": [
+        "2 points per box",
+        "0.0625 points per box",
+        "500 points per box",
+        "There is no specific rule for prices above $100"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The Point and Figure (PnF) chart uses a rule-based scale. Above $100, one unit (box) is two points. From $20 to $100, one unit (box) is one point. Below $20 down to $5 is half a point.' A more detailed table by Tom Dorsey is also cited for reference (page 164).",
+      "chartImage": null
+    },
+    {
+      "id": "ch32-q6",
+      "type": "multiple_choice",
+      "prompt": "The book mentions an interesting point about the historical origin of Point and Figure (PnF). What is it?",
+      "options": [
+        "PnF was widely used as far back as the 19th century; no one knows for sure who the 'father' of this chart is, but many opinions hold it was created by Charles Dow — one of the founders of modern Technical Analysis",
+        "PnF was invented by Richard Wyckoff himself in 1930",
+        "PnF was only recently invented, in the 2000s",
+        "PnF has no recorded historical origin"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Point and Figure (PnF) was very widely used in the 19th century. No one knows who the father of this chart is or when it came into being. Many opinions hold that PnF was created by Charles Dow. This is entirely plausible since Charles Dow was one of those who laid the foundation for the modern school of Technical Analysis.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch32-q7",
+      "type": "multiple_choice",
+      "prompt": "Why is Wyckoff's PnF Method especially effective when combined with 'Law #2: Cause and Effect'?",
+      "options": [
+        "Because PnF uses the technique of counting HORIZONTAL boxes within the trading range to represent the Cause, from which to estimate the price target (Effect) — whereas most other methods use only VERTICAL box counts",
+        "Because PnF has nothing to do with the Law of Cause and Effect",
+        "Because PnF works only in downtrend markets, not uptrends",
+        "Because PnF always gives 100% accurate results with no error"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Wyckoff's PnF method is a rather little-known and little-accessed method, a technique that uses Horizontal counts of boxes to forecast and determine potential price targets. The price targets calculated and determined in other methods almost exclusively use Vertical box counts.'",
+      "chartImage": null
+    }
+  ]
+}

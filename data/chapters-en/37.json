@@ -1,0 +1,140 @@
+{
+  "chapterId": 37,
+  "title": "Sector and Industry Group Analysis",
+  "summary": "The 'top-down' analysis process: Market → Sector → Industry Group → Stock, always finding the strongest stocks in the strongest industry groups. Money rotation along the business cycle (early/late-leading groups), and the ROC (Rate of Change) indicator supporting RS in confirming trend quality.",
+  "questions": [
+    {
+      "id": "ch37-q1",
+      "type": "multiple_choice",
+      "prompt": "In what sequence does the Wyckoff Method's 'top-down' market review proceed?",
+      "options": [
+        "Market ($SPX) → Sector → Industry Group → Stock",
+        "Stock → Industry Group → Sector → Market (the reverse order)",
+        "Analyze only the Stock, skipping Sector and Industry Group entirely",
+        "No specific sequence is proposed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'I usually scan the whole market, then the Sectors, then the Industry Groups. Choose the most promising Industry Groups and then analyze them in depth to find the strongest leading Stocks.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch37-q2",
+      "type": "multiple_choice",
+      "prompt": "According to the book, how fast does a change of leadership between Sectors usually happen?",
+      "options": [
+        "Usually fairly ABRUPTLY, within a few weeks",
+        "Always slowly over many decades",
+        "Never happens; the leadership ranking is fixed forever",
+        "Happens only once in the entire history of the market"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A change of leadership between Sectors often happens quite abruptly (within a few weeks).' This is why regular (weekly) market scanning is recommended so as not to miss important changes.",
+      "chartImage": null
+    },
+    {
+      "id": "ch37-q3",
+      "type": "chart_identify",
+      "prompt": "The H.B. Fuller (FUL) chart below illustrates a stock shifting from 'laggard' to 'emerging leader'. What does the note 'Stride of FUL begins while $SPX is Testing the lows' show?",
+      "chartImage": "/charts/part_37/p236_chart-833.jpg",
+      "options": [
+        "FUL begins to establish its own rhythm of advance even while the $SPX is still retesting its lows — a very early and positive Relative Strength sign",
+        "FUL always moves identically to the $SPX, no difference",
+        "FUL was delisted before the $SPX tested its lows",
+        "This note has nothing to do with Relative Strength"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'FUL made its final low a week before the $SPX made its low point... FUL's early leadership in the Specialty Chemicals Group and the emerging Sector.' FUL established its own Stride while the $SPX was still testing lows — a very early sign of leadership."
+    },
+    {
+      "id": "ch37-q4",
+      "type": "multiple_choice",
+      "prompt": "The book gives an 'important rule of thumb' about the Backup to the Edge of the Creek (BUEC) action. What is it?",
+      "options": [
+        "A BUEC should not retrace more than 1/3 to 1/2 of the gain made in the preceding rally",
+        "A BUEC must always retrace exactly 100% of the prior gain",
+        "BUEC has no specific quantitative rule",
+        "BUEC applies only to indices, not to individual stocks or sector ETFs"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Important rule of thumb is that a BUEC not retrace more than 1/3 to 1/2 of the gain made in the rally.' This is a useful quantitative criterion to judge whether a pullback after a breakout is still healthy or has become worrying.",
+      "chartImage": null
+    },
+    {
+      "id": "ch37-q5",
+      "type": "chart_identify",
+      "prompt": "The Dow Chemical (DOW) chart below has the note 'Downside Non-Confirmation as RS makes a higher low.' In this context, what is happening between Price and RS?",
+      "chartImage": "/charts/part_37/p249_chart-873.jpg",
+      "options": [
+        "While Price makes a LOWER low (LL), the RS index makes a HIGHER low (HL) — a POSITIVE divergence signal showing hidden relative strength is being built even though price is temporarily weak",
+        "Both Price and RS make lower lows at the same time, confirming the decline will continue",
+        "RS has no data at all during this period",
+        "DOW stopped trading during the described period"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a 'Downside Non-Confirmation' (the opposite of the UNC learned in Part 35) — a positive sign showing that although price made a new lower low, RS did not follow, implying the CO may be quietly accumulating DOW even while price is temporarily weak."
+    },
+    {
+      "id": "ch37-q6",
+      "type": "multiple_choice",
+      "prompt": "The book categorizes Sectors by the stage of the Business Cycle. Which Industry Groups usually LEAD in the EARLY cycle, and which usually lead in the LATE cycle?",
+      "options": [
+        "Early: Consumer Discretionary, Consumer Staples and Financials; Late: Energy and Health Care",
+        "Early: Energy and Health Care; Late: Consumer Discretionary and Financials",
+        "There is no difference among groups by business cycle",
+        "All groups lead at the same time in every stage of the cycle"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Some Sectors leading in an early business cycle include Consumer Discretionary, Consumer Staples and Financials. Sectors in the late cycle often include Energy and Health Care.' (Materials and Industrials are also discussed as Sectors that often benefit in the second half of the economic expansion cycle.)",
+      "chartImage": null
+    },
+    {
+      "id": "ch37-q7",
+      "type": "chart_identify",
+      "prompt": "The weekly $DJUSCC (Commodity Chemicals) chart below has the note 'After BCLX the RS stays mostly below a declining 30 week MA. This is a good indication of a bear market.' What principle does this note illustrate?",
+      "chartImage": "/charts/part_37/p253_chart-889.jpg",
+      "options": [
+        "RS staying persistently BELOW a declining long-term moving average is a reliable sign that a bear market is under way in that industry group",
+        "The moving average has no meaning in RS analysis",
+        "RS must always stay above the moving average, never below",
+        "This note applies to a single trading week only"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Persistence of RS decline warns of the group price being under Distribution. Be prepared for weakness at ST of BCLX. Price downtrend eventually follows RS downtrend.' The chart also introduces the ROC (Rate of Change) indicator: 'ROC above zero indicates quality uptrend.'"
+    },
+    {
+      "id": "ch37-q8",
+      "type": "chart_identify",
+      "prompt": "The DowDuPont (DWDP) case study below is called a 'Campaign Case Study'. The note 'DWDP compared to the Industry Grp. Stronger tone to Price during decline and advance' shows what about DWDP's role?",
+      "chartImage": "/charts/part_37/p256_chart-897.jpg",
+      "options": [
+        "DWDP shows LEADERSHIP in its Industry Group — stronger both when the market falls and when it rises, compared with the very Industry Group it belongs to",
+        "DWDP is always weaker than its Industry Group in every phase",
+        "DWDP has no connection to the Chemicals Industry Group",
+        "This note refers only to trading volume, unrelated to price"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'DWDP is leadership in the Group.' Combined with 'Quality and persistent uptrend in RS and Price. These are Bull Market conditions' — confirming DWDP as a strong leading candidate in the whole Chemicals Industry Group's advance campaign."
+    },
+    {
+      "id": "ch37-q9",
+      "type": "multiple_choice",
+      "prompt": "The book explains that commodity chemical stocks 'have a foot in' which two Sectors at the same time?",
+      "options": [
+        "Industrials and Materials — because chemicals are both products needed for industrial production and raw/intermediate materials of the Materials Sector",
+        "Technology and Health Care",
+        "Financials and Real Estate",
+        "No Sector relates to commodity chemicals"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Commodity chemical stocks have a foot in both the Industrials and Materials sectors of the market. Industrials because chemical products are needed for the production and maintenance of most of the equipment used in the economy. And Materials because these commodity chemicals are essential raw materials for the operation of an economy based on real manufacturing.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch37-q10",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book advises spending time EVERY WEEK reviewing all the leading Sectors and Industry Groups, rather than doing it just once. Based on the principle that 'a change of leadership often happens abruptly within a few weeks' (question 2), why is maintaining a REGULAR review habit more important than a single deep analysis?",
+      "sampleAnswer": "Because if you analyze once and never update, you may miss important leadership changes that happen in just a few weeks — and end up continuing to hold or follow Sectors/Industry Groups that have shifted from leading to lagging (or vice versa) without realizing it. Reviewing weekly keeps the investor with a 'living picture' of money rotating between Sectors, allowing a timely response before the market clearly confirms the new trend — in keeping with the proactive 'stay ahead of the market' spirit the Wyckoff Method aims for.",
+      "chartImage": null
+    }
+  ]
+}

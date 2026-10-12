@@ -1,0 +1,98 @@
+{
+  "chapterId": 15,
+  "title": "Watching the Bouncing Rubber Ball",
+  "summary": "Wham-O's 'bouncing rubber ball' metaphor for the Distribution Phase — a seemingly quiet state hiding large energy, waiting for a trigger to push it off the edge of the table (Downtrend). Introduces 'The ICE' (the soft barrier of Demand in Distribution) — the counterpart of the Creek in Accumulation.",
+  "questions": [
+    {
+      "id": "ch15-q1",
+      "type": "multiple_choice",
+      "prompt": "The book compares the Distribution Phase to placing a 'special bouncing rubber ball' on a table — it looks quiet and motionless. What does this metaphor emphasize about the true nature of the Distribution Phase?",
+      "options": [
+        "Though it looks motionless/harmless, the Distribution Phase actually holds a huge store of potential energy (pent-up supply) waiting to be released — a state that easily fools the public into thinking it is harmless",
+        "The Distribution Phase always happens very quickly, within minutes",
+        "The rubber ball is only a decorative image with no analytical meaning",
+        "The Distribution Phase means the stock will rise without limit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A bouncing ball sitting still on a table and a stock in a distribution phase have much in common. There is a large potential supply waiting to be released. The seemingly motionless state is easily used by the CO to deceive and give the public the impression that it is harmless to the stock's uptrend, but in reality it is not.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch15-q2",
+      "type": "multiple_choice",
+      "prompt": "In the metaphor, the ball needs a 'leading agent' (for example a child) to push it rolling toward the edge of the table until it falls. In the market context, what plays the role of the 'agent' that pushes the stock price close to the 'edge of the table' (the point of collapse)?",
+      "options": [
+        "The momentum of the prior Uptrend itself carried price right up to the top/edge of the Distribution Range, after which just a light push (supply appearing) is enough to make price fall hard",
+        "The agent is always an official financial report from the company",
+        "No agent is mentioned; the ball falls by itself for no reason",
+        "The agent is the central bank changing interest rates"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book describes the ball being rolled near the edge of the table by an agent (the child), similar to how the momentum of the prior Uptrend carries the stock to the 'edge of the table' of the Distribution Range. 'Just a light push and the ball falls off the edge of the table and rushes down with a very strong rate of decline. This fall is surprising and sudden.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch15-q3",
+      "type": "multiple_choice",
+      "prompt": "After the ball falls and hits the floor several times, each subsequent bounce only reaches a lower height than the last — 'the greatest volatility occurs at the beginning and diminishes over time'. Applied to the Downtrend phase after Distribution, what does this suggest?",
+      "options": [
+        "The strongest (climactic) price volatility usually occurs early in the Downtrend, after which later rallies/fluctuations tend to weaken gradually — a kind of 'reverse absorption' forming, signaling that the Downtrend will also have a stopping point",
+        "The Downtrend will last forever, never stopping",
+        "Volatility will rise steadily forever with no tendency to weaken",
+        "This metaphor has nothing to do with the Downtrend phase"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'This ball keeps bouncing after each time it touches the floor again, but each subsequent bounce only reaches a lower height than the one before. Thus, the greatest volatility occurs at the beginning and diminishes over time (you can think of absorption).' The Downtrend will be studied in detail in a later part, but follows a similar stopping logic as the Uptrend.",
+      "chartImage": null
+    },
+    {
+      "id": "ch15-q4",
+      "type": "chart_identify",
+      "prompt": "The NTAP chart below is annotated 'Little Distribution inside Big Distribution'. For many months, NTAP's price stayed at high levels near the BCLX. According to the book, what effect does this have on investor psychology?",
+      "chartImage": "/charts/part_15/p063_chart-236.jpg",
+      "options": [
+        "Price holding near the top for a long time creates a 'false reassurance' for the public — making them feel safe while the CO has time to gradually liquidate positions and begin placing large short positions",
+        "It makes all investors panic-sell immediately without hesitation",
+        "It has no psychological significance according to the book",
+        "It proves the company is about to announce a special dividend"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Notice how NTAP stock held at the high price of the BCLX for many months. The price holding near the top is a reassurance to investors (the public and others) while it creates time for the CO to begin liquidating and possibly move on to placing large short positions.'"
+    },
+    {
+      "id": "ch15-q5",
+      "type": "chart_identify",
+      "prompt": "The Micron (MU) chart below introduces the concept 'The ICE' — a soft barrier line connecting the lows in the Distribution Phase. Compared with 'The Creek' learned in the Accumulation Phase, what does 'The ICE' represent, and what happens when price falls below it?",
+      "chartImage": "/charts/part_15/p064_chart-239.jpg",
+      "options": [
+        "The ICE represents DEMAND (the opposite of The Creek, which represents Supply); when price falls below the ICE line, it converts from demand to supply — old Support becomes new Resistance",
+        "The ICE is exactly the same as The Creek, no difference",
+        "The ICE is just another name for the 50-day moving average",
+        "The ICE represents trading volume, unrelated to price"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The ICE is the soft barrier line connected from the lows created in the Distribution phase and it represents demand. We will spend more time discussing this useful technique in the future. Note how The ICE converts from demand to supply when price falls below it... This is also true of a Support Line turning into a Resistance Line when it is broken through.'"
+    },
+    {
+      "id": "ch15-q6",
+      "type": "chart_identify",
+      "prompt": "The TXN chart below illustrates a very volatile Distribution Phase ('a wild ride'). According to the book, how is a Last Point of Supply (LPSY) defined and what is its strategic value?",
+      "chartImage": "/charts/part_15/p065_chart-242.jpg",
+      "options": [
+        "The LPSY is the highest level price can reach before being sold off hard and reversing downward — since subsequent rallies usually fail to exceed it (making only lower highs/lows - LH/LL), the LPSY becomes a strategic location for placing short positions",
+        "The LPSY is the lowest price in the stock's entire trading history",
+        "The LPSY has no strategic value, being only for reference",
+        "The LPSY always appears before the BCLX, never after"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A Last Point of Supply (LPSY) is the highest high price can reach before being heavily sold off and reversing downward. An LPSY is understood as a point that will not be broken (exceeded) by subsequent upward rallies, only lower highs being made (LH, LL). Therefore, the LPSY is a strategic place to sell and can be used to place short positions in the stock.'"
+    },
+    {
+      "id": "ch15-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book concludes that as followers of the Wyckoff Method, we need to 'become more vigilant and alert' when looking for signs of the Distribution Phase. Drawing on the whole bouncing-ball metaphor, why is EARLY vigilance (before price actually collapses) so much more important than reacting after price has already fallen hard?",
+      "sampleAnswer": "Because in the metaphor, once the ball has fallen off the edge of the table the fall is 'surprising and sudden' — the rate of decline is already very fast and strong, leaving investors little chance to react. It is like hearing thunder — the lightning (the damage) actually happened before the sound reached your ears. If you wait until price is clearly falling before acting, it is too late; only recognizing the subtle signs of Distribution early (volume, LPSY, UTAD...) while it is still 'sitting quietly on the table' lets investors exit in time or avoid buying at the wrong moment.",
+      "chartImage": null
+    }
+  ]
+}

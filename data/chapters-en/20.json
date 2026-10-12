@@ -1,0 +1,98 @@
+{
+  "chapterId": 20,
+  "title": "Warning Signs of a Chaotic Trend",
+  "summary": "Downtrends are 'less friendly' than Uptrends — violent, sudden and hard to trade. How to build a downtrend Trend Channel (Supply Line from 2 adjacent highs, Oversold Line), and the sign of exhaustion when price breaks below the Oversold Line.",
+  "questions": [
+    {
+      "id": "ch20-q1",
+      "type": "multiple_choice",
+      "prompt": "The book recalls the familiar saying 'The Trend is Your Friend', but notes that a Downtrend is 'much less friendly' than an Uptrend. What is the main reason given?",
+      "options": [
+        "Downtrends tend to be violent, sudden and generally harder to trade — 'chaotic' — whereas Uptrends tend to have large institutions placing steady supportive buy orders at support lows",
+        "Because the law prohibits trading in downtrends",
+        "Because a Downtrend always ends within 24 hours",
+        "No specific reason is given"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Downtrends are much less friendly than uptrends. Downtrends are often violently volatile, sudden and generally difficult to trade. Put more briefly, they are not friendly at all; price is often very chaotic in a downtrend.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch20-q2",
+      "type": "multiple_choice",
+      "prompt": "To build a Downtrend channel, how is the Supply Line drawn?",
+      "options": [
+        "By connecting TWO adjacent highs made in the early stage of the downtrend (a mirror image of connecting 2 adjacent lows in an Uptrend)",
+        "By connecting the highest high and lowest low in the stock's entire history",
+        "By using just a single point, with no need for a second point",
+        "By using the 20-day moving average as the Supply Line"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Our construction of the trend channel line begins with a Supply Line. This is a trend channel line drawn from the highs created during the early part of the Downtrend phase.' The Oversold Line is then drawn parallel, through the low lying between those two highs.",
+      "chartImage": null
+    },
+    {
+      "id": "ch20-q3",
+      "type": "chart_identify",
+      "prompt": "The GMCR chart below notes 'Throw-under of the Oversold Line is exhaustion and results in a SCLX'. What happens when price breaks DOWN BELOW the Oversold Line?",
+      "chartImage": "/charts/part_20/p088_chart-311.jpg",
+      "options": [
+        "It is a sign of exhaustion — often leading to the formation of a Selling Climax (SCLX), signaling the Downtrend may pause",
+        "It is a sure sign the Downtrend will continue even harder without limit",
+        "It is a technical error of the charting platform with no meaning",
+        "It is a sign the company is about to declare bankruptcy immediately"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Throw-under of the Oversold Line is exhaustion and results in a SCLX.' After a stretch of decline, price begins falling out of the Oversold Line, signaling exhaustion or the first oversold condition of the downtrend — a Redistribution phase (SSR) may follow shortly after."
+    },
+    {
+      "id": "ch20-q4",
+      "type": "chart_identify",
+      "prompt": "The TSLA chart below illustrates a 7-month Downtrend. What does price's INABILITY to return to the Oversold Line in March signal?",
+      "chartImage": "/charts/part_20/p089_chart-314.jpg",
+      "options": [
+        "A weakening of supply in the downward momentum — this stage is recommended to be marked as an Accumulation Phase forming right inside the downward price channel",
+        "A strong increase in supply, confirming the Downtrend will fall deeper without limit",
+        "Nothing; it is random fluctuation not worth attention",
+        "A sign Tesla is about to be delisted from Nasdaq"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Price's inability to return to the oversold line in March signaled a weakening of supply in the downward momentum. This stage is recommended to be marked as an Accumulation phase forming right inside the downward price channel.' Price breaking through the Supply Line and using it as rising support is important evidence of a change of character (CHOCH)."
+    },
+    {
+      "id": "ch20-q5",
+      "type": "multiple_choice",
+      "prompt": "According to the 'Wyckoff Method', what is the minimum number of touch points needed to validate a downtrend channel?",
+      "options": [
+        "Three points",
+        "A single point",
+        "Ten points",
+        "There is no minimum number of touch points"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says (about the GMCR example): 'When price is outside the channel line, the supply line now acts as rising support, whereas before it was falling resistance. The Wyckoff Method stipulates that three points are needed to define a downtrend channel.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch20-q6",
+      "type": "chart_identify",
+      "prompt": "The IWM ETF chart (daily 2016) below shows the downtrend 'becoming more volatile when the process is 1/2 of the way through its duration'. The climactic selling action with a significant price break below the Oversold Line is what kind of action?",
+      "chartImage": "/charts/part_20/p090_chart-317.jpg",
+      "options": [
+        "A stopping action — likely to lead to a Redistribution Phase or a subsequent Accumulation Phase",
+        "An action confirming the Downtrend will never end",
+        "An action that happens only on ETFs, not on individual stocks",
+        "An event with no analytical significance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note: 'Climax sets up Stepping Stone Redistribution or possibly new Accumulation. Draw support and resistance lines.' Price breaking hard below the Oversold Line and becoming climactic is a stopping action, and either scenario afterward needs more price action over time to confirm."
+    },
+    {
+      "id": "ch20-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Why, in an Uptrend, are corrective declines usually 'respected' by large institutions placing steady buy orders at support lows, while in a Downtrend there is no similar 'price-supporting' buying to make the rebounds reliable?",
+      "sampleAnswer": "Because in an Uptrend, the CO/large institutions are actively building and defending their long-term holdings, so they have an incentive to place buy orders at support levels to accumulate more and keep price steady. By contrast, in a Downtrend the CO has already sold out or is selling (or even shorting) — they have no economic incentive to buy and 'support price' on the rebounds, since doing so would go against the aim of their markdown campaign. Without this organized support, rebounds in a Downtrend become weak, erratic and much harder to predict.",
+      "chartImage": null
+    }
+  ]
+}

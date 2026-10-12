@@ -1,0 +1,98 @@
+{
+  "chapterId": 28,
+  "title": "Actions and Tests",
+  "summary": "The foundational pair of concepts 'Action' (climax, large volatility) and 'Test' (confirming exhaustion) repeats on EVERY timeframe. The four important Tests in an Accumulation TR, and the 2 Points of Fear / 2 Points of Excitement.",
+  "questions": [
+    {
+      "id": "ch28-q1",
+      "type": "multiple_choice",
+      "prompt": "The book defines the relationship between 'Action' and 'Test' using a crime-investigation metaphor. What is that metaphor?",
+      "options": [
+        "'If the Action is the crime scene, the Test is the return to investigate that crime scene' — the Test confirms whether the Action (for example a climax) has truly produced exhaustion of the prior trend",
+        "'The Action is the judge, the Test is the defendant' — the Test must always obey the Action's verdict",
+        "This metaphor is not used anywhere in the book",
+        "'The Action is the lawyer, the Test is the witness' — unrelated to confirming the trend"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'We can say that if the Action is the crime scene, then the Test is the return to investigate that crime scene.' A Test is the 'Signal' when evaluating whether the Action at a Climax point has Exhausted the prior trend.",
+      "chartImage": null
+    },
+    {
+      "id": "ch28-q2",
+      "type": "chart_identify",
+      "prompt": "The AAPL chart below marks 4 important Tests in an Accumulation TR (Test #1 to #4). Test #1 takes place in Phase |A| and confirms what?",
+      "chartImage": "/charts/part_28/p146_chart-544.jpg",
+      "options": [
+        "It is the ST retesting the SC in Phase |A| — if successful, this is where the first CHOCH is confirmed, and also the boundary between Phase |A| and |B|",
+        "It is a check of AAPL's 10-year average trading volume",
+        "It is the day the company announced a new product",
+        "Test #1 always takes place in Phase |E|, never in |A|"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Test #1: It is the ST retesting the SC in phase |A|. If successful, this is where the first CHOCH is confirmed, and also the boundary between phase |A| and |B|. In a Reaccumulation phase, Test #1 can be the Local Test within the SO (Shake-out), i.e. SO = Test #1.'"
+    },
+    {
+      "id": "ch28-q3",
+      "type": "multiple_choice",
+      "prompt": "In the Accumulation Phase, there are 2 'Points of Fear' (PoF). Where is PoF #1 and where is PoF #2?",
+      "options": [
+        "PoF #1 is at the SC (Climax action); PoF #2 is in Phase |C| (Spring/Shakeout or LPS) — a bear trap for Weak Hands",
+        "PoF #1 and #2 are both in Phase |E|",
+        "PoF #1 at the BCLX, PoF #2 at the SOW — applies only to Distribution",
+        "There are no PoFs in the Accumulation Phase"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'PoF #1: It is at the SC (Climax action). PoF #2: It is in phase |C|, with a Spring/Shakeout (SO) session or Last Point of Support (LPS). A bear trap for WHs; this happens when the CO deliberately drives price down or fails to support price.' Note: PoF #2 is not required in every Accumulation.",
+      "chartImage": null
+    },
+    {
+      "id": "ch28-q4",
+      "type": "multiple_choice",
+      "prompt": "Symmetrical to the PoF, the Distribution Phase has 2 'Points of Excitement' (PoEx). Where does PoEx #2 appear and what does it mean?",
+      "options": [
+        "It appears at the end of Phase |B| and the start of Phase |C| — this is where a Test of the price area above resistance appears one last time before price can move down, a bull trap for WHs",
+        "It appears in Phase |E|, after the Downtrend has completely ended",
+        "PoEx #2 does not exist in any Distribution case",
+        "PoEx #2 happens only on Fridays each week"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Point of Excitement (PoEx #2): It appears at the end of Phase |B| and the start of Phase |C|. This is where a Test of the price area above resistance will appear one last time before price can move down.' This is the UT/UTAD — a bull trap for WHs.",
+      "chartImage": null
+    },
+    {
+      "id": "ch28-q5",
+      "type": "chart_identify",
+      "prompt": "The 'CHANGE OF CHARACTER / CHANGE OF BEHAVIOR' diagram below (source: Roman Bogomazov) illustrates the CHOB and CHOCH symbols repeating throughout a complete price cycle. According to the diagram, how does the market environment alternate?",
+      "chartImage": "/charts/part_28/p147_chart-547.jpg",
+      "options": [
+        "It alternates between a 'Non-trending environment' (TR - Accumulation/Distribution) and a 'Trending environment' (Uptrend/Downtrend) — CHOB and CHOCH are the events marking the transition boundaries between the two environments",
+        "The market is always Trending, never Non-trending",
+        "CHOB and CHOCH happen only once in a stock's entire history",
+        "The diagram shows no alternation of any kind"
+      ],
+      "correctIndex": 0,
+      "explanation": "The diagram clearly illustrates the chain: Uptrend → Non-trending (TR) → Trending (Downtrend or new Uptrend) → Non-trending... with CHOB (Change of Behavior) and CHOCH (Change of Character) marking each transition point — in keeping with the core spirit of the entire Wyckoff Method learned throughout the chapters."
+    },
+    {
+      "id": "ch28-q6",
+      "type": "chart_identify",
+      "prompt": "The SPY chart (M5 timeframe) below shows the 'Action' and 'Test' pair repeating MANY times within only about 2 trading days. What does the note 'Tests have diminished price spread and volume' mean?",
+      "chartImage": "/charts/part_28/p148_chart-552.jpg",
+      "options": [
+        "The Test sessions have NARROWER price spread and volume — this is the sign that the prior trend is exhausted (exhaustion), signaling a possible price reversal",
+        "The Test sessions always have LARGER price spread and volume than the Action session",
+        "Volume and price spread have no relationship to confirming a Test",
+        "This note applies only to the monthly timeframe, not the M5 timeframe"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The sign of the Action phase is volatility, wide price spreads and heavy volume. Conversely, the Test will have a narrowing price spread, less volatility and low volume. These indicators all point to exhaustion of the prior trend.'"
+    },
+    {
+      "id": "ch28-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book concludes: 'Each larger timeframe can tell a different story (context), although the principles of Action and Test still take place.' Why is recognizing the Action/Test pair repeating on EVERY timeframe (from M5 to monthly) an important discovery for a Wyckoff trader?",
+      "sampleAnswer": "Because it shows the core Wyckoff principles (supply-demand, stopping action, confirming test) are not laws that apply only to long-term charts, but UNIVERSAL principles of market behavior, applicable at any 'magnification' of time. This lets a day trader and a long-term investor use the same set of analytical tools, differing only in the timeframe observed — it also warns that you must be clear about which timeframe you are analyzing to avoid confusing context between different timeframes.",
+      "chartImage": null
+    }
+  ]
+}

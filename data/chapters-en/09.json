@@ -1,0 +1,98 @@
+{
+  "chapterId": 9,
+  "title": "Wyckoff Uptrend",
+  "summary": "The concept of the 'Stride' established early in the Uptrend phase, how to draw a Trend Channel from two adjacent correction lows, the 'reverse use of trendlines' (counter trend channel) technique, and an introduction to price-target counts using Point and Figure (PnF) charts.",
+  "questions": [
+    {
+      "id": "ch9-q1",
+      "type": "multiple_choice",
+      "prompt": "What is the 'Stride' of an Uptrend phase, and why is it useful?",
+      "options": [
+        "It is the rhythm/speed of the advance, usually established EARLY in the Markup; recognizing the Stride helps predict the pace at which the stock intends to rise in the near future",
+        "It is another name for the Selling Climax, appearing only at the bottom of a downtrend",
+        "It is a metric measuring how many institutional shareholders hold the stock",
+        "It is the minimum time a stock is required to stay in the Accumulation Range"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The \"Stride\" of an Uptrend phase is usually established early in the Markup process (Phase |E|). The stock is showing the pace of progress at which it intends to rise. This is very valuable and useful information. It signals that the stock will rise.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch9-q2",
+      "type": "chart_identify",
+      "prompt": "On the AAPL (weekly) chart below, how is a Trend Channel generally constructed, based on the note 'Construct Support Line by identifying two adjacent lows'?",
+      "chartImage": "/charts/part_09/p031_chart-130.jpg",
+      "options": [
+        "Identify two adjacent correction lows with a relatively similar size of decline (points) to draw the Support Line, then draw a parallel Overbought Line through the high lying between those two lows",
+        "Just draw a straight line connecting the highest and lowest points in the stock's entire history",
+        "Use the RSI indicator alone to determine the trend channel, without looking at price",
+        "Draw the trend channel by connecting the highest volume peaks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Construct Support Line by identifying two adjacent lows then projecting trendline upward. Overbought Line is anchored to the intervening high (circled). Draw the Overbought Line parallel to the Support Line.' In the AAPL example: correction #1 fell ~9 points over 7 weeks, correction #2 fell ~8 points over 19 weeks — a similar size of decline despite different durations."
+    },
+    {
+      "id": "ch9-q3",
+      "type": "multiple_choice",
+      "prompt": "For the CENX stock (drawn on a logarithmic scale in the book), why does Wyckoff advise considering a log scale instead of an arithmetic scale when drawing Trend Channels for large advances?",
+      "options": [
+        "Because long advances with large percentage ranges are often judged to be better drawn with trendlines on a log scale — so try drawing on both scales and choose the one that fits best",
+        "Because the log scale is mandatory under US securities law",
+        "Because the arithmetic scale cannot display trading volume",
+        "Because the log scale can only be used for indices, not individual stocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says (about CENX): 'Extended advances are often best judged on a log scale, but you should consult both... When drawing trend channel lines, try switching between these two price scales to find the most suitable one.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch9-q4",
+      "type": "chart_identify",
+      "prompt": "The IBB chart below illustrates the 'Reverse use of Trendlines' (counter trend channel) technique. According to the note on the chart, which line is drawn FIRST in this technique?",
+      "chartImage": "/charts/part_09/p032_chart-134.jpg",
+      "options": [
+        "The Overbought Line is drawn first — connecting two adjacent price highs — then the Support Line is drawn parallel, through the low lying between those 2 highs",
+        "The Support Line is always drawn first in every case, without exception",
+        "Both lines are drawn at the same time by automatic software",
+        "This technique does not use the Overbought line, only the Support line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the IBB chart: 'Reverse use of Trendlines. Draw the Overbought Line first. Then the Support Line is drawn parallel to it.' The book also points out: at the end of the advance, a 'throwover' of the channel appears, labeled Buying Climax (BCLX), and the subsequent correction (AR) together with the BCLX define the upper/lower boundaries of a new TR — which may be Distribution or Stepping Stone Reaccumulation."
+    },
+    {
+      "id": "ch9-q5",
+      "type": "chart_identify",
+      "prompt": "The CENX (weekly) chart below is described as having a 'head and shoulders' pattern at the top. What happens right when the trend channel line becomes 'overbought' and 'throws over'?",
+      "chartImage": "/charts/part_09/p033_chart-137.jpg",
+      "options": [
+        "It is a signal of the end of the advance and the start of topping (Buying Climax) — signaling the rising Trend Channel has completed its mission",
+        "It is a sure signal that price will keep doubling",
+        "The throwover is merely decorative and carries no analytical information",
+        "The throwover happens only at the bottom of a downtrend, never at the top of an uptrend"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A trend channel line has formed and appears in an overbought condition, signaling the end of the advance and the start of topping.' This is exactly the Throwover & Overbought action leading to the Buying Climax (BCLX) seen on the earlier IBB chart."
+    },
+    {
+      "id": "ch9-q6",
+      "type": "multiple_choice",
+      "prompt": "The book introduces using a Point and Figure (PnF) chart with the CENX stock. What is the main purpose of 'counting' on a PnF chart across an accumulation base?",
+      "options": [
+        "To estimate potential price targets for a future advance/decline campaign, based on the width (number of columns) of the accumulation/distribution base",
+        "Purely to make the chart look nicer, with no analytical value",
+        "To calculate with 100% accuracy the day the company will release its financial report",
+        "To fully replace candlestick charts, so ordinary price charts are no longer needed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The purpose of PnF counting is to establish a potential reaction objective of a future campaign.' CENX example: the accumulation base counts the number of columns (horizontal boxes) from $8 for a potential target in the $28-$30 range; later the distribution base gives a downside target of about $5-$10 — and CENX's price subsequently did confirm reaching these targets.",
+      "chartImage": null
+    },
+    {
+      "id": "ch9-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Why does combining both a Trend Channel and a Point and Figure (PnF) price-target count give higher analytical confidence than using only one of the two tools?",
+      "sampleAnswer": "Because the two tools answer two different but complementary questions: the Trend Channel (based on adjacent correction lows/highs) helps estimate the RHYTHM and SPEED of the advance over time (when price may reach the overbought boundary), while the PnF Count helps estimate the final PRICE TARGET based on the width of the accumulation/distribution base. When both tools point to a similar price zone/time, that is cross-confirmation (confluence) that raises the reliability of the analysis, instead of relying on a single viewpoint.",
+      "chartImage": null
+    }
+  ]
+}

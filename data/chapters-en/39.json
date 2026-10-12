@@ -1,0 +1,168 @@
+{
+  "chapterId": 39,
+  "title": "Case Study Research",
+  "summary": "Applying the whole Wyckoff toolkit through real case studies: Phase Analysis (MU, TWTR), Jumping the Creek ($WTIC, PII, JWN), and Stepping Stone Reaccumulation - SSR (DLTR, BA, AAPL, SCHW) — including on intraday timeframes.",
+  "questions": [
+    {
+      "id": "ch39-q1",
+      "type": "chart_identify",
+      "prompt": "The Phase Analysis chart of MU below restates the Action & Test principle: 'A Climax is an example of an action. Expect that it is later that it must be tested. This takes place in all time frames, repeatedly.' What does this principle affirm?",
+      "chartImage": "/charts/part_39/p263_chart-919.jpg",
+      "options": [
+        "The Action & Test pair is not a one-time phenomenon, but REPEATS continuously on EVERY timeframe throughout a stock's life",
+        "A Climax can happen only once in a stock's entire history",
+        "Testing is unnecessary after a Climax action",
+        "This principle applies only to tech stocks like MU"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Wyckoff is about evaluating a series of price actions and the following tests. A Climax is an example of an action. Expect that it is later that it must be tested. This takes place in all time frames, repeatedly.'"
+    },
+    {
+      "id": "ch39-q2",
+      "type": "chart_identify",
+      "prompt": "The Phase Analysis chart of TWTR (Twitter) below shows something unusual: both the SCLX and AR formed 'all within ONE DAY'. What principle does this illustrate?",
+      "chartImage": "/charts/part_39/p264_chart-922.jpg",
+      "options": [
+        "Wyckoff events do not necessarily have to stretch over many sessions — they can be compressed and completed in a very short time, as long as the price/volume characteristics still confirm the true nature of the event",
+        "The SCLX and AR can never occur on the same day",
+        "TWTR is the only stock in market history with this phenomenon",
+        "This is a data error that should be removed from the analysis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'At the January low, the range of price movement between Support and Resistance was established, all within one day (note the SCLX and AR).' What matters is that the volume/price characteristics confirm the true nature of each event, not the amount of time elapsed."
+    },
+    {
+      "id": "ch39-q3",
+      "type": "chart_identify",
+      "prompt": "The $WTIC (crude oil) chart below illustrates 'Two Creeks'. According to the note, what confirms that a 'Jump' across the creek is TRULY valid (not false)?",
+      "chartImage": "/charts/part_39/p266_chart-927.jpg",
+      "options": [
+        "Price must break above the high of the creek, with progressively rising volume and a close near the high of the session (characteristic of a strong S-bar)",
+        "Price rising a single cent is enough to confirm the Jump",
+        "Volume must fall to zero during the Jump",
+        "There are no specific confirmation criteria for Jumping the Creek"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'This Jump needs to break above the March 9 high price, with rising volume and a close near the high of a strong S-bar.' This is a concrete criterion for distinguishing a true Jump from random price movement."
+    },
+    {
+      "id": "ch39-q4",
+      "type": "chart_identify",
+      "prompt": "The Polaris (PII) chart below notes '1st JAC has Signs of Supply' but '2nd JAC is Strong with Good Demand'. How is the difference in QUALITY between these two Jumps (JACs) recognized?",
+      "chartImage": "/charts/part_39/p267_chart-930.jpg",
+      "options": [
+        "The first Jump has price bars closing in the LOWER part of the range (a sign supply is still present despite volume); the second Jump has strong S-bars, good buying volume, and a subsequent shallow reaction + very low volume (positive)",
+        "There is no real difference between the two Jumps",
+        "The first Jump is always better than the second in every case",
+        "The difference depends only on the day of the week the Jump occurred"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Jump has Vol. but demand bars close in lower part of range. Reaction is shallow and has very low Vol. A positive.' — analyzing in detail where price bars close (not just looking at volume) helps distinguish the true quality of each Jump."
+    },
+    {
+      "id": "ch39-q5",
+      "type": "chart_identify",
+      "prompt": "The Nordstrom (JWN) chart below is introduced as 'an UNFINISHED case study'. Why does the book choose to present an unfinished case study rather than only examples with clear outcomes?",
+      "chartImage": "/charts/part_39/p268_chart-933.jpg",
+      "options": [
+        "To emphasize that Wyckoff analysis is 'a story unfolding' in real time — the trader must wait for confirming evidence (such as an SOS with good volume) rather than concluding hastily",
+        "Because the book ran out of data and could not find any other complete example",
+        "Because JWN is a stock with no analytical value",
+        "No specific reason is given"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The Wyckoff method is always an unfolding story where twists and surprises can occur. We must always be ready to update our scenarios and labels, so adjust our tactics flexibly and not rigidly.'"
+    },
+    {
+      "id": "ch39-q6",
+      "type": "chart_identify",
+      "prompt": "The Dollar Tree (DLTR) chart below is a study of Stepping Stone Reaccumulation (SSR). The note 'The low in an SSR often arrives in the first half of the formation' reconfirms a rule learned in which chapter?",
+      "chartImage": "/charts/part_39/p270_chart-938.jpg",
+      "options": [
+        "The rule learned in Part 13: the lowest low of a Reaccumulation usually appears in the first half (about the first 1/3) of the whole phase",
+        "This is a completely new rule never mentioned in any earlier chapter",
+        "This rule applies only to retail, not to other sectors",
+        "The low of an SSR always appears in the LATTER half of the phase, not the first half"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is exactly the principle learned in Part 13 (ch13-q3): 'The lowest price low absorbed will usually occur in the first half of the Reaccumulation phase.' DLTR confirms this principle, with the low at the SCLX appearing early in the whole SSR structure."
+    },
+    {
+      "id": "ch39-q7",
+      "type": "chart_identify",
+      "prompt": "The Boeing (BA) PnF chart below has the note 'PnF 5 box came very close to fulfilling the minimum count objective. This is close enough to consider the objective hit.' What does this note teach about applying PnF price targets in practice?",
+      "chartImage": "/charts/part_39/p272_chart-946.jpg",
+      "options": [
+        "A PnF price target does not have to be reached with absolute EXACTNESS — a 'close enough' result can be considered the objective fulfilled, requiring flexibility in judgment rather than rigidity",
+        "A PnF price target must always be hit to the exact cent, with no exceptions",
+        "If the target is not hit 100% exactly, the entire prior analysis is worthless",
+        "Boeing is the only stock allowed an error in its price target"
+      ],
+      "correctIndex": 0,
+      "explanation": "This note illustrates the pragmatism needed when applying PnF price targets — don't rigidly wait for an absolutely exact number, but assess overall whether the objective has been 'about' reached, combined with other Tape Reading signals."
+    },
+    {
+      "id": "ch39-q8",
+      "type": "chart_identify",
+      "prompt": "The 2-hour chart of the $INDU below shows Reaccumulation occurring right on an INTRADAY timeframe. Which principle learned in Parts 28-29 does this further reinforce?",
+      "chartImage": "/charts/part_39/p274_chart-952.jpg",
+      "options": [
+        "Wyckoff principles (including Reaccumulation) can occur and be analyzed on ANY timeframe, not limited to daily/weekly/monthly",
+        "Reaccumulation can occur only on timeframes of 1 year or more",
+        "Intraday timeframes can never show Wyckoff patterns",
+        "$INDU is the only index that can be analyzed on an hourly timeframe"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a real-world application of the principle 'Action & Test repeat on every timeframe' (Part 28) and 'A Cause can be built on every timeframe' (Part 29) — the note on the chart confirms: 'The Reaccumulation phenomena can occur in all timeframes.'"
+    },
+    {
+      "id": "ch39-q9",
+      "type": "chart_identify",
+      "prompt": "The AAPL (Apple) chart below is a Stepping Stone Reaccumulation (SSR) study. The note 'Apple is difficult to buy in quantity without pushing the price higher & higher' combined with the upward GAP and decreasing volume illustrates which Law learned in Part 23?",
+      "chartImage": "/charts/part_39/p278_chart-965.jpg",
+      "options": [
+        "The Law of Effort and Result — price rising easily (Ease of Movement) on modest volume shows supply has dried up, so little 'effort' is needed to push price up",
+        "The Law of Supply and Demand, unrelated to Effort and Result",
+        "No Wyckoff Law relates to this AAPL example",
+        "The Law of Cause and Effect alone, unrelated to volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'We conclude from the GAP that most of the supply has been absorbed and price will rise easily (EOM). Volume decreases as price rises above the Resistance area. Pushing price up requires very little Effort (volume) yet price still rises well — this is the Law of Effort and Result.'"
+    },
+    {
+      "id": "ch39-q10",
+      "type": "chart_identify",
+      "prompt": "The SCHW (Charles Schwab) chart below notes 'ST is only marginally lower than the UT. But it is a warning that the buying power is not evident. We must brace for a return to Support.' Which distinguishing principle is emphasized here?",
+      "chartImage": "/charts/part_39/p279_chart-968.jpg",
+      "options": [
+        "LOWER highs in an SSR warn of a possible return to the Support area — in CONTRAST to making a Sign of Strength (where price peaks are HIGHER); after an SOS expect an LPS, whereas after lower highs expect a Spring",
+        "Lower highs are always a positive sign; nothing to worry about",
+        "ST and UT are identical in every analytical sense",
+        "No distinguishing principle is drawn from this example"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Lower highs during an SSR warns of a return to Support. This is in contrast to making a Sign of Strength where price peaks are higher. After an SOS expect a LPS. After lower highs expect a Spring.' This is a pragmatic heuristic rule for quickly assessing the situation."
+    },
+    {
+      "id": "ch39-q11",
+      "type": "short_answer_selfgrade",
+      "prompt": "Throughout the case studies (DLTR, BA, AAPL, SCHW...), the book repeatedly warns that a Stepping Stone Reaccumulation (SSR) is easily CONFUSED with a Distribution Phase. Based on everything learned, summarize the 2-3 most important signs that tell the two cases apart.",
+      "sampleAnswer": "(1) Nature of volatility: an SSR tends to see volatility NARROW and quiet down as Absorption completes, whereas Distribution usually sees volatility INCREASE toward the end as the CO actively unloads. (2) The lowest low: in an SSR, the lowest low of the whole range usually appears EARLY (first half of the phase), after which lows gradually get higher (HL). (3) The concluding action: an SSR usually ends with a Spring/Shakeout (testing supply below) before breaking out upward, whereas Distribution usually ends with an SOW/LPSY (testing demand above) before collapsing. (4) Selling volume in the declines: dwindling in an SSR (absorption), staying high in Distribution (unloading).",
+      "chartImage": null
+    },
+    {
+      "id": "ch39-q12",
+      "type": "chart_identify",
+      "prompt": "The Target Corp (TGT) chart below opens a 'Swing Trading Case Study' — with shaded areas representing different Accumulation/Absorption phases. The note 'PnF Cause leads the Trend (Effect)' restates which principle?",
+      "chartImage": "/charts/part_39/p281_chart-973.jpg",
+      "options": [
+        "The Law of Cause and Effect (Part 23): a Cause (measured with PnF) must be built BEFORE the Effect (price trend) follows",
+        "This law has no relationship to anything learned earlier",
+        "PnF always comes AFTER the price trend, never before",
+        "TGT is the only stock that follows the Law of Cause and Effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'PnF Cause leads the Trend (Effect). Long-term Trend with Cyclical Undertone. Shaded areas equals Cause Building.' This is a direct reminder of the Law of Cause and Effect learned in Part 23 — a principle running through the entire Wyckoff Method."
+    }
+  ]
+}

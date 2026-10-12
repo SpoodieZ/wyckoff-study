@@ -1,0 +1,98 @@
+{
+  "chapterId": 10,
+  "title": "Trend Channel Lines",
+  "summary": "A deeper look at the Trend Channel technique through many real examples (CMG, IWM, GLW, $TRAN, XLF): the central role of the Support Line, the Sign of Weakness when support breaks, the paradox of price not touching support in a strong uptrend, and the fact that trendlines apply on every timeframe.",
+  "questions": [
+    {
+      "id": "ch10-q1",
+      "type": "multiple_choice",
+      "prompt": "According to the book, which line plays the 'main leading role' in defining an Uptrend phase, and what happens when price returns to touch it?",
+      "options": [
+        "The Support Line — when price returns to this line, Demand appears and the advance resumes",
+        "The Overbought Line — when price touches this line the trend immediately reverses downward",
+        "The 50-day moving average (MA50)",
+        "The zero line of the MACD indicator"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The main leading line in defining an uptrend is the Support Line. The stock price will fluctuate up and down at this Support Line. When price returns to the Support Line, demand will appear and the advance will continue.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch10-q2",
+      "type": "chart_identify",
+      "prompt": "On the IWM (weekly) chart below, what happens when price breaks the Support Line with a wide spread, fast speed and high volume — and what does the old Support line become afterwards?",
+      "chartImage": "/charts/part_10/p036_chart-147.jpg",
+      "options": [
+        "This is a Sign of Weakness (SOW) signal; an attempted recovery back to the old Support line fails, and that old Support line becomes the new Resistance line",
+        "This is an extremely strong bullish signal, confirming the Stride will continue indefinitely",
+        "It has no special meaning, just ordinary price noise",
+        "It is a sign the company is about to be acquired (M&A)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'When price breaks the support line with a wide spread and fast speed accompanied by heavy volume, this is the signal showing weakness SOW has appeared; an attempted recovery back to the previous support line then occurs and the previous support line becomes a resistance line. The two trendlines meet at the point where price declines.'"
+    },
+    {
+      "id": "ch10-q3",
+      "type": "chart_identify",
+      "prompt": "On the GLW (Corning) chart below, price moves near the Overbought Line for about 9 months before declining back to the Support Line. According to the book, what does it mean for price to 'linger' near resistance for so long?",
+      "chartImage": "/charts/part_10/p037_chart-150.jpg",
+      "options": [
+        "It is NOT yet a mandatory sell signal — price can move near the resistance line for a long time without necessarily reversing right away",
+        "It is ALWAYS a mandatory signal to sell immediately without hesitation",
+        "It is a charting error that should be removed from the analysis",
+        "It is a sign the stock is about to be split (stock split)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Price can move near the resistance line for a long time; this is not yet a mandatory signal to sell.' However, in the GLW example, the stock later 'fell out of' the trend channel when price broke the support line and lost its 'Stride'."
+    },
+    {
+      "id": "ch10-q4",
+      "type": "chart_identify",
+      "prompt": "The $TRAN (Dow Jones Transportation Average) chart below illustrates a 'paradox' the book mentions. According to the note on the chart, what is that paradox?",
+      "chartImage": "/charts/part_10/p037_chart-151.jpg",
+      "options": [
+        "In a robust uptrend, price approaches but does NOT touch the Support Line — this is a sign of bullishness; later, as the trend gradually weakens, price actually breaks the Support Line just before the final advance of the trend",
+        "Price always touches the Support Line exactly at every correction throughout the trend, without exception",
+        "$TRAN never has an uptrend; this index always moves sideways",
+        "The Support Line and the Resistance Line on this chart coincide completely"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Dealing with the paradox of getting near the Support Line in a robust uptrend. Price approaches but does not touch Support. This is a sign of bullishness. Later in the trend it breaks Support before the final advance. This proves to be the final advance in this uptrend.'"
+    },
+    {
+      "id": "ch10-q5",
+      "type": "multiple_choice",
+      "prompt": "According to the conclusion of Part 10 (illustrated with the daily XLF chart), over what range of timeframes can the technique of drawing Trendlines/Trend Channels be applied?",
+      "options": [
+        "It can be drawn and seen on ANY timeframe (including the daily chart, not just the weekly)",
+        "It applies only on the weekly timeframe",
+        "It applies only on the monthly timeframe",
+        "It applies only to indices, not to individual stocks or ETFs"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Trendlines can be drawn and seen on any timeframe. The figure above is an analyzed daily timeframe chart... A daily chart may display more volatility but still follows the same principles.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch10-q6",
+      "type": "chart_identify",
+      "prompt": "On the CMG (weekly) chart below, titled 'Power of the Stride', the note 'Four touches on Support Line where it holds and rallies' shows what about the reliability of the drawn trend channel?",
+      "chartImage": "/charts/part_10/p035_chart-143.jpg",
+      "options": [
+        "That the Support Line was retested by price 4 times and held each time before rallying again is evidence reinforcing the reliability of the trend channel — confirming this stock's 'Stride'",
+        "Those four touches prove the trend channel was drawn wrongly and must be redrawn from scratch",
+        "It is mere coincidence with no analytical value",
+        "These four touches are a sure sign the stock is about to fall sharply"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Power of the Stride. Getting creative we draw a trendline anchored to this peak. The Support trendline and the Mid-Point trendline become relevant later in the trend... Four touches on Support Line where it holds and rallies.' Each time price touches and bounces from the Support Line without breaking it is further confirmation of the trend channel's validity."
+    },
+    {
+      "id": "ch10-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Based on the paradox on the $TRAN chart (the question above), why is price approaching but NOT touching the Support Line in an uptrend considered more 'bullish' than price touching the Support Line exactly at every correction?",
+      "sampleAnswer": "Because price failing to reach all the way down to the Support Line shows demand stepped in earlier than expected — investors did not wait for the lowest price (support) to buy, but proactively bought at higher price levels. That reflects strong demand and high confidence in the trend, stronger than the scenario where price must fall right down to the channel bottom each time before buyers are found.",
+      "chartImage": null
+    }
+  ]
+}

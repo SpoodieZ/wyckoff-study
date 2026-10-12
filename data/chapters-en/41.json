@@ -1,0 +1,84 @@
+{
+  "chapterId": 41,
+  "title": "The Inner Game",
+  "summary": "The 'Mental Rehearsal' technique — borrowing the story of All-Star baseball player Shawn Green practicing his swing with a batting tee to illustrate how a Wyckoff trader can practice with purpose on historical price structures, turning analytical skills into instinct.",
+  "questions": [
+    {
+      "id": "ch41-q1",
+      "type": "multiple_choice",
+      "prompt": "How does the book define 'Mental Rehearsal' in trading?",
+      "options": [
+        "Taking a historical market price structure you are determined to master — analyzing, evaluating, labeling and trading it — in order to become sensitive to the many variations of price structures that develop in the market",
+        "Simply reading theory books without practicing on real charts",
+        "A meditation technique unrelated to chart analysis",
+        "Memorizing the exact closing price of every past trading session"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Mental rehearsal can be a valuable technique for strengthening trading skills. With this technique, we take a historical market price structure that we are determined to master and understand; analyze, evaluate, label and then trade them.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch41-q2",
+      "type": "multiple_choice",
+      "prompt": "The book tells the story of Shawn Green, a professional baseball player twice chosen for the All-Star team. When he was a struggling rookie, what did Green do to improve his hitting technique?",
+      "options": [
+        "He bought a batting tee, imagined a pitcher throwing at 95 mph, and repeatedly practiced hitting balls off the tee into a concrete wall",
+        "He hired an expensive personal coach to train with every day",
+        "He quit professional baseball and switched to another sport",
+        "He only watched videos of other players competing without practicing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Green tried and succeeded in practicing his hitting technique by creating a form of mental training. He bought a batting tee... Green would imagine in his head that the pitcher was throwing at 95 miles per hour as he practiced his hitting mechanics to make contact with the ball.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch41-q3",
+      "type": "multiple_choice",
+      "prompt": "According to the book, what made Shawn Green's batting-tee practice truly effective and bring success to his All-Star career?",
+      "options": [
+        "His increasingly refined VISUALIZATION (mental rehearsal) with each session, and applying what he practiced in real games — he came to see baseball as a profession that is very mentally demanding",
+        "His focusing only on muscular strength without needing tactical thinking",
+        "His luck in being chosen for the main squad from the very start of his career",
+        "His never practicing, relying only on innate talent"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'His mental training became more and more refined as he practiced hitting different types of pitches, at different locations... He concluded that baseball is a profession that demands a great deal mentally.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch41-q4",
+      "type": "chart_identify",
+      "prompt": "The $SPX chart (2016) below is used to illustrate 'mental rehearsal' — with 'Buy Zones' marked at each Spring. The note 'Stride of the advance is set at the two Springs' reconfirms which principle?",
+      "chartImage": "/charts/part_41/p301_chart-1036.jpg",
+      "options": [
+        "The 'Stride' principle established early by the Springs — consistent with the principles learned in Parts 9, 10 and 40 that a trend's Stride is usually set very early",
+        "This is a completely new concept of Stride never seen before",
+        "Springs have no connection to the concept of Stride",
+        "$SPX is the only index whose Stride is set by Springs"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a combined illustration: the trendline connecting the two Springs sets the 'tone' for the entire path of the advance that follows — consistent with the Stride principle learned many times throughout the book (Parts 9, 10, 40)."
+    },
+    {
+      "id": "ch41-q5",
+      "type": "multiple_choice",
+      "prompt": "The book advises that when doing mental rehearsal with historical price structures, a Wyckoff learner should go beyond what, and aim for what?",
+      "options": [
+        "Go beyond MERELY UNDERSTANDING THE PRICE STRUCTURE — also identify the correct entry points, apply good tactics, and experience combining all the elements to execute the trade correctly",
+        "Understanding the price structure correctly is enough; entry points don't matter",
+        "Skip price-structure analysis entirely and focus on feeling",
+        "No specific advice is given in the book"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'In the practice process, we must go beyond just understanding the price structure correctly. We want to see the correct entry points and apply good tactics. And to experience combining all the elements together and then executing the trade correctly.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch41-q6",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book writes: 'Go back and, instead of just studying it, practice with purpose. Make your study time meaningful and valuable.' Comparing Shawn Green's story with learning the Wyckoff Method, explain the difference between 'passive study' and 'purposeful practice' in the context of chart analysis.",
+      "sampleAnswer": "'Passive study' is like just re-viewing charts and reading the ready-made labels (PS, SC, AR, ST...) without actually making your own decisions — like only watching videos of other players hit without picking up a bat yourself. 'Purposeful practice' (like Shawn Green with the batting tee) requires ACTIVELY simulating the whole real decision-making process: analyzing a chart whose outcome you don't know in advance, placing your own entry, stop-loss and exit points as if trading for real — then comparing with what actually happened to learn from it. Only this active, repeated practice with feedback truly turns theoretical knowledge into reliable trading reflexes and intuition.",
+      "chartImage": null
+    }
+  ]
+}

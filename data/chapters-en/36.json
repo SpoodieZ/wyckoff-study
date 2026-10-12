@@ -1,0 +1,112 @@
+{
+  "chapterId": 36,
+  "title": "Judging Strength Through Waves",
+  "summary": "The 'Wave Analysis' technique — comparing each successive pair of up/down waves of a stock with a benchmark index ($SPX) to find a 'Change of Character - CHOCH'. Applied to Accumulation contexts (CMG, AAPL, GDX) and Distribution (IWM, XLE) with the concept of the 'Point of Vulnerability' when The ICE is broken.",
+  "questions": [
+    {
+      "id": "ch36-q1",
+      "type": "multiple_choice",
+      "prompt": "What is the core goal of 'Wave Analysis' (comparing a stock's successive buying/selling waves with a benchmark index)?",
+      "options": [
+        "To find evidence of a 'Change of Character (CHOCH)' — often shown when a stock moves calmly in a TR and then switches strongly into a new trend",
+        "Only to calculate income tax on securities trading",
+        "There is no specific analytical goal; it is just a charting exercise",
+        "It applies only to the Downtrend Phase, not to Uptrends or Accumulation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The goal of this analysis is to find evidence of a Change of Character (CHOCH). This can often show when a stock moves calmly in a trading range and then switches strongly into a new trend. We compare the buying waves and selling waves to look for the most subtle hints of CHOCH.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch36-q2",
+      "type": "chart_identify",
+      "prompt": "The chart below compares CMG with the $SPX (waves A-H). At wave D, what shows CMG is 'clearly stronger' than the $SPX?",
+      "chartImage": "/charts/part_36/p228_chart-808.jpg",
+      "options": [
+        "CMG moves clearly out of its Accumulation TR at wave D, while the $SPX only rises to the middle of its TR",
+        "CMG falls harder than the $SPX at wave D",
+        "There is no difference between CMG and the $SPX at wave D",
+        "CMG stops trading entirely at wave D"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'CMG is clearly stronger at wave D by moving beyond the Accumulation TR, while the $SPX only rises to the middle of the TR.' This is early evidence of leadership forming in CMG, confirmed and continuing throughout the bull market that followed."
+    },
+    {
+      "id": "ch36-q3",
+      "type": "chart_identify",
+      "prompt": "The chart below comparing AAPL with the $SPX shows that at the end of wave C, a Spring forms in AAPL. What happens SIMULTANEOUSLY on the $SPX chart at that same time?",
+      "chartImage": "/charts/part_36/p229_chart-811.jpg",
+      "options": [
+        "The $SPX makes a HIGHER low (HL) at the same time — showing downward pressure is still strong in the broad market while AAPL already shows a more positive Spring sign",
+        "The $SPX also forms a Spring identical to AAPL's",
+        "The $SPX jumps to an all-time high",
+        "The $SPX stops trading entirely at that moment"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Note that at the end of wave C, a Spring forms while the $SPX makes a higher low (HL - line connecting D). AAPL makes lower highs (LH) and lower lows (LL) at lines C and D, showing downward pressure is still strong.' This subtle difference is an initial clue before a clearer CHOCH appears at wave E."
+    },
+    {
+      "id": "ch36-q4",
+      "type": "chart_identify",
+      "prompt": "The chart below comparing GDX (gold miners) with the $SPX shows that in August, when the $SPX fell sharply and turned choppy, how did GDX react?",
+      "chartImage": "/charts/part_36/p230_chart-814.jpg",
+      "options": [
+        "GDX had made a sharp decline EARLIER and did NOT take part in the market's general decline this time — an early and subtle clue to a possible shift from weak to strong",
+        "GDX fell much harder than the $SPX in the same period",
+        "GDX and the $SPX always move identically throughout the whole chart",
+        "GDX stopped trading throughout August of that year"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'In August when the $SPX became sharply down and loosely volatile, GDX had made a strong decline earlier and did not take part in this general decline of the market.' This is an early hint of the gold miners shifting from weak to strong, confirmed more clearly through the CHOCH at wave F."
+    },
+    {
+      "id": "ch36-q5",
+      "type": "chart_identify",
+      "prompt": "The chart below comparing IWM with the $SPX (a Distribution context) carries the note 'Point of vulnerability is when ICE is broken and price consolidates without being able to lift.' What is the 'Point of Vulnerability' by this definition?",
+      "chartImage": "/charts/part_36/p231_chart-817.jpg",
+      "options": [
+        "The moment price breaks the ICE line and then only consolidates (moves sideways) WITHOUT being able to rally back above that ICE line",
+        "The moment price has just reached an all-time high (ATH)",
+        "The moment trading volume hits its 50-day average",
+        "No 'point of vulnerability' is identified on the IWM chart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Point of vulnerability is when ICE is broken and price consolidates without being able to lift. IWM breaks through the ICE 3 weeks prior to $SPX.' — IWM broke the ICE and was unable to recover a full 3 weeks BEFORE the $SPX, serving as an early warning signal for the whole market."
+    },
+    {
+      "id": "ch36-q6",
+      "type": "multiple_choice",
+      "prompt": "What is the significance of IWM breaking the ICE line and weakening up to 3 weeks EARLIER than the $SPX for a Wyckoff analyst watching the whole market?",
+      "options": [
+        "IWM serves as an EARLY WARNING (leading) indicator of weakness about to spread across the whole market — consistent with the principle 'the leading group tops first' learned in Part 25/26",
+        "IWM has nothing whatsoever to do with the broad market's behavior",
+        "IWM weakening first means the $SPX will never fall",
+        "It is mere coincidence with no analytical value"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a real-world application of the principle learned in Part 25 (Step 2: 'One of the signals of a market top is when the leading group shows signs of topping'). Watching leading indices/groups weaken early lets the Wyckoff analyst be alert before the whole market confirms a decline.",
+      "chartImage": null
+    },
+    {
+      "id": "ch36-q7",
+      "type": "chart_identify",
+      "prompt": "The chart comparing XLE (Energy) with the $SPX below shows that at the final 'Test wave', XLE makes a HIGHER low (HL) while the $SPX must make a SLIGHTLY LOWER low. What is this evidence of?",
+      "chartImage": "/charts/part_36/p233_chart-822.jpg",
+      "options": [
+        "A positive Change of Character (CHOCH) in XLE — a sign the CO may be starting to accumulate XLE at good prices, even though the broad market ($SPX) is still weak",
+        "XLE is much weaker than the $SPX at this time",
+        "There is no notable difference between XLE and the $SPX here",
+        "XLE is about to be permanently removed from the energy index"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Test makes a higher low while $SPX must make a slightly lower test. XLE appears to have a CoC.' Combined with another note: 'Final decline is less intense than $SPX. Evidence of the C.O. beginning to Accumulate at good prices.' — a sign XLE is starting to show positive relative strength even though the broad market context is still weak."
+    },
+    {
+      "id": "ch36-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "In the IWM (Distribution) example, wave E recovers nearly the entire decline of wave D but takes only about 1/4 of the time of that decline. Why is this considered a SUSPICIOUS sign (Distribution) rather than a positive one (fast recovery = strong)?",
+      "sampleAnswer": "Because under the principle of 'Effort and Result', a recovery that is fast and large in SPREAD but happens in an unusually SHORT time (only 1/4 of the time of the prior decline) usually does not reflect lasting, organized demand — it looks more like a short-term technical reaction or a 'bull trap'. A healthy recovery truly backed by the CO usually takes proportionate time to 'build', rather than popping up too fast and without foundation — the imbalance between the size of the recovery and its brief duration is a warning sign of poor-quality demand, consistent with a Distribution Phase in progress.",
+      "chartImage": null
+    }
+  ]
+}

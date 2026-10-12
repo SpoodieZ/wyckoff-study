@@ -1,0 +1,126 @@
+{
+  "chapterId": 6,
+  "title": "Francis Bacon - Revealing the Nature of Market Trends",
+  "summary": "Francis Bacon's metaphor of natural motion applied to the market: Accumulation is the Cause that produces the Effect (Uptrend). A deep dive into the Spring — the 'bear trap' — the Shakeout, and the 3 types of Spring (#1, #2, #3) distinguished by volume.",
+  "questions": [
+    {
+      "id": "ch6-q1",
+      "type": "multiple_choice",
+      "prompt": "Francis Bacon once said that things in nature move violently to reach their place, and gently once they are in place. How does the book apply this metaphor to the stock market?",
+      "options": [
+        "Stocks move gently and slowly inside the Trading Range (TR — 'in place'), then shift to violent movement when the trend begins; 'Timing is everything'",
+        "Stocks always move violently in a TR and gently when trending — the exact opposite of reality",
+        "This metaphor only applies to commodity markets, not stocks",
+        "This metaphor is about investing for the long term and never selling stocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Stocks tend to move gently, slowly, and without much excitement inside their trading ranges (TR), and then switch violently into a trend... Timing is everything' — the genius of speculation is knowing when that quiet period ends.",
+      "chartImage": null
+    },
+    {
+      "id": "ch6-q2",
+      "type": "multiple_choice",
+      "prompt": "The book asserts that 'Accumulation is a Cause that produces a later Effect.' By this cause-and-effect logic, what happens once the CO has absorbed nearly all the supply and the public has almost nothing left to sell (the point of equilibrium, boredom)?",
+      "options": [
+        "Only significantly higher prices will persuade Strong Hands to release some of their stock — then the shortage of supply meeting even slight demand is enough to make price move violently, launching the Uptrend",
+        "The market will freeze forever because no one is trading",
+        "Price will immediately fall sharply back to the old low",
+        "The CO will have to dump all its stock because it cannot find the next buyer"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Only much higher prices (a hot advance) will induce this large interest group to supply stock to the market... When the shortage of stock meets a slight increase in demand pushing up, price can move violently. A major uptrend has been launched.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch6-q3",
+      "type": "multiple_choice",
+      "prompt": "How is a 'Spring' session defined, and why is it called a 'Bear Trap'?",
+      "options": [
+        "A Spring breaks the support at the bottom of the TR to make a new low (LL), triggering downtrend followers to sell short and the public to panic-sell everything — but it is really a trap, because price turns back up soon after",
+        "A Spring is when price jumps above the top of the TR on enormous volume",
+        "A Spring is just another name for the Selling Climax, with no difference",
+        "A Spring is when the company issues new shares (dilution)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A Spring session tests the lower boundary (support) of the TR by breaking through support levels and making a new low (LL). This is a Bear trap. It triggers downtrend traders to sell more stock short and the public to sell whatever stock remains in utter panic (Point of Fear #2).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch6-q4",
+      "type": "multiple_choice",
+      "prompt": "After a Spring session, if new supply appears below the lows (so price may fall further before the CO places buy orders), what is this phenomenon called?",
+      "options": [
+        "A Shakeout — usually accompanied by rising trading volume, showing that new supply is being pushed into the market",
+        "Automatic Rally (AR)",
+        "Buying Climax (BCLX)",
+        "Ease of Movement (EOM)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'For the CO, a true Spring session is an important question: How much supply appears below the lows? If there is supply, the stock price may fall harder before the CO places buy orders below. This condition is called a Shakeout. A Shakeout is usually accompanied by increased trading volume.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch6-q5",
+      "type": "multiple_choice",
+      "prompt": "Among the 3 types of Spring the book classifies, how is 'Spring #1' described, and what action advice goes with it?",
+      "options": [
+        "Spring #1 is really a Shakeout in the form of a Sign of Weakness (SOW) — a complete collapse; do NOT buy here",
+        "Spring #1 is the safest type of spring and should be bought immediately without waiting for confirmation",
+        "Spring #1 occurs only in the bond market, not in stocks",
+        "Spring #1 always comes with the lowest volume of the 3 types"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Spring #1 is really a Shakeout as SOW, a complete collapse. Do not buy here.' This is the riskiest type of spring because it shows there is still plenty of supply under support.",
+      "chartImage": null
+    },
+    {
+      "id": "ch6-q6",
+      "type": "multiple_choice",
+      "prompt": "With 'Spring #2', after price breaks deep below support on heavy volume and then rebounds strongly back into the TR, what does the book advise the trader to do before buying?",
+      "options": [
+        "Wait for a mild decline back toward the low on decreasing volume (called a 'Test'), then buy with a stop-loss placed below the Spring low",
+        "Buy immediately at the top of the rebound without waiting for anything else",
+        "Sell short immediately because this signals the downtrend will continue",
+        "Ignore this stock entirely and stop trading it"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Spring #2 moves deeper below the low on heavy volume and then has a rally back into the TR, followed by a mild decline back toward the low (this is called a test). The Test will have lower volume and can be bought with stops below the Spring low.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch6-q7",
+      "type": "chart_identify",
+      "prompt": "The CMG (2008-09) chart below illustrates a Spring #3 session. According to the note on the chart, why is this identified as Spring #3 rather than Spring #1 or #2?",
+      "chartImage": "/charts/part_06/p020_chart-094.jpg",
+      "options": [
+        "Price only briefly and marginally breaks below the old low on modest/no notable increase in volume — so it can be bought immediately without waiting for a Test",
+        "Because the Spring day's volume is 5 times the average, showing a strong Shakeout",
+        "Because price fell continuously for 3 weeks after the Spring session",
+        "Because this is the only stock in the book with a Spring session"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: '#3 Springs briefly and marginally break to new lows on modest Vol. CMG has no increase in Vol. on final push to price low and the Spring day is an up day on slightly increased volume. #3 Spring is at hand and can be bought immediately. No Test required.'"
+    },
+    {
+      "id": "ch6-q8",
+      "type": "chart_identify",
+      "prompt": "The weekly DJIA 1981-83 chart below shows the historic low of September 1982. Compared with the two earlier high-volume Secondary Tests (ST1, ST2), what are the volume characteristics of the final Spring session (which made the lowest low), and what does that mean?",
+      "chartImage": "/charts/part_06/p021_chart-097.jpg",
+      "options": [
+        "Volume on the final Spring is very LOW (in contrast to the earlier high-volume ST1 and ST2) — showing supply has dried up, a reliable signal that a new bull market is about to begin",
+        "Volume on the final Spring is higher than all earlier sessions combined",
+        "Volume is no different from ST1 and ST2",
+        "This chart does not show any volume information"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The two weekly candles of the decline were low volume and the Spring was also low volume... This is in contrast to the two earlier Secondary Tests [high volume]. The subsequent rally was very positive. Within three weeks, the DJIA jumped out of the Accumulation TR and a new bull market began.'"
+    },
+    {
+      "id": "ch6-q9",
+      "type": "short_answer_selfgrade",
+      "prompt": "Why does a HIGH-volume Spring session usually need to be retested in the following days/weeks, while a LOW-volume Spring session sometimes does not need a retest?",
+      "sampleAnswer": "Because high volume on the Spring session shows that plenty of supply is still appearing right below the support line — a retest on decreasing volume is needed to confirm that supply has been fully absorbed before trusting a buy. By contrast, low volume at the Spring itself shows there was not much supply left in that zone to begin with, so no extra retest confirmation step is needed.",
+      "chartImage": null
+    }
+  ]
+}

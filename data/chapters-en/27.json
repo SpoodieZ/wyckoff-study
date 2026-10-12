@@ -1,0 +1,154 @@
+{
+  "chapterId": 27,
+  "title": "The POE Entry and EXIT Point System",
+  "summary": "A systematized set of 4 Points of Entry (POE) at the Spring/Test, LPS and BU, with 4 symmetrical EXIT points in Distribution. The technique of building a position in 3 parts, a minimum 3:1 Reward/Risk ratio, and the principle '40% risk control - 60% self control'.",
+  "questions": [
+    {
+      "id": "ch27-q1",
+      "type": "multiple_choice",
+      "prompt": "The 'Wyckoff Point Of Entry (POE)' system lists 4 ideal entry points in Phases |C|, |D| and early |E|. What are the 4 points?",
+      "options": [
+        "(1) Spring #3 and the Test of a Spring #2/Shakeout session; (2) Last Point of Support (LPS); (3) Backup (BU) after breaking up and out of the TR; (4) Break BU - a break above the high of the BU/SOS",
+        "(1) Selling Climax; (2) Buying Climax; (3) Preliminary Support; (4) Preliminary Supply",
+        "Only 1 entry point — Spring #3",
+        "(1) Monday; (2) Tuesday; (3) Wednesday; (4) Friday of the week"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The four ideal trading points in Phases |C|, |D| and early |E| are: 1) Spring #3 and the Test of a Spring #2 or Shake-out session. 2) Last Point of Support - LPS (often with multiple LPS points following). 3) Backup (BU) after breaking up and out of the Accumulation TR. 4) Break BU - a break above the high of the BU/SOS (Sign of Strength).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q2",
+      "type": "chart_identify",
+      "prompt": "The GDX chart below illustrates a clear 'Change of Character'. According to the note, what does this change consist of?",
+      "chartImage": "/charts/part_27/p132_chart-489.jpg",
+      "options": [
+        "Price going from weak, listless trading to dynamic leaps on high volume — supply has been tightened and absorbed by the CO, making it harder to buy large quantities of stock, so price accelerates higher",
+        "Price having no change at all throughout the process",
+        "The company GDX announcing a merger with another gold-mining competitor",
+        "Trading volume dropping completely to zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Change of Character is going from weak and listless trading to dynamic leaping of prices on high volume. Supply is tight and has been absorbed by the C.O. It is hard to buy stock in large quantities and therefore the price is accelerating higher.'"
+    },
+    {
+      "id": "ch27-q3",
+      "type": "multiple_choice",
+      "prompt": "The book presents two ways to identify the 'Buy' zone at the Tests of a Spring/Shakeout, LPS or BU. What are the two ways?",
+      "options": [
+        "(1) Identify small price spreads and low selling volume in the downward corrections (Signal); (2) Identify decisive upward reversal price action (S-bar/RS-bar) after the Test (Confirmation)",
+        "(1) Call a broker for advice; (2) Read a bank's technical analysis report",
+        "There is only one way to identify the Buy zone",
+        "(1) Wait for price to rise 50%; (2) Wait for absolutely zero volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'There are two ways to identify a buy: Identify small price spreads and low selling volume in the downward corrections - supply-exhausted Tests at Tests of a Spring or Shakeout, LPSs and BUs (Signal). Identify decisive upward reversal price action (S-bars and RS-bars) after the supply-exhausted Test at the Tests... (Confirmation).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q4",
+      "type": "multiple_choice",
+      "prompt": "Under the POE system, what is the MINIMUM Reward/Risk ratio required for a trade, measured using the PnF price target?",
+      "options": [
+        "3:1 or greater",
+        "1:1 (equal)",
+        "10:1 mandatory, no exceptions",
+        "There is no specific ratio requirement"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Setting a minimum Reward/Risk ratio of 3:1 with Point and Figure (PnF) analysis is very important.' Worked example: entry price $16.25, stop loss $15 (risk $1.25), so the profit target must be at least $16.25 + 3×$1.25 = $20 or higher to achieve a 3:1 R:R ratio.",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q5",
+      "type": "multiple_choice",
+      "prompt": "The book advises building a trading position in THREE PARTS (thirds) rather than buying all at once. What is the condition for making the NEXT purchase?",
+      "options": [
+        "Only add the next part if the PREVIOUS part is in profit — if the most recent purchase is not yet profitable, the next purchase is not made",
+        "Add more regardless of whether the prior purchase is in profit or loss",
+        "Add more only when losing, to average the price down (DCA down)",
+        "No condition at all; buy on feeling"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A Wyckoff investor should always think of adding to a long position in a profitable trade. If the last purchase is not profitable, the next additional purchase will not be made until the prior purchase is profitable.' This is the rule 'Only average UP (DCA Up)'.",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q6",
+      "type": "multiple_choice",
+      "prompt": "The book offers a surprising principle: 'Successful trading consists of: 40% risk control and 60% self control.' According to the detailed breakdown, how much of success does MARKET ANALYSIS account for?",
+      "options": [
+        "About 20% — because the risk-control portion (40%) splits into half money management and half market analysis",
+        "100% — market analysis is the only factor determining success",
+        "0% — market analysis is not important at all",
+        "80% — market analysis is the most important factor, overwhelming all others"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: '40% is risk control and 60% is self control. Of this, the risk control portion consists of half money management and half market analysis. Thus market analysis accounts for only about 20% of successful trading. Yet most traders focus on market analysis while paying no attention to self control and treating risk control lightly.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q7",
+      "type": "chart_identify",
+      "prompt": "The STLD (Steel Dynamics) chart below illustrates building a 3-part position with buy points #1, #2, #3. After buy #2 (at the LPS), how is the stop loss adjusted?",
+      "chartImage": "/charts/part_27/p138_chart-513.jpg",
+      "options": [
+        "The stop loss is moved up below the low of the LPS (the $16.75 level) — creating a breakeven point for buy #1 and a profit on average price for buy #2",
+        "The stop loss is left unchanged throughout the entire trading campaign",
+        "The stop loss is moved lower to accept greater risk",
+        "No stop loss is needed after the second purchase"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Move the stop loss up below the low of the LPS at $16.75 where buy point #1 is profitable and buy point #2 gives a breakeven point on the average price.' This is how capital is progressively protected as the position is built further."
+    },
+    {
+      "id": "ch27-q8",
+      "type": "multiple_choice",
+      "prompt": "The 'EXIT' system (exit points) is designed symmetrically to the POE system, applied to Phases |A|, |B| and |D| of a subsequent Distribution Phase. Which event does EXIT #1 correspond to?",
+      "options": [
+        "Exiting by placing a stop loss (SL) below, with evidence of a Buying Climax (BC) appearing — a 'Climax Action'",
+        "Exiting when the company announces a special dividend",
+        "Exiting only when price has fallen more than 90% from the top",
+        "EXIT #1 is not specifically defined in the book"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'EXIT #1: In Phase |A| - Exit by placing a stop loss (SL) below. Evidence is the appearance of the BC (characteristics of: spread, speed and volume). (Climax Action).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q9",
+      "type": "multiple_choice",
+      "prompt": "The book ranks the 'Three Exit Strategies' by decreasing DESIRABILITY. What is Strategy #1 (the most desirable)?",
+      "options": [
+        "Take profits, remove the position and exit the market when price action reaches a climax within the price target zone (the price target is nearly achieved)",
+        "Exit the market automatically when the trailing stop is hit",
+        "Never exit; hold the position forever",
+        "Exit randomly with no criteria"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Three exit strategies in the Wyckoff orientation, ranked by their desirability, are as follows: Take profits, remove the position and exit the market when price action reaches a climax within the price target zone (price target nearly achieved).' Strategy #2 is an automatic trailing stop; Strategy #3 (the fallback, most passive) is for those lacking the skills to apply Strategy #1/#2.",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q10",
+      "type": "multiple_choice",
+      "prompt": "The book explains why Exit Strategy #1 CANNOT be turned into a pre-placed automatic sell/buy (limit) order in the middle of the price target zone. What is the reason?",
+      "options": [
+        "Because Strategy #1 still requires a REAL Climax volume action to occur to halt price movement — you cannot know exactly in advance when that climax will occur in order to set an automatic order",
+        "Because exchanges prohibit limit orders in the price target zone",
+        "Because Strategy #1 has no limitations and can be fully automated",
+        "Because PnF price targets are never accurate, so no exit strategy is needed at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The answer is that exit strategy #1 also requires Climax volume action to stop the price movement.' Placing an automatic order in the middle of the target zone without confirming a real climax action would lead to exiting too early if price keeps moving.",
+      "chartImage": null
+    },
+    {
+      "id": "ch27-q11",
+      "type": "short_answer_selfgrade",
+      "prompt": "Exit Strategy #3 (trailing stop) is described as the 'fallback, default and passive method' — for those lacking the skills of Strategy #1/#2. Why should a BEGINNER trader accept starting with Strategy #3, rather than trying to apply Strategy #1 (take profit at the climax) right away even though it is 'the most desirable'?",
+      "sampleAnswer": "Because Strategy #1 requires accurately recognizing a Climax action as it unfolds in real time — a sophisticated chart-reading skill that takes much experience and practice to master, and is easy to get wrong without enough experience (exiting too early or too late). Strategy #3 (trailing stop) is simple, objective, and requires no complex subjective judgment, so it is a safe starting point for preserving capital while the new trader gradually builds the skills and experience needed to move on to the more active and optimal exit strategies.",
+      "chartImage": null
+    }
+  ]
+}

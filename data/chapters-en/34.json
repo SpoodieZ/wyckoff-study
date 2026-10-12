@@ -1,0 +1,98 @@
+{
+  "chapterId": 34,
+  "title": "Why PnF Charts Work Well",
+  "summary": "Explains why counting horizontal boxes on a PnF chart can forecast price targets: the inverse relationship between volatility and the time the CO needs to absorb enough supply. Practical application on the major indices ($SPX, $INDU, $NDX) to assess 'how much fuel is left in the tank'.",
+  "questions": [
+    {
+      "id": "ch34-q1",
+      "type": "multiple_choice",
+      "prompt": "The book explains the core reason why a Trading Range (TR) with LITTLE volatility (price oscillation) usually needs LONGER to complete than a TR with MUCH volatility. What is it?",
+      "options": [
+        "With less volatility the process takes longer because the CO needs more time to find additional supply of stock; conversely, more volatility helps the CO find enough supply faster, so the process is shorter",
+        "There is no relationship between the degree of volatility and the time to complete a TR",
+        "A TR with more volatility always takes longer than one with less volatility",
+        "The time to complete a TR depends only on the day of the week, unrelated to volatility"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A wide trading range with plenty of up and down volatility gives the CO the opportunity to absorb as much stock as possible... If there is little volatility in the trading range TR, the process will take longer because time is needed to find more supply of stock. Conversely, with more volatility, the process will be shorter.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch34-q2",
+      "type": "multiple_choice",
+      "prompt": "On an ordinary bar/candlestick chart, TIME is a fixed constant on the horizontal axis. What about on a PnF chart?",
+      "options": [
+        "A new column is created only when a price reversal reaches the predetermined minimum (box reversal) — the size of a TR on PnF depends entirely on the NUMBER OF PRICE REVERSALS, not on elapsed time",
+        "PnF also uses time as a constant exactly like bar/candlestick charts, no difference",
+        "PnF never creates new columns no matter how price fluctuates",
+        "PnF creates new columns only at the start of each calendar month"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'In building price on a Point and Figure (PnF) chart, each column records price only through movement. A new column to the right appears only when a price reversal reaches the predetermined minimum (box reversal setting). On a PnF chart, the size of the range of movement of an Accumulation (or Distribution) phase depends entirely on the number of price reversals.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch34-q3",
+      "type": "chart_identify",
+      "prompt": "The $SPX PnF chart below asks 'Accumulation and Reaccumulation counts confirm. Is the fuel in the tank nearly used up?' What does this 'fuel in the tank' question allude to?",
+      "chartImage": "/charts/part_34/p202_chart-728.jpg",
+      "options": [
+        "Whether the Cause built in the earlier price bases still has enough 'energy' (upside potential) to keep pushing price, or is nearly exhausted and a NEW Cause is needed",
+        "The world crude oil price, unrelated to the $SPX index",
+        "The cash the company holds on its financial statements",
+        "No specific analytical meaning; it is just a rhetorical question"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Accumulation and Reaccumulation counts confirm. Is the fuel in the tank nearly used up?' — the 'fuel' metaphor represents the Cause that has been built; as the price target is nearly reached, the question is whether the old Cause is enough to keep pushing price or a new Cause is needed."
+    },
+    {
+      "id": "ch34-q4",
+      "type": "chart_identify",
+      "prompt": "The $INDU PnF chart (Page 203) below has a note at the '2nd Phase' saying 'This larger count carries a bigger price objective.' Which principle of PnF counting does this note illustrate?",
+      "chartImage": "/charts/part_34/p203_chart-731.jpg",
+      "options": [
+        "The LARGER a price base (the count of columns), the LARGER the calculated price objective (target) — the core principle of the Law of Cause and Effect applied on PnF",
+        "The number of columns has no effect on the size of the price objective",
+        "Only the first 'Phase' has value; later Phases do not matter",
+        "This note is merely decorative with no analytical meaning"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is a visual illustration of the Law of Cause and Effect (Part 23): the larger the number of columns (Cause), the larger the calculated Effect (price target). The chart shows several different count 'Phases' ($INDU) with price targets increasing correspondingly with the scale of the price base."
+    },
+    {
+      "id": "ch34-q5",
+      "type": "multiple_choice",
+      "prompt": "The note on the $NDX (Nasdaq 100) chart in this Part reads: 'Distribution is forming... Note how volatility increases as Distribution matures.' Which principle learned in Part 33 does this note reconfirm?",
+      "options": [
+        "Volatility in the Distribution Phase tends to INCREASE progressively toward the LATE stage (when the CO is actively unloading), unlike Accumulation which has strong volatility right from the START",
+        "Volatility in the Distribution Phase always decreases evenly from start to end, with no exceptions",
+        "The Nasdaq 100 can never form a Distribution Phase",
+        "Trading volume has nothing to do with the maturity of the Distribution Phase"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is exactly the principle learned in Part 33 (ch33-q8): 'As the CO unloads stock, volatility gradually increases more due to the volatility strengthening toward the end of the Distribution phase' — reconfirmed through the real example of $NDX with the full PSY, BCLX, AR, ST, UT, SOW, LPSY.",
+      "chartImage": null
+    },
+    {
+      "id": "ch34-q6",
+      "type": "multiple_choice",
+      "prompt": "In the example of $SPX reaching an all-time high (ATH) after completing its PnF price target, the book asks: 'Fuel used up in the base? ... Does a new cause need to be built?' This is a real-world example of which Scenario (of the 3 Scenarios learned in Part 33)?",
+      "options": [
+        "Scenario 3 — when price reaches its target and a new trading range TR may form to build more Cause before continuing or reversing",
+        "Scenario 1 — price always completely ignores the target with no reaction at all",
+        "This has nothing to do with the 3 Scenarios learned earlier",
+        "Scenario 2 — applies only to Downtrends, not Uptrends"
+      ],
+      "correctIndex": 0,
+      "explanation": "When $SPX reached its price target and began stalling (moving sideways) right at the target zone, asking whether a new Cause needs to be built — this is precisely the situation described in Scenario 3 (Part 33): a new TR forms at the target zone to build more Cause before the next move.",
+      "chartImage": null
+    },
+    {
+      "id": "ch34-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book admits: 'Counting price targets accurately requires a lot of practice to reach proficiency' and calls PnF 'seemingly magic when we see it work time after time.' Based on what you've learned across Parts 32-34, why is counting PnF price targets not a merely mechanical formula, but one that requires 'judgment and finesse' as the book says?",
+      "sampleAnswer": "Because counting involves several important subjective decisions: choosing a suitable box-size, correctly identifying where to start/end the count (LPS/LPSY, SCLX/BCLX), distinguishing whether something is an independent TR or a TR nested inside a larger one, and judging whether a reached target means the end of the trend or just a pause needing a new Cause to be built. All of these decisions require deep understanding of market Context and hands-on experience — you cannot apply a rigid formula while ignoring the story behind price action.",
+      "chartImage": null
+    }
+  ]
+}

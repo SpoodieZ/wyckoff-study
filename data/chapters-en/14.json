@@ -1,0 +1,98 @@
+{
+  "chapterId": 14,
+  "title": "Choosing the Fork in the Road - Reaccumulation or Distribution",
+  "summary": "Yogi Berra's 'fork in the road' metaphor: after an uptrend is stopped, the Wyckoffian must choose between two scenarios — Reaccumulation (a pause) or Distribution (the end). A deep dive into how the CO 'retails' stock to the public, and the two Distribution Schematics (#1, #2) with the concepts of UTAD and LPSY.",
+  "questions": [
+    {
+      "id": "ch14-q1",
+      "type": "multiple_choice",
+      "prompt": "Yogi Berra advised: 'when you come to a fork in the road, take it'. The book uses this metaphor to describe two scenarios after an uptrend is stopped. What is the core difference between the Reaccumulation and Distribution scenarios?",
+      "options": [
+        "Reaccumulation is a PAUSE within an ongoing uptrend; Distribution is the END (stop) of the prior uptrend",
+        "Reaccumulation always lasts 10 times longer than Distribution",
+        "Distribution only happens in December each year while Reaccumulation happens all year round",
+        "There is no difference; the two terms are completely synonymous"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The only difference is that the Reaccumulation phase is a pause (rest) within an ongoing uptrend, whereas the Distribution phase is the end (stop) of the prior uptrend.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch14-q2",
+      "type": "multiple_choice",
+      "prompt": "The book says there is an 'irony' in the market concerning the Distribution Phase. What is it?",
+      "options": [
+        "The Distribution Phase often begins with characteristic traces IDENTICAL to those of the Reaccumulation Phase — it can be called the 'evil version' of Reaccumulation",
+        "The Distribution Phase never happens in practice, existing only in theory",
+        "The Distribution Phase is always announced publicly in advance by the company to investors",
+        "The Distribution Phase happens only to small-cap stocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'There is an ironic truth in the market that the Distribution phase often begins with characteristic traces identical to those in the Reaccumulation phase. It could be said that the Distribution phase is the \"evil version\" of the Reaccumulation phase.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch14-q3",
+      "type": "multiple_choice",
+      "prompt": "In the Distribution Phase, the CO carries out a selling strategy called 'retailing' (retail selling). How does the book describe this technique unfolding within a Trading Range (TR)?",
+      "options": [
+        "The CO sells stock during rallies and at the highs of the TR; when price falls back to the bottom area, they stop selling (even buying to support price) — a process repeated over and over to distribute a large amount of stock without letting price leave the TR too early",
+        "The CO sells all its stock in exactly one single trading session",
+        "The CO only buys and never sells during the Distribution Phase",
+        "The CO publicly announces its selling schedule through the media"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The CO's strategy to accomplish this: they will sell stock during rallies in the Distribution process and at the highs, at the top of the trading range TR. Then, when price falls back toward the bottom of the TR, they stop selling and may even buy here to support price at the bottom (the purpose being to keep price from leaving the TR while the CO still has stock to sell).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch14-q4",
+      "type": "multiple_choice",
+      "prompt": "Sadly, to whom does the CO distribute (sell) the stock, and what happens to them afterward?",
+      "options": [
+        "To the public (retail investors) — they buy the CO's stock and hold it through the subsequent decline (Downtrend)",
+        "The CO sells only to other institutional funds, never to the public",
+        "The CO sells to the issuing company itself for a share buyback",
+        "The CO sells to no one, simply canceling the shares"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'To whom must the CO distribute the stock? Sadly, the party the CO wants to hand its goods to is the public, who will buy the CO's stock and hold it through the next decline (Downtrend phase).' Large public buying usually occurs in strong uptrends and becomes euphoric around hot price rises (late in the Uptrend phase).",
+      "chartImage": null
+    },
+    {
+      "id": "ch14-q5",
+      "type": "chart_identify",
+      "prompt": "Looking at Distribution Schematic #1 below, an 'Upthrust After Distribution (UTAD)' appears in Phase C. According to the book, what question should you think of the UTAD as?",
+      "chartImage": "/charts/part_14/p059_chart-223.jpg",
+      "options": [
+        "'How much demand appears at these new higher price levels?' — if the rally then fails (fail rally), it shows demand here is very weak, confirming the CO should sell",
+        "'Is the company about to announce record profits?'",
+        "'Should the stock be split (stock split)?'",
+        "'Is the VIX index low?'"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Think of the UTAD as a question: How much demand appears at these new higher price levels? A rally with new demand joining in would carry price up and away from the previous high... However, the subsequent failure (fail rally) will lead the CO to conclude that buying power in this testing rally is very weak (demand dried up) and they will decide to sell stock on a broad downward scale.'"
+    },
+    {
+      "id": "ch14-q6",
+      "type": "chart_identify",
+      "prompt": "Distribution Schematic #2 below has multiple LPSY (Last Point of Supply) rallies with each later high lower than the previous one. According to the book, what are the spread and volume characteristics of these LPSY rallies, and what does it show?",
+      "chartImage": "/charts/part_14/p060_chart-226.jpg",
+      "options": [
+        "LPSY rallies have narrowing price spreads and low trading volume — showing a lack of demand (demand dried up); each subsequent LPSY usually makes a LOWER high than the previous (LH) because of resistance from the supply the CO sells at those levels",
+        "LPSY always has extremely high volume, higher even than the original BCLX",
+        "LPSY always makes a higher high than the previous high (higher high) in every case",
+        "LPSY has nothing to do with trading volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The LPSY upward correction will have a narrowing price spread and buying volume is usually low, showing a lack of demand (demand dried up)... Each upward price correction will have a lot of difficulty and price only makes a lower high than the previous one (LH) due to the obstruction of the CO's supply sold at the LPSY price levels.'"
+    },
+    {
+      "id": "ch14-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book describes the CO as having to 'race against time' in the Distribution Phase because other parties (smaller COs, ITFs...) also intend to sell. Why does the time factor create pressure and risk for the CO in this phase?",
+      "sampleAnswer": "Because if the CO delays selling too long, other large parties (smaller COs, ITF funds...) also notice the signs of weakness and start dumping at the same time — when 'a room full of big elephants' tries to exit at once, selling pressure overwhelms and drives price down faster and harder than expected before the CO can sell all the stock it holds at good prices. So the CO has to distribute carefully but cannot be too slow.",
+      "chartImage": null
+    }
+  ]
+}

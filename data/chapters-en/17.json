@@ -1,0 +1,140 @@
+{
+  "chapterId": 17,
+  "title": "Context is King",
+  "summary": "A full analysis of the 5 Phases (A-E) of Distribution as a 'map of context'. Introduces the 'Hypodermic' pattern — a rare form of distribution with a near-vertical acceleration before the collapse — through examples FXI, NFLX, PCLN.",
+  "questions": [
+    {
+      "id": "ch17-q1",
+      "type": "multiple_choice",
+      "prompt": "In Phase |B| of Distribution, the book describes an Upthrust (UT) action as 'likely to occur, but not something that must appear in this phase'. What does this mean for real-world analysis?",
+      "options": [
+        "Not every Distribution Phase has a clear UT in Phase B — the analyst should not rigidly wait for this event before accepting that Phase B is under way",
+        "A UT must always appear, otherwise it is certainly not Distribution",
+        "A UT happens only in Phase |D|, never in Phase |B|",
+        "A UT is the only mandatory event that defines the entire Distribution Phase"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'An Upthrust (UT) is a small breakout above the old BC high that lasts only briefly and quickly fails... It is likely to occur, but it is not something that must appear in this phase.' Context — the core principle of this chapter — demands flexibility rather than waiting for one rigid pattern.",
+      "chartImage": null
+    },
+    {
+      "id": "ch17-q2",
+      "type": "multiple_choice",
+      "prompt": "According to the book, the longer Phase |B| lasts, what consequence can follow for the subsequent Downtrend phase, based on the Law of Cause and Effect?",
+      "options": [
+        "The longer Phase |B| lasts, the more time and opportunity the CO has to sell more stock, which can lead to a larger and longer Downtrend afterward",
+        "The longer Phase |B| lasts, the shorter the subsequent Downtrend will surely be",
+        "The duration of Phase |B| has no relationship whatsoever to the subsequent Downtrend",
+        "The longer Phase |B| lasts, the stock will never fall again"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The longer Phase |B| lasts, the more time and opportunity the CO has to sell more stock, and this can lead to the next Downtrend phase being larger and longer (the law of Cause and Effect).' This is the 'building the cause' principle applied in reverse to the Distribution side.",
+      "chartImage": null
+    },
+    {
+      "id": "ch17-q3",
+      "type": "multiple_choice",
+      "prompt": "Phase |C| of Distribution — where the final test takes place — can end in which two main ways according to the book?",
+      "options": [
+        "Either a UTAD action (confirmed as failed by a subsequent Test), OR simply an LPSY making a lower high (without a UTAD)",
+        "There is only one way, the UTAD, no other way",
+        "Phase |C| always ends with the company being delisted",
+        "Phase |C| never ends, lasting forever"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The final testing action is the main focus of Phase |C|, and will end in two main ways (with a UTAD action or with only an LPSY) (but under many different variations).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch17-q4",
+      "type": "chart_identify",
+      "prompt": "The CVX (Chevron, weekly 2007-09) chart below is fully labeled Phase A through E, along with 'Stepping Stone Redistribution'. Which characteristic of this TR confirms a CHOCH (change of character) occurred as early as Phase A?",
+      "chartImage": "/charts/part_17/p074_chart-269.jpg",
+      "options": [
+        "The Secondary Test (ST) retesting the BCLX high confirmed that CVX's uptrend had stopped, and a wide, highly volatile TR shows the environment and price character had changed",
+        "The company announcing profits that beat analyst expectations",
+        "Price rising continuously without any correction",
+        "Trading volume dropping completely to zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The Secondary Test (ST) retesting the high of the Buying Climax (BCLX) confirmed that: CVX's uptrend had stopped (CHOCH). A wide and highly volatile trading range TR shows that the stock's conditions had changed in environment and in the character of price.'"
+    },
+    {
+      "id": "ch17-q5",
+      "type": "chart_identify",
+      "prompt": "The KLAC chart below carries the note 'Big break signals that large sellers are present'. In which Phase does this strong break occur, and what does it signal?",
+      "chartImage": "/charts/part_17/p075_chart-272.jpg",
+      "options": [
+        "In Phase |B| — active selling of stock by the CO, putting traders on alert that Distribution may be proceeding faster than usual",
+        "In Phase |E| after the Downtrend has completely ended",
+        "A sign the company is about to be acquired at a higher price",
+        "A technical error of the exchange with no analytical meaning"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says of KLAC: 'Phase |C| in this case with the appearance of an Upthrust After Distribution (UTAD)... Big break signals that large sellers are present' — this strong break (in Phase |B|) is active selling of stock by the CO, putting traders on alert that Distribution is taking place faster than usual."
+    },
+    {
+      "id": "ch17-q6",
+      "type": "chart_identify",
+      "prompt": "The NFLX chart below is described as a Distribution form that is 'particularly hard to identify' because it occurs as 'Distribution on a rising scale throughout uptrend'. Why is this form harder to detect than the ordinary form?",
+      "chartImage": "/charts/part_17/p076_chart-275.jpg",
+      "options": [
+        "Because the CO distributes stock while price is still advancing (instead of waiting for price to go fully sideways at the top) — so the uptrend still looks healthy/intact to most investors",
+        "Because NFLX has no trading volume at all throughout this process",
+        "Because this is the only form of distribution that never leads to a decline",
+        "Because the NFLX chart has a display error and cannot be read"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Distributing stock on a rising price scale during an uptrend is very difficult to detect and assess. When this uptrend completes, a sharp decline begins immediately afterward. Analyzing this phase becomes difficult because everything happens too fast.'"
+    },
+    {
+      "id": "ch17-q7",
+      "type": "chart_identify",
+      "prompt": "The FXI (weekly) chart below illustrates the 'Hypodermic' pattern named by Richard Wyckoff. What characterizes this pattern right before the top is made?",
+      "chartImage": "/charts/part_17/p078_chart-281.jpg",
+      "options": [
+        "A near-vertical price 'acceleration' that quickly exhausts itself at the very end of the uptrend — before a sharp collapse immediately afterward",
+        "A slow decline lasting many years with no volatility",
+        "Trading volume of zero throughout the entire formation of the top",
+        "Price moving completely sideways with no oscillation whatsoever"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says (quoting Hank Pruden): 'The acceleration and exhaustion of price in the final stage of the trend was called a Hypodermic (or pine-tree/needle-shaped form of distribution) by Richard Wyckoff.' This is a rare form of distribution, but Wyckoffians need to know it to recognize it."
+    },
+    {
+      "id": "ch17-q8",
+      "type": "multiple_choice",
+      "prompt": "The book assigns the term 'Point of Excitement' (PoEx) to two specific moments in the Distribution Phase. Which two moments are they?",
+      "options": [
+        "PoEx #1 at the BCLX (when the public excitedly chases good news) and PoEx #2 at the UTAD (when the public excitedly buys the breakout to a new high)",
+        "PoEx #1 and #2 both occur at the same single point, the SOW",
+        "PoEx occurs only in Phase |E|, nowhere else",
+        "The book does not define what PoEx specifically is"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book describes the BCLX as 'Point of Excitement - PoEx #1' when the public buys heavily on good news. The UTAD (when price breaks up strongly, attracting a large number of the public to buy) is called 'Point of Excitement - PoEx #2'. Both are moments when the CO exploits the crowd's excitement to sell large quantities.",
+      "chartImage": null
+    },
+    {
+      "id": "ch17-q9",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book quotes Hank Pruden: 'Hypodermic'-style advances are likened to periodic 'artificial stimulant injections' that let the market 'stand almost dead on its feet for a longer time'. How do you understand this 'injection' metaphor in a market context?",
+      "sampleAnswer": "The 'injection' metaphor refers to waves of good news, optimistic analyst expectations, or positive rumors that keep appearing to 'stimulate' the advance to continue even though the trend is actually exhausted — like using stimulants to keep a weakened body standing for a while. When these news 'injections' stop working, price collapses suddenly and quickly — because the trend's true health had weakened long before, only temporarily masked.",
+      "chartImage": null
+    },
+    {
+      "id": "ch17-q10",
+      "type": "chart_identify",
+      "prompt": "The PCLN (Priceline, weekly) chart below is annotated 'PCLN is Distributing on the way up. This is a particularly difficult and dangerous condition as it appears to be in a healthy uptrend to the end.' Why does the book call this situation 'particularly difficult and dangerous'?",
+      "chartImage": "/charts/part_17/p077_chart-278.jpg",
+      "options": [
+        "Because the stock looks 'healthy' (in an uptrend) right up to the very end — leading retail investors to keep trusting and buying just before price collapses hard",
+        "Because PCLN has no volume data at all to analyze",
+        "Because it is the only stock in the book that never falls",
+        "Because the SEC permanently banned trading of PCLN stock"
+      ],
+      "correctIndex": 0,
+      "explanation": "Precisely because this distribution pattern takes place INSIDE the uptrend (rather than after the trend has clearly stopped in a sideways TR), it deceives even experienced investors — they see a 'healthy' uptrend and keep buying, not realizing the CO began distributing very early."
+    }
+  ]
+}

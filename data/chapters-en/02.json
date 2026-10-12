@@ -1,0 +1,98 @@
+{
+  "chapterId": 2,
+  "title": "Richard D. Wyckoff – The Real Rules of the Game",
+  "summary": "The concept of Composite Man/Operators (CO), 'absorption of supply' during Accumulation, why Wyckoff taught his method publicly, and the 5 phases (A-E) within a Trading Range.",
+  "questions": [
+    {
+      "id": "ch2-q1",
+      "type": "multiple_choice",
+      "prompt": "According to Part 2, what gives the Composite Man/Operators (CO) the ability to influence even the trend of a stock's price, unlike small retail investors?",
+      "options": [
+        "They have better information and higher skill, with trading size large enough to influence trends",
+        "They are legally allowed to trade on inside information",
+        "They always hold stock permanently and never sell",
+        "They only trade derivatives, never stock directly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says Wyckoff 'discovered a group of investors/traders with better information and higher skill. These \"super\" traders were large enough to influence both the trend and the direction of price' — they are called Composite Man/Operators (CO).",
+      "chartImage": null
+    },
+    {
+      "id": "ch2-q2",
+      "type": "multiple_choice",
+      "prompt": "During Accumulation, the CO quietly buys large quantities of stock without pushing the price up. What do Wyckoff analysts call this phenomenon?",
+      "options": [
+        "\"Absorption of supply\" — meticulous, careful buying spread over months so as not to be detected",
+        "A \"short squeeze\" — heavy buying in a single session",
+        "A \"fakeout\" — creating false signals to mislead small investors",
+        "\"Order splitting\" — a technique used only in derivatives markets"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'By working meticulously and carefully so as not to be detected, large quantities of floating stock can be bought by them at low and cheap prices... Wyckoff analysts call this the absorption of the floating supply of the stock.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch2-q3",
+      "type": "multiple_choice",
+      "prompt": "Why did Wyckoff decide to teach the public openly about \"The Real Rules of the Game\" — the activities of the CO?",
+      "options": [
+        "Because without this knowledge, the public tends to enter the market at the wrong time (timing), leading to mistakes and failure",
+        "Because he wanted to compete directly with the CO and beat them in the market",
+        "Because securities law at the time required him to disclose his entire method",
+        "Because he wanted to advise the public to stop investing in stocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Without this important knowledge, the public will tend to enter the market at the wrong time - timing... leading to big mistakes and failure.' Wyckoff taught students to trade in harmony with the CO, act in line with the CO, and learn to think like the CO.",
+      "chartImage": null
+    },
+    {
+      "id": "ch2-q4",
+      "type": "chart_identify",
+      "prompt": "Look at the AAPL chart (2008-09) below and read the \"Tip\" line written on it. According to this tip, an Accumulation Range is often bounded by which two points?",
+      "chartImage": "/charts/part_02/p006_chart-047.jpg",
+      "options": [
+        "AR and CLX",
+        "PS and ST",
+        "AR and ST",
+        "PS and CLX"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exactly as the Tip on the chart says: \"Accumulation range will often be bound by the CLX & AR.\" That means the Selling Climax (CLX, the bottom of the range) and the Automatic Rally (AR, the top of the range) usually form the lower and upper boundary lines of the Accumulation Range. PS and ST are just test points inside that range."
+    },
+    {
+      "id": "ch2-q5",
+      "type": "multiple_choice",
+      "prompt": "Wyckoff describes the CO as a \"concept, a useful hypothesis\" rather than a specific individual or institution. How should this be understood?",
+      "options": [
+        "The CO is a combined figure representing many professional trading activities happening at once, told as a single \"giant operator\" to make chart analysis convenient",
+        "The CO is the name of a real investment fund registered with the SEC in the early 20th century",
+        "The CO is a computer algorithm written by Wyckoff himself to trade automatically",
+        "The CO exists only in the US stock market and cannot be applied to other markets"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The CO is a concept, a useful hypothesis. The CO is the story of the collective activities of a number of professional operations happening at the same time... We tell the story of their actions and motives as if they were one giant operator.' (The Introduction also says the Wyckoff method applies to any market where the CO appears: Stocks, Indexes, Commodities, Crypto or Forex.)",
+      "chartImage": null
+    },
+    {
+      "id": "ch2-q6",
+      "type": "multiple_choice",
+      "prompt": "Part 2 introduces the 5 phases (A-E) that apply to Wyckoff's Accumulation/Distribution Schematics within a Trading Range (TR). Which phase is described as \"Building the Cause\"?",
+      "options": [
+        "Phase A",
+        "Phase B",
+        "Phase C",
+        "Phase D"
+      ],
+      "correctIndex": 1,
+      "explanation": "The order of the 5 phases: |A| Stopping the Trend (ending the previous trend) → |B| Building the Cause → |C| Test → |D| Defining the Trend (establishing the price-trend structure) → |E| Mark Up/Mark Down (the start of the main Uptrend/Downtrend).",
+      "chartImage": null
+    },
+    {
+      "id": "ch2-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Why is \"avoiding detection\" important for the CO while accumulating in the Accumulation Phase?",
+      "sampleAnswer": "Because the CO is always competing with other players in the market to acquire the best stock at low prices. If their accumulation is detected, other investors will buy along and push the price up early, so the CO cannot accumulate enough large quantities of cheap stock as originally targeted — ruining the whole campaign.",
+      "chartImage": null
+    }
+  ]
+}

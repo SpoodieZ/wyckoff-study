@@ -1,0 +1,112 @@
+{
+  "chapterId": 3,
+  "title": "Stopping Action in a Downtrend",
+  "summary": "Why a downtrend can last (Weak Hands vs Strong Hands), the characteristics of a Selling Climax (SCLX) session, and the 4 points of 'Stopping Action' — Preliminary Support (PS), Climax (CLX), Automatic Rally (AR), Secondary Test (ST) — illustrated with 5 real stocks from 2008-09.",
+  "questions": [
+    {
+      "id": "ch3-q1",
+      "type": "multiple_choice",
+      "prompt": "According to Part 3, what really determines whether a downtrend continues?",
+      "options": [
+        "The quality of ownership of the outstanding shares — held by Weak Hands or Strong Hands",
+        "The number of brokerage firms offering the stock for sale",
+        "Whether the stock's P/E ratio is below the industry average",
+        "The number of negative media articles written about the stock"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: a falling stock price reflects poor quality of ownership — the stock is in the hands of Weak Hands (WHs). The key question throughout is 'Who controls the floating supply? Is it in the hands of Strong Hands or Weak Hands?' — when ownership quality is low, the downtrend can persist.",
+      "chartImage": null
+    },
+    {
+      "id": "ch3-q2",
+      "type": "multiple_choice",
+      "prompt": "What are the typical characteristics of a 'Selling Climax' (SCLX/CLX) session?",
+      "options": [
+        "An extremely wide price spread, an extreme volume spike, most trading in the lower half of the range, but the price closes above the midpoint of the day's range",
+        "A very narrow price spread, below-normal volume, closing right at the low of the day",
+        "Price moves sideways all session, average volume, nothing unusual",
+        "Price rises limit-up on low volume, reflecting investor euphoria"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book describes: 'a wide-ranging spread for much of the time, price often trading around the lows of the day on extremely high volume, then closing above the midpoint of the day's range.' This is the important session that marks a high probability that the Composite Man has started buying.",
+      "chartImage": null
+    },
+    {
+      "id": "ch3-q3",
+      "type": "multiple_choice",
+      "prompt": "In what order do the 4 points of the 'Stopping Action' of a downtrend occur?",
+      "options": [
+        "Preliminary Support (PS) → Selling Climax (CLX) → Automatic Rally (AR) → Secondary Test (ST)",
+        "Selling Climax (CLX) → Preliminary Support (PS) → Secondary Test (ST) → Automatic Rally (AR)",
+        "Automatic Rally (AR) → Secondary Test (ST) → Preliminary Support (PS) → Selling Climax (CLX)",
+        "Secondary Test (ST) → Selling Climax (CLX) → Preliminary Support (PS) → Automatic Rally (AR)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The correct chronological order: Preliminary Support (PS) → Selling Climax (CLX) → Automatic Rally (AR) → Secondary Test (ST). When these 4 points are identified, you can conclude the downtrend has been stopped (though it has not necessarily turned into Accumulation).",
+      "chartImage": null
+    },
+    {
+      "id": "ch3-q4",
+      "type": "chart_identify",
+      "prompt": "On the FISV (2008-09) chart below, the labels PS, CLX, AR and ST are marked. In the order they appear on the chart (left to right in time), what is the sequence?",
+      "chartImage": "/charts/part_03/p009_chart-055.jpg",
+      "options": [
+        "PS → CLX → AR → ST",
+        "CLX → PS → AR → ST",
+        "PS → AR → CLX → ST",
+        "AR → PS → ST → CLX"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the FISV chart: PS appears first (a mild bounce in the middle of the decline), then CLX (the extreme-volume low, circled), next AR (a strong rally forming the upper boundary), and finally ST (a retest near the CLX low on lower volume) forming the lower boundary of the trading range."
+    },
+    {
+      "id": "ch3-q5",
+      "type": "multiple_choice",
+      "prompt": "Why is the Automatic Rally (AR) considered somewhat 'deceptive' — why shouldn't you rush to conclude the trend has reversed as soon as an AR appears?",
+      "options": [
+        "The AR only reflects a short-term exhaustion of supply after the climax and is just temporary; price may be expected to fall back to near or below the CLX level afterwards (via the ST step)",
+        "The AR is always a 100% false signal, never reliable in Wyckoff analysis",
+        "The AR only happens on days the market closes early, so the volume doesn't reflect reality",
+        "The AR is illegal price manipulation by the Composite Man"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The AR is a sign and also a result of short-term supply exhaustion... very impressive but only temporary. After the AR, price is expected to fall back to or below the CLX level' — this is why trading during the downtrend/CLX is not encouraged, as volatility is still very complex.",
+      "chartImage": null
+    },
+    {
+      "id": "ch3-q6",
+      "type": "multiple_choice",
+      "prompt": "How is Preliminary Support (PS) distinguished from the Selling Climax (CLX)?",
+      "options": [
+        "By looking at what price action does NEXT — a strong AR afterwards confirms the earlier low was the CLX, whereas a PS is only a brief halt with a mild bounce",
+        "The PS always has higher volume than the CLX so it's easy to recognize at the time",
+        "The PS appears only on the weekly timeframe while the CLX appears only on the daily timeframe",
+        "It is impossible to distinguish a PS from a CLX in every case"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A PS is distinguished from a CLX by seeing what price action does next. An AR indicates that the previous low was a CLX.' In other words, a PS is only confirmed as a PS (rather than the CLX) in hindsight, once you know where the real CLX is.",
+      "chartImage": null
+    },
+    {
+      "id": "ch3-q7",
+      "type": "multiple_choice",
+      "prompt": "Why does Part 3 advise newcomers to the Wyckoff method not to rush into trading during the Downtrend/CLX phase?",
+      "options": [
+        "Because price volatility in this phase is extremely strong and unpredictable (daily ranges can be 3 times larger than normal), making risk very high even for experienced traders",
+        "Because securities law prohibits trading during a Selling Climax",
+        "Because trading volume in this phase is always zero so orders cannot be filled",
+        "Because the Composite Man has completely stopped operating in this phase"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Trading during the Downtrend and CLX phase is not recommended for new Wyckoffians because of the extreme volatility (even long-time veterans tend to avoid them).' Daily price ranges can be more than 3 times normal and volume spikes (climactic).",
+      "chartImage": null
+    },
+    {
+      "id": "ch3-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "After identifying all 4 points PS, CLX, AR and ST on a chart, why does the book say it is still 'too early' to conclude the stock has fully moved into the Accumulation Phase?",
+      "sampleAnswer": "Because those 4 points only confirm that the downtrend has been STOPPED (Stopping Action) — meaning supply has temporarily come into balance with demand — but do not prove that the Composite Man is actually absorbing enough of the floating shares. More price/volume action inside the trading range (TR) is needed afterwards to confirm that the stock is ready to be bought by Wyckoffian analysts.",
+      "chartImage": null
+    }
+  ]
+}

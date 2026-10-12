@@ -1,0 +1,112 @@
+{
+  "chapterId": 22,
+  "title": "Wyckoff Re-distribution",
+  "summary": "The 'evil twin' of Reaccumulation — the Redistribution Phase pauses an ongoing Downtrend. A CSCO case study with 4 consecutive Redistribution Phases, and the paradox: why the shortest phase leads to the strongest decline.",
+  "questions": [
+    {
+      "id": "ch22-q1",
+      "type": "multiple_choice",
+      "prompt": "The book describes the Redistribution Phase as 'a sibling of the Reaccumulation Phase but in another, evil version'. What is the core difference?",
+      "options": [
+        "Reaccumulation is a pause within an UP trend; Redistribution is a pause within an ongoing DOWN trend, and it retains strong volatility throughout",
+        "Redistribution happens only once in a stock's entire life cycle",
+        "Redistribution always ends in a strong uptrend",
+        "There is no difference between the two concepts"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The Redistribution phase is like a sibling of the Reaccumulation phase but in another \"evil version\". Born out of sharp downward volatility, the redistribution phase retains volatility throughout the price action and concludes with the beginning appearance of a new downtrend.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch22-q2",
+      "type": "chart_identify",
+      "prompt": "The ARMH chart below is annotated 'Hypodermic leaves little time for proper Distribution. The first Redistribution is where this additional selling takes place.' What relationship does this show between the Hypodermic pattern (learned in Part 17) and Redistribution?",
+      "chartImage": "/charts/part_22/p097_chart-341.jpg",
+      "options": [
+        "Because the Hypodermic top forms so quickly, the CO does not have enough time to distribute all its stock right at the top — the rest must be sold in the subsequent Redistribution Phase(s)",
+        "Hypodermic and Redistribution are completely separate concepts, unrelated to each other",
+        "Redistribution happens only when there is NO prior Hypodermic pattern",
+        "Hypodermic always occurs after Redistribution, never before"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Hypodermic-style top (vertical acceleration then collapse) happens so fast that the CO has not had time to distribute (sell) all the stock it holds right at the top — so additional Redistribution Phases are needed during the subsequent decline to complete the selling."
+    },
+    {
+      "id": "ch22-q3",
+      "type": "multiple_choice",
+      "prompt": "In the CSCO example, the book poses the question: 'Why does the SHORTEST Redistribution Phase lead to the BEST (strongest) downtrend?' What explanation is given?",
+      "options": [
+        "Each Redistribution Phase transfers more stock into the hands of Weak Hands (WHs); the cumulative effect over multiple rounds degrades ownership quality completely — by the final short phase, the stock is almost entirely in WHs' hands and the CO has left the market",
+        "Because the short phase always has the highest trading volume in the stock's history",
+        "Because institutional investors psychologically prefer shorter phases",
+        "There is no relationship between Redistribution length and the strength of the subsequent Downtrend"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Each Redistribution phase transfers more stock into the hands of Weak Hands (WHs). This cumulative effect leads to a prolonged decline because stock ownership is no longer of quality (Weak Hands completely hold the stock in the Downtrend phase and the CO has left the market having distributed all its goods).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch22-q4",
+      "type": "chart_identify",
+      "prompt": "The CSCO Redistribution 2 chart below notes 'Lower highs are evidence of large institutional selling'. Compared with Redistribution 1, what new characteristic of Redistribution 2 is emphasized?",
+      "chartImage": "/charts/part_22/p105_chart-365.jpg",
+      "options": [
+        "This phase is shorter with a declining price structure — making lower highs (LH) and lower lows (LL); the CO actively sells around the upper half of the TR range",
+        "This phase lasts more than twice as long as Redistribution 1",
+        "This phase has no LPSY highs at all",
+        "This phase occurs only in tech stocks, not in other sectors"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Redistribution phase 2 has shorter price action and a declining price structure with the creation of lower highs (LH) and lower lows (LL). The CO is actively selling around the upper half of the trading range TR.'"
+    },
+    {
+      "id": "ch22-q5",
+      "type": "chart_identify",
+      "prompt": "The CSCO Redistribution 3 chart below notes 'Redistribution will typically start with a stopping action of the prior downtrend. Here it is a gap down on very high volume.' What general principle does this illustrate that applies to EVERY Redistribution Phase?",
+      "chartImage": "/charts/part_22/p106_chart-368.jpg",
+      "options": [
+        "Every Redistribution Phase begins with a stopping action of the prior downtrend — just as every Accumulation/Distribution/Reaccumulation TR begins with a stopping action",
+        "Redistribution 3 does not need any stopping action to begin",
+        "Only Redistribution 3 needs a stopping action; the other Redistributions do not",
+        "Trading volume plays no role in confirming a stopping action"
+      ],
+      "correctIndex": 0,
+      "explanation": "The note on the chart confirms the universal principle: every Trading Range (TR) — whether Accumulation, Distribution, Reaccumulation or Redistribution — begins with a stopping action of the prior trend (here, a sharp gap down on very high volume)."
+    },
+    {
+      "id": "ch22-q6",
+      "type": "chart_identify",
+      "prompt": "The CSCO Redistribution 4 chart below shows that the advance from the SCLX low to the BCLX high was about 100%. What consequence does this have for investors?",
+      "chartImage": "/charts/part_22/p107_chart-371.jpg",
+      "options": [
+        "Many institutions and individuals were 'trapped' in this bull trap, having bought heavily near the all-time high just before the CO began selling hard again",
+        "No investor was affected by this 100% advance",
+        "This 100% advance guarantees the Downtrend will end permanently",
+        "This advance affected only options traders"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The advance from the SCLX low to the BCLX high was about 100%. Many institutions and individuals are trapped in this bull trap, having bought heavily near the all-time high.'"
+    },
+    {
+      "id": "ch22-q7",
+      "type": "chart_identify",
+      "prompt": "CSCO's Point and Figure (PnF) chart below counts the horizontal boxes of the first THREE Redistribution Phases, annotated 'Nesting of Three Price Objectives'. What is the significance of these 3 price objectives 'nesting' and giving 'equivalent' results?",
+      "chartImage": "/charts/part_22/p108_chart-374.jpg",
+      "options": [
+        "Though coming from 3 different price bases (TRs) differing in time and position, all 3 counts converge on a similar target zone — increasing confidence in the final price-target forecast",
+        "These 3 price targets are completely contradictory, with nothing in common",
+        "Nesting the 3 targets is merely decorative on the chart, not an analytical tool",
+        "Using just 1 of the 3 Redistributions to count is enough; using all 3 is redundant"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Note that they all share a near \"equivalent\" price target, identified at the same price level. Cisco's action upon reaching the climax and moving in the area after hitting these price targets. In the end, Cisco went beyond these price targets.' The convergence of multiple independent PnF counts on the same price zone is a strong confirming signal."
+    },
+    {
+      "id": "ch22-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book concludes, 'they can help you stay on the right track and avoid unwanted risks', when discussing the study of classic cases like CSCO. Why is understanding the Redistribution concept especially important for AVOIDING RISK, rather than just for finding short-selling opportunities?",
+      "sampleAnswer": "Because without understanding Redistribution, an investor might mistake a strong rebound within a Redistribution (like the ~100% advance in CSCO Redistribution 4) for a sign that the Downtrend has ended and a new Uptrend has begun — leading to buying at the wrong time just before the CO resumes heavy selling. Understanding the true nature of Redistribution helps investors avoid this psychological trap and not get swept along by false rallies in an ongoing Downtrend.",
+      "chartImage": null
+    }
+  ]
+}

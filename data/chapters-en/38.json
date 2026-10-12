@@ -1,0 +1,84 @@
+{
+  "chapterId": 38,
+  "title": "PnF Tricks",
+  "summary": "Two practical PnF 'tricks': (1) Use the 'Nesting' of the Reaccumulation count with the original Accumulation count as a quantitative tool for when a trend is ready to resume; (2) Count the Distribution price target from the LPSY to the ST of the BCLX (instead of all the way to the BCLX) for a more accurate and conservative estimate.",
+  "questions": [
+    {
+      "id": "ch38-q1",
+      "type": "multiple_choice",
+      "prompt": "What is the technique 'Nesting of PnF price objectives' used for?",
+      "options": [
+        "As a 'timing tool' — when the count of a Reaccumulation Phase is APPROXIMATELY EQUAL to the count of the original Accumulation Phase before it, the trend is often ready to resume",
+        "Only to decorate the chart to look nicer",
+        "To calculate income tax on securities trading",
+        "It has no practical application; it is pure theory"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Cool Timing Tool: When the Reaccumulation PnF count approx. equals the Accumulation count, often the trend is ready to resume.' This is a useful quantitative timing technique for determining when a Reaccumulation Phase has likely completed.",
+      "chartImage": null
+    },
+    {
+      "id": "ch38-q2",
+      "type": "chart_identify",
+      "prompt": "The $SPX PnF chart below illustrates the 'Nesting' technique. With an original Accumulation count of 15 columns, how many columns are needed in the Reaccumulation Phase to 'match' and confirm the trend is ready to resume?",
+      "chartImage": "/charts/part_38/p258_chart-904.jpg",
+      "options": [
+        "About 9 columns (enough to match the lower price objective of the original Accumulation Phase — the book estimates about 5-6-7 more columns forming to reach a total of 9)",
+        "Exactly 100 columns, no more, no fewer",
+        "No specific number of columns is needed; just wait 1 year",
+        "Just 1 single column is enough to confirm"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'In the Accumulation phase, the count of 15 columns (horizontal boxes) formed before the advance began. We wait for the Reaccumulation phase to have fewer columns before resuming the trend and matching the price objective of the Accumulation phase... a count of 9 columns (horizontal boxes) in the Reaccumulation phase will match the 15-column count at the lower price level of the Accumulation phase.'"
+    },
+    {
+      "id": "ch38-q3",
+      "type": "multiple_choice",
+      "prompt": "The book restates a 'common problem' mentioned in Part 33: what error is common in PnF counting for the DISTRIBUTION Phase?",
+      "options": [
+        "Counting TOO MUCH (leading to an overly large price target, possibly absurd when counting down below a price of 0)",
+        "Counting too little, never reaching the number of columns required",
+        "There is no problem; Distribution counting is always perfectly accurate",
+        "It applies only to tech stocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A common problem with PnF counting for the Distribution phase is counting too much. We addressed this problem earlier in Part 33.' This chapter introduces a specific technique to overcome the problem.",
+      "chartImage": null
+    },
+    {
+      "id": "ch38-q4",
+      "type": "chart_identify",
+      "prompt": "The Micron (MU) PnF chart below illustrates an improved Distribution counting technique. Instead of counting from the LPSY all the way back to the BCLX, at which point does the book advise STOPPING for a more accurate and 'conservative' price target?",
+      "chartImage": "/charts/part_38/p260_chart-909.jpg",
+      "options": [
+        "Stop at the Secondary Test (ST) of the BCLX — because this is where the Composite Man/Operator (CO) intervenes and sells stock, confirming the halt of the advance (CHOCH)",
+        "Stop at the PSY (Preliminary Supply) itself, skipping the BCLX entirely",
+        "Keep counting farther into the past; the more columns the more accurate",
+        "No specific stopping point is needed; count to the end of the chart"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Stop at the Secondary Test (ST) of the BCLX. The Distribution price target count will be smaller. Stopping at the ST point is reasonable. It is where the Composite Man/Operator (CO) intervenes and dumps stock on the market, thus confirming the halt of the advance (CHOCH).'"
+    },
+    {
+      "id": "ch38-q5",
+      "type": "multiple_choice",
+      "prompt": "In the MU example, the book compares two ways of counting: counting all the way to the BCLX vs. counting only to the ST of the BCLX. How does the result of the NEW method (stopping at the ST) compare with the OLD method?",
+      "options": [
+        "The result is 'often more accurate' (moderates the size of the count) — giving a more CONSERVATIVE price target and reducing over-counting",
+        "The results are exactly identical, no difference",
+        "The result always gives a MUCH LARGER price target than the old method",
+        "The new method cannot be applied to MU stock"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Take PnF Distribution count from the LPSY to the Secondary Test (ST) of the BCLX. This moderates the size of the count and is often more accurate.' The improved technique helps avoid price targets being over-counted to an absurd (negative) level when the count is very large.",
+      "chartImage": null
+    },
+    {
+      "id": "ch38-q6",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book calls the two tricks in this chapter 'Stupid Chart Tricks' — using 'stupid' humorously even though they are actually 'very smart and useful'. After much practice, the book says these tricks become 'instinctive and nearly automatic'. In your view, why is turning complex analytical techniques into 'instinct' an important goal for an experienced Wyckoff trader?",
+      "sampleAnswer": "Because the market moves fast and trading decisions often need to be made promptly — if every analysis requires re-thinking the basic rules from scratch, the trader reacts slowly and easily misses opportunities or makes mistakes under psychological pressure. When techniques (like PnF counting, recognizing Nesting, finding a sensible counting stop point) become natural reflexes through plenty of practice, the trader can focus more on assessing the overall Context and managing psychology/risk — in the spirit of '60% self control' learned in Part 27 — instead of spending mental energy on repetitive mechanical calculations.",
+      "chartImage": null
+    }
+  ]
+}

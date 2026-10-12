@@ -1,0 +1,84 @@
+{
+  "chapterId": 29,
+  "title": "Cause and Effect in Action",
+  "summary": "Re-applying the Law of Cause and Effect through the hourly $INDU example (M60/M5) — proving a Cause can be built on ANY timeframe, even the 5-minute chart, and that one must always watch for a NEW Cause after the old Effect has been completed.",
+  "questions": [
+    {
+      "id": "ch29-q1",
+      "type": "multiple_choice",
+      "prompt": "The book restates the Wyckoff investor's core belief: the Cause always 'precedes' the Effect. In this chapter, building a Cause is illustrated on which timeframe to prove the universality of the law?",
+      "options": [
+        "The hourly (M60) and even the 5-minute (M5) timeframe of the $INDU index — proving a Cause can form on any timeframe, not just daily/weekly/monthly",
+        "It is illustrated only on the yearly timeframe",
+        "It can be illustrated only on the monthly timeframe, not on smaller timeframes",
+        "The book gives no specific illustrative example"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A Cause can be created on many timeframes. The PnF chart above is an M5 timeframe chart with the Box-size determined by the ATR parameter.' This is proof that the Law of Cause and Effect is not limited to large timeframes.",
+      "chartImage": null
+    },
+    {
+      "id": "ch29-q2",
+      "type": "chart_identify",
+      "prompt": "The $INDU M60 chart below shows a strong upward GAP from the PSY with a volume explosion, followed by the BCLX. What does the note on the chart ('*Trading Range is Wide and Volatile... *INDU is Building a Cause for the Next Move') emphasize about this TR?",
+      "chartImage": "/charts/part_29/p150_chart-559.jpg",
+      "options": [
+        "This wide and volatile TR is actually BUILDING A CAUSE for the next price move (either Up or Down) — more observation is needed to know whether it is Accumulation or Distribution",
+        "This TR has no meaning at all; it is just random noise",
+        "This TR will 100% certainly lead to an unlimited advance",
+        "A wide and volatile TR shows the Cause is complete, with nothing more to watch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: '*Trading Range is Wide and Volatile (SCLX to AR is 1,515.22 pts wide) *Now at Resistance *Future Declines Will Tipoff Whether Accumulation or Distribution *INDU is Building a Cause for the Next Move (Up or Down).'"
+    },
+    {
+      "id": "ch29-q3",
+      "type": "multiple_choice",
+      "prompt": "After the UpThrust (UT) occurred, the $INDU chart shows a sharp downward GAP below the AR — regarded as what?",
+      "options": [
+        "A Sign of Weakness (SOW) — once a SOW is created, be alert for a Last Point of Supply (LPSY) appearing next",
+        "A Sign of Strength (SOS) confirming the uptrend will continue",
+        "A signal that the company listing the index is about to go bankrupt",
+        "Nothing special, just an ordinary price gap"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Also note that after the GAP, the $INDU index fell below the AR low and this is considered a Sign of Weakness (SOW). Once a SOW is created, we should be alert for a Last Point of Supply (LPSY) appearing next.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch29-q4",
+      "type": "chart_identify",
+      "prompt": "The $INDU M5 PnF chart below calculates a downside price target of about 24,549.66 / 24,831.84. What does the note 'Distribution Counts Can Form Quickly And Be Large' mean?",
+      "chartImage": "/charts/part_29/p151_chart-562.jpg",
+      "options": [
+        "Even on a very short timeframe (M5), a Distribution 'count' (Cause) can still form QUICKLY and produce a LARGE price target — small timeframes should not be underestimated",
+        "Counts on the M5 timeframe are always inaccurate and unreliable",
+        "Only the monthly timeframe can produce large counts",
+        "This note has nothing to do with the PnF chart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Distribution Counts Can Form Quickly And Be Large. After UT Trading Character Changes. SOW & LPSY Show Lack of Demand.' The counted targets (24,549.66 and 24,831.84) were confirmed as completed and exceeded in the sharp market decline that took place immediately afterward."
+    },
+    {
+      "id": "ch29-q5",
+      "type": "multiple_choice",
+      "prompt": "After the PnF price target of the Distribution Phase on the M5 timeframe has been completed (price fell to the target), what does the book advise the trader to do next?",
+      "options": [
+        "Stay alert and watch for a NEW Cause being built (for example Reaccumulation after the sharp decline)",
+        "Stop following that stock/index entirely since there is nothing left to analyze",
+        "Automatically open a large buy position immediately without further analysis",
+        "Do nothing further; the price cycle has completely ended forever"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Therefore, we need to be alert and watch for the appearance of another new Cause. Going back to the chart on Page 150, we can see another Cause being built' — Cause and Effect is a continuous cycle, not ending after one Effect has occurred.",
+      "chartImage": null
+    },
+    {
+      "id": "ch29-q6",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book suggests a 'homework' exercise: make a watch-list of the price and volume characteristics you would expect if a trading range were in a Reaccumulation or Redistribution Phase. Based on what you've learned in earlier chapters, list 2-3 characteristics you expect to see for ONE of those two cases.",
+      "sampleAnswer": "For example, for Reaccumulation: (1) The price spread and volume of the downward corrections tend to NARROW/DWINDLE over time (absorptive nature); (2) Later lows tend to be higher than earlier lows (Higher Lows); (3) A Spring or LPS on low volume confirms supply has dried up before price continues the uptrend. For Redistribution it is the reverse: selling volume rises, later highs are lower than earlier highs (Lower Highs), and a SOW/LPSY confirms weakening demand.",
+      "chartImage": null
+    }
+  ]
+}

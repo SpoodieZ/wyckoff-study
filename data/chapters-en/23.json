@@ -1,0 +1,112 @@
+{
+  "chapterId": 23,
+  "title": "The Laws of the Wyckoff Method",
+  "summary": "The three foundational Laws of the entire Wyckoff Method: Supply and Demand, Cause and Effect, and Effort and Result — illustrated with the AAPL 2008-09 example and the Point and Figure (PnF) column-counting technique for estimating price targets.",
+  "questions": [
+    {
+      "id": "ch23-q1",
+      "type": "multiple_choice",
+      "prompt": "According to the Law of Supply and Demand (Law #1), what happens to price when Demand is greater than Supply? And when Supply equals Demand?",
+      "options": [
+        "When Demand > Supply, price rises; when Supply = Demand, the market maintains a trendless state (Nontrend) — a Trading Range (TR) forms",
+        "When Demand > Supply, price falls; when Supply = Demand, price rises without limit",
+        "Supply and Demand have no influence on the stock price",
+        "When Supply = Demand, the market stops trading entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Any small upward effort by Demand will make the stock price rise. In a market, when Demand is greater than Supply, price will rise.' And: 'When supply and demand are in balance (supply = demand), the result will be a trading range TR where price maintains a trendless state (Nontrend).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch23-q2",
+      "type": "multiple_choice",
+      "prompt": "What relationship between Cause and Effect does the Law of Cause and Effect (Law #2) state?",
+      "options": [
+        "A Cause must be formed before an Effect occurs — a large Cause produces a large Effect, a small Cause produces a small Effect",
+        "The Effect always occurs before the Cause is formed",
+        "Cause and Effect have nothing to do with each other in Wyckoff analysis",
+        "A small Cause always produces an unlimited, enormous Effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'This law is closely related to the law of Supply and Demand. A Cause must be formed before an Effect occurs. An Effect will accurately reflect the scale built by a prior Cause. A large Cause will produce a large Effect, a small Cause will produce a small Effect.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch23-q3",
+      "type": "multiple_choice",
+      "prompt": "What main tool does the book name for measuring the 'Cause' built in an Accumulation/Distribution Phase, in order to estimate the potential 'price target' (Effect)?",
+      "options": [
+        "The Point and Figure (PnF) chart — using the technique of counting the number of columns (horizontal boxes) created within the trading range TR",
+        "The RSI (Relative Strength Index) indicator",
+        "The 200-day moving average (MA200)",
+        "The company's quarterly financial report"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The main tool for determining a potential Effect is the Point and Figure (PnF) chart. The Wyckoff method uses the technique of counting the horizontal boxes created by the price base on a PnF chart... to determine potential future price movement targets.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch23-q4",
+      "type": "multiple_choice",
+      "prompt": "What relationship does the Law of Effort and Result (Law #3) describe? Which element represents 'Effort' and which represents 'Result'?",
+      "options": [
+        "Volume represents Effort; Price represents Result — harmony between the two is needed for a trend to be confirmed",
+        "Price represents Effort; Volume represents Result",
+        "Nothing represents Effort or Result; these are merely abstract names",
+        "Trading time represents both Effort and Result"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'This law provides important characteristics in analyzing Price and Volume (another name for VSA). Volume represents Effort and Price represents Result. For the process of pushing price up to be completed, there must be Effort expressed in the form of volume.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch23-q5",
+      "type": "multiple_choice",
+      "prompt": "The book describes a state of 'disharmony' between Effort and Result — for example, volume (Effort) rising high but price (Result) only inching up. What does this condition usually warn of?",
+      "options": [
+        "A warning sign of a weakening trend (opposing supply/demand obstructing) and an expected price correction soon",
+        "A sure sign the current trend will continue strongly unchanged",
+        "No warning meaning at all; just market noise",
+        "A sign the company is about to announce a stock split"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The characteristic of a large Effort but small Result (Effort that does not bring Results) often warns of a form of divergence or concludes that Effort (volume) is out of harmony with Result (price). This is a warning sign of a weakening uptrend (supply obstructing) and a downward price correction is expected to be needed.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch23-q6",
+      "type": "chart_identify",
+      "prompt": "The AAPL chart 'Wyckoff's Laws Illustrated' below colors 3 zones: red ('Supply exceeds Demand'), yellow ('Supply and Demand are Equal thru Trading Range'), and green ('Demand Exceeds Supply'). Which law is illustrated by the yellow zone?",
+      "chartImage": "/charts/part_23/p111_chart-385.jpg",
+      "options": [
+        "The Law of Supply and Demand (Law #1) in a state of balance — this is exactly the 'Absorption Occurring' phase, where 'Cause is Built, and the Effect Follows'",
+        "The Law of Effort and Result is being completely violated",
+        "This is a zone that follows none of the Wyckoff laws",
+        "This is a zone that applies only to Downtrends, not to TRs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Notes on the chart: 'Supply and Demand are Equal thru Trading Range', 'Absorption Occurring', and 'Cause is Built. And the Effect Follows.' — the yellow zone simultaneously illustrates both Law #1 (Supply = Demand, TR forms) and Law #2 (the Cause being built in the TR before the Effect/Uptrend follows)."
+    },
+    {
+      "id": "ch23-q7",
+      "type": "chart_identify",
+      "prompt": "The AAPL Point and Figure chart below is titled 'Counting the Cause. Estimating the Effect.' Counting the horizontal X/O columns across the built price base projects reaching which price target?",
+      "chartImage": "/charts/part_23/p113_chart-390.jpg",
+      "options": [
+        "$50 — identified through an 'Ascending Triple Top Breakout' and labeled 'Generating the Effect' above the 'A Cause has been built (Accumulation)' base below",
+        "$10 — the lowest price ever recorded for AAPL",
+        "No specific price target is identified on this chart",
+        "$1000 — an unrealistic price target not mentioned by the book"
+      ],
+      "correctIndex": 0,
+      "explanation": "The chart states 'P&F Pattern: Ascending Triple Top Breakout' with an arrow pointing up to the $50 level, labeled 'Generating the Effect', and below the price base the label 'A Cause has been built (Accumulation)' — a direct illustration of applying Law #2 to estimate price targets with PnF."
+    },
+    {
+      "id": "ch23-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book emphasizes: 'Everything in the Wyckoff Method follows the movement of these three main laws.' Why is understanding all THREE laws deeply at once (rather than just one) important — for example, how do the Law of Supply and Demand and the Law of Effort and Result together support applying the Law of Cause and Effect?",
+      "sampleAnswer": "These three laws actually describe the same market phenomenon from 3 complementary angles: Supply-Demand explains WHY price moves in a given direction; Effort-Result (through volume) helps CONFIRM whether Supply-Demand is truly out of balance (avoiding being fooled by price movement alone without volume confirmation); and Cause-Effect helps ESTIMATE THE SCALE of the coming result once the direction is correctly confirmed. Using a single law alone misses an important piece — for example, if you look only at Supply-Demand without confirming with Effort-Result (volume), an analyst can easily mistake a random price swing for a real change in supply and demand.",
+      "chartImage": null
+    }
+  ]
+}

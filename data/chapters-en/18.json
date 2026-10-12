@@ -1,0 +1,112 @@
+{
+  "chapterId": 18,
+  "title": "Wyckoff Distribution",
+  "summary": "The official, complete version of Distribution Schematics #1 and #2 — the standard definition of each event (PSY, BCLX, AR, ST, UT, SOW, UTAD, LPSY) and how to tell apart the two scenarios: a dramatic UTAD or just a quiet LPSY.",
+  "questions": [
+    {
+      "id": "ch18-q1",
+      "type": "multiple_choice",
+      "prompt": "How is 'Preliminary Supply (PSY)' defined, and what does it mean?",
+      "options": [
+        "A newly formed high followed immediately by a sharp short-term decline, showing the first strong participation of Supply — early evidence of the CO beginning to sell for the first time at the end of an uptrend",
+        "The lowest price in the stock's entire trading history",
+        "A special type of limit order on the exchange",
+        "An indicator measuring the industry's average P/E ratio"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The PSY is a newly formed high; this price stage will have a sharp short-term decline occurring right after, showing the first strong participation of Supply during the uptrend... A PSY is early evidence of the first selling by the CO at the end of an uptrend.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch18-q2",
+      "type": "multiple_choice",
+      "prompt": "According to the official definition, how does the book describe the relationship between an 'Upthrust (UT)' and a 'Secondary Test (ST)'?",
+      "options": [
+        "A UT is a MORE EXTENDED form of an ST — also a rally above the resistance line created by the BCLX, but with a larger spread",
+        "UT and ST have nothing to do with each other",
+        "A UT is always smaller than an ST in both spread and volume",
+        "A UT occurs only before the BCLX, never after"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A UT is a more extended form of an ST. An Upthrust (UT) often leads to a price rally above the resistance line created by the BCLX.' Both UT and ST attract the buying attention of retail investors who buy breakouts — often this is a bull-trap action.",
+      "chartImage": null
+    },
+    {
+      "id": "ch18-q3",
+      "type": "multiple_choice",
+      "prompt": "A 'Sign of Weakness (SOW)' occurs after an ST or UT. The book describes the SOW as the first sign that which main characteristic of price behavior has changed?",
+      "options": [
+        "Supply is now greater than Demand — Supply is taking the upper hand",
+        "Demand is now greater than Supply, preparing for a new advance",
+        "Trading volume no longer matters in analyzing the SOW",
+        "The company is about to announce a merger with a competitor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Usually a SOW and AR appear first in the phase, showing a change in the main characteristic of price behavior, namely that Supply is now greater than Demand. When the SOW is complete, we need to be vigilant because there will likely be a final advance to set up and conclude the Distribution Phase process.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch18-q4",
+      "type": "chart_identify",
+      "prompt": "Compare Distribution Schematic #1 and #2 below. What is the core difference between the two schematics in Phase |B|/|C|?",
+      "chartImage": "/charts/part_18/p082_chart-294.jpg",
+      "options": [
+        "In Schematic #2, the rally in Phase B does NOT reach a new high (does not break through the UT) — it is labeled outright as an LPSY, instead of there being a dramatic UTAD as in Schematic #1",
+        "Schematic #2 has no Phase |A|, starting only from Phase |B|",
+        "Schematic #2 always has a Downtrend 10 times stronger than Schematic #1",
+        "The two schematics are completely identical, no difference"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'In Schematic #2, the rally does not reach a new high through the UT and is labeled the Last Point of Supply (LPSY). The LPSY upward correction will have a narrowing price spread and buying volume is usually low, showing a lack of demand (demand dried up).'"
+    },
+    {
+      "id": "ch18-q5",
+      "type": "multiple_choice",
+      "prompt": "The book describes the LPSY as 'meaning exactly what its name says'. From the full name 'Last Point of Supply', what is the core meaning of this point?",
+      "options": [
+        "It is the HIGHEST and LAST price level at which the CO's supply still blocks buyers' attempts to push price up in the Distribution Phase — later highs will be unable to exceed this level before price turns down",
+        "It is the lowest price the stock has ever reached",
+        "It is the point at which the company ceases business operations entirely",
+        "The LPSY has no practical meaning, merely decorative terminology"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'LPSY - Last Point of Supply has meaning exactly as its name says. It is the highest and last price point at which the CO's supply will block buyers' attempts to push price up (the little remaining demand of the public) in this Distribution phase. Price will respect the LPSY points in the distribution phase.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch18-q6",
+      "type": "multiple_choice",
+      "prompt": "The book connects the characteristics of the rallies at the LPSY to the earlier-learned concept of 'Effort >< Result'. What is that specific characteristic at the LPSY?",
+      "options": [
+        "The LPSY rallies up weakly from the Support bottom area, with narrow, overlapping price spreads and decreasing buying volume — the Effort (trying to rally) does not bring a commensurate Result",
+        "The LPSY always rallies with an extremely wide spread and extremely high volume — Effort and Result match perfectly",
+        "The Effort >< Result concept does not apply to the LPSY",
+        "The LPSY always occurs with absolutely zero volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'An LPSY is confirmed with a lower high (LH). The characteristic of the LPSY is that it rallies weakly from the Support bottom area with narrow, overlapping price spreads and decreasing buying volume (or effort that does not bring results - Effort >< Result).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch18-q7",
+      "type": "multiple_choice",
+      "prompt": "In Phase |D|, a Last Point of Supply (LPSY) also serves as a tactical trading location. Specifically, what is it a location for?",
+      "options": [
+        "A place to open a SELL (short) order and place the stop loss just above the top of that LPSY",
+        "A place to open a large BUY order expecting price to rise without limit",
+        "A place where the company issues new shares to the public",
+        "The LPSY has no practical trading application"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'An LPSY is where we open a sell order and place the stop loss just above the LPSY high. Phase |D| continues to move price down below out of the range of the Distribution phase, where the main downtrend begins (Phase |E|).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch18-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book ends the chapter with advice repeated three times: 'Practice, practice, practice.' It also stresses that 'there are countless variations that may appear in the Distribution Phase' even though Schematics #1/#2 are only idealized models. What core skill (not memorized knowledge) do you think repeated practice is really sharpening in a Wyckoffian?",
+      "sampleAnswer": "Repeated practice not only helps memorize the names of events (PSY, BCLX, UT, SOW...) but more importantly trains the intuition/keen eye (pattern recognition through experience) to recognize the core PRINCIPLES (supply-demand shifts, change of character CHOCH, effort-versus-result) hidden beneath the countless different chart shapes in reality — a skill that can only be gained through plenty of practice and cannot be memorized from theory alone.",
+      "chartImage": null
+    }
+  ]
+}

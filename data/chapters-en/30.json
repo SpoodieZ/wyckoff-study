@@ -1,0 +1,84 @@
+{
+  "chapterId": 30,
+  "title": "Breaking the Ice",
+  "summary": "Robert Evans' 'boy on the frozen river' metaphor applied to the Distribution Phase — the counterpart of 'Jumping the Creek' in Accumulation. The mechanics of opening a short position when price breaks 'The Ice' and a weak rally (LPSY) fails and turns back.",
+  "questions": [
+    {
+      "id": "ch30-q1",
+      "type": "multiple_choice",
+      "prompt": "Robert Evans describes a metaphor: a boy walking on a frozen river; if the 'ice' is strong enough it will hold his weight. In the Distribution context, what does 'The Ice' represent?",
+      "options": [
+        "A value line defined by the connected lows of the upward reaction rallies within a TR — representing the Demand remaining in the Distribution Phase",
+        "It represents Supply exactly like 'The Creek' in Accumulation",
+        "It represents the stock's average trading volume",
+        "It has no specific meaning, merely a decorative image"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Wyckoff defined \"The Ice\" as a value area defined by the connected lows of the upward reaction rallies moving within a trading range TR.' This is the opposite image of 'The Creek' (representing Supply) learned in Part 7 — The Ice represents Demand.",
+      "chartImage": null
+    },
+    {
+      "id": "ch30-q2",
+      "type": "multiple_choice",
+      "prompt": "In the metaphor, if the boy fails to break through the ice (and falls) twice in a row on his 'second attempt', what happens according to Robert Evans' original story?",
+      "options": [
+        "The boy 'sinks and drowns' — meaning a downward/falling market phase (Downtrend) will occur",
+        "The boy immediately swims back to safety on shore",
+        "Nothing special happens to the boy",
+        "The boy is immediately rescued by a rescue team"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quoting Hank Pruden: 'If so, he will sink deeper into the river to gather strength and try to recover once more and break back up through the ice. If on the second attempt, the boy cannot break back up through the ice, he will most likely sink and drown. (That means a downward/falling market phase will occur.)'",
+      "chartImage": null
+    },
+    {
+      "id": "ch30-q3",
+      "type": "multiple_choice",
+      "prompt": "To open a short position based on the break of 'The Ice', the book guides identifying the short zone from which point — combining the low of the decline AND which other point?",
+      "options": [
+        "The 1/2 (mid-point) of the decline through the Ice level, combined with the low made in that decline — this value zone (together with the LPSY) determines where to open a short position",
+        "Just the closing price of the latest session, with no further calculation",
+        "The stock's all-time high",
+        "The date of the company's next financial report"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'We should identify the 1/2 level of this sharp price decline when there is a mild upward correction back. Another important level is the low made in the sharp decline through the \"Ice\" level. When this low is combined with the 1/2 point of the sharp decline through the \"Ice\" level, the result is a value area for deciding on entering a short position.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch30-q4",
+      "type": "multiple_choice",
+      "prompt": "The book stresses examining the 'price and volume' character of the weak recovery (LPSY) after the Ice break. What is the IDEAL characteristic (confirming demand has dried up) of this rally?",
+      "options": [
+        "NARROW price spread and LOW volume — if buying volume is large again at the top of this weak rally ('effort without result'), it is a sign that one or more additional Tests are needed before entering",
+        "WIDE price spread and HIGH volume is the ideal sign to enter a short immediately",
+        "Volume has no meaning in evaluating this rally",
+        "The price spread must be absolutely zero to be considered valid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The Wyckoff trader wants to see a weak upward recovery effort with a narrow spread and low demand volume to confirm weakness... Sometimes there will be a weak rally with a narrow price spread but large buying volume at the top (effort without result). This should not discourage the short seller when considering a position; this action will need to be retested with decreasing selling volume (exhaustion).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch30-q5",
+      "type": "chart_identify",
+      "prompt": "Distribution Schematic #2 below clearly illustrates the position of 'The Ice' — a curve connecting the reaction lows in Phase |B|. According to the diagram, in which phase do LPSYs form AFTER the Ice is broken?",
+      "chartImage": "/charts/part_30/p154_chart-572.jpg",
+      "options": [
+        "In Phases |C| and |D| — multiple consecutive LPSY points appear as price tries to weakly recover back near the Ice (now turned resistance) before the final SOW confirms the Downtrend",
+        "LPSYs form only in Phase |A|, before the Ice is established",
+        "LPSYs never relate to the Ice in any case",
+        "The Ice appears only after the whole Distribution Phase has ended"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the diagram, 'The Ice' is drawn connecting the reaction lows in Phase B; after price breaks below the Ice, LPSY points appear consecutively in Phases C and D — each time price tries a weak recovery back near the Ice line (now resistance) before the final SOW confirms the Downtrend in Phase E."
+    },
+    {
+      "id": "ch30-q6",
+      "type": "short_answer_selfgrade",
+      "prompt": "Compare 'The Creek' (Part 7, representing Supply in Accumulation) with 'The Ice' (representing Demand in Distribution) — both are 'soft' barrier lines connected from extreme points in the TR. Why did Wyckoff choose to use TWO different metaphors (creek/flowing water vs. ice) instead of using one common barrier-line concept for both cases?",
+      "sampleAnswer": "The two different metaphors convey the different movement NATURE of each type of barrier: the 'Creek' (flowing, continuously meandering water) evokes supply that is ALWAYS PRESENT and moves flexibly, which must be 'jumped across' with a strong, decisive breakout. Whereas 'Ice' (a solid surface that can hold weight or crack) evokes a STATIC support level that can HOLD or COLLAPSE entirely once broken — fitting the idea of 'solid' demand protecting price until it is exhausted and shatters. The two metaphors help learners remember and visually distinguish two opposite mechanisms (supply blocking from above vs. demand holding up from below).",
+      "chartImage": null
+    }
+  ]
+}

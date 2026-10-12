@@ -1,0 +1,112 @@
+{
+  "chapterId": 13,
+  "title": "When Termites Invade the Uptrend",
+  "summary": "The 'termite' metaphor for erosion of an uptrend's foundation — the role of Reaccumulation as a filter that removes Weak Hands, examples of WDC (3 years), EXPE, AZO, DIS, and Trend Channel analysis for the 4 FANG stocks.",
+  "questions": [
+    {
+      "id": "ch13-q1",
+      "type": "multiple_choice",
+      "prompt": "The book opens with a metaphor: an uptrend is like a house built on a wooden foundation, quietly infested by 'termites' over time. In this metaphor, what do the 'termites' represent?",
+      "options": [
+        "Retail traders (Weak Hands) gradually weakening the trend's originally solid ownership 'foundation' (which was in the hands of the CO/Strong Hands)",
+        "The company's falsified financial reports",
+        "The central bank's interest rate policy",
+        "The company's direct competitors"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A trend also starts with a solidly built foundation (the stock held by the CO - SHs), but over time the trend becomes compromised by retail traders as they come to own shares (WHs), weakening the foundation of the trend.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch13-q2",
+      "type": "multiple_choice",
+      "prompt": "According to the book, the Reaccumulation Phase acts as a 'filter'. Whom does it remove from the uptrend?",
+      "options": [
+        "It removes and purges short-term-holding Weak Hands (WHs) from the uptrend",
+        "It removes the Composite Man (CO) from the market",
+        "It removes all of the stock's trading volume",
+        "It removes ETFs from the list of holders of the stock"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Reaccumulation phases have the effect of removing and purging short-term-holding Weak Hands (WHs) from the uptrend.' This helps the CO keep control of most of the floating shares throughout the extended advance.",
+      "chartImage": null
+    },
+    {
+      "id": "ch13-q3",
+      "type": "multiple_choice",
+      "prompt": "According to the book, at what stage of a Reaccumulation Range is the LOWEST low in the range usually made?",
+      "options": [
+        "Usually in the first half (about the first 1/3) of the whole Reaccumulation Phase — often the low of the AR or an ST of the AR",
+        "Always at exactly the midpoint of the trading range",
+        "Always in the final stage, right before price breaks out",
+        "There is no pattern; it is completely random"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The lowest price low absorbed will usually occur in the first half of the Reaccumulation phase (usually within the first 1/3 of the whole Reaccumulation phase). Often an Automatic Reaction (AR) or a Secondary Test (ST) of the AR will be the lowest low created (Absorbing mainly supply in Phase |A|).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch13-q4",
+      "type": "chart_identify",
+      "prompt": "The WDC (Western Digital) chart below illustrates a Reaccumulation Phase lasting THREE YEARS before a second quality advance. What does this demonstrate about the Reaccumulation concept?",
+      "chartImage": "/charts/part_13/p051_chart-197.jpg",
+      "options": [
+        "Even on a very large time scale (many years), the necessary characteristics and attributes of a Reaccumulation Phase (like Absorption) still apply just as on shorter timeframes",
+        "Reaccumulation can last at most a few weeks; three years is an anomaly to be excluded from analysis",
+        "This WDC chart is actually a mislabeled example of Distribution",
+        "Timeframe has no meaning in Wyckoff analysis"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'WDC stock had a Reaccumulation phase lasting three years. Even on a scale with such a large time span, it still has the necessary characteristics and attributes of a Reaccumulation phase.' The cause of the 3 years was the all-time high (ATH) price in 1997, which created enormous overhead supply that needed to be fully absorbed."
+    },
+    {
+      "id": "ch13-q5",
+      "type": "chart_identify",
+      "prompt": "The AZO (AutoZone) chart below has two examples of a Spring #3 session bringing Reaccumulation to its conclusion. Even though a Spring #3 is confirmed (can be bought immediately), what more cautious advice does the book give Wyckoffians who want to be 'more certain'?",
+      "chartImage": "/charts/part_13/p053_chart-205.jpg",
+      "options": [
+        "Wait for price to move back inside the TR (closing the session) and successfully test that Spring session — that would be a safer confirmation point that price has truly stopped falling",
+        "Sell short immediately regardless of what the Spring confirms",
+        "Ignore the Spring #3 signal entirely because it is always wrong",
+        "Wait exactly 6 months after the Spring session before being allowed to trade"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'If you want to be more certain, my useful advice to Wyckoffians is to wait for price action to get back inside the TR (close the session) and successfully test that Spring. That would be a safe confirmation point that price has stopped falling (because it is a true Spring).'"
+    },
+    {
+      "id": "ch13-q6",
+      "type": "multiple_choice",
+      "prompt": "When analyzing the Trend Channels of the 4 FANG stocks (FB, AMZN, GOOGL, NFLX), which stock does the book note as 'the strongest of the 4' because it still holds above the Supply Line of its trend channel?",
+      "options": [
+        "FB (Facebook)",
+        "AMZN (Amazon)",
+        "GOOGL (Google)",
+        "NFLX (Netflix) — because it has the shortest trend channel and so is the easiest to hold"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: '3 of the 4 FANG stocks have returned below their Trend Channel (while the NDX is still above). Only FB is still above, making it the strongest of the 4 stocks. NFLX has corrected through its price channel (a smaller channel).' NFLX in fact has the shortest trend channel and has fully reversed, now in a sharp correction.",
+      "chartImage": null
+    },
+    {
+      "id": "ch13-q7",
+      "type": "chart_identify",
+      "prompt": "The DIS (Disney, weekly) chart below shows price just breaking below the trend channel line after a long series of 'Late Stage Reaccumulations'. According to the book, what does this break (CHOCH) signal about the upcoming price environment?",
+      "chartImage": "/charts/part_13/p054_chart-208.jpg",
+      "options": [
+        "A change of character (CHOCH) from an Uptrend environment to a Non-Trend (sideways) environment — possibly the beginning of a new Reaccumulation or a Distribution phase; more observation is needed to determine which",
+        "A 100% certain signal that the uptrend will resume immediately with no further confirmation",
+        "A sign that Disney is about to go bankrupt",
+        "No analytical meaning, just random fluctuation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Note the price action that broke through (broke up through the price channel) and showed an Overbought condition. With the recent break back into the trend channel, expect a potential Reaccumulation phase or it could also be a scenario for a Distribution phase. In both cases, this is a change of character (CHOCH) from an Uptrend environment to a Non Trend environment.'"
+    },
+    {
+      "id": "ch13-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "Why does the book advise studying Trend Channels on LARGER timeframes (for example WDC's monthly chart) alongside the timeframe being analyzed, rather than looking only at the current timeframe?",
+      "sampleAnswer": "Because a larger timeframe provides important CONTEXT that a smaller timeframe cannot show — for example, knowing that WDC's 3-year Reaccumulation was actually caused by a huge resistance from the 1997 all-time high (ATH). Looking only at a short timeframe, the analyst might panic or misread why price moved sideways for so long, whereas the larger frame helps understand the context correctly and keeps confidence/patience in one's analysis.",
+      "chartImage": null
+    }
+  ]
+}

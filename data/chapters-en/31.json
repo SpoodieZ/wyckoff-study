@@ -1,0 +1,112 @@
+{
+  "chapterId": 31,
+  "title": "Tracking Bigfoot and Setting Up a Campaign",
+  "summary": "The 'Bigfoot' metaphor for tracking the CO's footprints through Price and Volume. The Cameco Corp (CCJ) case study — a multi-year campaign with a huge Cause structure, confirmed by Relative Strength, illustrating the 'fractal' nature of the Wyckoff Method.",
+  "questions": [
+    {
+      "id": "ch31-q1",
+      "type": "multiple_choice",
+      "prompt": "The book compares spotting the traces of the Composite Man/Operator (CO) to hunting for 'Bigfoot'. What important difference between the two does the book point out?",
+      "options": [
+        "While seeing Bigfoot might only 'win a bet', correctly recognizing the presence of the CO can lead to sound trading decisions and BIG PROFITS",
+        "Bigfoot is real while the CO is not real at all",
+        "There is no difference; the two are identical in practical meaning",
+        "Finding the CO is far easier than finding Bigfoot because the CO always appears openly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'While spotting a giant creature like Bigfoot might win a bet, recognizing the presence of the Composite Man/Operator (CO) can lead to sound trading decisions and big profits.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch31-q2",
+      "type": "chart_identify",
+      "prompt": "The CMG PnF chart below compares a 'Distribution Count' and an 'Accumulation Count' — with the 'Spring & Test' area counted as a 'local TR Absorption' inside the larger TR. What is the purpose of adding this local count to the larger TR's count?",
+      "chartImage": "/charts/part_31/p158_chart-586.jpg",
+      "options": [
+        "To project a more attractive price target (588/568) for a potential Sign of Strength (SOS) — reaching this target 'would produce a Major Sign of Strength'",
+        "It has no practical purpose; it is merely a decorative calculation",
+        "To compute income tax on CMG stock trading",
+        "To determine the exact date of the company's next financial report"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Reaching this objective would produce a Major Sign of Strength.' The Spring & Test area is counted as a local Absorption TR inside the larger Accumulation TR, producing a potential price target of 568-588."
+    },
+    {
+      "id": "ch31-q3",
+      "type": "multiple_choice",
+      "prompt": "The book describes the Wyckoff Method as having a 'fractal nature, working effectively across many different timeframes'. However, for SETTING UP A SPECIFIC CAMPAIGN, over what time span does the book advise focusing on evaluating price movement phases?",
+      "options": [
+        "LONGER time spans — with the goal of identifying the conditions before uptrends that can last from many months to many years",
+        "Focus only on the 5-minute timeframe for every campaign",
+        "The book gives no specific timeframe recommendation for setting up a campaign",
+        "Always under 1 trading day for every campaign"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'In the case of setting up a campaign, movement phases over longer time spans will be evaluated. The goal is to identify the conditions before uptrends that can last from many months to many years appear.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch31-q4",
+      "type": "chart_identify",
+      "prompt": "The CCJ (Cameco Corp) 1998-2009 chart below is a 'Campaign Case Study'. Which tool is used ALONGSIDE price to confirm that this 7-year uptrend is still intact?",
+      "chartImage": "/charts/part_31/p159_chart-589.jpg",
+      "options": [
+        "Relative Strength (RS, versus the $SPX) — RS is confirmed to stay above its long-term moving average (MA) for more than 3 years as the uptrend extended",
+        "The company's P/E ratio",
+        "The number of Cameco employees",
+        "The world gold price, unrelated to RS"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The uptrend is defined by a rising trend channel while price and Relative Strength (here using $SPX as the comparison index) both remain above the level defined by the long-term moving average (MA) for more than 3 years as the uptrend extended.'"
+    },
+    {
+      "id": "ch31-q5",
+      "type": "multiple_choice",
+      "prompt": "In the CCJ 1998-2009 study, the stock price rose from an average of about $4 (during the Accumulation Phase) to a high of how much, over what time span?",
+      "options": [
+        "More than $46, over about 4 years — a highly effective campaign setup",
+        "Only to $5, over 10 years",
+        "To $10, over 1 month",
+        "Price did not change at all throughout the entire study period"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The stock price exceeded the price target of the Accumulation phase at an average price of $4 and eventually reached a high of more than $46 over a period of 4 years. This is a highly effective campaign setup.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch31-q6",
+      "type": "chart_identify",
+      "prompt": "The updated CCJ chart (2016-2021) below shows a NEW 'Cause' being built. Which event during the Covid-19 crash (March 2020) served as the final test of this Accumulation Phase?",
+      "chartImage": "/charts/part_31/p160_chart-592.jpg",
+      "options": [
+        "A Shakeout action — followed by a strong advance showing a Change of Character (CHOCH) that pushed price above the resistance high in late 2020",
+        "The company declaring complete bankruptcy",
+        "The stock being temporarily delisted from the NYSE",
+        "No special event occurred during the Covid-19 period"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A Shakeout action was the final test of the Accumulation phase (during the decline caused by Covid-19 in March 2020), followed by a strong advance showing a Change of Character (CHOCH) that pushed the stock price up and above the resistance high in late 2020.'"
+    },
+    {
+      "id": "ch31-q7",
+      "type": "chart_identify",
+      "prompt": "The CCJ PnF chart below calculates a price target from the 2016 LPS low (about $9). With the potential gain of $37.50 counted, the price target reaches about $43-$46.50 — how many times the LPS low is that, and does it satisfy the minimum R:R ratio learned earlier?",
+      "chartImage": "/charts/part_31/p161_chart-595.jpg",
+      "options": [
+        "About 4.78 times the LPS low — satisfying the minimum 3:1 Reward/Risk ratio learned in Part 27",
+        "Only 1.1 times, not attractive enough to trade",
+        "100 times, an unrealistic figure to be discarded",
+        "The R:R ratio cannot be calculated from this PnF chart"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'From the LPS low price of $9, there is a potential gain of $37.50, with a counted price target of $43 to $46.50. This price target is 4.78 times the LPS low (satisfying R:R 3:1). How long it takes for a target of such a large scale to be reached (it may take many years).'"
+    },
+    {
+      "id": "ch31-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book concludes about CCJ's huge price target (4.78 times): 'How long it takes for a target of such a large scale to be reached (it may take many years). But imagine the power of this analysis!' In your opinion, what is the BIGGEST psychological challenge of holding a position aimed at a price target that may take MANY YEARS to reach?",
+      "sampleAnswer": "The biggest challenge is maintaining PATIENCE and belief in the original analysis over a long stretch of time, while watching many downward corrections, interleaved Reaccumulation phases, and even violent market episodes that can make an investor doubt and sell too early. There is also the risk that the company's or industry's fundamentals may change over many years, making the original Cause structure no longer valid — requiring the investor to keep monitoring and re-confirming the analysis over time, not just place an order once and walk away.",
+      "chartImage": null
+    }
+  ]
+}

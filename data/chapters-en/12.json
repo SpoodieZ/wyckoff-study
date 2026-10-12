@@ -1,0 +1,98 @@
+{
+  "chapterId": 12,
+  "title": "Reaccumulation Analysis Roundup",
+  "summary": "A review of many real Reaccumulation examples (AMZN, AAPL, Polaris, Micron, BOFI) — how to spot tactical entry points (Test, JAC, BUEC), the pessimism of retail investors during a prolonged range, and how to tell Reaccumulation from Distribution through selling-volume signals in the late stage.",
+  "questions": [
+    {
+      "id": "ch12-q1",
+      "type": "chart_identify",
+      "prompt": "The AMZN chart below is annotated 'Tactical places to enter this Reaccumulation: 2 Tests, 3 JACs, 2 BUEC'. What do these locations have in common strategically?",
+      "chartImage": "/charts/part_12/p045_chart-179.jpg",
+      "options": [
+        "They are all points where supply in that area has been confirmed as exhausted or weakened (through successful tests or mild pullbacks after breaking resistance) — so they are good buying opportunities in the Reaccumulation Phase",
+        "They are all points to sell short immediately because they confirm Distribution",
+        "They are all random points with no strategic meaning",
+        "They are all times when the company releases its financial reports"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tests, JACs (Jump Across the Creek) and BUECs (Backup to the Edge of the Creek) are all points confirming that supply has been absorbed or the advance is still intact after breaking resistance — in line with the systematic entry-point principles learned in earlier parts, applied specifically to AMZN's Reaccumulation lasting about 15 months."
+    },
+    {
+      "id": "ch12-q2",
+      "type": "multiple_choice",
+      "prompt": "In the AMZN example, price spent most of its time in the lower half of the TR, repeatedly returning to the Support area without reaching Resistance. What did this do to retail traders' sentiment, and what is the CO aware of?",
+      "options": [
+        "Retail traders became pessimistic and discouraged; the CO is always aware of the style, behavior and psychology of these retail investors and exploits it",
+        "Retail traders became extremely euphoric and bought en masse",
+        "No psychological effect is recorded in the book",
+        "The CO is completely indifferent to retail investor psychology"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Retail traders become very pessimistic and discouraged as price keeps moving back to the Support level and cannot lift to Resistance (the CO is always aware of the style, behavior and methods of retail investors).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch12-q3",
+      "type": "multiple_choice",
+      "prompt": "In the AMZN example, a Change of Character (CHOCH) signal appeared when the Spring session was successfully tested. What was the volume characteristic of that test?",
+      "options": [
+        "Selling volume on the test was exhausted and much smaller than the volume of the Spring session itself",
+        "Volume on the test was double the volume of the Spring session",
+        "Volume was completely zero throughout the test",
+        "The book does not mention volume on this test"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Price action had a major Change of Character (CHOCH) when the Spring action was successfully tested with exhausted selling volume, much smaller than the Spring session, followed by a strong JAC rising through the creek (SOS Rally).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch12-q4",
+      "type": "chart_identify",
+      "prompt": "The AAPL (2009-10, daily) chart below notes the decline at the start of the second Reaccumulation 'Not a classic Spring (#3) but acts like one with a breach of the two prior lows'. What confirms that decline can still be regarded as a valid form of Spring?",
+      "chartImage": "/charts/part_12/p046_chart-183.jpg",
+      "options": [
+        "It breached below the two prior lows — behaving like a Spring session even though not the classic shape; and the low volume at the conclusion of both Reaccumulations is evidence of Absorption",
+        "It happened exactly on the day the company released quarterly earnings",
+        "It had the highest trading volume in AAPL's entire history",
+        "It had nothing to do with the two prior lows"
+      ],
+      "correctIndex": 0,
+      "explanation": "Notes on the chart: 'Not a classic Spring (#3) but acts like one with a breach of the two prior lows' and 'In both cases vol. is low at the conclusion of the Reaccum. Evidence of Absorption.' — even though it is not the classic Spring shape, the breach of old lows + low volume still confirms the absorptive nature."
+    },
+    {
+      "id": "ch12-q5",
+      "type": "multiple_choice",
+      "prompt": "The book warns of a common mistake: confusing Reaccumulation with Distribution at the top (especially when the pattern looks like a 'head and shoulders'). Which selling-volume sign helps tell the two apart in the LATE STAGE of the trading range?",
+      "options": [
+        "In Reaccumulation, selling volume tends to DWINDLE toward the end (a sign of absorption); whereas in a forming Distribution Phase, selling volume stays HIGH throughout",
+        "There is no way to distinguish the two cases by volume",
+        "Volume always rises steadily in both cases with no difference",
+        "They can only be distinguished by reading the company's financial reports"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is the core principle for avoiding confusion: dwindling selling volume (absorptive nature) confirms Reaccumulation, while selling volume that stays high throughout confirms a high probability of a true Distribution Phase forming — as seen in the second head-and-shoulders example of AAPL.",
+      "chartImage": null
+    },
+    {
+      "id": "ch12-q6",
+      "type": "chart_identify",
+      "prompt": "The Polaris (PII) chart below shows volume DWINDLING during the Automatic Reaction (AR) correction after the Buying Climax. What is this an early clue for?",
+      "chartImage": "/charts/part_12/p047_chart-186.jpg",
+      "options": [
+        "An early clue that a Reaccumulation process is beginning to form (rather than Distribution)",
+        "A clue that the stock is about to be delisted",
+        "A clue that the company will go bankrupt next quarter",
+        "No analytical meaning, just noisy data"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Volume dwindling during the AR correction is an early clue that a Reaccumulation process is beginning.' In this example, the AR is the lowest low created within the trading range TR — the CO spends most of its time in the lower half of the range accumulating as much stock as possible."
+    },
+    {
+      "id": "ch12-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Why is 'Patience' emphasized as an especially important virtue when analyzing Reaccumulation Phases, based on the spirit of the examples in this part (AMZN ~15 months, WDC 3 years, Micron multiple times)?",
+      "sampleAnswer": "Because Reaccumulation Phases can last a very long time (months to years) and price spends most of that time oscillating in the lower half of the range, repeatedly leaving impatient investors discouraged and giving up their positions early. Only those patient enough to watch and wait for confirming signals (dwindling volume, successful Test/JAC/BUEC) can get in at the right time before the uptrend officially resumes — exiting impatiently and early means missing most of the next advance.",
+      "chartImage": null
+    }
+  ]
+}

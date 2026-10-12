@@ -1,0 +1,154 @@
+{
+  "chapterId": 8,
+  "title": "Wyckoff Accumulation",
+  "summary": "A comprehensive synthesis of the Accumulation Phase through Wyckoff Accumulation Schematics #1 and #2 — the 5 phases A-E in detail, the role of 'Context', real-world variations of the Accumulation Range, and a side-by-side example with real AAPL stock.",
+  "questions": [
+    {
+      "id": "ch8-q1",
+      "type": "multiple_choice",
+      "prompt": "What makes 'Power Charting' under the Wyckoff Method different from other ordinary chart pattern recognition tools?",
+      "options": [
+        "Power Charting focuses on tracking the footprint of the Composite Man (CO) throughout Accumulation, rather than just recognizing pattern shapes",
+        "Power Charting uses only automatic technical indicators like MACD or RSI",
+        "Power Charting ignores trading volume and looks only at price",
+        "Power Charting is applicable only to the cryptocurrency market"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'What makes Power Charting under the Wyckoff Method different from other chart pattern recognition tools is its focus on tracking the footprint of the CO.' Price charts with volume are the tool of choice for tracking CO activity.",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q2",
+      "type": "multiple_choice",
+      "prompt": "In the continuous cycle described, the Accumulation Phase is the prerequisite for which phase, and the Distribution Phase is the prerequisite for which phase?",
+      "options": [
+        "Accumulation is the prerequisite for Markup; Distribution is the prerequisite for Markdown",
+        "Accumulation is the prerequisite for Markdown; Distribution is the prerequisite for Markup",
+        "Both are prerequisites for Markup, with nothing to do with Markdown",
+        "There is no relationship between Accumulation/Distribution and Markup/Markdown"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The Accumulation phase is the preparation for the Markup process and the Distribution phase is the prerequisite for the Markdown process.' Accumulation, Markup, Distribution and Markdown are a continuous cycle in financial markets.",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q3",
+      "type": "chart_identify",
+      "prompt": "Look at Accumulation Schematic #1 below. Phase |A| (Stopping of a Trend) ends with which event?",
+      "chartImage": "/charts/part_08/p026_chart-114.jpg",
+      "options": [
+        "A retest of the Selling Climax (SC) low, labeled ST (Secondary Test)",
+        "A Spring breaking down to a much lower new low",
+        "The JAC (Jump Across the Creek) event",
+        "A Buying Climax (BCLX) in the top zone"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Phase |A| is completed with a test of the SCLX low and is labeled ST (Secondary Test).' The full sequence of Phase A: PS → SCLX → AR → ST."
+    },
+    {
+      "id": "ch8-q4",
+      "type": "multiple_choice",
+      "prompt": "In Phase |B| (Building the Cause), how does the book describe price volatility and volume changing from the start to the end of the phase, and what does it mean?",
+      "options": [
+        "Volatility and volume are usually HIGH at the start of Phase |B| and then DWINDLE toward the end — reflecting the holding public gradually growing weary, panicking, then giving up/dumping their stock, while the CO quietly absorbs",
+        "Volatility and volume stay constant throughout Phase |B|",
+        "Volatility and volume rise steadily from start to end of Phase |B| without exception",
+        "Phase |B| has no price movement whatsoever, being completely flat"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The volatility during this process is relatively long, thus discouraging the public holding stock, who endured the panic of the earlier decline but eventually give up and dump their shares.' This is the very essence of Absorption in Phase |B|.",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q5",
+      "type": "multiple_choice",
+      "prompt": "What is the main purpose of Phase |C| (Test) in the Accumulation Schematic?",
+      "options": [
+        "To test whether supply at the Support levels has been exhausted — either by a Spring session (bear trap) or by a higher low (HL) called the Last Point of Support (LPS), which is just as important as the Spring",
+        "To immediately raise the stock price to an all-time high",
+        "To publish quarterly financial reports to attract new investors",
+        "To remove trading volume from the chart entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'This Test is meant to determine whether supply has been exhausted... Sometimes the final low created before the start of the Markup phase is a higher low (HL). Wyckoff analysis considers this the Last Point of Support (LPS) and it is as important as the Spring.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q6",
+      "type": "multiple_choice",
+      "prompt": "What characterizes Phase |D| (Mark Up within TR), according to the description in the book?",
+      "options": [
+        "Demand overwhelmingly dominates Supply; price rises with wide spreads and increased volume — consisting of JAC/SOS events (jumps) alternating with mild corrections labeled LPS or BUEC",
+        "Supply completely overwhelms Demand, with price continuously falling deeper",
+        "No trading takes place at all throughout Phase |D|",
+        "This is the phase in which the company declares bankruptcy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Phases |C| and |D| are strategically important... The terms Jump Across the Creek (JAC) and Sign of Strength (SOS) represent price action jumping with strong demand. Corrective declines occur with progressively narrower price spread and volume and are labeled Last Point of Support (LPS) or Backup to the Edge of the Creek (BUEC).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q7",
+      "type": "multiple_choice",
+      "prompt": "In Phase |E| (Entering the Uptrend), which tools does the book list for continuing to analyze the Uptrend phase once the stock has left the Accumulation base?",
+      "options": [
+        "Trend Channels, Demand Lines, Overbought Lines, and Stepping Stone Reaccumulation",
+        "Only the RSI, MACD and Bollinger Bands",
+        "The Fibonacci Retracement indicator alone",
+        "The book mentions no tools for the Uptrend phase"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Tools for the Uptrend phase include: Trend Channels, Demand Lines, Overbought Lines, and Stepping Stone Reaccumulation. The study of the Uptrend phase will be a rich and rewarding topic' — to be developed in later Parts.",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q8",
+      "type": "multiple_choice",
+      "prompt": "The book gives an example of traders who repeatedly short around the Resistance line (R) in Phase |B|, then keep shorting that area in Phases |D| and |E| without understanding 'Context'. What happens to them?",
+      "options": [
+        "They fall into a trap of heavy losses when a Major Sign of Strength (MSOS) breaks the resistance levels and price never returns to the TR",
+        "They always win big thanks to sticking with their shorting strategy",
+        "The exchange automatically cancels their short orders",
+        "Nothing happens; shorting at Resistance works in every phase"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Very quickly, they may find themselves trapped in heavy losses when a Major Sign of Strength (MSOS) moves and breaks the resistance levels outside the TR and the stock price never returns to the TR.' This is an example of the value of Context in Wyckoff — simple chart pattern recognition tools do not provide this Context.",
+      "chartImage": null
+    },
+    {
+      "id": "ch8-q9",
+      "type": "chart_identify",
+      "prompt": "Compared with Accumulation Schematic #1, Accumulation Schematic #2 below illustrates a different situation in the final test before the advance. What is the main difference?",
+      "chartImage": "/charts/part_08/p029_chart-122.jpg",
+      "options": [
+        "Instead of a Spring/Shakeout making a lower low, the final test creates a HIGHER low (HL), called the Last Point of Support (LPS)",
+        "Schematic #2 has no Phase |A| like Schematic #1",
+        "Schematic #2 has only 3 phases instead of 5 like Schematic #1",
+        "Schematic #2 is exactly identical to Schematic #1, no difference at all"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Accumulation Schematic #2 illustrates a situation in which price action performs a final test around support by creating a higher low (HL) instead of a shakeout session (Spring or Shakeout)... called the Last Point of Support (LPS).'"
+    },
+    {
+      "id": "ch8-q10",
+      "type": "chart_identify",
+      "prompt": "The AAPL (2008-09) chart below is compared with Accumulation Schematic #1. What does the 'Value of Context' note on the chart say about short sellers?",
+      "chartImage": "/charts/part_08/p030_chart-126.jpg",
+      "options": [
+        "They were conditioned to sell at the top of the TR, and were trapped in Phases |D| and |E| as price kept rising out of the range",
+        "They made huge profits by shorting at the right time in every phase",
+        "The note says nothing about short sellers, only about volume",
+        "All short sellers had safely closed their positions before Phase |C|"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Value of Context: Short sellers have conditioned to sell at the top of the TR. They are trapped in Phase D & E.' This is a real-world demonstration of the Context lesson from the previous question — not understanding the current phase leaves traders trapped in losing positions."
+    },
+    {
+      "id": "ch8-q11",
+      "type": "short_answer_selfgrade",
+      "prompt": "Besides the classic Schematics #1 and #2, the book presents many variations of the Accumulation Range (e.g. 'Absorption at Higher Level', 'Continuous Weakness', 'Extrastrength' Trading Range...). Why is recognizing these variations important for a Wyckoff analyst, rather than just memorizing a single ideal schematic?",
+      "sampleAnswer": "Because real markets rarely repeat an ideal schematic exactly — every stock and every accumulation has different volatility, depth of corrections and duration, depending on how the Composite Man acts. If you only memorize one rigid template, you will miss or misread other valid accumulation situations — the real skill lies in correctly recognizing the core PRINCIPLES (absorption, testing supply, context) behind every variation, not in matching the exact shape of a sample schematic.",
+      "chartImage": null
+    }
+  ]
+}

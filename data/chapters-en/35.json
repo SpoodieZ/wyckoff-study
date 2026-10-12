@@ -1,0 +1,126 @@
+{
+  "chapterId": 35,
+  "title": "Relative Strength Analysis",
+  "summary": "The Relative Strength (RS) index — the 'third leg' that complements PnF and ordinary charts, forming Wyckoff's sturdy 'three-legged stool'. The concept of Non-Confirmation (UNC/DNC), RS usually being weak during Reaccumulation, and the 'Avoidance' strategy when an industry group shifts from leading to lagging.",
+  "questions": [
+    {
+      "id": "ch35-q1",
+      "type": "multiple_choice",
+      "prompt": "In a sustained uptrend, what is the ideal relationship between Price and the Relative Strength (RS) index?",
+      "options": [
+        "Both Price and RS make higher highs (HH) and higher lows (HL) at the same time — called 'In-Gear' advance",
+        "Price rising while RS must keep falling is the good sign",
+        "RS has no relationship whatsoever to the price trend",
+        "It is enough for RS to rise, without caring about the price trend"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'In a sustained long-term uptrend, price and the RS index will be largely in sync with each other. They do this by making higher highs (HH) and higher lows (HL) simultaneously... If a good uptrend in price is accompanied by a higher high (HH) in the RS index, we regard them as \"in-gear\".'",
+      "chartImage": null
+    },
+    {
+      "id": "ch35-q2",
+      "type": "multiple_choice",
+      "prompt": "When does 'Upside Non-Confirmation (UNC)' occur?",
+      "options": [
+        "When price makes a new higher high (HH), but the RS index makes only a LOWER high (LH) — a warning that the stock is weakening relative to the market/industry group even though price is still rising",
+        "When both price and RS make higher highs at the same time",
+        "When trading volume drops to zero",
+        "UNC occurs only at the bottom of a downtrend, never at a top"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'But with a lower high (LH) in the RS index while price pushes up to a new high (HH), this is regarded as an Upside Non-Confirmation (UNC). This condition raises concern that price will follow the RS index down.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch35-q3",
+      "type": "chart_identify",
+      "prompt": "The $DJUSRS chart below carries the notes 'RS Will often Remain Weak Thru Reaccumulation Process' and 'Extreme RS Oversold at LPS'. What common principle about RS behavior in a Reaccumulation Phase does this confirm?",
+      "chartImage": "/charts/part_35/p208_chart-750.jpg",
+      "options": [
+        "RS usually remains WEAK (even extremely oversold) throughout the Reaccumulation process — because the CO often buys stock under the 'cover' of a weak RS index to discourage other institutions and the public",
+        "RS must always be strong throughout the Reaccumulation Phase, with no exceptions",
+        "RS has no relationship to the Reaccumulation Phase",
+        "This note applies to just one stock, not a general principle"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The CO often buys stock under the cover of a weak Relative Strength (RS) index to discourage other institutions and the public. As Wyckoffians, our task is to patiently wait for the Reaccumulation phase to end as the stocks in this industry group turn positive.'"
+    },
+    {
+      "id": "ch35-q4",
+      "type": "multiple_choice",
+      "prompt": "The book notes a particularly positive EXCEPTION: if RS keeps RISING throughout a Reaccumulation Phase (instead of weakening as usual), what does it mean?",
+      "options": [
+        "It is a 'very bullish' sign — confirming that large institutions should keep holding and even increase their allocation to this group of stocks",
+        "It is a negative sign that the stock is about to collapse",
+        "It has no special meaning if RS rises in a Reaccumulation",
+        "It is a sign the company is about to be delisted"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says (about $DJUSSW): 'In the 2015-16 Reaccumulation phase of $DJUSSW, the RS index kept rising, which is a very positive sign. The uptrend after the Reaccumulation phase was very strong. The RS index accelerated, which confirms to institutions that these stocks should be held and portfolio allocation to this group should be increased.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch35-q5",
+      "type": "chart_identify",
+      "prompt": "The ARNC chart below illustrates the 'Three-Legged Stool' metaphor — combining Ordinary Chart Analysis, PnF, and RS. According to the metaphor, what happens if ONE of these three 'legs' is missing?",
+      "chartImage": "/charts/part_35/p219_chart-781.jpg",
+      "options": [
+        "The stool (that is, the trader's analysis) becomes WEAK and UNSTABLE — lacking the sturdiness needed to make reliable trading decisions",
+        "No effect; two legs are still enough for 100% accurate analysis",
+        "The stool becomes sturdier if only one leg is used",
+        "This metaphor has nothing to do with combining multiple analysis tools"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A stool has three legs; if one leg is missing, the stool becomes weak and unstable. The metaphor shows that the stool of the Wyckoff Method also needs three strong legs' — those three legs are: Ordinary Chart Analysis, Point and Figure (PnF), and Relative Strength (RS)."
+    },
+    {
+      "id": "ch35-q6",
+      "type": "multiple_choice",
+      "prompt": "The book describes an 'Avoidance Strategy' related to Industry Groups. When is this strategy applied?",
+      "options": [
+        "When an Industry Group shifts from LEADING to LAGGING — that group may stay lagging for a long time, so trading in this group should be avoided",
+        "When an Industry Group always leads the market unchanged",
+        "This strategy applies only to the bond market",
+        "The book calls no strategy 'Avoidance'"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Once an Industry Group shifts from leading to lagging, it can stay that way for a long time. In a bull market, we can call this an \"Avoidance Strategy\". Knowing where the leading and lagging groups are in any market and when important shifts are taking place is very important.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch35-q7",
+      "type": "multiple_choice",
+      "prompt": "In what order of analysis does Wyckoff's stock selection process (combined with RS) proceed?",
+      "options": [
+        "From SECTOR → to INDUSTRY GROUP → and then to the individual STOCK — always seeking the strongest stocks in the strongest groups",
+        "Analyze only individual stocks, without caring about the sector or industry group",
+        "From Stock → to Industry Group → and finally to Sector (the reverse order)",
+        "No specific order of process is proposed"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Our process is to drill down from Sector to Industry Group and then to Stock, always looking for the strongest stocks in the strongest groups.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch35-q8",
+      "type": "chart_identify",
+      "prompt": "The chart comparing AAPL and the $COMPX (Nasdaq Composite) index below uses an ALTERNATIVE RS technique — not an RS ratio line but directly marking points #1-#6 and 'Stronger'/'Weaker' labels. How does this technique work?",
+      "chartImage": "/charts/part_35/p225_chart-798.jpg",
+      "options": [
+        "It compares successive swings between two overlaid charts — seeing whether the stock makes higher or lower highs/lows than the index at corresponding points to judge 'Stronger' or 'Weaker'",
+        "This technique is used only to compare trading volume and has nothing to do with RS",
+        "This technique requires computer calculation and cannot be done manually",
+        "This technique has no practical analytical value"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Wyckoff compared successive waves or swings on each chart, considering the strength (SOS) or weakness (SOW) of each wave relative to the previous waves on the same chart and to the corresponding points on the chart used for comparison.' This is a manual variation of RS analysis, needing no mathematical ratio line."
+    },
+    {
+      "id": "ch35-q9",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book concludes that the RS index 'keeps us in the trend for most of its move'. Why does monitoring RS continuously (not just once) help an investor 'hold firm' in a position through short-term corrections?",
+      "sampleAnswer": "Because as long as the stock's RS continues to advance 'in-gear' with price — making higher highs/lows at the same time as price — that confirms the stock is still outperforming the market/industry group, meaning large institutions (the CO) still favor holding it. Short-term price corrections within a long-term uptrend are normal; but if RS stays healthy through those corrections, the investor has added basis not to panic-sell early, because the overall relative-strength picture shows the main trend has not been broken.",
+      "chartImage": null
+    }
+  ]
+}

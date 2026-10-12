@@ -1,0 +1,112 @@
+{
+  "chapterId": 26,
+  "title": "The 9 Buying and Selling Tests",
+  "summary": "A logical checklist of 9 Buying Tests (for Accumulation) and 9 Selling Tests (for Distribution) — the next step that makes the Three Wyckoff Laws concrete. Combined with the visual Schematics, these two toolsets form a complete 'left-brain / right-brain' system for analysis and trading.",
+  "questions": [
+    {
+      "id": "ch26-q1",
+      "type": "multiple_choice",
+      "prompt": "How does the book describe the relationship between the '9 Tests' and the 'Three Laws of Wyckoff' learned in Part 23?",
+      "options": [
+        "The 9 Tests are the next logical step after the Three Laws — providing more detailed and specific principles for applying them in practice",
+        "The 9 Tests have nothing to do with the Three Laws",
+        "The 9 Tests completely replace the Three Laws, which no longer have any use",
+        "The 9 Tests apply only to the bond market"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'While the three laws of Wyckoff provide a broad and more general approach to studying charts by the Wyckoff method, the 9 tests are a set of more detailed and specific principles in their application. Wyckoff's tests are logically the next step after Wyckoff's laws.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch26-q2",
+      "type": "chart_identify",
+      "prompt": "The '9 Buying Tests' table below applies to the Accumulation Phase after a prolonged downtrend. According to the table, what is special about Test #1 and Test #9 compared with the other 7 tests?",
+      "chartImage": "/charts/part_26/p126_chart-444.jpg",
+      "options": [
+        "Test #1 and Test #9 can ONLY be determined through the Point and Figure chart (Figure Chart) — whereas other tests can use the vertical bar chart (Vertical Chart) or a combination of both",
+        "Test #1 and Test #9 are less important than the others and can be skipped",
+        "Test #1 and Test #9 apply only to the cryptocurrency market",
+        "Test #1 and Test #9 always happen at exactly the same time as each other"
+      ],
+      "correctIndex": 0,
+      "explanation": "The table's 'Determined by' column shows that Test #1 ('Price target of the prior downtrend has been completed') and Test #9 ('Determine the Risk and Reward ratio') both use only the 'Figure Chart' (PnF) — the book also stresses afterward: 'Note that Tests #1 and #9 can only be satisfied through the use of the PnF chart.'"
+    },
+    {
+      "id": "ch26-q3",
+      "type": "multiple_choice",
+      "prompt": "Test #4 in the 'Buying Tests' involves testing supply by breaking support to lower levels (Spring or Shakeout). What does the corresponding Test #4 on the 'Selling Test' (Distribution) side check?",
+      "options": [
+        "Testing demand by breaking out to higher levels (the appearance of an Upthrust or UTAD)",
+        "Checking the stock's 10-year average trading volume",
+        "Checking the dividend rate the company paid in the past",
+        "Test #4 is completely identical on both the Buying and Selling sides, no difference"
+      ],
+      "correctIndex": 0,
+      "explanation": "According to the '9 Selling Tests' table, Test #4 states: 'There are signs of testing demand by breaking out to higher levels (the appearance of an Upthrust or UTAD). Then the uptrend is broken (meaning the Demand lines or Uptrend lines are broken).' — a mirror image of Test #4 on the Buying side (Spring/Shakeout testing supply).",
+      "chartImage": null
+    },
+    {
+      "id": "ch26-q4",
+      "type": "multiple_choice",
+      "prompt": "The book mentions a limitation of the ORIGINAL set of 9 Tests: they were originally designed to identify a start from a bottom or from a top, so they are not easily applied directly to which case?",
+      "options": [
+        "Reaccumulation or Redistribution areas — for example Test #2 (Preliminary Support, Selling Climax, Secondary Test) does not apply, because Reaccumulation usually starts with a Buying Climax (BC), not a Selling Climax",
+        "There is no limitation; the original 9 Tests apply perfectly to every case",
+        "Only Test #9 has the limitation; the other tests apply well in every case",
+        "The original 9 Tests have a limitation only when applied to the crypto market"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Some tests, such as Test #2 with sessions like \"Preliminary Support (PS), Selling Climax (SC) and Secondary Test (ST)\", simply do not apply... but usually begin with a Buying Climax (BC). Modifying the Climax rule directly to suit the Reaccumulation phase becomes even more ambiguous.' This is the reason the new '9 Reaccumulation Tests' were created.",
+      "chartImage": null
+    },
+    {
+      "id": "ch26-q5",
+      "type": "multiple_choice",
+      "prompt": "The new '9 Reaccumulation Tests' add a criterion called 'Stepping-stone confirming count'. Which Wyckoff principle is this criterion especially related to?",
+      "options": [
+        "The principle of 'Timing' — the confirming count (from the PnF chart) helps traders stay alert to the possibility of the uptrend continuing once the price target of the Reaccumulation has been confirmed",
+        "The principle of personal income tax",
+        "The principle of choosing a securities brokerage firm",
+        "It is not related to any other Wyckoff principle"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'This confirming count deserves special consideration as a reaccumulation test because it carries an important Wyckoff principle of \"timing\". Therefore, traders should be alert to the possibility of the uptrend continuing when the PnF chart has created and has enough potential for the reaccumulation phase, or the \"count\", to confirm the price target from the original base.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch26-q6",
+      "type": "multiple_choice",
+      "prompt": "The book quotes Hank Pruden and Daniel Pink to describe the relationship between the Schematics and the 9 Tests with a 'left-brain / right-brain' metaphor. According to this metaphor, which component corresponds to the 'right brain'?",
+      "options": [
+        "Wyckoff's Accumulation/Distribution Schematics — because they lean toward visual recognition by imagery; the 9 Tests correspond to the 'left brain' because they lean toward sequential analytical logic",
+        "The 9 Tests correspond to the right brain, the Schematics to the left brain",
+        "Both the Schematics and the 9 Tests belong to the left brain",
+        "The left-brain / right-brain metaphor is not used by the book"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book presents in a table: 'Wyckoff's Accumulation/Distribution Schematics + the List of 9 Tests = A Pattern Recognition and Discretionary Trading System.' Specifically: the Schematics are assigned 'Right-brain Activity' (visual pattern recognition), while the 9 Tests are assigned 'Left-brain Activity' (logical analysis).",
+      "chartImage": null
+    },
+    {
+      "id": "ch26-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book emphasizes: 'The Wyckoff Method is a method of judgment, not a mechanical (rote) system.' Even with 9 detailed tests, why should traders still not apply them mechanically and rigidly?",
+      "sampleAnswer": "Because real markets always vary with countless variations (as seen in the many different examples in earlier chapters) — all 9 conditions do not always appear in full and in the ideal order. The 9 Tests are a REFERENCE FRAMEWORK that lets the trader evaluate logically and consistently, but the final DECISION still requires flexible discretionary judgment based on experience and the specific context of each situation — exactly the combined 'left-brain + right-brain' spirit the book presents.",
+      "chartImage": null
+    },
+    {
+      "id": "ch26-q8",
+      "type": "chart_identify",
+      "prompt": "The '9 Selling Tests' table (applied to Distribution) below has Test #7 on identifying 'stocks stronger than the market'. In the context of Distribution/Downtrend, what does it mean when a group of leading stocks tops first (link back to Part 25)?",
+      "chartImage": "/charts/part_26/p127_chart-453.jpg",
+      "options": [
+        "It is one of the early warning signals that the broad market is about to top — consistent with the principle learned in Step 2 of the Five-Step Approach to the Market",
+        "It has no connection to the earlier parts",
+        "This applies only to the bond market, not stocks",
+        "A leading group topping first is a sign the market will rise even more strongly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Test #7 states: 'Identify stocks stronger than the market... One of the signals of a market top is when the leading group shows signs of topping.' This is exactly the principle learned in Step 2, Part 25 — consistent throughout the Wyckoff system."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "chapterId": 5,
+  "title": "Getting Comfortable with Modern Wyckoff-Style Charts",
+  "summary": "A short chapter previewing the terminology of the Distribution Phase — Buying Climax (BCLX), Automatic Reaction (AR), Secondary Test (ST), Up Thrust After Distribution (UTAD), Sign of Weakness (SOW) — and a note on Stepping Stone Reaccumulation (SSR/SSTR), to be explored in depth in later parts.",
+  "questions": [
+    {
+      "id": "ch5-q1",
+      "type": "multiple_choice",
+      "prompt": "Part 5 revisits the 4 basic phases of the Price Cycle in the Wyckoff Method. In order, what are those 4 phases?",
+      "options": [
+        "Accumulation Phase → Uptrend → Distribution Phase → Downtrend",
+        "Downtrend → Distribution Phase → Uptrend → Accumulation Phase",
+        "Uptrend → Accumulation Phase → Downtrend → Distribution Phase",
+        "Distribution Phase → Accumulation Phase → Downtrend → Uptrend"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The Accumulation Phase, Uptrend, Distribution Phase and Downtrend are the four basic phases of the Price Cycle in the Wyckoff method.' Earlier parts focused on Accumulation; this part begins introducing the principles of the Distribution Phase.",
+      "chartImage": null
+    },
+    {
+      "id": "ch5-q2",
+      "type": "multiple_choice",
+      "prompt": "In the context of the Distribution Phase, what roles do the Buying Climax (BCLX) and Automatic Reaction (AR) play on the chart?",
+      "options": [
+        "They define the upper and lower boundaries of the Trading Range (TR) at the top — similar to the role of the CLX and AR at the bottom in Accumulation, but with positions reversed",
+        "BCLX and AR are just two names for the same single point on the chart",
+        "They only appear on the monthly timeframe and can't be used on daily/weekly",
+        "They have only statistical meaning, unrelated to the Composite Man's actions"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'These two points play the role of defining the upper and lower boundaries of the TR in the near future' — the BCLX (Buying Climax) forms the upper boundary and the AR (Automatic Reaction) forms the lower boundary, the opposite of the roles of CLX/AR in Accumulation.",
+      "chartImage": null
+    },
+    {
+      "id": "ch5-q3",
+      "type": "chart_identify",
+      "prompt": "On the $INDU index chart below, an 'Up Thrust After Distribution (UTAD)' is marked near the top. According to the book, what is a UTAD?",
+      "chartImage": "/charts/part_05/p017_chart-083.jpg",
+      "options": [
+        "A final action in the Distribution process: price makes a new high with a small spread above the BCLX high but fails to hold, then returns inside the TR — often with rising volume on the later declines",
+        "A 100% certain signal that price will keep rising strongly without limit",
+        "The point at which the issuing company releases new shares onto the market",
+        "A type of automatic stop-loss order set by the exchange"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'An Up Thrust After Distribution (UTAD) is an interesting development. As a final action in the Distribution process, price will sometimes make a higher high with a small spread... Then it will return to inside the TR.' This is nearly the 'mirror image' of the Spring at the bottom of Accumulation, but at the top of Distribution."
+    },
+    {
+      "id": "ch5-q4",
+      "type": "multiple_choice",
+      "prompt": "The book notes that not every Trading Range (TR) appearing after an advance is a Distribution Phase. Which concept is mentioned as an alternative possibility to consider?",
+      "options": [
+        "Stepping Stone Reaccumulation (SSR/SSTR) — the TR is only a temporary pause to accumulate more before the uptrend continues",
+        "The Downtrend officially begins immediately without further confirmation",
+        "A technical glitch in the chart data that should be ignored",
+        "The company's P/E ratio has exceeded a reasonable level"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The next advance will reveal a lot about whether the whole structure is a large Distribution with the potential for further decline or an Intermediate Stepping Stone Reaccumulation (SSR or SSTR)' — an important pattern to distinguish clearly, to avoid hastily concluding it is Distribution.",
+      "chartImage": null
+    },
+    {
+      "id": "ch5-q5",
+      "type": "chart_identify",
+      "prompt": "On the Russell 2000 iShares (IWM) chart below, both the labels ST (Secondary Test) and LPSY (Last Point of Supply) appear. According to the book, what is the main difference between these two types of points?",
+      "chartImage": "/charts/part_05/p018_chart-087.jpg",
+      "options": [
+        "An ST is a decline toward the prior lows of the Distribution range, while an LPSY is the last resistance (or 'failed rally') before a larger decline",
+        "ST and LPSY are exactly the same, differing only in name according to the analyst's preference",
+        "The ST appears only at Accumulation bottoms, never in Distribution",
+        "The LPSY always occurs before the BCLX in time"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The main difference between the two is that an ST declines to the prior lows of the Distribution range and the LPSY is the last resistance (or failed rally) before a larger decline.' Both are weak rallies confirming that supply is taking control."
+    }
+  ]
+}

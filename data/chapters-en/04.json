@@ -1,0 +1,119 @@
+{
+  "chapterId": 4,
+  "title": "The Accumulation Phase: Absorbing Stock Like a Sponge",
+  "summary": "The concept of 'Absorption' — how the Composite Man quietly buys stock like a sponge to hold price low while accumulating, the paradox of the public growing more bearish as the CO accumulates more, and the 'Ease of Movement' phenomenon once supply is exhausted.",
+  "questions": [
+    {
+      "id": "ch4-q1",
+      "type": "multiple_choice",
+      "prompt": "The book likens the Composite Man's (CO) Accumulation Phase to the action of a 'sponge'. What is the CO's core strategic goal in this phase?",
+      "options": [
+        "To buy large quantities of stock at favorable prices WITHOUT pushing the price up significantly",
+        "To push the price up very quickly from the start to attract small investors to follow",
+        "To sell all the stock they hold before the price falls further",
+        "To trade in only a single session to avoid detection"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says the CO's goal is to 'buy these shares quietly without drawing attention to their activity' — absorbing large quantities of stock at low, cheap prices, keeping the price low for as long as possible.",
+      "chartImage": null
+    },
+    {
+      "id": "ch4-q2",
+      "type": "multiple_choice",
+      "prompt": "How does the book define 'Absorption' — the main characteristic of the Accumulation Phase?",
+      "options": [
+        "The CO buys stock like a sponge, at the lowest/cheapest prices possible, intending to hold the stock for a very long time",
+        "The CO dumps stock onto the market to create panic among small investors",
+        "An algorithm that calculates a stock's average liquidity index",
+        "The merger process between two companies in the same industry"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The CO performs absorption of the stock like a sponge, at good low and cheap prices with the intent to hold the stock for a very long time.' The only scenario in which the CO sells absorbed stock is when price is pushed too high too fast during an overheated advance.",
+      "chartImage": null
+    },
+    {
+      "id": "ch4-q3",
+      "type": "multiple_choice",
+      "prompt": "According to the book, when do the first large buyers typically become actively engaged in accumulating — since that is when they have the greatest advantage in accumulating quietly?",
+      "options": [
+        "During the Selling Climax (SC) or right after it",
+        "Right at the top of the previous advance",
+        "Only after the stock has already risen 50% from the low",
+        "On the day the company announces its quarterly earnings"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'These first large buyers become actively engaged in accumulating stock during the SC (Selling Climax), or immediately after, and they have the greatest advantage in accumulating shares quietly.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch4-q4",
+      "type": "multiple_choice",
+      "prompt": "The book describes an irony in the Accumulation Phase: while the stock price remains low/quiet, the public becomes even more pessimistic. What strategic significance does this have for the CO?",
+      "options": [
+        "This very pessimism helps the CO keep buying stock at low prices — it is a 'key' to the CO's strategy of holding price low",
+        "It has no significance, merely a random psychological phenomenon unrelated to the CO",
+        "It forces the CO to stop buying entirely and wait for market sentiment to improve",
+        "It forces the CO to dump immediately to avoid losses"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The irony is that the public becomes increasingly pessimistic while the stock price stays low and quiet. This is a key to the CO's strategy: keep the price low.' The crowd's pessimism is exactly the favorable condition for the CO to continue absorbing cheap supply.",
+      "chartImage": null
+    },
+    {
+      "id": "ch4-q5",
+      "type": "chart_identify",
+      "prompt": "The note on the SLB chart below explains the CO's goal in absorbing stock. According to that note, in which zone of the Accumulation Range does the CO aim to absorb shares?",
+      "chartImage": "/charts/part_04/p014_chart-073.jpg",
+      "options": [
+        "The lower half of the Accumulation Range — buying on a 'scale down', and once the supply is absorbed price begins to lift toward the top of the range",
+        "The upper half of the Accumulation Range — chasing the rising price",
+        "Buying exactly once at the lowest point in the stock's entire history",
+        "Buying evenly with no distinction between high and low prices in the range"
+      ],
+      "correctIndex": 0,
+      "explanation": "The note on the SLB chart: 'Goal of the C.O. is to absorb shares in the lower half of the Accumulation Range. They buy on a scale down in the lower half of the range. When the supply is absorbed and the stock begins to lift toward the top of the range the C.O. will stop buying and potentially sell shares near the top to check the advance.'"
+    },
+    {
+      "id": "ch4-q6",
+      "type": "multiple_choice",
+      "prompt": "What happens structurally to price when the CO has absorbed (locked up) almost all of the floating supply of a stock in the market?",
+      "options": [
+        "The remaining supply becomes very thin, so even a small amount of demand can make price jump easily — the 'Ease of Movement (EOM)' phenomenon — signaling that a bullish structure is officially forming",
+        "Price will move sideways forever because no one is trading",
+        "The CO is forced to sell its entire position immediately to take profits",
+        "The exchange will suspend trading in that stock"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Once the stock is largely in the hands of Strong Hands, the available supply is exhausted, and just a little demand pushing price up will make the stock price jump (Ease of Movement - EOM). A bullish structure officially begins to form.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch4-q7",
+      "type": "chart_identify",
+      "prompt": "The DOW index chart below illustrates a trendless Trading Range (TR). What does the note on the chart say about volume at the top of the range?",
+      "chartImage": "/charts/part_04/p015_chart-076.jpg",
+      "options": [
+        "A volume surge at the top of the range shows supply is still present and must be absorbed before a real advance",
+        "Volume dwindling toward zero at the top shows nobody wants to sell this stock anymore",
+        "Volume rises only at the bottom, with no trading at all at the top",
+        "The note doesn't mention volume, only price"
+      ],
+      "correctIndex": 0,
+      "explanation": "The note on the chart: 'Evidence of supply at the top of the range turns price back toward the lows again.' A TR is a stalemate between supply and demand; a volume surge at the top of the range shows supply clearly still exists and must be fully absorbed before any meaningful advance can begin."
+    },
+    {
+      "id": "ch4-q8",
+      "type": "multiple_choice",
+      "prompt": "When Preliminary Support (PS) is not clearly visible on the chart, how does the book suggest estimating the average cost the CO has accumulated at?",
+      "options": [
+        "Calculate the mid-point of the entire Trading Range (TR)",
+        "Take the highest closing price in the whole range",
+        "Take the closing price of the first session in the range, whatever it is",
+        "There is no way to estimate it; skip that stock"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says (note on the COP chart): 'It is considered the objective of the C.O. to average cost the position at or below the Preliminary Support (PS)... If the PS is not evident, calculate the mid-point of the range.' The mid-point of the range becomes a reasonable substitute estimate for the average cost the CO is targeting.",
+      "chartImage": null
+    }
+  ]
+}

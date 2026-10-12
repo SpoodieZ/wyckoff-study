@@ -1,0 +1,112 @@
+{
+  "chapterId": 24,
+  "title": "The Composite Man/Operator - CO",
+  "summary": "A deep dive into the Composite Man concept — the figure representing all large trading activity in the market. The 5W+H framework for thinking like the CO, and a replay of the 2008-14 DJIA campaign as an illustration of the full life cycle of a campaign.",
+  "questions": [
+    {
+      "id": "ch24-q1",
+      "type": "multiple_choice",
+      "prompt": "Wyckoff argued: 'all the fluctuations in the market... should be studied as if they were the result of the operations of a SINGLE individual.' However, the book also stresses one important thing to understand about the CO. What is it?",
+      "options": [
+        "The CO does NOT control the market — they merely adapt to market conditions and seize opportunities as they appear (such as panic); no one can control the market at any time",
+        "The CO fully controls and dictates every price move in the market",
+        "The CO is a secret government organization running the whole exchange",
+        "The CO exists only in theory, with no real influence on price"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'It is important that you understand that the CO does not control the market. They adapt to market conditions and take advantage of opportunities that come to them... Therefore, you cannot say they control the market. No one can control the market at any time.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch24-q2",
+      "type": "multiple_choice",
+      "prompt": "Based on years of observing the Composite Man's operations, Wyckoff found the CO has which 2 core behavioral characteristics?",
+      "options": [
+        "(1) Plans carefully, then executes and concludes exactly according to the plan laid out; (2) Seeks to attract the crowd to buy the stocks the CO bought earlier, by executing large orders and putting good information in the media",
+        "(1) Always discloses all its trades transparently; (2) Never cares about media news",
+        "(1) Trades only one single asset; (2) Never changes its plan no matter how the market fluctuates",
+        "The book gives no specific behavioral characteristics of the CO"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The Composite Man plans carefully, then carries out the plan and concludes the process they laid out. The Composite Man seeks to attract the crowd of investors to buy the stocks they previously bought in large quantities by executing large buy and sell orders, and they try to put good information about the stock in the media.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch24-q3",
+      "type": "multiple_choice",
+      "prompt": "In the '5W+H' framework (Who, What, Where, When, Why, How) for understanding the 'transfer' of stock, how does the book answer the question 'Who?'",
+      "options": [
+        "The CO is the earliest 'state changer', other professional speculators are early detectors, and the public — the vast majority — are the slow ones who detect last",
+        "Only the public takes part in the transfer; the CO is not involved",
+        "Only the CO takes part; no one else is involved in the transfer process",
+        "The question 'Who' is not addressed in the book"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Who? in the transfer includes the Composite Man as a state changer, the exchanges and other professional speculators as early detectors, and the public, with practically the majority, as the slow ones who detect last.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch24-q4",
+      "type": "multiple_choice",
+      "prompt": "The book answers the question 'Why?' the CO carries out market campaigns (on both the Bull and Bear sides). What is the core motive?",
+      "options": [
+        "The CO's own profit — they complete these campaigns by attracting a following public, leading and steering their emotions toward the CO's ultimate goal",
+        "The CO runs campaigns entirely for the public's benefit, not for personal profit",
+        "The CO is legally required to run campaigns periodically",
+        "There is no specific motive; it is completely random"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Why? The Composite Man carries out market campaigns on both the Bull and Bear sides for their own profit, and they complete these campaigns by attracting a following of the public, leading and steering their emotions toward the CO's ultimate goal.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch24-q5",
+      "type": "chart_identify",
+      "prompt": "The diagram 'CO actions in a TR and how Sweet Spot is created' below (source: Roman Bogomazov) marks a 'Sweet Spot'. According to the diagram, where is the Sweet Spot located and what does it represent?",
+      "chartImage": "/charts/part_24/p119_chart-410.jpg",
+      "options": [
+        "In the transition zone between Phase C (Test) and Phase D (Markup within the TR) — representing 'Strength for rally and reaction', the area with the best profit/risk ratio to participate",
+        "Right at the top of Phase E, after price has risen as far as it can",
+        "In Phase A, just as the stopping action has occurred",
+        "The Sweet Spot has no specific location on the diagram"
+      ],
+      "correctIndex": 0,
+      "explanation": "The diagram marks the 'Sweet Spot' at the Spring/BUC area between Phase C and Phase D with the caption 'Strength for rally and reaction' — this is the zone where the CO has finished absorbing most of the supply and begins pushing price up strongly, giving participating traders the most attractive profit/risk ratio."
+    },
+    {
+      "id": "ch24-q6",
+      "type": "multiple_choice",
+      "prompt": "In the replay of the 2008-09 DJIA campaign, after the Composite Man accumulated most of the supply, what was the purpose of the final 'Shakeout' in March 2009 (driving price down to 6,500)?",
+      "options": [
+        "To remove most of the remaining supply dumped by the last panicking retail investors — letting the CO absorb the remaining floating stock at low, cheap prices",
+        "To formally declare the entire DJIA index bankrupt",
+        "To punish other institutional investors in the market",
+        "No specific purpose; it was just random fluctuation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The Composite Man created a sharp volatile decline with a final Shakeout action by driving price sharply down to the DJIA 6,500 level. By doing so, the CO removed most of the remaining supply dumped by retail investors as well as absorbed a large quantity of shares at low and cheap prices.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch24-q7",
+      "type": "chart_identify",
+      "prompt": "The Micron (MU) chart below illustrates a complete Distribution campaign with a 'Hypodermic' variation. Why does the book choose this example with a single sharp peak to illustrate a specific warning?",
+      "chartImage": "/charts/part_24/p121_chart-419.jpg",
+      "options": [
+        "Because a single hot price peak followed by an abrupt decline (like the Hypodermic variation) is a warning of a Distribution Phase in progress, different from the more common Distribution scenario (multiple highs, a wide TR)",
+        "Because MU is the only stock to have ever risen in history",
+        "Because a single sharp peak is always a sign of Accumulation, not Distribution",
+        "No specific reason is given in the book"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The formation of a large volatile distribution top can be another \"campaign-ending\" path pursued by the Composite Man... The ever-larger heavy selling (large price swings and rising volume) by the CO is a warning sign of a Distribution Phase in strong progress.' This is a less common variation but important to recognize."
+    },
+    {
+      "id": "ch24-q8",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book writes: 'a trend will exist until the public's buying or selling shows signs of exhaustion.' Why is the 'exhaustion' of the public (rather than of the CO) the deciding factor for when a trend ends?",
+      "sampleAnswer": "Because the nature of a trend (Uptrend or Downtrend) depends on whether the CO can keep attracting money/orders from the public — the CO needs the public as a trading counterparty (buyers when the CO sells, sellers when the CO buys). When the public has run out of money to buy more (in an Uptrend) or stock to sell more (in a Downtrend), there is no longer enough counterforce to sustain price momentum, regardless of whether the CO still wants to continue its campaign. So the public's exhaustion — not the CO's wishes — is the real limit of a trend.",
+      "chartImage": null
+    }
+  ]
+}

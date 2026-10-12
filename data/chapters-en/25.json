@@ -1,0 +1,98 @@
+{
+  "chapterId": 25,
+  "title": "The Five-Step Approach to the Market",
+  "summary": "The complete 5-step process of the Wyckoff Method for selecting and entering the market: (1) determine the present position of the broad market trend, (2) select stocks that move in harmony with the market, (3) select stocks with a large enough Cause, (4) determine whether the stock is ready to move, (5) time the reversal.",
+  "questions": [
+    {
+      "id": "ch25-q1",
+      "type": "multiple_choice",
+      "prompt": "What is Step 1 of the Five-Step Approach to the Market?",
+      "options": [
+        "Determine the present position and the likely future trend of the broad market (Nontrend, Uptrend or Downtrend) to decide whether to participate and whether to take a Long or Short position",
+        "Immediately pick any stock to buy without analyzing the broad market",
+        "Read the company's latest quarterly financial report",
+        "Work out the income tax on securities trading"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: '1. Determine the present position and future trend of the broad market. Is the market in a Nontrend, Uptrend or Downtrend environment? Does your analysis of the market, of Supply – Demand show any signal about the market's upcoming trend?'",
+      "chartImage": null
+    },
+    {
+      "id": "ch25-q2",
+      "type": "multiple_choice",
+      "prompt": "Step 2 requires 'Selecting individual stocks moving in harmony with the market'. In an Uptrend, what selection criterion is suggested?",
+      "options": [
+        "Choose stocks STRONGER than the market — rising by more when the market rises, and falling LESS when the market corrects",
+        "Choose stocks WEAKER than the market to buy at cheaper prices",
+        "Choose any stock at random without comparing with the broad market",
+        "Choose only stocks priced under $10"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'In an Uptrend, choose stocks that are stronger than the market. For example, look for stocks that rise by a wider spread when the market rises, and fall less when the market corrects. If you are unsure about a stock, skip it.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch25-q3",
+      "type": "multiple_choice",
+      "prompt": "The book notes an important signal: when the 'leading industry group' of the market begins showing signs of topping, what does this mean?",
+      "options": [
+        "It is one of the early warning signals of a top for the whole market — because leading groups usually rise before the market, but also usually correct/top before the market",
+        "It means nothing; leading industry groups are unrelated to the overall trend",
+        "This only happens in December each year",
+        "It is a sure signal that the market will rise another 50%"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'This group of stocks will rise before the market, but also correct before the market. One of the signals of a market top is when the leading group shows signs of topping. Note this down because it is very important throughout your trading.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch25-q4",
+      "type": "multiple_choice",
+      "prompt": "Step 3 requires selecting stocks 'with a Cause capable of producing an Effect equal to or better than expectations'. What tool is used to assess this step?",
+      "options": [
+        "The Point and Figure (PnF) chart to project price targets, combined with checking that the stock has enough TIME accumulating in its base",
+        "The MACD indicator combined with the 50-day moving average",
+        "Research reports from major investment banks",
+        "No specific tool is suggested"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'An important element in Wyckoff's way of selecting and managing trades is the method of determining price targets using the Point and Figure (PnF) chart... So if you are planning to open a long position, choose stocks that are in accumulation or reaccumulation within an Uptrend and have accumulated for long enough (the Cause) to meet your price target.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch25-q5",
+      "type": "multiple_choice",
+      "prompt": "What is the '9 Buying/Selling Tests' applied for in Step 4?",
+      "options": [
+        "To determine whether the stock is ready to move up or down out of its base — for example, checking whether supply has been fully absorbed (through a low-volume Spring session)",
+        "To determine the tax owed when selling stock",
+        "To identify the name of the company that issued the stock",
+        "The 9 Buying/Selling Tests have nothing to do with Step 4"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: '4. Determine whether the stock is ready to rise or fall out of its base. Apply the 9 Buying/Selling Tests to buy or sell stock... Or in an accumulation phase, do the 9 Buying Test points show that supply has been fully absorbed, demonstrated by a session (Spring) with low volume, even lower than the volume of the earlier reversal test session?'",
+      "chartImage": null
+    },
+    {
+      "id": "ch25-q6",
+      "type": "chart_identify",
+      "prompt": "The AAPL chart 'Wyckoff's Buying Tests' below illustrates Steps 4 and 5 together — using multiple Tests (#2 to #8) to confirm the price base has formed. Test #4 ('Downward Stride is Broken') is confirmed by what action on the chart?",
+      "chartImage": "/charts/part_25/p125_chart-440.jpg",
+      "options": [
+        "Price breaks above the downtrend line (the red line connecting the highs) established throughout the prior downtrend",
+        "Price makes a new low below all previous lows",
+        "Trading volume drops completely to zero",
+        "The company announces a merger with a competitor"
+      ],
+      "correctIndex": 0,
+      "explanation": "On the chart, the red downtrend line (connecting the highs in the downtrend) is broken upward at 'Test #4: Downward Stride is Broken' — confirming that the prior rhythm of decline has ended, an important step in determining that the stock is ready for a new uptrend."
+    },
+    {
+      "id": "ch25-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "Step 5 emphasizes: 'The timing of the market's turning point' — and that most stocks move in harmony with the broad market. Why is being able to anticipate the turning point of the WHOLE MARKET more important than analyzing a single stock in isolation?",
+      "sampleAnswer": "Because most stocks move to the same rhythm as the broad market — if you cannot anticipate the market's turning point, you risk buying the right stock at the wrong time (for example buying just before the whole market enters a Downtrend, dragging even good stocks down). Combining analysis of the broad market (Steps 1, 5) AND the individual stock (Steps 2-4) significantly raises the probability of success, because the investor is 'going with the wind' instead of relying on a single stock's own strength to fight the entire market trend.",
+      "chartImage": null
+    }
+  ]
+}

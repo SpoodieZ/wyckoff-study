@@ -1,0 +1,98 @@
+{
+  "chapterId": 21,
+  "title": "The Story Behind Trendlines",
+  "summary": "The '3D glasses' metaphor — trendlines (Demand, Supply, Overbought, Oversold, Support, Resistance) turn a static 2D chart into a living story. The principle of confirming anchor points with volume, and the 'Plateau' pattern in a Downtrend.",
+  "questions": [
+    {
+      "id": "ch21-q1",
+      "type": "multiple_choice",
+      "prompt": "The book likens drawing trendlines under the Wyckoff Method to 'putting on 3D glasses'. What does this metaphor convey?",
+      "options": [
+        "Trendlines make a static 2D chart 'come alive' and reveal the secrets/true intentions hidden behind price behavior, just as 3D glasses give flat images depth",
+        "You must actually wear real 3D glasses when analyzing charts to see the trend",
+        "Price charts are in fact always 3-dimensional images drawn by specialized software",
+        "This metaphor has no meaning; it is just a joke"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'When trendlines are drawn using the Wyckoff Method, it is like putting on 3D glasses. With accurate trend analysis, 2D charts come alive and reveal the most hidden secrets and what their true intentions are.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch21-q2",
+      "type": "chart_identify",
+      "prompt": "The HOG (Harley Davidson) chart below notes 'Best Supply Lines have large volume around the peaks'. What new principle does this add when choosing two adjacent highs to draw a Supply Line?",
+      "chartImage": "/charts/part_21/p092_chart-323.jpg",
+      "options": [
+        "Prefer highs with LARGE trading volume around them as anchor points — because high volume confirms the real presence of supply there, making the Supply Line more reliable",
+        "Trading volume has nothing to do with choosing anchor points for the Supply Line",
+        "Always choose the high with the lowest volume to draw the Supply Line",
+        "Just pick the highest price high, without caring about volume"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'High Volume around the peak confirms supply is present. This turns down the price. Best Supply Lines have large volume around the peaks.' This is an important additional criterion: don't just pick 2 adjacent highs by position, but prefer highs with large volume confirming real supply is present."
+    },
+    {
+      "id": "ch21-q3",
+      "type": "chart_identify",
+      "prompt": "The $INDU (1998) chart below shows a selling climax breaking through the Oversold Line (O/S Line) and then 'stalls before jumping back into the channel and back to the Supply Line'. What is clearly illustrated by price's INABILITY to break the Oversold Line again?",
+      "chartImage": "/charts/part_21/p092_chart-324.jpg",
+      "options": [
+        "Loss of downward momentum — clearly illustrated by price's failure when trying to return to the Oversold Line",
+        "The downtrend will accelerate even harder in the near future",
+        "The Dow Jones index is about to be removed from the major exchanges",
+        "No specific analytical meaning is drawn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'Loss of downward momentum is illustrated by the failure to return to the O/S Line.' After price could not return to break the Oversold Line, an Automatic Rally (AR) appeared (CHOB) and the Accumulation Phase began."
+    },
+    {
+      "id": "ch21-q4",
+      "type": "chart_identify",
+      "prompt": "The CREE chart below illustrates the 'Plateau' pattern — where price 'travels the full width of the price channel, touches the Supply Line, then collapses down to the Oversold Line'. The chart also shows two different ways of drawing the channel (normal and reverse trendlines). What principle does this illustrate?",
+      "chartImage": "/charts/part_21/p093_chart-327.jpg",
+      "options": [
+        "There is more than one valid way to draw and interpret trendlines on the same chart — each technique (normal and reverse) has its own analytical value",
+        "There is only one correct way to draw trendlines; every other way is wrong",
+        "Normal trendlines are always more accurate than reverse trendlines in every case",
+        "CREE is the only stock to which both trendline techniques can be applied"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Two useful trend channel lines are drawn on the CREE chart... They illustrate that there are more ways to draw and interpret trendlines on a chart. Consider separating these trendlines and redrawing them individually. Each drawing technique provides reaction (trading) points.'"
+    },
+    {
+      "id": "ch21-q5",
+      "type": "multiple_choice",
+      "prompt": "The $INDU (weekly, 4+ years) chart in the book has a very large channel WIDTH. What does the book suggest this large width is a clue about?",
+      "options": [
+        "The channel width is a hint about what may happen when the next decline returns to the Oversold Line — a wider channel usually corresponds to the nature of a large Selling Climax",
+        "The width of the price channel has no analytical meaning whatsoever",
+        "The channel width determines exactly how many dollars the stock will reach in the future",
+        "The wider the price channel, the more certain it is that the company is about to go bankrupt"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Note the width of this price channel; it is very large. The volume at the 2001 high and the lower high in 2002 right after is evidence of supply being present... The width of the channel is a hint about what is about to happen when the decline from the second high returns all the way down to the Oversold Line of the channel, where price reaches its climactic selling low almost exactly at the trendline.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch21-q6",
+      "type": "chart_identify",
+      "prompt": "The MNST (Monster Beverage) chart below uses the Reverse Use of Trendlines technique. According to the note, what action is necessary to 'stop' the decline and break out above the downtrend channel line?",
+      "chartImage": "/charts/part_21/p094_chart-331.jpg",
+      "options": [
+        "There must be a climactic selling action to stop this decline, and then break out above the downtrend Channel Line",
+        "Just waiting exactly 90 days is enough for price to reverse automatically without any action",
+        "The company needs to announce a merger with a competitor",
+        "No special action is needed; price will recover at random"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'There must be a selling climax action to stop this decline and then break out above the downtrend channel line.' This is also another example illustrating the important role of the selling-climax action in marking the end of the Downtrend phase."
+    },
+    {
+      "id": "ch21-q7",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book concludes that different types of trendlines (Demand, Supply, Overbought, Oversold, Support, Resistance) all 'tell us a story about the behavior and direction of price'. Why is treating these lines as 'telling a story' more useful than treating them as merely geometric lines?",
+      "sampleAnswer": "Because the 'storytelling' approach forces the analyst to interpret the MEANING behind each trendline (who is buying/selling where, why price reacted at that level) instead of mechanically connecting points on a chart. Understanding the story makes the analyst more flexible when reality deviates from the ideal shape — they can infer what comes next from supply-demand logic, rather than applying a rigid geometric formula that doesn't reflect the true nature of the market.",
+      "chartImage": null
+    }
+  ]
+}

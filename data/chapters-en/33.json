@@ -1,0 +1,168 @@
+{
+  "chapterId": 33,
+  "title": "Using PnF Effectively",
+  "summary": "The full process of counting price targets on a PnF chart for both Accumulation and Distribution — from choosing a box size and identifying where to start/end the count, to the 3 scenarios that can follow once a target is reached. Why Distribution counts cannot go below 0, and the BIIB 11-year Stepping Stone example.",
+  "questions": [
+    {
+      "id": "ch33-q1",
+      "type": "multiple_choice",
+      "prompt": "When counting a price target for the ACCUMULATION Phase on a PnF chart, in which direction is the column count (number of horizontal boxes) done?",
+      "options": [
+        "From LEFT to RIGHT — start counting from the LPS (or Spring/SC) and count the columns to the SCLX/PSY price point on the right",
+        "From RIGHT to LEFT — start from the nearest point and count back to the start of the chart",
+        "Counting vertically, not horizontally",
+        "There is no specific direction; count any way you like"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says (about the Accumulation Phase): 'Starting from the LPS, count the columns on the PnF chart to the SCLX. There are 15 columns in total (that is, 15 horizontal boxes).' The count starts from the last rising 'X' column (LPS) to another rising 'X' column at the left end (SCLX/PSY).",
+      "chartImage": null
+    },
+    {
+      "id": "ch33-q2",
+      "type": "multiple_choice",
+      "prompt": "Conversely, when counting a price target for the DISTRIBUTION Phase, how is the count done?",
+      "options": [
+        "Count from RIGHT to LEFT — starting at the Last Point of Supply (LPSY) and counting back to where supply first appeared (Buying Climax - BCLX or Preliminary Supply - PSY)",
+        "Count from LEFT to RIGHT exactly as for Accumulation, no difference",
+        "A price target for the Distribution Phase cannot be counted with PnF",
+        "It can be counted only if the stock has been delisted"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The procedure for counting the horizontal boxes is to start counting at the Last Point of Supply (LPSY) from right to left back to where supply first appeared, which is the Buying Climax (BCLX) or Preliminary Supply (PSY).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch33-q3",
+      "type": "chart_identify",
+      "prompt": "The $INDU PnF chart below illustrates counting for a Distribution Phase, with the note 'Add 2,250 to the low and the count line for the price objective estimate.' By what formula is this 2,250 points calculated?",
+      "chartImage": "/charts/part_33/p175_chart-648.jpg",
+      "options": [
+        "The number of columns (horizontal boxes) counted (15 columns) multiplied by the reversal setting (3-box reversal) and then by the box-size (50 points)",
+        "Simply the closing price of the latest session multiplied by 2",
+        "A fixed number applying to every stock, needing no calculation",
+        "Total trading volume divided by the closing price"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'We take the number of columns (horizontal boxes) counted (15 columns) and multiply by the setting (3-box reversal) and then multiply by the unit (box-size = 50 points). This yields a total of 2,250 points.'"
+    },
+    {
+      "id": "ch33-q4",
+      "type": "multiple_choice",
+      "prompt": "The book presents 'Three Scenarios' that may occur AFTER price reaches the objective (price target) on the PnF chart. What is Scenario 1?",
+      "options": [
+        "Price may IGNORE the price target and keep moving on (or react only briefly within the target range and then continue the prior trend)",
+        "Price always reverses immediately 100% upon touching the target, with no exceptions",
+        "The stock is automatically delisted upon reaching its price target",
+        "The book describes no specific scenarios"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Scenario 1: First, price may ignore the identified price targets and keep moving on (or react briefly within the identified price target range and move on). Sometimes this may be because we have some error in the potential price target.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch33-q5",
+      "type": "multiple_choice",
+      "prompt": "What does 'Scenario 2' describe after price reaches its PnF price target?",
+      "options": [
+        "A Redistribution Phase (or Reaccumulation - Stepping Stone) begins forming, pausing the trend for weeks to months before the original trend resumes",
+        "Price will immediately fall to zero",
+        "The stock market will close permanently",
+        "The company will automatically declare bankruptcy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Scenario 2: Another common scenario when price reaches its potential price target is that a Redistribution phase, also known as a Stepping Stone (or a Reaccumulation phase), begins to form. The trend is paused by a TR that can last weeks to months and then continues in the original trend.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch33-q6",
+      "type": "multiple_choice",
+      "prompt": "The book stresses: which skill is the 'key' that helps a Wyckoff trader respond well to ANY of the 3 scenarios after the PnF price target is reached?",
+      "options": [
+        "Being skilled at 'Tape Reading', combined with good tactics",
+        "Computer programming skills to fully automate trading",
+        "The skill of reading corporate financial statements",
+        "The book mentions no specific skill"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The key here is to become someone who is skilled at \"Tape Reading\" and has good tactics so that whichever of the above scenarios happens, we can still increase profits and minimize risks.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch33-q7",
+      "type": "multiple_choice",
+      "prompt": "The book explains an important mathematical limitation: why can the 'count' in the DISTRIBUTION Phase not be applied mechanically as in Accumulation, especially when the count is very large?",
+      "options": [
+        "Because a Distribution price target can only fall to a price of 0 and no lower — if counted mechanically, a large count could give an absurd (negative) price target",
+        "Because the Distribution Phase can never be counted with PnF in any case",
+        "Because institutional investors prohibit counting Distribution price targets",
+        "The book mentions no limitation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'Large PnF Accumulation price targets can lead to uptrends that can rise 100%, 200%, 300%. An instrument in a Distribution phase can only fall to a price = 0, which is not feasible. It is not uncommon for a price target counted in a large PnF Distribution phase to count below a price of 0, and this is not useful to us.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch33-q8",
+      "type": "multiple_choice",
+      "prompt": "The book compares the 'nature' of how PnF columns form in the Accumulation versus the Distribution Phase. What is the typical difference?",
+      "options": [
+        "In Accumulation, the count usually develops EARLY and in LARGE amounts (high volatility at the start, then gradually quieting); in Distribution, the most counts usually appear in the LATE STAGE (volatility increasing toward the end, due to its distributive nature)",
+        "Both phases have exactly the same column-formation characteristics",
+        "Distribution always forms the most columns right from the start, Accumulation the opposite",
+        "There is no difference in column-formation nature between the two phases"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The Accumulation phase begins with a Selling Climax (SCLX) and significant volatility. Most new column counts created in the PnF Accumulation phase will develop early... The Distribution phase often begins with a Buying Climax (BCLX). Often the dullest, least volatile stage... is the first. As the CO unloads stock, volatility gradually increases more due to the volatility strengthening toward the end of the distribution phase.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch33-q9",
+      "type": "multiple_choice",
+      "prompt": "The book gives a comparative example: stock A has a price target with a Reward/Risk (R:R) ratio of 3:1, while stock B has a price target with R:R of 4:1. What conclusion is drawn?",
+      "options": [
+        "Stock B has more Cause built in its base, and overall has better potential than stock A",
+        "Stock A is always better than stock B in every case because its R:R is lower",
+        "Two stocks cannot be compared using the PnF tool",
+        "The two stocks are completely equivalent in every respect"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A Wyckoff investor may be considering two stocks they own. Stock A has a reward-to-risk ratio (R:R - 3:1) in its counted price target, while stock B has an achievable price target of R:R - 4:1. That means there is more Cause built in stock B and, overall, it has better potential.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch33-q10",
+      "type": "chart_identify",
+      "prompt": "The $WTIC (crude oil) chart below illustrates a 'Hypodermic Top' — an accelerating top that collapses very quickly. What interesting point does the book note about the ability to form a count in the case of such a sharp, fast-forming top?",
+      "chartImage": "/charts/part_33/p171_chart-635.jpg",
+      "options": [
+        "Even a top that forms very QUICKLY and volatilely like a Hypodermic Top can still produce a count (columns) in a large Distribution base to estimate a price target",
+        "A Hypodermic Top can never produce any count",
+        "Only tops that form slowly over many years can produce a count",
+        "This note has nothing to do with the Hypodermic concept learned in Part 17"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'The 2008 top is a \"Hypodermic Top\" that appeared and distributed quickly downward, with a UTAD on top. Even tops that form and move so quickly can still produce a large count of columns (horizontal boxes) in a PnF distribution.'"
+    },
+    {
+      "id": "ch33-q11",
+      "type": "chart_identify",
+      "prompt": "The BIIB (Biogen) MONTHLY chart below shows a Reaccumulation Phase (SSTR) lasting how many YEARS before a multi-year uptrend began?",
+      "chartImage": "/charts/part_33/p181_chart-662.jpg",
+      "options": [
+        "11 years",
+        "Only 11 days",
+        "11 months, not years",
+        "The chart does not mention any specific time span"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'BIIB had price movement in a rather long volatile trading range. A usual monthly-timeframe chart shows BIIB in a Reaccumulation phase (or Stepping Stone TR - SSTR) for 11 years, and then in 2011, price began breaking above the TR and started a multi-year uptrend afterward.'"
+    },
+    {
+      "id": "ch33-q12",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book advises always 'looking at the big picture' — i.e. multi-timeframe analysis — before fully trusting a small PnF price target on the current timeframe. Why might a small price target become 'irrelevant' if a larger price range is waiting above or below?",
+      "sampleAnswer": "Because a larger trading range (TR) encompasses many smaller TRs within it — if that larger TR is still in the process of building its Cause (not yet complete), then the small price targets counted from the inner sub-TRs reflect only local short-term movements, not the true long-term picture actually forming. A trader focused only on the small target may take profits/exit too early, missing most of the potential of the larger trend being prepared by that huge Cause — so always check the larger timeframe before fully trusting a local price target.",
+      "chartImage": null
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "chapterId": 19,
+  "title": "The Wyckoff Path",
+  "summary": "Thinking like the Composite Man/Operator — a 'Heuristic expert'. The core practical technique: find an unusually large Automatic Reaction (AR) at the end of an uptrend and 'work backwards' to identify the BCLX and then the PSY.",
+  "questions": [
+    {
+      "id": "ch19-q1",
+      "type": "multiple_choice",
+      "prompt": "The book calls the Composite Man/Operator (CO) a 'Heuristic expert'. How is 'Heuristic' defined in the book?",
+      "options": [
+        "A method/technique that helps find a solution to a problem or make a decision quickly and effectively, usually based on experience, skill, rules of thumb, or trial and evaluation",
+        "A type of complex financial derivative contract",
+        "An artificial intelligence algorithm written by Wyckoff himself",
+        "A technical indicator measuring price volatility"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'We can call the CO a Heuristic expert (Heuristic is a method or technique that helps find a solution to a problem or make a decision quickly and effectively, usually based on experience, skill, general rules, or a process of trial and evaluation).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch19-q2",
+      "type": "multiple_choice",
+      "prompt": "The book gives two things that are truly useful when thinking about the CO's motives and purposes. What are they?",
+      "options": [
+        "(1) Put ourselves in mental alignment with the CO, patiently waiting for the right timing; (2) Let us put ourselves in the role of 'smart money', gradually eliminating the crowd's dangerous psychological behaviors",
+        "(1) Help predict stock prices 100% accurately in the future; (2) Help avoid every trading loss entirely",
+        "(1) Help know in advance the date the company releases its financial reports; (2) Help contact the CO directly",
+        "The book mentions no specific benefits"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'First, thinking about the CO's motives and purposes will put us in mental alignment with these large institutions... Second, thinking like the CO allows us to put ourselves in the role of \"smart money\"... we will gradually eliminate the crowd's dangerous psychological behaviors.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch19-q3",
+      "type": "multiple_choice",
+      "prompt": "The book offers a 'little tip' (practical trick) for recognizing Distribution: find which attribute of the chart that you recognize and work backwards from it?",
+      "options": [
+        "Find an UNUSUALLY LARGE Automatic Reaction (AR) — clearly stronger than prior corrective declines in the uptrend — then trace back to identify the BCLX and then the PSY",
+        "Find the date the company announces a dividend and identify the BCLX from that date",
+        "Find the 52-week high and assume it is always the BCLX",
+        "No practical tip is mentioned in the book"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'A big marker on the chart is the Automatic Reaction (AR) at the end of an uptrend. From there, work backwards to find the BCLX and then the PSY. The reason is that the AR will be a much larger corrective decline than the declines that occurred earlier in the uptrend (CHOB - Change of Behavior).'",
+      "chartImage": null
+    },
+    {
+      "id": "ch19-q4",
+      "type": "chart_identify",
+      "prompt": "The IBB (Biotech Shares) chart below carries the note 'Tip: Note the outsized price reaction to the AR. Sellers have arrived... The AR tends to stand out on the chart, if the BCLX does not. Work backwards.' Which practical tip from the previous question does this note directly illustrate?",
+      "chartImage": "/charts/part_19/p085_chart-303.jpg",
+      "options": [
+        "Finding the unusually large AR first, then working backwards to identify the earlier BCLX/PSY events, even when the BCLX does not really stand out on the chart",
+        "Simply looking at the 200-day average trading volume",
+        "Always needing to wait for 5 consecutive declining sessions before concluding",
+        "Never using a reverse trendline"
+      ],
+      "correctIndex": 0,
+      "explanation": "The note confirms the technique: sometimes the BCLX is not clear/prominent on the chart, but the AR (with its unusually large decline) is very easy to spot — so the pragmatic strategy is to start from the AR and 'work backwards' to identify the remaining events."
+    },
+    {
+      "id": "ch19-q5",
+      "type": "multiple_choice",
+      "prompt": "On the IBB chart, after a UTAD fails (fail rally), a 'Major Sign of Weakness' (M-SOW) forms. What sets up the next line of Support for the Distribution process?",
+      "options": [
+        "The second upward recovery making an LPSY (poor quality, diminishing volume) provides another good opportunity to sell stock",
+        "The company announcing a merger with another company",
+        "The VIX index falling below 15",
+        "No Support line is established in the IBB example"
+      ],
+      "correctIndex": 0,
+      "explanation": "The chart notes list: '*2nd LPSY is a rally of poor quality and diminishing volume. *Support holds for two days before returning to test lows.' — the 2nd LPSY provides another selling opportunity, and the Support level is still respected for a short while before price returns to test the lows.",
+      "chartImage": null
+    },
+    {
+      "id": "ch19-q6",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book writes: 'we do not need to wait for the full appearance of all the labels to draw a conclusion.' Why is the ability to draw conclusions early — based on a FEW prominent clues (like an unusual AR) — a more important skill than waiting for full confirmation of every detail?",
+      "sampleAnswer": "Because the market is always moving and the best trading opportunities usually appear early, before every confirming signal is complete and clear for everyone to see — if you wait for 100% confirmation (PSY, BCLX, ST, UT, SOW, LPSY... all present), price has usually already moved significantly and the best opportunity has passed. The skill of early recognition based on a few strong clues (like an unusual AR) comes from plenty of practice experience, letting the analyst act in time while still managing risk reasonably (placing suitable stop losses).",
+      "chartImage": null
+    }
+  ]
+}

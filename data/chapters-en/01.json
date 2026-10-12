@@ -1,0 +1,112 @@
+{
+  "chapterId": 1,
+  "title": "The Market Cycle",
+  "summary": "The discounting mechanism (price moves ahead of economic data), Wyckoff's Tape Reading method, the 4 phases of the market cycle, the STOP-PREPARE-GO framework (Phases A-E), and a first look at the Composite Man concept.",
+  "questions": [
+    {
+      "id": "ch1-q1",
+      "type": "multiple_choice",
+      "prompt": "The book explains that stock prices usually rise or fall before economic data (earnings, growth...) confirms it. What mechanism causes this 'running ahead' effect?",
+      "options": [
+        "Because stock prices reflect (discount) expected future earnings, not results already published",
+        "Because investors always predict the market's direction wrongly",
+        "Because company financial reports are released before the market opens",
+        "Because stock prices have no connection to the real economy"
+      ],
+      "correctIndex": 0,
+      "explanation": "This is the 'discounting mechanism': stock prices reflect investors' expectations of the future, while economic and financial reports are always lagging data.",
+      "chartImage": null
+    },
+    {
+      "id": "ch1-q2",
+      "type": "multiple_choice",
+      "prompt": "What did Richard D. Wyckoff call his method of analysis based entirely on price action and volume (without using financial statements)?",
+      "options": [
+        "Fundamental Analysis",
+        "Tape Reading",
+        "Elliott Wave Theory",
+        "Dow Theory"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wyckoff called this 'Tape Reading' — he plotted daily price action on a bar chart with volume underneath, because he believed stock price is the ultimate forecasting indicator.",
+      "chartImage": null
+    },
+    {
+      "id": "ch1-q3",
+      "type": "chart_identify",
+      "prompt": "Look at the chart below ('Stock Prices Discount Business Conditions'). In the order the book describes, what are the four main phases that make up the market cycle (the solid line)?",
+      "chartImage": "/charts/part_01/p002_chart-030.jpg",
+      "options": [
+        "Distribution → Markdown → Accumulation → Markup",
+        "Accumulation → Markup → Distribution → Markdown",
+        "Markup → Markdown → Accumulation → Distribution",
+        "Markdown → Accumulation → Distribution → Markup"
+      ],
+      "correctIndex": 1,
+      "explanation": "The four phases follow one another in a continuous cycle: Accumulation → Markup → Distribution → Markdown, then repeat. Note that the Stock Market Cycle line (solid) always LEADS the Business Cycle line (dashed) on the chart — a direct illustration of the discounting mechanism from question 1."
+    },
+    {
+      "id": "ch1-q4",
+      "type": "multiple_choice",
+      "prompt": "What does the \"Composite Man/Operator (CO)\" that Wyckoff mentions in Part 1 refer to?",
+      "options": [
+        "A specific real individual trader named Composite Man",
+        "The composite index of the whole market",
+        "A combined figure representing a group of large traders/institutions with superior information and skill, acting in cycles",
+        "An automated trading algorithm programmed by Wyckoff himself"
+      ],
+      "correctIndex": 2,
+      "explanation": "The CO is a concept representing traders/institutions with superior information and skill, large enough to influence price trends. Wyckoff observed their 'footprints' through Tape Reading. The CO is usually in the best stocks when a trend begins and holds with the trend longer than the crowd.",
+      "chartImage": null
+    },
+    {
+      "id": "ch1-q5",
+      "type": "chart_identify",
+      "prompt": "The Investment Clock (Merrill Lynch) below divides the economic cycle into 4 phases based on Growth and Inflation. Which of these phases typically coincides with the 'Accumulation' zone in Wyckoff thinking — the phase where stocks are considered the best asset to hold?",
+      "chartImage": "/charts/part_01/p003_chart-034.jpg",
+      "options": [
+        "Reflation — interest rates are being cut",
+        "Recovery — stocks are the favored asset",
+        "Overheat — commodities lead",
+        "Stagflation — cash is the best asset"
+      ],
+      "correctIndex": 1,
+      "explanation": "According to 'Table 1: The Four Phases of the Investment Clock' in the image, the Recovery phase has 'Cyclical Growth' as its best equity sector and stocks are the favored asset class — this is the phase right after the cycle low, matching Wyckoff's logic: the CO quietly accumulated during the preceding Reflation/bottom phase, and now price begins an advance that the crowd starts to notice."
+    },
+    {
+      "id": "ch1-q6",
+      "type": "short_answer_selfgrade",
+      "prompt": "Why is relying only on price + volume (Tape Reading) more advantageous than relying only on financial statements, in the spirit of Part 1?",
+      "sampleAnswer": "Because price automatically reflects (discounts) the market's entire set of expectations in real time — including information the Composite Man knows in advance — whereas financial statements are always lagging data, published after the events have already happened.",
+      "chartImage": null
+    },
+    {
+      "id": "ch1-q7",
+      "type": "chart_identify",
+      "prompt": "The 'Wyckoff Method: The Price Cycle' diagram (Roman Bogomazov) below summarizes the price cycle with the STOP → PREPARE → GO framework. How is Phase |A| (the red STOP zone) in the diagram described?",
+      "chartImage": "/charts/part_01/p004_chart-039.jpg",
+      "options": [
+        "The stopping of the previous trend — sudden loss of momentum, sharp reversal, inability to continue the old trend",
+        "Building the cause — accumulating or distributing stock within a sideways range",
+        "The start of a new trend right after breaking out of the trading range",
+        "A Pause phase sitting between two consecutive trends"
+      ],
+      "correctIndex": 0,
+      "explanation": "The diagram states clearly: 'Phase |A| — Stop of a Trend: Acceleration or loss of momentum, sharp reversal, inability to resume a trend.' This is the STOP phase, marking the end of the old trend — whether stopping a downtrend (the start of Accumulation) or stopping an uptrend (the start of Distribution)."
+    },
+    {
+      "id": "ch1-q8",
+      "type": "chart_identify",
+      "prompt": "Still using the 'The Price Cycle' diagram above. In order, which Phases correspond to the STOP → PREPARE → GO framework?",
+      "chartImage": "/charts/part_01/p004_chart-039.jpg",
+      "options": [
+        "Phase A → Phase B+C → Phase D+E",
+        "Phase A → Phase D → Phase B+C",
+        "Phase E → Phase C → Phase A",
+        "Phase B → Phase A → Phase D"
+      ],
+      "correctIndex": 0,
+      "explanation": "STOP = Phase |A| (stopping the old trend). PREPARE = Phase |B| + |C| — the Consolidation phase, oscillations that build the cause, including the Test/Spring step in Phase C. GO = Phase |D| + |E| — the 'Emergence of a Trend', when the new trend officially starts and accelerates ('GO FASTER'). This framework will be revisited throughout the later chapters on Accumulation/Distribution."
+    }
+  ]
+}

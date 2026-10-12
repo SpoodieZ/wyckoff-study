@@ -1,0 +1,70 @@
+{
+  "chapterId": 16,
+  "title": "Just Read and Analyze the Chart",
+  "summary": "Practice reading Distribution charts through many examples (AKAM, ISRG, GMCR, MS) — recognizing asymmetric price speed (fast up, slow down) as a sign of distribution, and the concept of the 'Danger Zone' above the BCLX.",
+  "questions": [
+    {
+      "id": "ch16-q1",
+      "type": "multiple_choice",
+      "prompt": "The book stresses that a Wyckoffian must train the ability to identify the best stocks from a 'checklist' to watch. What is the main selection criterion given?",
+      "options": [
+        "Stocks with the potential to move the FARTHEST and FASTEST — which are also the stocks the Wyckoff analyst wants to trade",
+        "Stocks with the lowest share price on the exchange",
+        "Stocks whose company name begins with the letter A",
+        "Stocks with the lowest trading volume in the market"
+      ],
+      "correctIndex": 0,
+      "explanation": "The book says: 'As Wyckoffians, we need to find ways to identify the best stocks from the list (checklist) to watch and look for potential opportunities. Those are the stocks with the potential to move the farthest and fastest, which are also the stocks we want to trade.'",
+      "chartImage": null
+    },
+    {
+      "id": "ch16-q2",
+      "type": "chart_identify",
+      "prompt": "The ISRG chart below notes: 'During this distribution the price jumps are quick and the time spent declining is long.' What does this asymmetry in speed (fast up, slow/long down) show about the CO's behavior?",
+      "chartImage": "/charts/part_16/p067_chart-249.jpg",
+      "options": [
+        "The CO is selling right after each quick price jump, and continues selling on a scale down as price slowly drifts lower",
+        "The CO is completely inactive in this phase",
+        "The speed of rises/declines carries no analytical meaning",
+        "This is a sure sign of Reaccumulation, not Distribution"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the chart: 'C.O. is selling after the quick jumps and as price drifts lower. C.O. is selling on a scale down.' This is a useful additional sign: quick/short advances but long/slow declines are a sign the CO is actively distributing."
+    },
+    {
+      "id": "ch16-q3",
+      "type": "multiple_choice",
+      "prompt": "On the AKAM chart (page 67), the book points out that when the ICE line is broken ('Cracks thru the ICE on Volume'), price can recover back to which area — but only that far ('but that is all')?",
+      "options": [
+        "Price can recover back to the area where the ICE was broken (the LPSY area) — but cannot go any farther",
+        "Price will always recover past the old BCLX high",
+        "Price will never recover even slightly after the ICE is broken",
+        "The ICE line has nothing to do with price's ability to recover"
+      ],
+      "correctIndex": 0,
+      "explanation": "Note on the AKAM chart: 'Cracks thru the ICE on Volume. Can lift back into area where ICE was broken (LPSY) but that is all.' The rally after the ICE break is merely a retest of the old Support area that has turned into Resistance, not strong enough to reverse the decline.",
+      "chartImage": null
+    },
+    {
+      "id": "ch16-q4",
+      "type": "multiple_choice",
+      "prompt": "On the MS (Morgan Stanley) chart, the book calls the price zone just above the BCLX the 'Danger Zone'. Why is that zone dangerous for buyers?",
+      "options": [
+        "Because it is the zone where an UT (Upthrust) may occur — a false breakout trapping bulls (bull trap) before price turns sharply back down into the TR",
+        "Because it is a zone where the SEC prohibits trading",
+        "Because it is the price level at which the company will declare bankruptcy",
+        "Because it is a zone where price always rises without limit"
+      ],
+      "correctIndex": 0,
+      "explanation": "The zone above the BCLX is where upward breakouts (UT) tend to occur — a 'bull trap' attracting retail investors to chase the breakout, while the CO uses that very buying to sell large amounts of stock, causing price to quickly turn back down into the TR.",
+      "chartImage": null
+    },
+    {
+      "id": "ch16-q5",
+      "type": "short_answer_selfgrade",
+      "prompt": "The book asserts 'No two journeys are alike' when discussing different Distribution Phases (AKAM, ISRG, GMCR, MS...). Why is practicing reading MANY different real examples more important than memorizing one ideal schematic?",
+      "sampleAnswer": "Because although all Distribution Phases follow the same core principles (PSY, BCLX, AR, ST, SOW...), how those events manifest on each particular stock varies widely in timing, amplitude and detailed order. Only by practicing with many real examples does an analyst develop the 'keen eye' to recognize the common features hidden beneath countless variations, rather than recognizing only one rigid template shape and missing real situations that deviate from it.",
+      "chartImage": null
+    }
+  ]
+}
