@@ -7,7 +7,6 @@ export default async function EditJournalEntryPage(props: PageProps<"/journal/[i
   const { id } = await props.params;
   const profile = await getCurrentProfile();
   if (!profile) redirect("/login");
-  if (profile.role === "viewer") redirect(`/journal/${id}`);
 
   const entry = await getJournalEntry(id);
   if (!entry) notFound();

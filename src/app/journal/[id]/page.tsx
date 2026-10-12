@@ -23,7 +23,6 @@ export default async function JournalEntryPage(props: PageProps<"/journal/[id]">
         comments={comments}
         profileNames={profileNames}
         currentUserId={profile?.id ?? null}
-        canWrite={profile !== null && profile.role !== "viewer"}
       />
     </AppShell>
   );

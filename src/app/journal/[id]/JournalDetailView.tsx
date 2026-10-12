@@ -33,13 +33,11 @@ export default function JournalDetailView({
   comments: initialComments,
   profileNames,
   currentUserId,
-  canWrite,
 }: {
   entry: JournalEntry;
   comments: JournalComment[];
   profileNames: Record<string, string>;
   currentUserId: string | null;
-  canWrite: boolean;
 }) {
   const router = useRouter();
   const isOwner = currentUserId !== null && entry.owner_id === currentUserId;
@@ -112,7 +110,7 @@ export default function JournalDetailView({
           </p>
         </div>
 
-        {isOwner && canWrite && (
+        {isOwner && (
           <div className="flex shrink-0 items-center gap-2">
             <Link
               href={`/journal/${entry.id}/edit`}
@@ -223,10 +221,6 @@ export default function JournalDetailView({
         {isOwner ? (
           <p className="mt-4 rounded-control bg-surface-container px-3 py-2 text-caption text-outline">
             Đây là bài học của bạn — chỉ đồng đội mới có thể bình luận vào đây.
-          </p>
-        ) : !canWrite ? (
-          <p className="mt-4 rounded-control bg-surface-container px-3 py-2 text-caption text-outline">
-            Bạn đang ở chế độ chỉ xem — liên hệ quản trị viên để được cấp quyền bình luận.
           </p>
         ) : (
           <form onSubmit={handleAddComment} className="mt-4 flex flex-col gap-2 sm:flex-row">

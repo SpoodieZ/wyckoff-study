@@ -1,7 +1,7 @@
 -- Chạy toàn bộ file này trong Supabase Dashboard → SQL Editor → New query → Run.
 -- Trước khi chạy: bật đăng nhập Google trong Authentication → Providers → Google,
 -- và bật "Allow new user signups" trong Authentication → Settings — ai cũng đăng
--- nhập được bằng Gmail, nhưng mặc định chỉ có quyền xem (role = 'viewer').
+-- nhập được bằng Gmail và tự động có quyền viết bài (role = 'member').
 --
 -- Sau khi chạy file này: đăng nhập vào app bằng Gmail của chính bạn 1 lần (để
 -- tài khoản + profile được tạo), rồi chạy riêng dòng UPDATE ở mục 7 bên dưới để
@@ -13,12 +13,12 @@ create table if not exists public.profiles (
   id uuid primary key references auth.users (id) on delete cascade,
   display_name text not null,
   email text,
-  role text not null default 'viewer' check (role in ('viewer', 'member', 'admin'))
+  role text not null default 'member' check (role in ('viewer', 'member', 'admin'))
 );
 
 -- Nếu bảng đã tồn tại từ trước (chưa có cột role/email), thêm cột vào:
 alter table public.profiles
-  add column if not exists role text not null default 'viewer';
+  add column if not exists role text not null default 'member';
 alter table public.profiles
   add column if not exists email text;
 alter table public.profiles
@@ -36,14 +36,14 @@ create table if not exists public.invited_members (
 );
 
 -- Tự tạo 1 dòng profiles mỗi khi có user mới trong auth.users — role mặc định
--- 'viewer', trừ khi email đã có trong invited_members thì lên thẳng 'member'.
+-- 'member' (ai đăng nhập cũng viết được bài).
 create or replace function public.handle_new_user()
 returns trigger
 language plpgsql
 security definer set search_path = public
 as $$
 declare
-  initial_role text := 'viewer';
+  initial_role text := 'member';
 begin
   if exists (select 1 from public.invited_members where email = new.email) then
     initial_role := 'member';
@@ -68,7 +68,8 @@ create trigger on_auth_user_created
   after insert on auth.users
   for each row execute procedure public.handle_new_user();
 
--- Hàm tiện ích: người đang gọi request có quyền viết (member/admin) không?
+-- Hàm tiện ích: người đang gọi request có quyền viết không? Ai đã đăng nhập
+-- (có hồ sơ trong profiles) đều viết được bài và bình luận.
 create or replace function public.has_write_access()
 returns boolean
 language sql
@@ -76,9 +77,13 @@ stable
 as $$
   select exists (
     select 1 from public.profiles
-    where id = auth.uid() and role in ('member', 'admin')
+    where id = auth.uid()
   );
 $$;
+
+-- Nâng các tài khoản cũ đang ở chế độ chỉ xem lên 'member'.
+alter table public.profiles alter column role set default 'member';
+update public.profiles set role = 'member' where role = 'viewer';
 
 create or replace function public.is_admin()
 returns boolean

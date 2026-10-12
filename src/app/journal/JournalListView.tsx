@@ -29,13 +29,11 @@ export default function JournalListView({
   profileNames,
   commentCounts,
   currentUserId,
-  canWrite,
 }: {
   entries: JournalEntry[];
   profileNames: Record<string, string>;
   commentCounts: Record<string, number>;
   currentUserId: string | null;
-  canWrite: boolean;
 }) {
   // Khách chưa đăng nhập xem được toàn bộ nhật ký chung nhưng không có "của tôi".
   const isAnonymous = currentUserId === null;
@@ -72,15 +70,7 @@ export default function JournalListView({
             Không gian đúc kết bài học thực chiến giữa 2 thành viên.
           </p>
         </div>
-        {canWrite ? (
-          <Link
-            href="/journal/new"
-            className="inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-btn font-semibold text-on-primary transition-colors hover:bg-primary-strong"
-          >
-            <Plus size={18} />
-            Thêm bài học mới
-          </Link>
-        ) : isAnonymous ? (
+        {isAnonymous ? (
           <Link
             href="/login"
             className="inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-btn font-semibold text-on-primary transition-colors hover:bg-primary-strong"
@@ -88,9 +78,13 @@ export default function JournalListView({
             Đăng nhập để viết bài
           </Link>
         ) : (
-          <span className="inline-flex shrink-0 items-center gap-2 rounded-full bg-surface-container px-4 py-2 text-label-sm text-on-surface-variant">
-            Chế độ chỉ xem — liên hệ quản trị viên để được cấp quyền
-          </span>
+          <Link
+            href="/journal/new"
+            className="inline-flex shrink-0 items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-btn font-semibold text-on-primary transition-colors hover:bg-primary-strong"
+          >
+            <Plus size={18} />
+            Thêm bài học mới
+          </Link>
         )}
       </div>
 

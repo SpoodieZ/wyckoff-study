@@ -72,7 +72,7 @@ export default function LoginPage() {
         </button>
 
         <p className="mt-4 text-center text-caption text-outline">
-          Đăng nhập được nhưng chỉ xem được nội dung — cần quản trị viên cấp quyền mới thêm/sửa được.
+          Đăng nhập bằng Google để viết bài nhật ký và tham gia thảo luận.
         </p>
       </div>
     </div>

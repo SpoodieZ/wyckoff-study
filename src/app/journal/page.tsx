@@ -19,7 +19,6 @@ export default async function JournalPage() {
         profileNames={profileNames}
         commentCounts={commentCounts}
         currentUserId={profile?.id ?? null}
-        canWrite={profile !== null && profile.role !== "viewer"}
       />
     </AppShell>
   );

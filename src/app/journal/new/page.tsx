@@ -6,7 +6,6 @@ import JournalForm from "../JournalForm";
 export default async function NewJournalEntryPage() {
   const profile = await getCurrentProfile();
   if (!profile) redirect("/login");
-  if (profile.role === "viewer") redirect("/journal");
 
   return (
     <AppShell>
